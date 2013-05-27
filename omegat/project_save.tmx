@@ -2120,9 +2120,9 @@ names.</seg>
         <seg>No: if len(seq)
           if not len(seq)</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T155310Z">
+      <tuv lang="KO" changeid="yong" changedate="20130527T161724Z">
         <seg>나쁨: if len(seq)
-          if not len(seq)</seg>
+            if not len(seq)</seg>
       </tuv>
     </tu>
     <tu>
@@ -3491,9 +3491,9 @@ interface, the C/C++ module has a leading underscore
       No:    if greeting == True:
       Worse: if greeting is True:</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T155400Z">
-        <seg>좋음:   if greeting:
-      나쁨:    if greeting == True:
+      <tuv lang="KO" changeid="yong" changedate="20130527T161748Z">
+        <seg>좋음: if greeting:
+      나쁨: if greeting == True:
       최악: if greeting is True:</seg>
       </tuv>
     </tu>
@@ -3512,9 +3512,9 @@ interface, the C/C++ module has a leading underscore
         <seg>Yes: if foo.startswith('bar'):
       No:  if foo[:3] == 'bar':</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T155144Z">
+      <tuv lang="KO" changeid="yong" changedate="20130527T161642Z">
         <seg>좋음: if foo.startswith('bar'):
-      나쁨:  if foo[:3] == 'bar':</seg>
+      나쁨: if foo[:3] == 'bar':</seg>
       </tuv>
     </tu>
     <tu>
@@ -3530,9 +3530,9 @@ interface, the C/C++ module has a leading underscore
         <seg>Yes: if not seq:
            if seq:</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T155306Z">
+      <tuv lang="KO" changeid="yong" changedate="20130527T161720Z">
         <seg>좋음: if not seq:
-           if seq:</seg>
+            if seq:</seg>
       </tuv>
     </tu>
     <tu>
