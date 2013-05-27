@@ -86,6 +86,71 @@ only.)  The conventions are about the same as those for functions.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>* Annotations such as ``read1(n: int=None)`` were self-contradictory
+    since *None* is not an *int*.  Annotations such as
+    ``source_path(self, fullname:str) -&gt; object`` were confusing about
+    what the return type should be.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T155718Z">
+        <seg>* ``read1(n: int=None)`` 어노테이션은 모순적이다. None은 int가
+    아니기 때문이다. ``source_path(self, fullname:str) -&gt; object``\ 와
+    같은 어노테이션은 반환 타입이 무엇인지 혼동할 수 있다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>* The annotation ``seek(whence:int)`` exhibited a mix of
+    over-specification and under-specification: *int* is too
+    restrictive (anything with ``__index__`` would be allowed) and it
+    is not restrictive enough (only the values 0, 1, and 2 are
+    allowed).  Likewise, the annotation ``write(b: bytes)`` was also
+    too restrictive (anything supporting the buffer protocol would be
+    allowed).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T155657Z">
+        <seg>* ``seek(whence:int)``\ 란 어노테이션은 명세가 특정 부분에서는 제약이
+    심하고, 혹은 그렇지 않을 때도 있음을 보여준다: int는 지나치게
+    한정적이며(``__index__``\ 가 허용하는 모든 것이 허용된다), 동시에
+    한정적이지 않기도 하다(0, 1, 2 값만 허용된다).  마찬가지로
+    ``write(b: bytes)``\ 라는 어노테이션 또한 지나치게 한정적이다(버퍼
+    프로토콜을 허용하는 모든 값을 지원한다).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>* The notation ``open(file:(str,bytes))`` was used for a value that
+    could be either *bytes* or *str* rather than a 2-tuple containing
+    a *str* value followed by a *bytes* value.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T155631Z">
+        <seg>* ``open(file:(str,bytes))``\ 이란 어노테이션은 *str* 다음에 *bytes*
+    값을 갖는 2개의 튜플을 나타내는 것이 아니라, *bytes* 혹은 *str*\ 을
+    가질 수 있는 값에 쓰인다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>* ``[str]`` was ambiguous as to whether it represented a list of
+    strings or a value that could be either *str* or *None*.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T155451Z">
+        <seg>* ``[str]``\ 은 이 어노테이션이 문자열 리스트를 나타내는지, str 혹은
+    None 타입의 값을 나타내는지 모호하다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>- Additionally, for all try/except clauses, limit the ``try`` clause
+  to the absolute minimum amount of code necessary.  Again, this
+  avoids masking bugs.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T154923Z">
+        <seg>- 또한, try/except 절을 사용할 때에는 ``try`` 절이 적용되는 코드의
+  범위를 최소화해야 한다.  이는 버그가 겹치는 일을 막아준다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>- Always surround these binary operators with a single space on either
   side: assignment (``=``), augmented assignment (``+=``, ``-=``
   etc.), comparisons (``==``, ``&lt;``, ``&gt;``, ``!=``, ``&lt;&gt;``, ``&lt;=``,
@@ -132,6 +197,26 @@ only.)  The conventions are about the same as those for functions.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>- Context managers should be invoked through separate functions or methods
+  whenever they do something other than acquire and release resources.
+  For example:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T154953Z">
+        <seg>- 리소스의 점유/해제 외의 작업을 제외하고, 어떤 작업을 할 때든지
+    별도의 함수/메서드를 통해 문맥(context) 관리자를 호출해야 한다.
+    예를 들면:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>- Don't compare boolean values to True or False using ``==``. ::</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T155342Z">
+        <seg>- ``==``\ 를 사용해서 True/False 값을 부울 값과 비교하지 않는다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>- Don't use spaces around the ``=`` sign when used to indicate a
   keyword argument or a default parameter value.</seg>
       </tuv>
@@ -142,11 +227,33 @@ only.)  The conventions are about the same as those for functions.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>- Don't write string literals that rely on significant trailing
+  whitespace.  Such trailing whitespace is visually indistinguishable
+  and some editors (or more recently, reindent.py) will trim them.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T155327Z">
+        <seg>- 공백 문자가 뒤에 따라오는 문자 상수를 사용하지 않는다.  이렇게 뒤에
+  붙은 공백 문자는 눈에 잘 띄지 않으며, 일부 편집기(혹은 최신의
+  reindent.py)에서는 이러한 공백 문자를 제거한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>- For one liner docstrings, it's okay to keep the closing ``"""`` on
   the same line.</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T152237Z">
         <seg>- 한 줄 짜리 docstring의 경우에는 같은 줄에서 ``"""``를 닫아도 된다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>- For sequences, (strings, lists, tuples), use the fact that empty
+  sequences are false. ::</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T155300Z">
+        <seg>- 배열 형태의 타입(문자열, 리스트, 튜플)은 그 내용이 비어있을 때
+  false를 반환한다는 사실을 활용한다. ::</seg>
       </tuv>
     </tu>
     <tu>
@@ -286,6 +393,16 @@ only.)  The conventions are about the same as those for functions.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>- Object type comparisons should always use isinstance() instead of
+  comparing types directly. ::</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T155211Z">
+        <seg>- 객체 타입 비교 시, 타입을 직접 비교하는 대신 항상 isinstance()를
+  사용한다. ::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>- PEP 257 describes good docstring conventions.  Note that most
   importantly, the ``"""`` that ends a multiline docstring should be
   on a line by itself, and preferably preceded by a blank line, e.g.::</seg>
@@ -323,10 +440,43 @@ only.)  The conventions are about the same as those for functions.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>- The Python standard library will not use function annotations as
+  that would result in a premature commitment to a particular
+  annotation style.  Instead, the annotations are left for users to
+  discover and experiment with useful annotation styles.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T155425Z">
+        <seg>- 파이썬 표준 라이브러리는 특정 어노테이션 스타일에 얽매인 함수
+  어노테이션을 사용하지 않는다.  그 대신에, 사용자로 하여금 유용한
+  어노테이션 스타일을 직접 발견하고 실험해 볼 수 있도록 하고 있다.
+  (역주: 여기에서의 함수 어노테이션은 다른 프로그래밍 언어의 함수
+  프로토타입과 비슷하게 함수에 대한 정의를 말한다. PEP 3107을 참고)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>- Use ``''.startswith()`` and ``''.endswith()`` instead of string
+  slicing to check for prefixes or suffixes.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T155123Z">
+        <seg>- 문자열의 접두사/접미사를 확인하기 위해 문자열을 직접 자르는 대신,
+  ``''.startswith()``\ 와 ``''.endswith()``\ 를 사용한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>- Use class-based exceptions.</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T154534Z">
         <seg>- 클래스 기반의 예외를 사용한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>- Use string methods instead of the string module.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T155044Z">
+        <seg>- string 모듈 대신 문자열 관련 메서드를 사용한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -493,6 +643,17 @@ only.)  The conventions are about the same as those for functions.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>1. If the exception handler will be printing out or logging the
+     traceback; at least the user will be aware that an error has
+     occurred.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T154826Z">
+        <seg>1. 예외 핸들러가 역추적(traceback) 결과를 출력하거나 로그를 남겨야
+     할 경우. 사용하가 최소한 에러가 일어났음을 인지할 수 있게 된다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>1. Preamble -- RFC 822 style headers containing meta-data about the
    PEP, including the PEP number, a short descriptive title (limited
    to a maximum of 44 characters), the names, and optionally the
@@ -550,6 +711,18 @@ only.)  The conventions are about the same as those for functions.</seg>
    정보 PEP가 반드시 파이썬 커뮤니티의 합의나 권고를 나타내는 것은 아니며,
    따라서 사용자 및 구현자가 정보 PEP를 무시할 지 혹은 그 조언을 따를 지는
    자유이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>2. If the code needs to do some cleanup work, but then lets the
+     exception propagate upwards with ``raise``.  ``try...finally``
+     can be a better way to handle this case.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T154911Z">
+        <seg>2. 코드에서 일종의 정리 작업을 수행한 다음, ``raise`` 명령을 사용해
+     해당 예외를 상위 단계로 계속 올려보내려 할 경우. 이 경우에는
+     ``try...finally`` 구문을 사용하는 것이 더 나은 방법일 수 있다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -714,6 +887,34 @@ to draft status.</seg>
         <seg>PEP에는 "지연(Deferred)" 상태를 할당할 수도 있다.  PEP에 대하여 아무 진전이
 없을 때 PEP 저자 또는 편집자가 이 상태를 부여할 수 있다.  PEP가 일단 지연되면,
 PEP 편집자는 그것을 초안 상태로 되돌릴  수 있다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A bare ``except:`` clause will catch SystemExit and
+  KeyboardInterrupt exceptions, making it harder to interrupt a
+  program with Control-C, and can disguise other problems.  If you
+  want to catch all exceptions that signal program errors, use
+  ``except Exception:`` (bare except is equivalent to ``except
+  BaseException:``).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T154756Z">
+        <seg>처리할 예외가 지정되지 않은 ``except:`` 절은 SystemExit,
+  KeyboardInterrupt 예외를 처리하기 때문에 컨트롤-C를 눌러 프로그램을
+  인터럽트할 수 없게 만드는 등 여러 문제를 일으킬 소지가 있다. 만약
+  프로그램 에러의 징후를 알리는 모든 예외를 처리하고 싶다면
+  ``except Exception:``를 사용하도록 하자(처리할 예외가 지정되지 않은
+  except 절은 ``except BaseException:`` 절과 동일하다).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A good rule of thumb is to limit use of bare 'except' clauses to two
+  cases:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T154812Z">
+        <seg>예외가 지정되지 않은 'except' 절을 사용해야 하는 적절한 경우는 다음과
+  같다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1231,6 +1432,16 @@ list) or the python-ideas mailing list is the best way to go about this.</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125517Z">
         <seg>각 PEP는 다음과 같은 부분을 갖추어야 한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Early core developer attempts to use function annotations revealed
+  inconsistent, ad-hoc annotation styles.  For example:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T155438Z">
+        <seg>함수 어노테이션을 사용하던 초기의 핵심 개발자들은 일관성 없는
+  임기응변식 어노테이션 스타일이 존재한다는 것을 발견했다.  예를 들면:</seg>
       </tuv>
     </tu>
     <tu>
@@ -1817,10 +2028,28 @@ names.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>No:  if type(obj) is type(1):</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T155227Z">
+        <seg>나쁨: if type(obj) is type(1):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>No:  import sys, os</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T150842Z">
         <seg>나쁨:  import sys, os</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>No: if len(seq)
+          if not len(seq)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T155310Z">
+        <seg>나쁨: if len(seq)
+          if not len(seq)</seg>
       </tuv>
     </tu>
     <tu>
@@ -2527,6 +2756,18 @@ test of implementation.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>String methods are always much faster and share the same API with
+  unicode strings.  Override this rule if backward compatibility with
+  Pythons older than 2.0 is required.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T155105Z">
+        <seg>문자열 메서드는 항상 좀 더 빠르며 유니코드 문자열과 동일한 API를
+  공유하고 있다.  파이썬 2.0 이하 버전과의 하위 호환성이 필요한 경우에는
+  이 규칙을 무시해도 된다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Submitting a PEP
 ----------------</seg>
       </tuv>
@@ -2608,6 +2849,16 @@ either line up under the last item of the list, as in::</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The exception is if your code must work with Python 1.5.2 (but let's
+  hope not!).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T155200Z">
+        <seg>예외적으로, 파이썬 1.5.2에서 동작하는 코드를 작성해야 할 경우는 후자의
+  코드를 사용한다(그런 일이 없기를!).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The final authority for PEP approval is the BDFL. However, whenever a new
 PEP is put forward, any core developer that believes they are suitably
 experienced to make the final decision on that PEP may offer to serve as
@@ -2645,6 +2896,20 @@ before the PEP can be accepted.</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T152554Z">
         <seg>다음과 같은 명명 스타일을 흔히 볼 수 있다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The latter example doesn't provide any information to indicate that
+  the __enter__ and __exit__ methods are doing something other than
+  closing the connection after a transaction.  Being explicit is
+  important in this case.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T155033Z">
+        <seg>후자의 예를 살펴보면 __enter__, __exit__ 메서드가 트랜잭션 이후에
+  커넥션을 닫는다는 것 외에는 어떤 일을 하는지에 대한 정보를 제공하지
+  않는 것을 볼 수 있다.  이러한 경우 명시적인 정보를 제공하는 것은
+  중요하다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3078,6 +3343,19 @@ interface, the C/C++ module has a leading underscore
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When checking if an object is a string, keep in mind that it might
+  be a unicode string too!  In Python 2.3, str and unicode have a
+  common base class, basestring, so you can do::</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T155247Z">
+        <seg>객체가 문자열인지 확인할 경우, 해당 문자열이 유니코드 문자열일 수도
+  있다는 점을 명심하자.  파이썬 2.3에서는 str, unicode가 동일한
+  기본 클래스인 basestring을 상속하므로 다음과 같은 구문을 사용할 수
+  있다. ::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When writing English, Strunk and White apply.</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T151944Z">
@@ -3104,12 +3382,52 @@ interface, the C/C++ module has a leading underscore
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Yes:   if greeting:
+      No:    if greeting == True:
+      Worse: if greeting is True:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T155400Z">
+        <seg>좋음:   if greeting:
+      나쁨:    if greeting == True:
+      최악: if greeting is True:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Yes: dict['key'] = list[index]
       No:  dict ['key'] = list [index]</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T151421Z">
         <seg>좋음: dict['key'] = list[index]
       나쁨:  dict ['key'] = list [index]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Yes: if foo.startswith('bar'):
+      No:  if foo[:3] == 'bar':</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T155144Z">
+        <seg>좋음: if foo.startswith('bar'):
+      나쁨:  if foo[:3] == 'bar':</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Yes: if isinstance(obj, int):</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T155219Z">
+        <seg>좋음: if isinstance(obj, int):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Yes: if not seq:
+           if seq:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T155306Z">
+        <seg>좋음: if not seq:
+           if seq:</seg>
       </tuv>
     </tu>
     <tu>
@@ -3206,6 +3524,34 @@ starts the multi-line construct, as in::</seg>
 수도 있다. 다음 코드를 보자.
 
 ::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>startswith() and endswith() are cleaner and less error prone.  For
+  example::</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T155136Z">
+        <seg>startswith()와 endswith()는 의미가 명확하므로 오류가 발생할 여지가
+  적다. 예를 들면, ::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>try:
+          # Too broad!
+          return handle_value(collection[key])
+      except KeyError:
+          # Will also catch KeyError raised by handle_value()
+          return key_not_found(key)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T155015Z">
+        <seg>try:
+          # 코드 적용 범위가 넓다!
+          return handle_value(collection[key])
+      except KeyError:
+          # 여기서는 handle_value()이 발생시킨 KeyError 예외를 처리
+          return key_not_found(key)</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
