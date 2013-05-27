@@ -76,6 +76,16 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(Let's hope that these variables are meant for use inside one module
+only.)  The conventions are about the same as those for functions.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T153243Z">
+        <seg>(해당 변수는 하나의 모듈 내부에서만 쓰인다고 생각하도록 하자)  이 규칙은
+함수에도 동일하게 적용된다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>- Always surround these binary operators with a single space on either
   side: assignment (``=``), augmented assignment (``+=``, ``-=``
   etc.), comparisons (``==``, ``&lt;``, ``&gt;``, ``!=``, ``&lt;&gt;``, ``&lt;=``,
@@ -268,6 +278,45 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>- ``__double_leading_and_trailing_underscore__``: "magic" objects or
+  attributes that live in user-controlled namespaces.
+  E.g. ``__init__``, ``__import__`` or ``__file__``.  Never invent
+  such names; only use them as documented.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T152948Z">
+        <seg>- ``__double_leading_and_trailing_underscore__``: 사용자가 관리하는
+  네임스페이스 내에 있는 "마법(magic)" 객체.  ``__init__``,
+  ``__import__``, ``__file__`` 등이 그 예이다.  이러한 이름을 정의해서
+  사용하면 안 되며, 이미 문서화되어 있는 항목들만 사용해야 한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>- ``__double_leading_underscore``: when naming a class attribute,
+  invokes name mangling (inside class FooBar, ``__boo`` becomes
+  ``_FooBar__boo``; see below).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T152930Z">
+        <seg>- ``__double_leading_underscore``: 클래스 어트리뷰트의 이름을 지으면
+  네임 맹글링(name mangling)이 발생한다 (FooBar 클래스 내부에
+  ``__boo``를 선언하면 이는 ``_FooBar__boo``가 된다; 아래 내용을
+  참고하라).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>- ``_single_leading_underscore``: weak "internal use" indicator.
+  E.g. ``from M import *`` does not import objects whose name starts
+  with an underscore.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T152827Z">
+        <seg>- ``_single_leading_underscore``: "내부에서 사용한다"는 것을 의미.
+  예를 들면, ``from M import *``은 언더스코어로 시작하는 객체를
+  임포트하지 않는다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>- ``b`` (single lowercase letter)
 - ``B`` (single uppercase letter)
 - ``lowercase``
@@ -288,6 +337,16 @@
 - ``CapitalizedWords`` (CapWords 혹은 CamelCase -- CamelCase라는 이름은
   글자가 툭 튀어나온 모양 때문에 붙은 이름이다 [3]_).  간혹
   StudlyCaps이라고도 불린다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>- ``single_trailing_underscore_``: used by convention to avoid
+  conflicts with Python keyword, e.g. ::</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T152854Z">
+        <seg>- ``single_trailing_underscore_``: 파이썬 키워드와의 충돌을 방지하기
+  위해 쓰인다.  예::</seg>
       </tuv>
     </tu>
     <tu>
@@ -589,6 +648,32 @@ in the next section.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Almost without exception, class names use the CapWords convention.
+Classes for internal use have a leading underscore in addition.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T153156Z">
+        <seg>클래스 이름은 예외 없이 CapWords 규칙을 따른다.  또한 내부에서 사용하는
+클래스는 앞에 언더스코어 문자 하나를 붙인다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Always use ``cls`` for the first argument to class methods.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T153415Z">
+        <seg>클래스 메서드의 첫 번째 인수에는 ``cls``\ 를 사용해야 한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Always use ``self`` for the first argument to instance methods.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T153359Z">
+        <seg>인스턴스 메서드의 첫 번째 인수에는 ``self``\ 를 사용해야 한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>An inline comment is a comment on the same line as a statement.
 Inline comments should be separated by at least two spaces from the
 statement.  They should start with a # and a single space.</seg>
@@ -625,6 +710,18 @@ email new PEP versions to the PEP editors for publication.</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T131659Z">
         <seg>하위 호환성</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Because exceptions should be classes, the class naming convention
+applies here.  However, you should use the suffix "Error" on your
+exception names (if the exception actually is an error).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T153224Z">
+        <seg>예외는 클래스이므로 클래스 명명 규칙을 그대로 사용한다.  하지만, 예외
+이름의 끝에 "Error"라는 접미사를 사용해야 한다 (예외가 실제로 에러일
+경우에).</seg>
       </tuv>
     </tu>
     <tu>
@@ -694,6 +791,16 @@ don't hesitate to ask!</seg>
         <seg>하지만 이런 주석문은 유용할 때가 있다.
 
 ::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Class Names
+~~~~~~~~~~~</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T153147Z">
+        <seg>클래스 이름
+~~~~~~~~~~~</seg>
       </tuv>
     </tu>
     <tu>
@@ -918,6 +1025,16 @@ list) or the python-ideas mailing list is the best way to go about this.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Exception Names
+~~~~~~~~~~~~~~~</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T153208Z">
+        <seg>예외 이름
+~~~~~~~~~</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Extra blank lines may be used (sparingly) to separate groups of
 related functions.  Blank lines may be omitted between a bunch of
 related one-liners (e.g. a set of dummy implementations).</seg>
@@ -1029,6 +1146,46 @@ to use 8-space tabs.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Function Names
+~~~~~~~~~~~~~~</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T153306Z">
+        <seg>함수 이름
+~~~~~~~~~</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Function and method arguments
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T153345Z">
+        <seg>함수와 메서드 인수
+~~~~~~~~~~~~~~~~~~</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Function names should be lowercase, with words separated by
+underscores as necessary to improve readability.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T153318Z">
+        <seg>함수 이름은 소문자를 사용하며, 가독성을 높이기 위해 각 단어는
+언더스코어로 구분하도록 한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Global Variable Names
+~~~~~~~~~~~~~~~~~~~~~</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T153232Z">
+        <seg>전역 변수 이름
+~~~~~~~~~~~~~~</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Historical Note</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T131325Z">
@@ -1053,6 +1210,22 @@ complete sentences, and each sentence should end in a period.</seg>
         <seg>주석문이 짧을 경우 마지막에 오는 마침표는 생략할 수 있다.  블록 형태의
 주석문은 일반적으로 완결된 문장들로 구성된 문단들이며, 각각의 문단은
 마침표로 끝나야 한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If a function argument's name clashes with a reserved keyword, it is
+generally better to append a single trailing underscore rather than
+use an abbreviation or spelling corruption.  Thus ``class_`` is better
+than ``clss``.  (Perhaps better is to avoid such clashes by using a
+synonym.)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T153621Z">
+        <seg>함수 인수의 이름이 예약어와 충돌할 경우, 일반적으로 인수 이름의 끝에
+언더스코어 문자 하나를 추가해 주는 것이 약어를 사용하거나 맞춤법을
+어기는 이름을 사용하는 것 보다 낫다.  그러므로 ``class_``를 사용하는
+것이 ``clss``를 사용하는 것보다 낫다.  (아마 더 나은 방법은 동의어를
+사용해서 이름 충돌을 피하는 방법일 것이다.)</seg>
       </tuv>
     </tu>
     <tu>
@@ -1146,6 +1319,17 @@ do it as follows. ::</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In addition, the following special forms using leading or trailing
+underscores are recognized (these can generally be combined with any
+case convention):</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T152812Z">
+        <seg>또한, 다음과 같이 처음이나 끝에 언더스코어를 사용하는 특별한 형식이
+있다 (이들은 보통 대소문자 관련 규칙과 함께 쓰일 수 있다).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In general, Standards track PEPs are no longer modified after they have
 reached the Final state. Once a PEP has been completed, the Language and
 Standard Library References become the formal documentation of the expected
@@ -1155,6 +1339,16 @@ behavior.</seg>
         <seg>일반적으로, 표준 트랙 PEP는 최종 상태에 도달한 이후에는 더 이상 수정되지
 않는다. PEP가 일단 완료되면, 언어 및 표준 라이브러리 레퍼런스가 기대되는
 작용에 대한 형식적 문서가 된다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In some fonts, these characters are indistinguishable from the
+numerals one and zero.  When tempted to use 'l', use 'L' instead.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T153035Z">
+        <seg>특정 폰트에서는 이들 글자를 숫자 일, 영과 구별할 수 없다.  'l'을 굳
+이 사용해야 할 경우에는 차라리 'L'을 사용하도록 하자.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1249,11 +1443,60 @@ the obvious.  Don't do this::</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Method Names and Instance Variables
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T153632Z">
+        <seg>메서드 이름과 인스턴스 변수
+~~~~~~~~~~~~~~~~~~~~~~~~~~~</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Method definitions inside a class are separated by a single blank
 line.</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T150542Z">
         <seg>클래스의 메서드 정의는 한 줄을 띄워서 구분한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Modules should have short, all-lowercase names.  Underscores can be
+used in the module name if it improves readability.  Python packages
+should also have short, all-lowercase names, although the use of
+underscores is discouraged.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T153102Z">
+        <seg>모듈은 소문자로 이루어진 짧은 이름을 사용해야 한다.  모듈 이름의 가독성을
+높이기 위해 언더스코어를 사용할 수 있다.  파이썬 패키지 또한
+소문자로 이루어진 짧은 이름을 사용해야 한다.  하지만 패키지의 경우에는
+언더스코어를 가급적 사용하지 않는다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Modules that are designed for use via ``from M import *`` should use
+the ``__all__`` mechanism to prevent exporting globals, or use the
+older convention of prefixing such globals with an underscore (which
+you might want to do to indicate these globals are "module
+non-public").</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T153258Z">
+        <seg>``from M import *`` 구문을 통해 사용할 수 있도록 설계된 모듈들은
+``__all__`` 메커니즘을 사용하여 전역적으로 노출되는 것을 방지하거나,
+전역 객체에 언더스코어를 붙이는 예전의 규칙을 사용해야 한다 (이들 전역
+객체를 "비 public 모듈"로 표시하고 싶을 경우 사용한다).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Names to Avoid
+~~~~~~~~~~~~~~</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T153017Z">
+        <seg>피해야 할 이름
+~~~~~~~~~~~~~~</seg>
       </tuv>
     </tu>
     <tu>
@@ -1282,6 +1525,17 @@ line.</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T150253Z">
         <seg>절대 탭 문자와 공백 문자를 섞어 쓰지 마라.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Never use the characters 'l' (lowercase letter el), 'O' (uppercase
+letter oh), or 'I' (uppercase letter eye) as single character variable
+names.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T153025Z">
+        <seg>'l' (소문자 L), 'O' (대문자 O), 'I' (대문자 I) 한 글자를 변수 이름으로
+사용하지 않는다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1335,13 +1589,12 @@ line.</seg>
   character!)
 - ``Capitalized_Words_With_Underscores`` (ugly!)</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T152647Z">
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T152722Z">
         <seg>주의: CapWords에서 약어를 사용할 경우, 약어의 모든 글자를 대문자로
   기술한다.  그러므로 HTTPServerError가 HttpServerError를 사용하는
   것 보다 낫다.
-- ``mixedCase`` (differs from CapitalizedWords by initial lowercase
-  character!)
-- ``Capitalized_Words_With_Underscores`` (ugly!)</seg>
+- ``mixedCase`` (CapWords와 다른 점은 첫 글자가 소문자라는 것이다)
+- ``Capitalized_Words_With_Underscores`` (이건 별로다!)</seg>
       </tuv>
     </tu>
     <tu>
@@ -1587,6 +1840,16 @@ an API can replace version 1.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Package and Module Names
+~~~~~~~~~~~~~~~~~~~~~~~~</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T153044Z">
+        <seg>패키지와 모듈 이름
+~~~~~~~~~~~~~~~~~~</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Paragraphs inside a block comment are separated by a line containing a
 single ``#``.</seg>
       </tuv>
@@ -1614,6 +1877,16 @@ you can use to get started writing your plaintext PEP.</seg>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125736Z">
         <seg>일반 텍스트 PEP는 엄격한 스타일을 따르는 최소한의 구조적 마크업으로 작성된다.
 PEP 9에 일반 텍스트 PEP를 작성하는 방법에 대한 설명 및 템플릿 [3]_\ 이 있다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Prescriptive: Naming Conventions
+--------------------------------</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T152958Z">
+        <seg>규정: 명명 규칙
+---------------</seg>
       </tuv>
     </tu>
     <tu>
@@ -1791,6 +2064,22 @@ lines.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Since module names are mapped to file names, and some file systems are
+case insensitive and truncate long names, it is important that module
+names be chosen to be fairly short -- this won't be a problem on Unix,
+but it may be a problem when the code is transported to older Mac or
+Windows versions, or DOS.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T153123Z">
+        <seg>위와 같이 하는 이유는 모듈 이름이 파일 이름에 직접적으로 대응되며,
+특정한 파일 시스템에서는 대소문자가 무시되고 긴 이름이 잘려나가기 때문이다.
+그러므로 모듈 이름을 가급적 짧게 짓는 것은 중요한 일이다 --
+유닉스 시스템에서는 별 문제가 없겠지만 구형 맥, 윈도우, 도스 등으로
+이 코드를 옮겼을 때 문제가 될 수 있다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Some Informational and Process PEPs may also have a status of "Active"
 if they are never meant to be completed.  E.g. PEP 1 (this PEP).</seg>
       </tuv>
@@ -1875,6 +2164,20 @@ broad.  If in doubt, split your PEP into several well-focused ones.</seg>
 잡혀 있을 수록 성공하기 쉽다.  PEP 편집자는 초점이 맞지 않거나 너무 광범위한
 PEP를 거부할 수 있다.  의심스럽다면 PEP를 초점이 잘 잡힌 여러 개의 PEP로
 분할하도록 하라.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The X11 library uses a leading X for all its public functions.  In
+Python, this style is generally deemed unnecessary because attribute
+and method names are prefixed with an object, and function names are
+prefixed with a module name.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T152801Z">
+        <seg>X11 라이브러리는 public 함수에 모두 X라는 접두사를 사용하고 있다.
+파이썬에서 이러한 스타일은 일반적으로 쓸데없는 짓으로 간주된다.
+어트리뷰트와 메서드에 접근할 때에는 객체를 접두사로 사용하며, 함수에
+접근할 때에는 모듈 이름을 접두사로 사용하기 때문이다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2086,6 +2389,26 @@ reStructuredText PEP는 스크립트에서 호출하는 Docutils_ 코드에 의�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There's also the style of using a short unique prefix to group related
+names together.  This is not used much in Python, but it is mentioned
+for completeness.  For example, the ``os.stat()`` function returns a
+tuple whose items traditionally have names like ``st_mode``,
+``st_size``, ``st_mtime`` and so on.  (This is done to emphasize the
+correspondence with the fields of the POSIX system call struct, which
+helps programmers familiar with that.)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T152743Z">
+        <seg>서로 연관이 있는 명칭들을 통합하기 위해 짧은 고유 접두사를 사용하는
+스타일 또한 존재한다.  파이썬에서는 이러한 스타일이 많이 쓰이지 않고
+있으나, 이 문서의 완결성을 위해 언급해둔다.  예를 들어 ``os.stat()``
+함수는 전통적으로 ``st_mode``, ``st_size``, ``st_mtime`` 등의 이름을
+가진 항목이 담긴 튜플을 반환한다.  (이들은 POSIX 시스템 호출 구조체의
+필드와 관련이 있음을 강조하기 위해 쓰인 것이다. POSIX에 익숙한 
+프로그래머에게는 도움이 된다.)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>These lines should be included after the module's docstring, before
 any other code, separated by a blank line above and below.</seg>
       </tuv>
@@ -2130,6 +2453,16 @@ in the C implementation of Python [1]_.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To avoid name clashes with subclasses, use two leading underscores to
+invoke Python's name mangling rules.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T153713Z">
+        <seg>서브클래스와의 이름 충돌을 피하기 위해, 앞에 두 개의 언더스코어를 붙여
+파이썬의 네임 맹글링 규칙을 따른다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Two good reasons to break a particular rule:</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T145840Z">
@@ -2169,6 +2502,25 @@ in the C implementation of Python [1]_.</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T152025Z">
         <seg>인라인 주석문은 아껴서 사용한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use one leading underscore only for non-public methods and instance
+variables.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T153703Z">
+        <seg>비 public 메서드/인스턴스 변수의 경우 앞에 언더스코어 문자를 하나 붙인다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use the function naming rules: lowercase with words separated by
+underscores as necessary to improve readability.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T153648Z">
+        <seg>다음 함수 명명 규칙을 사용한다: 소문자로 된 단어를 사용하며, 각 단어는
+필요에 따라 가독성을 높이기 위해 언더스코어로 구분한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2259,6 +2611,19 @@ in the python-dev mailing list archives.</seg>
         <seg>PEP가 수용(Accepted), 거부 또는 철회되면, 그에 따라 PEP를 갱신하여야 한다.
 상태 필드를 갱신함에 덧붙여, python-dev 메일링 리스트 아카이브의 관련된
 게시물을 링크하는 최소한의 Resolution header를 추가하도록 한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When an extension module written in C or C++ has an accompanying
+Python module that provides a higher level (e.g. more object oriented)
+interface, the C/C++ module has a leading underscore
+(e.g. ``_socket``).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T153134Z">
+        <seg>C/C++로 작성된 확장 모듈이 고수준 인터페이스(예를 들어 좀 더 객체
+지향적인)를 제공하는 파이썬 모듈을 갖추고 있을 경우, 해당 C/C++ 모듈은
+앞에 언더스코어를 사용한다 (예를 들면 ``_socket``).</seg>
       </tuv>
     </tu>
     <tu>
@@ -2360,6 +2725,17 @@ in the python-dev mailing list archives.</seg>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T151154Z">
         <seg>그런 다음 "myclass.MyClass", "foo.bar.yourclass.YourClass" 같은
   식으로 클래스를 사용하면 된다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>mixedCase is allowed only in contexts where that's already the
+prevailing style (e.g. threading.py), to retain backwards
+compatibility.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T153328Z">
+        <seg>mixedCase 스타일의 경우, 이미 mixedCase 스타일을 따르고 있는 모듈
+(예: threading.py)에서만 하위 호환성 유지를 위해 허용된다.</seg>
       </tuv>
     </tu>
     <tu>
