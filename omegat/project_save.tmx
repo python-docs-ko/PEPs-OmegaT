@@ -2360,6 +2360,16 @@ similar policy.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>PEP Editor Responsibilities &amp; Workflow
+======================================</seg>
+      </tuv>
+      <tuv lang="KO" changeid="yong" changedate="20130527T160745Z">
+        <seg>PEP 편집장의 책임 및 흐름
+======================================</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>PEP Editors
 -----------</seg>
       </tuv>
@@ -2496,6 +2506,32 @@ Content-Type: text/x-rst
 Created: 13-Jun-2000
 Post-History: 21-Mar-2001, 29-Jul-2002, 03-May-2003, 05-May-2012,
               07-Apr-2013</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PEP: 7
+Title: Style Guide for C Code
+Version: $Revision$
+Last-Modified: $Date$
+Author: Guido van Rossum &lt;guido@python.org&gt;
+Status: Active
+Type: Process
+Content-Type: text/x-rst
+Created: 05-Jul-2001
+Post-History:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="yong" changedate="20130527T160400Z">
+        <seg>PEP: 7
+Title: C Code 스타일 가이드
+Version: $Revision$
+Last-Modified: $Date$
+Author: Guido van Rossum &lt;guido@python.org&gt;
+Status: Active
+Type: Process
+Content-Type: text/x-rst
+Created: 05-Jul-2001
+Post-History:</seg>
       </tuv>
     </tu>
     <tu>
