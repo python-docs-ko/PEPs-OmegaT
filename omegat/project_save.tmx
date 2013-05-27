@@ -305,8 +305,8 @@ only.)  The conventions are about the same as those for functions.</seg>
         <seg>- For one liner docstrings, it's okay to keep the closing ``"""`` on
   the same line.</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T152237Z">
-        <seg>- 한 줄 짜리 docstring의 경우에는 같은 줄에서 ``"""``를 닫아도 된다.</seg>
+      <tuv lang="KO" changeid="yong" changedate="20130527T162249Z">
+        <seg>- 한 줄 짜리 docstring의 경우에는 같은 줄에서 ``"""``\ 를 닫아도 된다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -604,11 +604,11 @@ only.)  The conventions are about the same as those for functions.</seg>
   you should have a comment that describes what the method does.  This
   comment should appear after the ``def`` line.</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T152156Z">
+      <tuv lang="KO" changeid="yong" changedate="20130527T162227Z">
         <seg>- public으로 정의된 모든 모듈, 함수, 클래스, 메서드에 대해 docstring을
   작성한다.  public으로 정의되지 않은 메서드에는 docstring을 작성할
   필요가 없다.  하지만 해당 메서드가 무슨 일을 하는지 설명하는 주석은
-  달아야 한다.  이러한 주석은 ``def``가 있는 행 바로 다음 행에
+  달아야 한다.  이러한 주석은 ``def``\ 가 있는 행 바로 다음 행에
   작성한다.</seg>
       </tuv>
     </tu>
@@ -632,10 +632,10 @@ only.)  The conventions are about the same as those for functions.</seg>
   invokes name mangling (inside class FooBar, ``__boo`` becomes
   ``_FooBar__boo``; see below).</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T152930Z">
+      <tuv lang="KO" changeid="yong" changedate="20130527T162346Z">
         <seg>- ``__double_leading_underscore``: 클래스 어트리뷰트의 이름을 지으면
   네임 맹글링(name mangling)이 발생한다 (FooBar 클래스 내부에
-  ``__boo``를 선언하면 이는 ``_FooBar__boo``가 된다; 아래 내용을
+  ``__boo``를 선언하면 이는 ``_FooBar__boo``\ 가 된다; 아래 내용을
   참고하라).</seg>
       </tuv>
     </tu>
@@ -645,9 +645,9 @@ only.)  The conventions are about the same as those for functions.</seg>
   E.g. ``from M import *`` does not import objects whose name starts
   with an underscore.</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T152827Z">
+      <tuv lang="KO" changeid="yong" changedate="20130527T162317Z">
         <seg>- ``_single_leading_underscore``: "내부에서 사용한다"는 것을 의미.
-  예를 들면, ``from M import *``은 언더스코어로 시작하는 객체를
+  예를 들면, ``from M import *``\ 은 언더스코어로 시작하는 객체를
   임포트하지 않는다.</seg>
       </tuv>
     </tu>
@@ -1216,10 +1216,10 @@ them, and are indented to the same level as that code.  Each line of a
 block comment starts with a ``#`` and a single space (unless it is
 indented text inside the comment).</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T152003Z">
+      <tuv lang="KO" changeid="yong" changedate="20130527T162159Z">
         <seg>블록 주석문은 일반적으로 블록 주석문 이후에 기술되는 일부(혹은 전체)
 코드와 관련된 내용이며, 해당 코드와 같은 수준만큼 들여쓰게 된다.  블록
-주석문의 각 행은 ``#``문자와 한 개의 공백으로 시작된다(코멘트 내부에
+주석문의 각 행은 ``#``\ 문자와 한 개의 공백으로 시작된다(코멘트 내부에
 들여쓰기된 텍스트가 있을 경우는 제외)</seg>
       </tuv>
     </tu>
@@ -2674,11 +2674,11 @@ insistent user could still gain access by calling ``Foo._Foo__a``.)
 Generally, double leading underscores should be used only to avoid
 name conflicts with attributes in classes designed to be subclassed.</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T153735Z">
+      <tuv lang="KO" changeid="yong" changedate="20130527T162424Z">
         <seg>파이썬은 이러한 이름에 클래스 이름을 결합하여 네임 맹글링을 수행한다
-: 만약 Foo 클래스가 ``__a``라는 이름의 어트리뷰트를 갖고 있다면, 이
-어트리뷰트는 ``Foo.__a``같은 코드로 접근할 수 없다.  (집요한 사용자라면
-``Foo._Foo__a``를 호출하여 이 어트리뷰트에 접근할 수 있다.)
+: 만약 Foo 클래스가 ``__a``\ 라는 이름의 어트리뷰트를 갖고 있다면, 이
+어트리뷰트는 ``Foo.__a`` 같은 코드로 접근할 수 없다.  (집요한 사용자라면
+``Foo._Foo__a``\ 를 호출하여 이 어트리뷰트에 접근할 수 있다.)
 일반적으로  두 개의 언더스코어 문자를 앞에 붙이는 방법은 상속이
 일어나도록 설계된 클래스 내의 어트리뷰트에서 일어나는 이름 충돌을 피할
 때에만 사용해야 한다.</seg>
