@@ -6,6 +6,16 @@
 <!-- Default translations -->
     <tu>
       <tuv lang="EN-US">
+        <seg>Because the PEPs are maintained as text files in a versioned
+repository, their revision history is the historical record of the
+feature proposal [1]_.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T123117Z">
+        <seg>PEP는 버전이 매겨진 저장소 내의 텍스트 파일로 관리되기 때문에, 버전의 이력이 곧 기능 제안에 대한 기록이 된다 [1]_.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Copyright
 =========</seg>
       </tuv>
@@ -16,10 +26,72 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>PEP stands for Python Enhancement Proposal.  A PEP is a design
+document providing information to the Python community, or describing
+a new feature for Python or its processes or environment.  The PEP
+should provide a concise technical specification of the feature and a
+rationale for the feature.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T123041Z">
+        <seg>PEP는 파이썬 커뮤니티에 정보를 제공하거나, 새로운 기능이나 프로세스 또는 환경을 기술하는 설계 문서이다. PEP는 기능에 대한 간결한 기술 명세와 기능에 대한 이론적 근거를 제공해야 한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PEP: 1
+Title: PEP Purpose and Guidelines
+Version: $Revision$
+Last-Modified: $Date$
+Author: Barry Warsaw, Jeremy Hylton, David Goodger, Nick Coghlan
+Status: Active
+Type: Process
+Content-Type: text/x-rst
+Created: 13-Jun-2000
+Post-History: 21-Mar-2001, 29-Jul-2002, 03-May-2003, 05-May-2012,
+              07-Apr-2013</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T123016Z">
+        <seg>PEP: 1
+Title: PEP의 목적 및 안내
+Version: $Revision$
+Last-Modified: $Date$
+Author: Barry Warsaw, Jeremy Hylton, David Goodger, Nick Coghlan
+Status: Active
+Type: Process
+Content-Type: text/x-rst
+Created: 13-Jun-2000
+Post-History: 21-Mar-2001, 29-Jul-2002, 03-May-2003, 05-May-2012,
+              07-Apr-2013</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This document has been placed in the public domain.</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T120821Z">
         <seg>이 문서는 퍼블릭 도메인에 속한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We intend PEPs to be the primary mechanisms for proposing major new
+features, for collecting community input on an issue, and for
+documenting the design decisions that have gone into Python.  The PEP
+author is responsible for building consensus within the community and
+documenting dissenting opinions.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T123104Z">
+        <seg>우리의 의도는 PEP가 굵직한 새 기능에 대한 제안을 하는 기본적인 메커니즘이 되며, 이슈에 대한 커뮤니티의 의견을 수렴하고, 파이썬에 적용하게 될 설계상의 결정에 대한 기록이 되도록 하는 것이다. PEP의 저자는 지역 사회 내에서 합의를 구축하고 반대 의견을 문서화 할 책임이 있다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>What is a PEP?
+==============</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T123030Z">
+        <seg>PEP의 정의
+==========</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
