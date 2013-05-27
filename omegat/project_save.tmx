@@ -111,6 +111,15 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>- For one liner docstrings, it's okay to keep the closing ``"""`` on
+  the same line.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T152237Z">
+        <seg>- 한 줄 짜리 docstring의 경우에는 같은 줄에서 ``"""``를 닫아도 된다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>- If operators with different priorities are used, consider adding
   whitespace around the operators with the lowest priority(ies). Use
   your own judgement; however, never use more than one space, and
@@ -191,6 +200,18 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>- PEP 257 describes good docstring conventions.  Note that most
+  importantly, the ``"""`` that ends a multiline docstring should be
+  on a line by itself, and preferably preceded by a blank line, e.g.::</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T152353Z">
+        <seg>- PEP 257은 좋은 docstring 작성 규칙에 대해 기술하고 있다.  ``"""``
+  영역이 끝나는 부분에서는 한 줄 전체에 ``"""`` 문자를 넣고, 바로 위의
+  한 줄을 빈 줄로 두어야 한다. 다음 예를 보자. ::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>- Relative imports for intra-package imports are highly discouraged.
   Always use the absolute package path for all imports.  Even now that
   PEP 328 is fully implemented in Python 2.5, its style of explicit
@@ -216,6 +237,57 @@
   같이 기술한다.
 
 ::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>- While sometimes it's okay to put an if/for/while with a small body
+  on the same line, never do this for multi-clause statements.  Also
+  avoid folding such long lines!</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T151716Z">
+        <seg>- 짧은 if/for/while 구문을 한 줄에 넣는 것은 괜찮지만, 여러 절을 가진
+  구문은 절대 한 줄에 기술하지 않는다.  또한 한 줄에 여러 구문을
+  기술하면서 줄바꿈을 하는 것도 피해야 한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>- Write docstrings for all public modules, functions, classes, and
+  methods.  Docstrings are not necessary for non-public methods, but
+  you should have a comment that describes what the method does.  This
+  comment should appear after the ``def`` line.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T152156Z">
+        <seg>- public으로 정의된 모든 모듈, 함수, 클래스, 메서드에 대해 docstring을
+  작성한다.  public으로 정의되지 않은 메서드에는 docstring을 작성할
+  필요가 없다.  하지만 해당 메서드가 무슨 일을 하는지 설명하는 주석은
+  달아야 한다.  이러한 주석은 ``def``가 있는 행 바로 다음 행에
+  작성한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>- ``b`` (single lowercase letter)
+- ``B`` (single uppercase letter)
+- ``lowercase``
+- ``lower_case_with_underscores``
+- ``UPPERCASE``
+- ``UPPER_CASE_WITH_UNDERSCORES``
+- ``CapitalizedWords`` (or CapWords, or CamelCase -- so named because
+  of the bumpy look of its letters [3]_).  This is also sometimes known
+  as StudlyCaps.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T152703Z">
+        <seg>- ``b`` (한 개의 소문자)
+- ``B`` (한 개의 대문자)
+- ``lowercase``
+- ``lower_case_with_underscores``
+- ``UPPERCASE``
+- ``UPPER_CASE_WITH_UNDERSCORES``
+- ``CapitalizedWords`` (CapWords 혹은 CamelCase -- CamelCase라는 이름은
+  글자가 툭 튀어나온 모양 때문에 붙은 이름이다 [3]_).  간혹
+  StudlyCaps이라고도 불린다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -517,6 +589,18 @@ in the next section.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>An inline comment is a comment on the same line as a statement.
+Inline comments should be separated by at least two spaces from the
+statement.  They should start with a # and a single space.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T152040Z">
+        <seg>인라인 주석문은 코드와 동일한 행에 기술되는 주석문이다.  인라인 주석문은
+코드에서 최소한 두 개 이상의 공백으로 분리되어 있어야 한다.  주석문은
+# 문자와 한 개의 공백으로 시작해야 한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>As updates are necessary, the PEP author can check in new versions if they
 (or a collaborating developer) have hg push privileges, or else they can
 email new PEP versions to the PEP editors for publication.</seg>
@@ -566,6 +650,30 @@ feature proposal [1]_.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Block Comments
+--------------</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T151948Z">
+        <seg>블록 주석문
+-----------</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Block comments generally apply to some (or all) code that follows
+them, and are indented to the same level as that code.  Each line of a
+block comment starts with a ``#`` and a single space (unless it is
+indented text inside the comment).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T152003Z">
+        <seg>블록 주석문은 일반적으로 블록 주석문 이후에 기술되는 일부(혹은 전체)
+코드와 관련된 내용이며, 해당 코드와 같은 수준만큼 들여쓰게 된다.  블록
+주석문의 각 행은 ``#``문자와 한 개의 공백으로 시작된다(코멘트 내부에
+들여쓰기된 텍스트가 있을 경우는 제외)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>But most importantly: know when to be inconsistent -- sometimes the
 style guide just doesn't apply.  When in doubt, use your best
 judgment.  Look at other examples and decide what looks best.  And
@@ -576,6 +684,16 @@ don't hesitate to ask!</seg>
 한다는 것이다 - 어떤 순간에는 스타일 가이드를 적용하지 않을 수 있다.
 의심이 든다면 최선을 다해 판단해라.  다른 예제들을 살펴보고 어떤 것이
 가장 좋아 보이는지 결정하라.  그리고 주저하지 말고 질문하라!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>But sometimes, this is useful::</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T152103Z">
+        <seg>하지만 이런 주석문은 유용할 때가 있다.
+
+::</seg>
       </tuv>
     </tu>
     <tu>
@@ -598,6 +716,42 @@ UTF-8 is preferred over Latin-1, see PEP 3120.</seg>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T130547Z">
         <seg>코드 레이아웃
 =============</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Comments
+========</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T151739Z">
+        <seg>주석문
+======</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Comments should be complete sentences.  If a comment is a phrase or
+sentence, its first word should be capitalized, unless it is an
+identifier that begins with a lower case letter (never alter the case
+of identifiers!).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T151806Z">
+        <seg>주석은 완결된 문장 형태로 작성한다.  한 구절 혹은 문장으로 이루어진
+주석을 작성할 경우, 첫 번째 단어를 대문자로 기술한다.  예외적으로,
+이 첫 번째 단어가 소문자로 된 식별자일 경우에는 그대로 소문자로 기술한다
+(이렇게 식별자를 주석에 사용할 경우에는 절대 소문자/대문자를 바꾸지
+말아야 한다).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Comments that contradict the code are worse than no comments.  Always
+make a priority of keeping the comments up-to-date when the code
+changes!</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T151752Z">
+        <seg>코드의 내용과 동떨어진 주석이 있는 것보다는 아예 주석이 없는 편이 낫다.
+주석은 항상 코드의 변경에 맞추어 최신의 상태를 유지하도록 한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -630,6 +784,16 @@ http://www.fanhow.com/images/9/91/How_to_Create_hanging_indent_using_CSS_2.png)<
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Conventions for writing good documentation strings
+(a.k.a. "docstrings") are immortalized in PEP 257.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T152128Z">
+        <seg>좋은 문서화 문자열(Documentation String, docstring이라고도 한다)을
+작성하기 위한 규칙으로 PEP 257가 널리 알려져 있다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Copyright</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125943Z">
@@ -654,6 +818,24 @@ http://www.fanhow.com/images/9/91/How_to_Create_hanging_indent_using_CSS_2.png)<
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T120945Z">
         <seg>저작권
 ======</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Definitely not::</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T151727Z">
+        <seg>절대 안됨::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Descriptive: Naming Styles
+--------------------------</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T152534Z">
+        <seg>표현: 명명 스타일
+-----------------</seg>
       </tuv>
     </tu>
     <tu>
@@ -685,6 +867,16 @@ Responsibilities &amp; Workflow`_ 참조).  초기 버전이 PEP를 제출하는
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T130040Z">
         <seg>개발자</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Documentation Strings
+---------------------</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T152117Z">
+        <seg>문서화 문자열
+-------------</seg>
       </tuv>
     </tu>
     <tu>
@@ -853,6 +1045,18 @@ to use 8-space tabs.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If a comment is short, the period at the end can be omitted.  Block
+comments generally consist of one or more paragraphs built out of
+complete sentences, and each sentence should end in a period.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T151819Z">
+        <seg>주석문이 짧을 경우 마지막에 오는 마침표는 생략할 수 있다.  블록 형태의
+주석문은 일반적으로 완결된 문장들로 구성된 문단들이며, 각각의 문단은
+마침표로 끝나야 한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If the PEP editors approve, they will assign the PEP a number, label it
 as Standards Track, Informational, or Process, give it status "Draft",
 and create and check-in the initial draft of the PEP.  The PEP editors
@@ -892,6 +1096,16 @@ PEP에 "BDFL-Delegate" 머리말로서 기록을 남긴다.</seg>
         <seg>만약 이름이 이미 선언된 로컬 이름과 충돌할 경우, 다음과 같이 기술한다.
 
 ::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you have to have Subversion, CVS, or RCS crud in your source file,
+do it as follows. ::</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T152342Z">
+        <seg>소스 파일에 Subversion, CVS, RCS 등이 포함되어 있다면 다음과 같이 버전을
+기록한다. ::</seg>
       </tuv>
     </tu>
     <tu>
@@ -967,6 +1181,28 @@ these cases will depend on the nature and purpose of the PEP being updated.</seg
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Inline Comments
+---------------</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T152018Z">
+        <seg>인라인 주석문
+-------------</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Inline comments are unnecessary and in fact distracting if they state
+the obvious.  Don't do this::</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T152051Z">
+        <seg>뻔한 내용의 인라인 주석문은 불필요하며, 사실 방해물이라 할 수 있다.
+이런 주석문은 피하자.
+
+::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Introduction</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T130028Z">
@@ -1018,6 +1254,16 @@ line.</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T150542Z">
         <seg>클래스의 메서드 정의는 한 줄을 띄워서 구분한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Naming Conventions
+==================</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T152408Z">
+        <seg>명명 규칙
+=========</seg>
       </tuv>
     </tu>
     <tu>
@@ -1078,6 +1324,24 @@ line.</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T130156Z">
         <seg>없음.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note: When using abbreviations in CapWords, capitalize all the
+  letters of the abbreviation.  Thus HTTPServerError is better than
+  HttpServerError.
+- ``mixedCase`` (differs from CapitalizedWords by initial lowercase
+  character!)
+- ``Capitalized_Words_With_Underscores`` (ugly!)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T152647Z">
+        <seg>주의: CapWords에서 약어를 사용할 경우, 약어의 모든 글자를 대문자로
+  기술한다.  그러므로 HTTPServerError가 HttpServerError를 사용하는
+  것 보다 낫다.
+- ``mixedCase`` (differs from CapitalizedWords by initial lowercase
+  character!)
+- ``Capitalized_Words_With_Underscores`` (ugly!)</seg>
       </tuv>
     </tu>
     <tu>
@@ -1323,6 +1587,16 @@ an API can replace version 1.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Paragraphs inside a block comment are separated by a line containing a
+single ``#``.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T152011Z">
+        <seg>블록 주석문 내부의 문단들은 한 개의 ``#`` 문자를 포함한 빈 줄을 넣어
+구분한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Pet Peeves
 ----------</seg>
       </tuv>
@@ -1381,6 +1655,18 @@ control-L as a form feed and will show another glyph in its place.</seg>
 편집기나 웹 기반의 코드 뷰어는 컨트롤-L을 폼 피드 문자로 인식하지
 않을 수도 있으며, 이 경우 폼 피드를 대신하는 다른 문자가 컨트롤-L
 문자의 위치에 표시될 것이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Python coders from non-English speaking countries: please write your
+comments in English, unless you are 120% sure that the code will never
+be read by people who don't speak your language.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T151841Z">
+        <seg>비영어권 국가의 파이썬 코더의 경우, 다른 나라의 개발자가 현재 당신이
+작성하는 코드를 읽게 될 일이 전혀 없으리란 확신이 들지 않는다면, 부
+디 영문으로 주석을 작성해주길 바란다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1638,6 +1924,14 @@ before the PEP can be accepted.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The following naming styles are commonly distinguished:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T152554Z">
+        <seg>다음과 같은 명명 스타일을 흔히 볼 수 있다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The most popular way of indenting Python is with spaces only.  The
 second-most popular way is with tabs only.  Code indented with a
 mixture of tabs and spaces should be converted to using spaces
@@ -1654,6 +1948,23 @@ These options are highly recommended!</seg>
 공백 문자가 섞인 코드가 있을 경우 인터프리터가 경고 메시지를 표시한다.
 ``-tt`` 옵션을 사용하면 이 경고 메시지가 에러 메시지로 표시된다.
 위 옵션들을 사용하기를 권한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The naming conventions of Python's library are a bit of a mess, so
+we'll never get this completely consistent -- nevertheless, here are
+the currently recommended naming standards.  New modules and packages
+(including third party frameworks) should be written to these
+standards, but where an existing library has a different style,
+internal consistency is preferred.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T152449Z">
+        <seg>파이썬 라이브러리의 명명 규칙은 난잡하기 때문에, 이 라이브러리에 완벽하게
+일관성을 적용하는 일은 없을 것이다.  어쨌든, 현재 권장되는 명명 규칙에
+대한 표준을 여기 기술한다.  새로운 모듈과 패키지(서드 파티 프레임워크를
+포함한)는 이들 표준에 맞추어 작성되어야 하지만, 이미 다른 스타일로
+작성되어 있는 기존 라이브러리는 그 자체의 일관성을 유지하도록 한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1695,6 +2006,18 @@ is *after* the operator, not before it.  Some examples::</seg>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125634Z">
         <seg>근거에서는 커뮤니티의 내에서 합의가 이루어졌음을 증명하고 논의 과정에서
    있었던 중요한 반대나 우려에 대하여 논의하여야 한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There are a lot of different naming styles.  It helps to be able to
+recognize what naming style is being used, independently from what
+they are used for.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T152538Z">
+        <seg>세상에는 다양한 명명 스타일이 존재한다.  명명 스타일은 이 스타일이
+어떤 목적으로 쓰이는지와는 별개로, 어떤 명명 스타일이 쓰이고 있는지
+알아보는데 도움이 된다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1763,6 +2086,17 @@ reStructuredText PEP는 스크립트에서 호출하는 Docutils_ 코드에 의�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>These lines should be included after the module's docstring, before
+any other code, separated by a blank line above and below.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T152335Z">
+        <seg>위 내용은 모듈의 docstring 바로 다음에 와야 하며, 그 이후에는 프로그램
+코드가 온다. 그리고 이 행의 위와 아래에는 빈 줄 한 개씩이 들어가야
+한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This document and PEP 257 (Docstring Conventions) were adapted from
 Guido's original Python Style Guide essay, with some additions from
 Barry's style guide [2]_.</seg>
@@ -1827,6 +2161,24 @@ in the C implementation of Python [1]_.</seg>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T150600Z">
         <seg>함수 내에서 논리적인 단위를 드러내기 위해 빈 줄을 사용하라. (하지만
 아껴서 사용하자)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use inline comments sparingly.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T152025Z">
+        <seg>인라인 주석문은 아껴서 사용한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Version Bookkeeping
+===================</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T152245Z">
+        <seg>버전 관리
+=========</seg>
       </tuv>
     </tu>
     <tu>
@@ -1911,6 +2263,14 @@ in the python-dev mailing list archives.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When writing English, Strunk and White apply.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T151944Z">
+        <seg>영문으로 작성할 경우 Strunk와 White의 스타일을 적용한다(역자 주: 영어 작문에 관한 책인 'The Elements of Style'의 저자).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Whitespace in Expressions and Statements
 ========================================</seg>
       </tuv>
@@ -1983,6 +2343,14 @@ in the python-dev mailing list archives.</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T151000Z">
         <seg>각 그룹 사이에는 빈 줄 하나를 넣어야 한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You should use two spaces after a sentence-ending period.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T151825Z">
+        <seg>문장의 마침표 다음에는 두 개의 공백을 넣는다.</seg>
       </tuv>
     </tu>
     <tu>
