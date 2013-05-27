@@ -202,6 +202,24 @@ PEP 편집자는 그것을 초안 상태로 되돌릴  수 있다.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Abstract</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T130250Z">
+        <seg>초록</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Abstract
+--------</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T130712Z">
+        <seg>초록
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>After a PEP number has been assigned, a draft PEP may be discussed further on
 python-ideas (getting a PEP number assigned early can be useful for ease of
 reference, especially when multiple draft PEPs are being considered at the
@@ -242,6 +260,34 @@ feature proposal [1]_.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Code lay-out
+============</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T130547Z">
+        <seg>코드 레이아웃
+=============</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Copyright</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125943Z">
+        <seg>저작권</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Copyright
+---------</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T130805Z">
+        <seg>저작권
+------</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Copyright
 =========</seg>
       </tuv>
@@ -271,6 +317,14 @@ Responsibilities &amp; Workflow`_ 참조).  초기 버전이 PEP를 제출하는
 개발자가 PEP를 PEP 편집자에게 제출하는 것을 선택할 수도 있다.  그럴 경우에는
 당신이 hg push 권한을 갖고 있다는 것을 PEP 편집자에게 알림으로써 PEP
 저장소에 직접 업데이트하는 절차에 대한 안내를 받기 바란다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Developers(s)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T130040Z">
+        <seg>개발자</seg>
       </tuv>
     </tu>
     <tu>
@@ -340,6 +394,14 @@ BDFL에 의해 수용되기 위해서는 반드시 "파이썬다와야(pythonic)
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>History</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T130515Z">
+        <seg>이력</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If the PEP editors approve, they will assign the PEP a number, label it
 as Standards Track, Informational, or Process, give it status "Draft",
 and create and check-in the initial draft of the PEP.  The PEP editors
@@ -373,6 +435,14 @@ PEP에 "BDFL-Delegate" 머리말로서 기록을 남긴다.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Implementation Details</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T130304Z">
+        <seg>상세 구현</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In general, Standards track PEPs are no longer modified after they have
 reached the Final state. Once a PEP has been completed, the Language and
 Standard Library References become the formal documentation of the expected
@@ -394,6 +464,52 @@ these cases will depend on the nature and purpose of the PEP being updated.</seg
         <seg>정보 및 프로세스 PEP는 개발 사례 및 기타 세부 사항에 대한 변경 사항을 반영하기
 위해 시간이 지남에 따라 갱신될 수 있다.  정확한 과정은 갱신되는 PEP의 성격과
 목적에 따라 달라진다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Introduction</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T130028Z">
+        <seg>도입</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Introduction
+============</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T130530Z">
+        <seg>도입
+====</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Naming conventions
+==================</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T130553Z">
+        <seg>명명 규칙
+=========</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>No-longer-supported platforms
+-----------------------------</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T130748Z">
+        <seg>더 이상 지원하지 않는 플랫폼
+----------------------------</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>None.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T130156Z">
+        <seg>없음.</seg>
       </tuv>
     </tu>
     <tu>
@@ -608,12 +724,46 @@ PEP 9에 일반 텍스트 PEP를 작성하는 방법에 대한 설명 및 템플
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Procedure</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T130508Z">
+        <seg>절차</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Prohibitions</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T130505Z">
+        <seg>금지사항</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Python's BDFL
 -------------</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T124956Z">
         <seg>파이썬의 BDFL
 -------------</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Rationale</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T130621Z">
+        <seg>근거</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Rationale
+---------</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T130709Z">
+        <seg>근거
+----</seg>
       </tuv>
     </tu>
     <tu>
@@ -627,6 +777,42 @@ PEPs.</seg>
         <seg>ReStructuredText_ PEP는 다양한 markup을 사용하여, 여전히 읽기는 쉬우면서도
 더 보기 좋고 기능적인 HTML을 만들어낼 수 있다. PEP 12에 reStructuredText
 PEP를 작성하는 방법에 대한 설명과 템플릿 [4]_\ 이 있다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>References</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125950Z">
+        <seg>참조</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>References
+----------</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T130758Z">
+        <seg>참조
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>References
+==========</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T130606Z">
+        <seg>참조
+====</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Scope</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T130257Z">
+        <seg>범위</seg>
       </tuv>
     </tu>
     <tu>
@@ -652,6 +838,14 @@ test of implementation.</seg>
 최소한 프로토타입 구현을 PEP와 함께 개발하는 것을 권장하는데, 이는
 이론적으로는 괜찮아보이는 아이디어가 실제 구현을 테스트해보면 실용적이지
 못한 것으로 판명되는 경우가 있기 때문이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Steps For Introducing Backwards-Incompatible Features</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T130410Z">
+        <seg>하위 호환되지 않는 기능을 도입하기 위한 절차</seg>
       </tuv>
     </tu>
     <tu>
@@ -801,6 +995,16 @@ reStructuredText PEP는 스크립트에서 호출하는 Docutils_ 코드에 의�
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T120821Z">
         <seg>이 문서는 퍼블릭 도메인에 속한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Unsupporting platforms
+----------------------</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T130727Z">
+        <seg>지원하지 않는 플랫폼
+--------------------</seg>
       </tuv>
     </tu>
     <tu>
