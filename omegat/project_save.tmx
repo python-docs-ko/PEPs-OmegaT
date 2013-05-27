@@ -1623,6 +1623,30 @@ list) or the python-ideas mailing list is the best way to go about this.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T164039Z">
+        <seg>예:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Examples</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T164654Z">
+        <seg>예</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Examples:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T164047Z">
+        <seg>예:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Exception Names
 ~~~~~~~~~~~~~~~</seg>
       </tuv>
@@ -1641,6 +1665,14 @@ related one-liners (e.g. a set of dummy implementations).</seg>
         <seg>서로 연관이 있는 함수들의 묶음을 구분하기 위해 빈 줄을 추가로 사용할
 수 있다.  반대로 한 줄짜리 구현 코드가 뭉쳐 있을 경우 이러한 빈 줄을
 생략할 수도 있다. (예: 일련의 미구현, 임시 코드)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Features</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T164322Z">
+        <seg>기능</seg>
       </tuv>
     </tu>
     <tu>
@@ -1831,6 +1863,14 @@ underscores as necessary to improve readability.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Guidelines for submitting patches and making changes</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T164507Z">
+        <seg>패치와 변경사항의 제출에 대한 안내</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Habits to Avoid
 ===============</seg>
       </tuv>
@@ -1853,6 +1893,14 @@ underscores as necessary to improve readability.</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T130515Z">
         <seg>이력</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>History of this Proposal</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T164107Z">
+        <seg>이 제안의 이력</seg>
       </tuv>
     </tu>
     <tu>
@@ -2204,6 +2252,14 @@ non-public").</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Motivation</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T164540Z">
+        <seg>동기</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Names to Avoid
 ~~~~~~~~~~~~~~</seg>
       </tuv>
@@ -2408,6 +2464,14 @@ names.</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T153744Z">
         <seg>주의: __names의 사용에 대해서는 다소 논란이 있다 (아래 내용을 참조).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Older versions are available as:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T164006Z">
+        <seg>오래된 버전은 아래에 있다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2672,6 +2736,60 @@ Post-History: 21-Mar-2001, 29-Jul-2002, 03-May-2003, 05-May-2012,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>PEP: 101
+Title: Doing Python Releases 101
+Version: $Revision$
+Last-Modified: $Date$
+Author: barry@python.org (Barry Warsaw), guido@python.org (Guido van Rossum)
+Status: Active
+Type: Informational
+Created: 22-Aug-2001
+Post-History:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T164159Z">
+        <seg>PEP: 101
+Title: 파이썬 릴리스하기 101
+Version: $Revision$
+Last-Modified: $Date$
+Author: barry@python.org (Barry Warsaw), guido@python.org (Guido van Rossum)
+Status: Active
+Type: Informational
+Created: 22-Aug-2001
+Post-History:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PEP: 102
+Title: Doing Python Micro Releases
+Version: $Revision$
+Last-Modified: $Date$
+Author: anthony@interlink.com.au (Anthony Baxter), 
+    barry@python.org (Barry Warsaw), 
+    guido@python.org (Guido van Rossum)
+Status: Superseded
+Type: Informational
+Created: 22-Aug-2001 (edited down on 9-Jan-2002 to become PEP 102)
+Post-History:
+Superseded-By: 101</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T164224Z">
+        <seg>PEP: 102
+Title: 파이썬 마이크로 릴리스하기
+Version: $Revision$
+Last-Modified: $Date$
+Author: anthony@interlink.com.au (Anthony Baxter), 
+    barry@python.org (Barry Warsaw), 
+    guido@python.org (Guido van Rossum)
+Status: Superseded
+Type: Informational
+Created: 22-Aug-2001 (edited down on 9-Jan-2002 to become PEP 102)
+Post-History:
+Superseded-By: 101</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>PEP: 12
 Title: Sample reStructuredText PEP Template
 Version: $Revision$
@@ -2700,6 +2818,32 @@ Post-History: 30-Aug-2002</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>PEP: 160
+Title: Python 1.6 Release Schedule
+Version: $Revision$
+Last-Modified: $Date$
+Author: Fred L. Drake, Jr. &lt;fdrake@acm.org&gt;
+Status: Final
+Type: Informational
+Created: 25-Jul-2000
+Python-Version: 1.6
+Post-History:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T164309Z">
+        <seg>PEP: 160
+Title: 파이썬 1.6 릴리스 일정
+Version: $Revision$
+Last-Modified: $Date$
+Author: Fred L. Drake, Jr. &lt;fdrake@acm.org&gt;
+Status: Final
+Type: Informational
+Created: 25-Jul-2000
+Python-Version: 1.6
+Post-History:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>PEP: 20
 Title: The Zen of Python
 Version: $Revision$
@@ -2722,6 +2866,58 @@ Type: Informational
 Content-Type: text/plain
 Created: 19-Aug-2004
 Post-History: 22-Aug-2004</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PEP: 200
+Title: Python 2.0 Release Schedule
+Version: $Revision$
+Last-Modified: $Date$
+Author: Jeremy Hylton &lt;jeremy@alum.mit.edu&gt;
+Status: Final
+Type: Informational
+Created:
+Python-Version: 2.0
+Post-History:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T164405Z">
+        <seg>PEP: 200
+Title: 파이썬 2.0 릴리스 일정
+Version: $Revision$
+Last-Modified: $Date$
+Author: Jeremy Hylton &lt;jeremy@alum.mit.edu&gt;
+Status: Final
+Type: Informational
+Created:
+Python-Version: 2.0
+Post-History:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PEP: 202
+Title: List Comprehensions
+Version: $Revision$
+Last-Modified: $Date$
+Author: barry@python.org (Barry Warsaw)
+Status: Final
+Type: Standards Track
+Created: 13-Jul-2000
+Python-Version: 2.0
+Post-History:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T164626Z">
+        <seg>PEP: 202
+Title: 리스트 Comprehensions
+Version: $Revision$
+Last-Modified: $Date$
+Author: barry@python.org (Barry Warsaw)
+Status: Final
+Type: Standards Track
+Created: 13-Jul-2000
+Python-Version: 2.0
+Post-History:</seg>
       </tuv>
     </tu>
     <tu>
@@ -2979,6 +3175,14 @@ PEP를 작성하는 방법에 대한 설명과 템플릿 [4]_\ 이 있다.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Reference Implementation</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T164555Z">
+        <seg>참조 구현</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>References</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125950Z">
@@ -3033,12 +3237,38 @@ PEP를 작성하는 방법에 대한 설명과 템플릿 [4]_\ 이 있다.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Release Schedule
+    [revised 5 Oct 2000]</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T164349Z">
+        <seg>릴리스 일정
+    [revised 5 Oct 2000]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Replacement Note</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T164231Z">
+        <seg>대체 노트</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Resources
 =========</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T163107Z">
         <seg>자원
 ====</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Schedule</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T164316Z">
+        <seg>일정</seg>
       </tuv>
     </tu>
     <tu>
@@ -3196,6 +3426,14 @@ PEP를 거부할 수 있다.  의심스럽다면 PEP를 초점이 잘 잡힌 여
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Proposed Solution</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T164854Z">
+        <seg>제안된 해결책</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The X11 library uses a leading X for all its public functions.  In
 Python, this style is generally deemed unnecessary because attribute
 and method names are prefixed with an object, and function names are
@@ -3275,6 +3513,14 @@ before the PEP can be accepted.</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T152554Z">
         <seg>다음과 같은 명명 스타일을 흔히 볼 수 있다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The latest version of this document is always available at:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T164015Z">
+        <seg>이 문서의 최종 버전은 다음 주소에서 항상 볼 수 있다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3747,6 +3993,14 @@ interface, the C/C++ module has a leading underscore
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T151207Z">
         <seg>표현식, 구문에서의 공백 문자
 ============================</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Windows Notes</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T164249Z">
+        <seg>Windows 참고</seg>
       </tuv>
     </tu>
     <tu>
