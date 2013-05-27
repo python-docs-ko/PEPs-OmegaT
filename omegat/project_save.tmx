@@ -456,6 +456,16 @@ initial concerns about the proposal.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>PEP Formats and Templates
+=========================</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125721Z">
+        <seg>PEP 형식 및 템플릿
+==================</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>PEP Maintenance
 ---------------</seg>
       </tuv>
@@ -587,12 +597,36 @@ an API can replace version 1.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Plaintext PEPs are written with minimal structural markup that adheres
+to a rigid style.  PEP 9 contains a instructions and a template [3]_
+you can use to get started writing your plaintext PEP.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125736Z">
+        <seg>일반 텍스트 PEP는 엄격한 스타일을 따르는 최소한의 구조적 마크업으로 작성된다.
+PEP 9에 일반 텍스트 PEP를 작성하는 방법에 대한 설명 및 템플릿 [3]_\ 이 있다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Python's BDFL
 -------------</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T124956Z">
         <seg>파이썬의 BDFL
 -------------</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ReStructuredText_ PEPs allow for rich markup that is still quite easy
+to read, but results in much better-looking and more functional HTML.
+PEP 12 contains instructions and a template [4]_ for reStructuredText
+PEPs.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125746Z">
+        <seg>ReStructuredText_ PEP는 다양한 markup을 사용하여, 여전히 읽기는 쉬우면서도
+더 보기 좋고 기능적인 HTML을 만들어낼 수 있다. PEP 12에 reStructuredText
+PEP를 작성하는 방법에 대한 설명과 템플릿 [4]_\ 이 있다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -736,6 +770,29 @@ programming language.</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T124458Z">
         <seg>PEP에는 다음의 세 가지 종류가 있다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There are two PEP formats available to authors: plaintext and
+reStructuredText_.  Both are UTF-8-encoded text files.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125734Z">
+        <seg>저자가 사용할 수 있는 PEP 형식에는 일반 텍스트와 reStructuredText_\ 의
+두 가지가 있다.  양쪽 다 UTF-8 인코딩의 텍스트 파일이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There is a Python script that converts both styles of PEPs to HTML for
+viewing on the web [5]_.  Parsing and conversion of plaintext PEPs is
+self-contained within the script.  reStructuredText PEPs are parsed
+and converted by Docutils_ code called from the script.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125756Z">
+        <seg>각 스타일의 PEP를 웹에서 보여질 HTML로 변환하는 파이썬 스크립트가 있다 [5]_.
+일반 텍스트 PEP의 분석과 변환은 스크립트 내에 포함되어 있다.
+reStructuredText PEP는 스크립트에서 호출하는 Docutils_ 코드에 의하여 변환된다.</seg>
       </tuv>
     </tu>
     <tu>
