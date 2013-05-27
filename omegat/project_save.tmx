@@ -1069,8 +1069,8 @@ Classes for internal use have a leading underscore in addition.</seg>
   have a type (such as a container) that could be false in a boolean
   context!</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T154421Z">
-        <seg>또한, ``if x is not None``의 의미로 ``if x``를 사용하는데 주의해야
+      <tuv lang="KO" changeid="yong" changedate="20130527T162443Z">
+        <seg>또한, ``if x is not None``\ 의 의미로 ``if x``\ 를 사용하는데 주의해야
   한다 -- 기본값이 None인 변수나 인수에 무언가 값이 지정되었는지를
   검사할 경우를 예로 들 수 있다.  이 값이 다른 객체를 포함하는 타입
   (컨테이너의 경우)일 수도 있으며, 그럴 경우 boolean으로 해석되어
