@@ -1844,8 +1844,8 @@ do it as follows. ::</seg>
       <tuv lang="EN-US">
         <seg>Imports should be grouped in the following order:</seg>
       </tuv>
-      <tuv lang="KO" changeid="yong" changedate="20130527T161233Z">
-        <seg>임포트 구문은 다음 순서에 따라 그룹별로 기술한다. ::</seg>
+      <tuv lang="KO" changeid="yong" changedate="20130527T162106Z">
+        <seg>임포트 구문은 다음 순서에 따라 그룹별로 기술한다.</seg>
       </tuv>
     </tu>
     <tu>
