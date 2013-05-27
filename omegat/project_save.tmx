@@ -1107,6 +1107,22 @@ Classes for internal use have a leading underscore in addition.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Alternative Approaches</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T165909Z">
+        <seg>다른 접근 방법</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Alternatives</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T165609Z">
+        <seg>대안</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Always decide whether a class's methods and instance variables
 (collectively: "attributes") should be public or non-public.  If in
 doubt, choose non-public; it's easier to make it public later than to
@@ -1188,10 +1204,26 @@ email new PEP versions to the PEP editors for publication.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Background</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T165555Z">
+        <seg>배경</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Backwards compatibility</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T131659Z">
         <seg>하위 호환성</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Batteries Included Philosophy</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T165024Z">
+        <seg>배터리 포함의 철학</seg>
       </tuv>
     </tu>
     <tu>
@@ -1321,6 +1353,14 @@ don't hesitate to ask!</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Circular references</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T164926Z">
+        <seg>순환 참조</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Class Names
 ~~~~~~~~~~~</seg>
       </tuv>
@@ -1407,6 +1447,14 @@ changes!</seg>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T151752Z">
         <seg>코드의 내용과 동떨어진 주석이 있는 것보다는 아예 주석이 없는 편이 낫다.
 주석은 항상 코드의 변경에 맞추어 최신의 상태를 유지하도록 한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Concerns</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T165202Z">
+        <seg>우려</seg>
       </tuv>
     </tu>
     <tu>
@@ -1499,6 +1547,14 @@ http://www.fanhow.com/images/9/91/How_to_Create_hanging_indent_using_CSS_2.png)<
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Current Solution</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T165731Z">
+        <seg>현재 해결책</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Definitely not::</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T151727Z">
@@ -1513,6 +1569,14 @@ http://www.fanhow.com/images/9/91/How_to_Create_hanging_indent_using_CSS_2.png)<
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T152534Z">
         <seg>표현: 명명 스타일
 -----------------</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Design and Implementation</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T165428Z">
+        <seg>설계 및 구현</seg>
       </tuv>
     </tu>
     <tu>
@@ -1554,6 +1618,14 @@ Responsibilities &amp; Workflow`_ 참조).  초기 버전이 PEP를 제출하는
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T130040Z">
         <seg>개발자</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Discussion</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T165602Z">
+        <seg>논의</seg>
       </tuv>
     </tu>
     <tu>
@@ -2030,6 +2102,30 @@ do it as follows. ::</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Implementation Proposal</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T165227Z">
+        <seg>구현 제안</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Implementation Strategy</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T164950Z">
+        <seg>구현 전략</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Implementations</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T165647Z">
+        <seg>구현</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Imports
 -------</seg>
       </tuv>
@@ -2369,6 +2465,14 @@ names.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Note</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T165826Z">
+        <seg>참고</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Note 1: Note that only the simple class name is used in the mangled
   name, so if a subclass chooses both the same class name and attribute
   name, you can still get name collisions.</seg>
@@ -2534,6 +2638,14 @@ spectrum of Python code.  As PEP 20 says, "Readability counts".</seg>
 읽히는 횟수가 더 많다는 사실이다.  이 문서에서 제공하는 가이드라인은
 코드의 가독성을 향상시키고 다양한 파이썬 코드에 일관성을 부여하고자하는
 의도를 갖고 있다.  PEP 20에서 언급하듯, "가독성은 중요하다."</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Open Issues</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T165044Z">
+        <seg>진행 중인 사항</seg>
       </tuv>
     </tu>
     <tu>
@@ -2922,6 +3034,136 @@ Post-History:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>PEP: 205
+Title: Weak References
+Version: $Revision$
+Last-Modified: $Date$
+Author: Fred L. Drake, Jr. &lt;fdrake@acm.org&gt;
+Status: Final
+Type: Standards Track
+Created:
+Python-Version: 2.1
+Post-History: 11-Jan-2001</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T164914Z">
+        <seg>PEP: 205
+Title: 약한 참조
+Version: $Revision$
+Last-Modified: $Date$
+Author: Fred L. Drake, Jr. &lt;fdrake@acm.org&gt;
+Status: Final
+Type: Standards Track
+Created:
+Python-Version: 2.1
+Post-History: 11-Jan-2001</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PEP: 209
+Title: Multi-dimensional Arrays
+Version: $Revision$
+Last-Modified: $Date$
+Author: barrett@stsci.edu (Paul Barrett), oliphant@ee.byu.edu (Travis Oliphant)
+Status: Withdrawn
+Type: Standards Track
+Created: 03-Jan-2001
+Python-Version: 2.2
+Post-History:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T165359Z">
+        <seg>PEP: 209
+Title: 다차원 배열
+Version: $Revision$
+Last-Modified: $Date$
+Author: barrett@stsci.edu (Paul Barrett), oliphant@ee.byu.edu (Travis Oliphant)
+Status: Withdrawn
+Type: Standards Track
+Created: 03-Jan-2001
+Python-Version: 2.2
+Post-History:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PEP: 212
+Title: Loop Counter Iteration
+Version: $Revision$
+Last-Modified: $Date$
+Author: nowonder@nowonder.de (Peter Schneider-Kamp)
+Status: Deferred
+Type: Standards Track
+Created: 22-Aug-2000
+Python-Version: 2.1
+Post-History:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T165639Z">
+        <seg>PEP: 212
+Title: 루프 카운터 이터레이션
+Version: $Revision$
+Last-Modified: $Date$
+Author: nowonder@nowonder.de (Peter Schneider-Kamp)
+Status: Deferred
+Type: Standards Track
+Created: 22-Aug-2000
+Python-Version: 2.1
+Post-History:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PEP: 213
+Title: Attribute Access Handlers
+Version: $Revision$
+Last-Modified: $Date$
+Author: paul@prescod.net (Paul Prescod)
+Status: Deferred
+Type: Standards Track
+Created: 21-Jul-2000
+Python-Version: 2.1
+Post-History:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T165705Z">
+        <seg>PEP: 213
+Title: 어트리뷰터 접근 핸들러
+Version: $Revision$
+Last-Modified: $Date$
+Author: paul@prescod.net (Paul Prescod)
+Status: Deferred
+Type: Standards Track
+Created: 21-Jul-2000
+Python-Version: 2.1
+Post-History:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PEP: 214
+Title: Extended Print Statement
+Version: $Revision$
+Last-Modified: $Date$
+Author: barry@python.org (Barry Warsaw)
+Status: Final
+Type: Standards Track
+Created: 24-Jul-2000
+Python-Version: 2.0
+Post-History: 16-Aug-2000</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T165842Z">
+        <seg>PEP: 214
+Title: Print 문 확장
+Version: $Revision$
+Last-Modified: $Date$
+Author: barry@python.org (Barry Warsaw)
+Status: Final
+Type: Standards Track
+Created: 24-Jul-2000
+Python-Version: 2.0
+Post-History: 16-Aug-2000</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>PEP: 7
 Title: Style Guide for C Code
 Version: $Revision$
@@ -3010,6 +3252,14 @@ PEP 9에 일반 텍스트 PEP를 작성하는 방법에 대한 설명 및 템플
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Problem</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T165306Z">
+        <seg>문제</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Procedure</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T130508Z">
@@ -3032,6 +3282,58 @@ PEP 9에 일반 텍스트 PEP를 작성하는 방법에 대한 설명 및 템플
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T130505Z">
         <seg>금지사항</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Proposal</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T165405Z">
+        <seg>제안</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Proposed Implementation
+ 
+    There is a new object type called an attribute access handler. 
+    Objects of this type have the following attributes:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T165815Z">
+        <seg>구현 제안
+ 
+    There is a new object type called an attribute access handler. 
+    Objects of this type have the following attributes:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Proposed Resolutions</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T165216Z">
+        <seg>제안된 해결책</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Proposed Solution</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T164941Z">
+        <seg>제안된 해결책</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Proposed Syntax
+ 
+    Special methods should declare themselves with declarations of the
+    following form:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T165743Z">
+        <seg>제안 구문
+ 
+    Special methods should declare themselves with declarations of the
+    following form:</seg>
       </tuv>
     </tu>
     <tu>
@@ -3221,6 +3523,14 @@ PEP를 작성하는 방법에 대한 설명과 템플릿 [4]_\ 이 있다.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Related PEPs</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T165517Z">
+        <seg>관련된 PEP</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Release Manager</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T131552Z">
@@ -3265,6 +3575,30 @@ PEP를 작성하는 방법에 대한 설명과 템플릿 [4]_\ 이 있다.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Scenario 1:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T165712Z">
+        <seg>시나리오 1:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Scenario 2:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T165717Z">
+        <seg>시나리오 2:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Scenario 3:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T165722Z">
+        <seg>시나리오 3:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Schedule</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T164316Z">
@@ -3277,6 +3611,30 @@ PEP를 작성하는 방법에 대한 설명과 템플릿 [4]_\ 이 있다.</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T130257Z">
         <seg>범위</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Semantics
+ 
+     Attribute references of all three kinds should call the method.
+     The op parameter can be "get"/"set"/"del". Of course this string
+     will be interned so the actual checks for the string will be
+     very fast.
+ 
+     It is disallowed to actually have an attribute named XXX in the
+     same instance as a method named __attr_XXX__.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T165754Z">
+        <seg>시맨틱
+ 
+     Attribute references of all three kinds should call the method.
+     The op parameter can be "get"/"set"/"del". Of course this string
+     will be interned so the actual checks for the string will be
+     very fast.
+ 
+     It is disallowed to actually have an attribute named XXX in the
+     same instance as a method named __attr_XXX__.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3306,12 +3664,36 @@ Windows versions, or DOS.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Software covered by the GNU General Public License</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T165113Z">
+        <seg>GNU 공중 라이선스를 따르는 소프트웨어</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Solution</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T165303Z">
+        <seg>해결 방안</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Some Informational and Process PEPs may also have a status of "Active"
 if they are never meant to be completed.  E.g. PEP 1 (this PEP).</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125441Z">
         <seg>의도적으로 완료시키지 않는 몇몇 정보 및 프로세스 PEP는 "활성(Active)" 상태를
 가질 수 있다.  지금 보고 있는 PEP 1이 그 예이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Specification</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T165327Z">
+        <seg>명세</seg>
       </tuv>
     </tu>
     <tu>
@@ -3764,6 +4146,14 @@ in the C implementation of Python [1]_.</seg>
         <seg>This document has been placed in the public domain.</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T120821Z">
+        <seg>이 문서는 퍼블릭 도메인에 속한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This document is placed in the public domain.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T165506Z">
         <seg>이 문서는 퍼블릭 도메인에 속한다.</seg>
       </tuv>
     </tu>
