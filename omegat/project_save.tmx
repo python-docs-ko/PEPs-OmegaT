@@ -1483,6 +1483,14 @@ changes!</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Compatibility of C API</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T171032Z">
+        <seg>C API의 호환성</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Concerns</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T165202Z">
@@ -2988,6 +2996,56 @@ Post-History: 21-Mar-2001, 29-Jul-2002, 03-May-2003, 05-May-2012,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>PEP: 10
+Title: Voting Guidelines
+Version: $Revision$
+Last-Modified: $Date$
+Author: barry@python.org (Barry Warsaw)
+Status: Active
+Type: Process
+Created: 07-Mar-2002
+Post-History: 07-Mar-2002</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T171432Z">
+        <seg>PEP: 10
+Title: 투표 안내
+Version: $Revision$
+Last-Modified: $Date$
+Author: barry@python.org (Barry Warsaw)
+Status: Active
+Type: Process
+Created: 07-Mar-2002
+Post-History: 07-Mar-2002</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PEP: 100
+Title: Python Unicode Integration
+Version: $Revision$
+Last-Modified: $Date$
+Author: mal@lemburg.com (Marc-André Lemburg)
+Status: Final
+Type: Standards Track
+Created: 10-Mar-2000
+Python-Version: 2.0
+Post-History:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T171559Z">
+        <seg>PEP: 100
+Title: Python 유니코드 통합
+Version: $Revision$
+Last-Modified: $Date$
+Author: mal@lemburg.com (Marc-André Lemburg)
+Status: Final
+Type: Standards Track
+Created: 10-Mar-2000
+Python-Version: 2.0
+Post-History:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>PEP: 101
 Title: Doing Python Releases 101
 Version: $Revision$
@@ -3038,6 +3096,32 @@ Type: Informational
 Created: 22-Aug-2001 (edited down on 9-Jan-2002 to become PEP 102)
 Post-History:
 Superseded-By: 101</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PEP: 11
+Title: Removing support for little used platforms
+Version: $Revision$
+Last-Modified: $Date$
+Author: martin@v.loewis.de (Martin von Löwis)
+Status: Active
+Type: Process
+Content-Type: text/x-rst
+Created: 07-Jul-2002
+Post-History: 18-Aug-2007</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T171509Z">
+        <seg>PEP: 11
+Title: 잘 쓰이지 않는 플랫폼에 대한 지원 중단
+Version: $Revision$
+Last-Modified: $Date$
+Author: martin@v.loewis.de (Martin von Löwis)
+Status: Active
+Type: Process
+Content-Type: text/x-rst
+Created: 07-Jul-2002
+Post-History: 18-Aug-2007</seg>
       </tuv>
     </tu>
     <tu>
@@ -3096,6 +3180,30 @@ Post-History:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>PEP: 2
+Title: Procedure for Adding New Modules
+Version: $Revision$
+Last-Modified: $Date$
+Author: Martijn Faassen &lt;faassen@infrae.com&gt;
+Status: Final
+Type: Process
+Created: 07-Jul-2001
+Post-History: 07-Jul-2001, 09-Mar-2002</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T171301Z">
+        <seg>PEP: 2
+Title: 새로운 모듈을 추가하는 절차
+Version: $Revision$
+Last-Modified: $Date$
+Author: Martijn Faassen &lt;faassen@infrae.com&gt;
+Status: Final
+Type: Process
+Created: 07-Jul-2001
+Post-History: 07-Jul-2001, 09-Mar-2002</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>PEP: 20
 Title: The Zen of Python
 Version: $Revision$
@@ -3148,6 +3256,32 @@ Post-History:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>PEP: 201
+Title: Lockstep Iteration
+Version: $Revision$
+Last-Modified: $Date$
+Author: barry@python.org (Barry Warsaw)
+Status: Final
+Type: Standards Track
+Created: 13-Jul-2000
+Python-Version: 2.0
+Post-History: 27-Jul-2000</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T171616Z">
+        <seg>PEP: 201
+Title: Lockstep 이터레이션
+Version: $Revision$
+Last-Modified: $Date$
+Author: barry@python.org (Barry Warsaw)
+Status: Final
+Type: Standards Track
+Created: 13-Jul-2000
+Python-Version: 2.0
+Post-History: 27-Jul-2000</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>PEP: 202
 Title: List Comprehensions
 Version: $Revision$
@@ -3168,6 +3302,58 @@ Author: barry@python.org (Barry Warsaw)
 Status: Final
 Type: Standards Track
 Created: 13-Jul-2000
+Python-Version: 2.0
+Post-History:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PEP: 203
+Title: Augmented Assignments
+Version: $Revision$
+Last-Modified: $Date$
+Author: thomas@python.org (Thomas Wouters)
+Status: Final
+Type: Standards Track
+Created: 13-Jul-2000
+Python-Version: 2.0
+Post-History: 14-Aug-2000</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T171626Z">
+        <seg>PEP: 203
+Title: Augmented 할당
+Version: $Revision$
+Last-Modified: $Date$
+Author: thomas@python.org (Thomas Wouters)
+Status: Final
+Type: Standards Track
+Created: 13-Jul-2000
+Python-Version: 2.0
+Post-History: 14-Aug-2000</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PEP: 204
+Title: Range Literals
+Version: $Revision$
+Last-Modified: $Date$
+Author: thomas@python.org (Thomas Wouters)
+Status: Rejected
+Type: Standards Track
+Created: 14-Jul-2000
+Python-Version: 2.0
+Post-History:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T171632Z">
+        <seg>PEP: 204
+Title: Range 리터럴
+Version: $Revision$
+Last-Modified: $Date$
+Author: thomas@python.org (Thomas Wouters)
+Status: Rejected
+Type: Standards Track
+Created: 14-Jul-2000
 Python-Version: 2.0
 Post-History:</seg>
       </tuv>
@@ -3196,6 +3382,30 @@ Type: Standards Track
 Created:
 Python-Version: 2.1
 Post-History: 11-Jan-2001</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PEP: 206
+Title: Python Advanced Library
+Version: $Revision$
+Last-Modified: $Date$
+Author: A.M. Kuchling &lt;amk@amk.ca&gt;
+Status: Withdrawn
+Type: Informational
+Created:
+Post-History:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T171640Z">
+        <seg>PEP: 206
+Title: Python 고급 라이브러리
+Version: $Revision$
+Last-Modified: $Date$
+Author: A.M. Kuchling &lt;amk@amk.ca&gt;
+Status: Withdrawn
+Type: Informational
+Created:
+Post-History:</seg>
       </tuv>
     </tu>
     <tu>
@@ -3486,6 +3696,228 @@ Post-History:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>PEP: 226
+Title: Python 2.1 Release Schedule
+Version: $Revision$
+Last-Modified: $Date$
+Author: Jeremy Hylton &lt;jeremy@alum.mit.edu&gt;
+Status: Final
+Type: Informational
+Created: 16-Oct-2000
+Python-Version: 2.1
+Post-History:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T170935Z">
+        <seg>PEP: 226
+Title: 파이썬 2.1 릴리스 일정
+Version: $Revision$
+Last-Modified: $Date$
+Author: Jeremy Hylton &lt;jeremy@alum.mit.edu&gt;
+Status: Final
+Type: Informational
+Created: 16-Oct-2000
+Python-Version: 2.1
+Post-History:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PEP: 227
+Title: Statically Nested Scopes
+Version: $Revision$
+Last-Modified: $Date$
+Author: jeremy@alum.mit.edu (Jeremy Hylton)
+Status: Final
+Type: Standards Track
+Created: 01-Nov-2000
+Python-Version: 2.1
+Post-History:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T170954Z">
+        <seg>PEP: 227
+Title: 정적으로 중첩된 범위
+Version: $Revision$
+Last-Modified: $Date$
+Author: jeremy@alum.mit.edu (Jeremy Hylton)
+Status: Final
+Type: Standards Track
+Created: 01-Nov-2000
+Python-Version: 2.1
+Post-History:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PEP: 229
+Title: Using Distutils to Build Python
+Version: $Revision$
+Last-Modified: $Date$
+Author: A.M. Kuchling &lt;amk@amk.ca&gt;
+Status: Final
+Type: Standards Track
+Created: 16-Nov-2000
+Post-History:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T171150Z">
+        <seg>PEP: 229
+Title: Distutils를 사용하여 파이썬을 빌드
+Version: $Revision$
+Last-Modified: $Date$
+Author: A.M. Kuchling &lt;amk@amk.ca&gt;
+Status: Final
+Type: Standards Track
+Created: 16-Nov-2000
+Post-History:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PEP: 230
+Title: Warning Framework
+Version: $Revision$
+Last-Modified: $Date$
+Author: guido@python.org (Guido van Rossum)
+Status: Final
+Type: Standards Track
+Created:
+Python-Version: 2.1
+Post-History: 05-Nov-2000</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T171214Z">
+        <seg>PEP: 230
+Title: 경고 프레임워크
+Version: $Revision$
+Last-Modified: $Date$
+Author: guido@python.org (Guido van Rossum)
+Status: Final
+Type: Standards Track
+Created:
+Python-Version: 2.1
+Post-History: 05-Nov-2000</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PEP: 3
+Title: Guidelines for Handling Bug Reports
+Version: $Revision$
+Last-Modified: $Date$
+Author: jeremy@alum.mit.edu (Jeremy Hylton)
+Status: Withdrawn
+Type: Process
+Created: 25-Sep-2000
+Post-History:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T171315Z">
+        <seg>PEP: 3
+Title: 버그 리포트 처리 안내
+Version: $Revision$
+Last-Modified: $Date$
+Author: jeremy@alum.mit.edu (Jeremy Hylton)
+Status: Withdrawn
+Type: Process
+Created: 25-Sep-2000
+Post-History:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PEP: 4
+Title: Deprecation of Standard Modules
+Version: $Revision$
+Last-Modified: $Date$
+Author: Martin von Löwis &lt;martin@v.loewis.de&gt;
+Status: Active
+Type: Process
+Created: 1-Oct-2000
+Post-History:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T171326Z">
+        <seg>PEP: 4
+Title: 표준 모듈의 Deprecation
+Version: $Revision$
+Last-Modified: $Date$
+Author: Martin von Löwis &lt;martin@v.loewis.de&gt;
+Status: Active
+Type: Process
+Created: 1-Oct-2000
+Post-History:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PEP: 42
+Title: Feature Requests
+Version: $Revision$
+Last-Modified: $Date$
+Author: Jeremy Hylton &lt;jeremy@alum.mit.edu&gt;
+Status: Final
+Type: Process
+Created: 12-Sep-2000
+Post-History:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T171526Z">
+        <seg>PEP: 42
+Title: 기능 요청
+Version: $Revision$
+Last-Modified: $Date$
+Author: Jeremy Hylton &lt;jeremy@alum.mit.edu&gt;
+Status: Final
+Type: Process
+Created: 12-Sep-2000
+Post-History:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PEP: 5
+Title: Guidelines for Language Evolution
+Version: $Revision$
+Last-Modified: $Date$
+Author: paul@prescod.net (Paul Prescod)
+Status: Active
+Type: Process
+Created: 26-Oct-2000
+Post-History:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T171341Z">
+        <seg>PEP: 5
+Title: 언어 진화 안내
+Version: $Revision$
+Last-Modified: $Date$
+Author: paul@prescod.net (Paul Prescod)
+Status: Active
+Type: Process
+Created: 26-Oct-2000
+Post-History:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PEP: 6
+Title: Bug Fix Releases
+Version: $Revision$
+Last-Modified: $Date$
+Author: aahz@pythoncraft.com (Aahz), anthony@interlink.com.au (Anthony Baxter)
+Status: Active
+Type: Process
+Created: 15-Mar-2001
+Post-History: 15-Mar-2001 18-Apr-2001 19-Aug-2004</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T171351Z">
+        <seg>PEP: 6
+Title: 버그 수정 릴리스
+Version: $Revision$
+Last-Modified: $Date$
+Author: aahz@pythoncraft.com (Aahz), anthony@interlink.com.au (Anthony Baxter)
+Status: Active
+Type: Process
+Created: 15-Mar-2001
+Post-History: 15-Mar-2001 18-Apr-2001 19-Aug-2004</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>PEP: 7
 Title: Style Guide for C Code
 Version: $Revision$
@@ -3497,9 +3929,9 @@ Content-Type: text/x-rst
 Created: 05-Jul-2001
 Post-History:</seg>
       </tuv>
-      <tuv lang="KO" changeid="yong" changedate="20130527T160400Z">
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T171409Z">
         <seg>PEP: 7
-Title: C Code 스타일 가이드
+Title: C Code 스타일 안내
 Version: $Revision$
 Last-Modified: $Date$
 Author: Guido van Rossum &lt;guido@python.org&gt;
@@ -3507,6 +3939,60 @@ Status: Active
 Type: Process
 Content-Type: text/x-rst
 Created: 05-Jul-2001
+Post-History:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PEP: 8
+Title: Style Guide for Python Code
+Version: $Revision$
+Last-Modified: $Date$
+Author: Guido van Rossum &lt;guido@python.org&gt;,
+        Barry Warsaw &lt;barry@python.org&gt;
+Status: Active
+Type: Process
+Content-Type: text/x-rst
+Created: 05-Jul-2001
+Post-History: 05-Jul-2001</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T171404Z">
+        <seg>PEP: 8
+Title: 파이썬 코드 스타일 안내
+Version: $Revision$
+Last-Modified: $Date$
+Author: Guido van Rossum &lt;guido@python.org&gt;,
+        Barry Warsaw &lt;barry@python.org&gt;
+Status: Active
+Type: Process
+Content-Type: text/x-rst
+Created: 05-Jul-2001
+Post-History: 05-Jul-2001</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PEP: 9
+Title: Sample Plaintext PEP Template
+Version: $Revision$
+Last-Modified: $Date$
+Author: Barry Warsaw &lt;barry@python.org&gt;
+Status: Active
+Type: Process
+Content-Type: text/plain
+Created: 14-Aug-2001
+Post-History:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T171420Z">
+        <seg>PEP: 9
+Title: 일반텍스트 PEP 템플릿 견본
+Version: $Revision$
+Last-Modified: $Date$
+Author: Barry Warsaw &lt;barry@python.org&gt;
+Status: Active
+Type: Process
+Content-Type: text/plain
+Created: 14-Aug-2001
 Post-History:</seg>
       </tuv>
     </tu>
@@ -3628,6 +4114,14 @@ PEP 9에 일반 텍스트 PEP를 작성하는 방법에 대한 설명 및 템플
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T165405Z">
         <seg>제안</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Proposal:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T171539Z">
+        <seg>제안:</seg>
       </tuv>
     </tu>
     <tu>
@@ -4072,6 +4566,14 @@ if they are never meant to be completed.  E.g. PEP 1 (this PEP).</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T165327Z">
         <seg>명세</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Standard Library</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T171530Z">
+        <seg>표준 라이브러리</seg>
       </tuv>
     </tu>
     <tu>
@@ -4582,10 +5084,40 @@ invoke Python's name mangling rules.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Tools</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T171546Z">
+        <seg>도구</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Two good reasons to break a particular rule:</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T145840Z">
         <seg>특정한 규칙을 무시해도 괜찮은 두 가지 경우를 살펴보자.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Unresolved Issues</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T171128Z">
+        <seg>미해결 사항</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Unresolved Issues
+ 
+    Do we need to make it possible to disable the 3 hard-wired modules
+    without manually hacking the Makefiles?  [Answer: No.]</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T171203Z">
+        <seg>미해결 사항
+ 
+    Do we need to make it possible to disable the 3 hard-wired modules
+    without manually hacking the Makefiles?  [Answer: No.]</seg>
       </tuv>
     </tu>
     <tu>
@@ -4815,6 +5347,14 @@ interface, the C/C++ module has a leading underscore
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T153914Z">
         <seg>파이썬의 다음과 같은 가이드라인을 마음에 새기도록 하자.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Withdrawal</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T171102Z">
+        <seg>포기</seg>
       </tuv>
     </tu>
     <tu>
