@@ -4,6 +4,24 @@
   <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="2.6.3_1" segtype="paragraph" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Copyright
+=========</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T120945Z">
+        <seg>저작권
+======</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This document has been placed in the public domain.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T120821Z">
+        <seg>이 문서는 퍼블릭 도메인에 속한다.</seg>
+      </tuv>
+    </tu>
 <!-- Alternative translations -->
   </body>
 </tmx>
