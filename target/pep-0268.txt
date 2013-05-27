@@ -18,16 +18,16 @@ This PEP has been rejected. It has failed to generate sufficient
 community support in the six years since its proposal.
 
 
-Abstract
-========
+초록
+====
 
 This PEP discusses new modules and extended functionality for Python's
 HTTP support. Notably, the addition of authenticated requests, proxy
 support, authenticated proxy usage, and WebDAV_ capabilities.
 
 
-Rationale
-=========
+근거
+====
 
 Python has been quite popular as a result of its "batteries included"
 positioning. One of the most heavily used protocols, HTTP (see RFC
@@ -197,16 +197,16 @@ The actual (future/final) implementation is being developed in the
 into the main Lib directory.
 
 
-References
-==========
+참조
+====
 
 .. _WebDAV: http://www.webdav.org/
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

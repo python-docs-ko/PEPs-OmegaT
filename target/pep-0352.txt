@@ -10,8 +10,8 @@ Created: 27-Oct-2005
 Post-History:
 
 
-Abstract
-========
+초록
+====
 
 In Python 2.4 and before, any (classic) class can be raised as an
 exception.  The plan for 2.5 was to allow new-style classes, but this
@@ -269,8 +269,8 @@ only a single argument.  Thus the introduction of ``message`` and the
 original deprecation of ``args`` has been retracted.
 
 
-References
-==========
+참조
+====
 
 .. [#pep348] PEP 348 (Exception Reorganization for Python 3.0)
    http://www.python.org/dev/peps/pep-0348/
@@ -285,10 +285,10 @@ References
     http://mail.python.org/pipermail/python-3000/2007-March/005911.html
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

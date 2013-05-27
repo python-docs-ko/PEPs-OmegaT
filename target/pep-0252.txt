@@ -9,7 +9,7 @@ Created: 19-Apr-2001
 Python-Version: 2.2
 Post-History:
 
-Abstract
+초록
 
     This PEP proposes changes to the introspection API for types that
     makes them look more like classes, and their instances more like
@@ -32,7 +32,7 @@ Abstract
      into Python.  The PEP no longer accurately describes the implementation.]
 
 
-Introduction
+도입
 
     One of Python's oldest language warts is the difference between
     classes and types.  For example, you can't directly subclass the
@@ -676,17 +676,17 @@ Examples
     is the domain of PEP 253.
 
 
-Backwards compatibility
+하위 호환성
 
     XXX
 
 
-Warnings and Errors
+경고 및 오류
 
     XXX
 
 
-Implementation
+구현
 
     A partial implementation of this PEP is available from CVS as a
     branch named "descr-branch".  To experiment with this
@@ -701,14 +701,14 @@ Implementation
     the experimentation area for PEP 253 (Subtyping Built-in Types).
 
 
-References
+참조
 
     XXX
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 Local Variables:

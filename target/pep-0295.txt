@@ -9,7 +9,7 @@ Created: 22-Jul-2002
 Python-Version: 3.0
 Post-History:
 
-Abstract
+초록
 
     This PEP describes an interpretation of multiline string constants
     for Python.  It suggests stripping spaces after newlines and
@@ -17,7 +17,7 @@ Abstract
     quotation.
 
 
-Rationale
+근거
 
     This PEP proposes an interpretation of multiline string constants
     in Python.  Currently, the value of string constant is all the
@@ -73,7 +73,7 @@ Rationale
     pydoc does), but this decreases program readability.
 
 
-Implementation
+구현
 
     I'll say nothing about CPython, Jython or Python.NET.
     
@@ -108,7 +108,7 @@ Alternatives
     specified.
 
 
-Copyright
+저작권
 
     This document has been placed in the Public Domain.
 

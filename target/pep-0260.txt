@@ -9,7 +9,7 @@ Created: 26-Jun-2001
 Python-Version: 2.2
 Post-History: 26-Jun-2001
 
-Abstract
+초록
 
     This PEP proposes to strip the xrange() object from some rarely
     used behavior like x[i:j] and x*n.
@@ -52,7 +52,7 @@ Proposed Solution
     does just fine).
 
 
-Scope
+범위
 
     This PEP affects the xrange() built-in function and the
     PyRange_New() C API.
@@ -74,9 +74,9 @@ Transition
     functionality will be ripped out.
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 Local Variables:

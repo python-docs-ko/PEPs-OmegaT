@@ -10,7 +10,7 @@ Created: 10-May-2005
 Python-Version: 2.5
 Post-History:
 
-Introduction
+도입
 
     This PEP proposes some enhancements to the API and syntax of
     generators, to make them usable as simple coroutines.  It is
@@ -586,10 +586,10 @@ Acknowledgements
     edit a previous version.  See also the Acknowledgements section
     of PEP 340.
 
-References
+참조
 
     TBD.
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.

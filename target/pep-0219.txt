@@ -10,7 +10,7 @@ Python-Version: 2.1
 Post-History:
 
 
-Introduction
+도입
 
     This PEP discusses changes required to core Python in order to
     efficiently support generators, microthreads and coroutines. It is
@@ -176,7 +176,7 @@ Advantages
     microthreads and coroutines.
 
 
-References
+참조
 
     [1] http://www.stackless.com
     [2] http://world.std.com/~wware/uthread.html

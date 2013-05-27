@@ -11,14 +11,14 @@ Python-Version: 3.0
 Post-History:
 
 
-Abstract
-========
+초록
+====
 
 This PEP suggests to support non-ASCII letters (such as accented characters,
 Cyrillic, Greek, Kanji, etc.) in Python identifiers.
 
-Rationale
-=========
+근거
+====
 
 Python code is written by many people in the world who are not
 familiar with the English language, or even well-acquainted with the
@@ -253,8 +253,8 @@ F.  Which normalization form should be used, NFC or NFKC?
 G.  Should source code be required to be in normalized form?
 
 
-References
-==========
+참조
+====
 
 .. [1] http://www.unicode.org/reports/tr31/
 .. [2] http://www.unicode.org/reports/tr39/
@@ -263,10 +263,10 @@ References
 .. [5] http://mail.python.org/pipermail/python-3000/2007-May/007925.html
 .. [6] http://www.unicode.org/Public/4.1.0/ucd/DerivedCoreProperties.txt
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

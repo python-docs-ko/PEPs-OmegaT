@@ -13,8 +13,8 @@ Post-History: http://mail.python.org/pipermail/python-dev/2012-January/115838.ht
 Resolution: TBD
 
 
-Abstract
-========
+초록
+====
 
 Finding a release cycle for an open-source project is a delicate
 exercise in managing mutually contradicting constraints: developer
@@ -162,10 +162,10 @@ A community poll or survey to collect opinions from the greater Python
 community would be valuable before making a final decision.
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

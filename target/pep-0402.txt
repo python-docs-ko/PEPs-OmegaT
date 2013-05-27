@@ -19,8 +19,8 @@ fruitful discussion about PEP 382 and PEP 402.  We ended up rejecting
 both but a new PEP will be written to carry on in the spirit of PEP
 402.  Martin von Löwis wrote up a summary: [3]_.
 
-Abstract
-========
+초록
+====
 
 This PEP proposes an enhancement to Python's package importing
 to:
@@ -646,8 +646,8 @@ For those implementing PEP 302 importer objects:
   quite small, this seems unlikely to be a big issue in practice.)
 
 
-References
-==========
+참조
+====
 
 .. [1] "namespace" vs "module" packages (mailing list thread)
    (http://mail.zope.org/pipermail/zope3-dev/2002-December/004251.html)
@@ -659,10 +659,10 @@ References
        (http://mail.python.org/pipermail/import-sig/2012-March/000421.html)
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 ..

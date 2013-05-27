@@ -220,6 +220,16 @@ PEP 편집자는 그것을 초안 상태로 되돌릴  수 있다.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Abstract
+========</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T131205Z">
+        <seg>초록
+====</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>After a PEP number has been assigned, a draft PEP may be discussed further on
 python-ideas (getting a PEP number assigned early can be useful for ease of
 reference, especially when multiple draft PEPs are being considered at the
@@ -249,6 +259,14 @@ email new PEP versions to the PEP editors for publication.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Backwards compatibility</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T131659Z">
+        <seg>하위 호환성</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Because the PEPs are maintained as text files in a versioned
 repository, their revision history is the historical record of the
 feature proposal [1]_.</seg>
@@ -266,6 +284,14 @@ feature proposal [1]_.</seg>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T130547Z">
         <seg>코드 레이아웃
 =============</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Conventions</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T131412Z">
+        <seg>관례</seg>
       </tuv>
     </tu>
     <tu>
@@ -394,6 +420,14 @@ BDFL에 의해 수용되기 위해서는 반드시 "파이썬다와야(pythonic)
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Historical Note</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T131325Z">
+        <seg>참고 이력</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>History</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T130515Z">
@@ -431,6 +465,14 @@ directly by the BDFL, this will be recorded by including the
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125324Z">
         <seg>최종 결정이 BDFL에 의하여 직접 이루어지지 않고 위임에 의한 것인 경우에는,
 PEP에 "BDFL-Delegate" 머리말로서 기록을 남긴다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Implementation</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T131709Z">
+        <seg>구현</seg>
       </tuv>
     </tu>
     <tu>
@@ -489,9 +531,17 @@ these cases will depend on the nature and purpose of the PEP being updated.</seg
         <seg>Naming conventions
 ==================</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T130553Z">
-        <seg>명명 규칙
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T131510Z">
+        <seg>명명 관례
 =========</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>New features for Python 2.2</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T131609Z">
+        <seg>파이썬 2.2의 새로운 기능</seg>
       </tuv>
     </tu>
     <tu>
@@ -768,6 +818,16 @@ PEP 9에 일반 텍스트 PEP를 작성하는 방법에 대한 설명 및 템플
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Rationale
+=========</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T131213Z">
+        <seg>근거
+====</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>ReStructuredText_ PEPs allow for rich markup that is still quite easy
 to read, but results in much better-looking and more functional HTML.
 PEP 12 contains instructions and a template [4]_ for reStructuredText
@@ -805,6 +865,22 @@ PEP를 작성하는 방법에 대한 설명과 템플릿 [4]_\ 이 있다.</seg>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T130606Z">
         <seg>참조
 ====</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Release Manager</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T131552Z">
+        <seg>릴리스 관리자</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Release Schedule</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T131544Z">
+        <seg>릴리스 일정</seg>
       </tuv>
     </tu>
     <tu>
@@ -1029,6 +1105,14 @@ mean it will work for most people in most areas where Python is used.</seg>
 확인하는 것도 도움이 된다.  저자가 생각하기에 좋은 아이디어라 할지라도
 파이썬을 사용하는 대다수의 영역의 사람들에게도 그렇지는 않을 수도 있기
 때문이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Warnings and Errors</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T131706Z">
+        <seg>경고 및 오류</seg>
       </tuv>
     </tu>
     <tu>

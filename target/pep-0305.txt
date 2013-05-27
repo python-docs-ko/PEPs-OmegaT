@@ -15,8 +15,8 @@ Created: 26-Jan-2003
 Post-History: 31-Jan-2003, 13-Feb-2003
 
 
-Abstract
-========
+초록
+====
 
 The Comma Separated Values (CSV) file format is the most common import
 and export format for spreadsheets and databases.  Although many CSV
@@ -57,8 +57,8 @@ intend to address any of these related topics:
 - fixed width tabular data - can already be parsed reliably.
 
 
-Rationale
-=========
+근거
+====
 
 Often, CSV files are formatted simply enough that you can get by
 reading them line-by-line and splitting on the commas which delimit
@@ -385,8 +385,8 @@ Issues
    "short row" or a "long row" at this level.
 
 
-References
-==========
+참조
+====
 
 .. [1] csv module, Python Sandbox
    (http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/python/python/nondist/sandbox/csv/)
@@ -404,10 +404,10 @@ There are many references to other CSV-related projects on the Web.  A
 few are included here.
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

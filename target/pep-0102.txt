@@ -21,7 +21,7 @@ Replacement Note
     maintained anymore, and micro releases are fully covered by PEP 101.
 
 
-Abstract
+초록
 
     Making a Python release is an arduous process that takes a
     minimum of half a day's work even for an experienced releaser.
@@ -487,9 +487,9 @@ Windows Notes
     uploaded.
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

@@ -18,15 +18,15 @@ This PEP is rejected.
 See http://mail.python.org/pipermail/python-dev/2012-February/116837.html.
 
 
-Abstract
-========
+초록
+====
 
 Decimal becomes the official type for high-resolution timestamps to make Python
 support new functions using a nanosecond resolution without loss of precision.
 
 
-Rationale
-=========
+근거
+====
 
 Python 2.3 introduced float timestamps to support sub-second resolutions.
 os.stat() uses float timestamps by default since Python 2.5. Python 3.3
@@ -540,8 +540,8 @@ Other languages:
    than Python float timestamps
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 

@@ -10,8 +10,8 @@ Created: 05-May-2008
 Post-History: 05-May-2008, 05-Jun-2008
 
 
-Abstract
-========
+초록
+====
 
 This PEP proposes a new string representation form for Python 3000.
 In Python prior to Python 3000, the repr() built-in function converted
@@ -137,8 +137,8 @@ Specification
   function internally.
 
 
-Rationale
-=========
+근거
+====
 
 The repr() in Python 3000 should be Unicode, not ASCII based, just
 like Python 3000 strings.  Also, conversion should not be affected by
@@ -283,8 +283,8 @@ The author wrote a patch in http://bugs.python.org/issue2630; this was
 committed to the Python 3.0 branch in revision 64138 on 06-11-2008.
 
 
-References
-==========
+참조
+====
 
 .. [1] Multibyte string on string\::string_print
        (http://bugs.python.org/issue479898)
@@ -292,10 +292,10 @@ References
 .. [2] [Python-3000] Displaying strings containing unicode escapes
        (http://mail.python.org/pipermail/python-3000/2008-April/013366.html)
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

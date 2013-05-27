@@ -12,13 +12,13 @@ Post-History:
 Resolution: http://mail.python.org/pipermail/python-dev/2013-May/126136.html
 
 
-Abstract
+초록
 
    This PEP proposes an enhancement to generator expressions, adding a
    "while" clause to complement the existing "if" clause.
 
 
-Rationale
+근거
 
    A generator expression (PEP 289 [1]) is a concise method to serve
    dynamically-generated objects to list comprehensions (PEP 202 [2]).
@@ -102,7 +102,7 @@ Acknowledgements
    expressions in January 2002.
 
 
-References
+참조
 
    [1] PEP 289: Generator Expressions
        http://www.python.org/dev/peps/pep-0289/
@@ -114,9 +114,9 @@ References
        http://www.python.org/dev/peps/pep-0255/
 
 
-Copyright
+저작권
 
-   This document has been placed in the public domain.
+   이 문서는 퍼블릭 도메인에 속한다.
 
 
 Local Variables:

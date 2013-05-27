@@ -11,8 +11,8 @@ Created: 11-Dec-2012
 Post-History: 11-Dec-2012, 28-Dec-2012, 28-Jan-2013
 
 
-Abstract
-========
+초록
+====
 
 This PEP proposes the implementation of concrete time zone support in the
 Python standard library, and also improvements to the time zone API to deal
@@ -312,7 +312,7 @@ Resources
 
 * http://unicode.org/cldr/data/common/supplemental/windowsZones.xml
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.

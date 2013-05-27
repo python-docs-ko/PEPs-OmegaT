@@ -10,7 +10,7 @@ Python-Version: 2.3
 Post-History:
 
 
-Abstract
+초록
 
    This PEP describes yet another way of exposing the loop counter in
    for-loops. It basically proposes that the functionality of the
@@ -134,9 +134,9 @@ References and Footnotes
        http://www.python.org/dev/peps/pep-0212/
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

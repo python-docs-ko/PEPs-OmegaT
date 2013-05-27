@@ -11,8 +11,8 @@ Python-Version: 2.7, 3.1
 Post-History: 8-Mar-2009
 
 
-Abstract
-========
+초록
+====
 
 This PEP proposes a backwards compatible mechanism that allows ``__enter__()``
 methods to skip the body of the associated ``with`` statement. The lack of
@@ -260,8 +260,8 @@ James William Pye both raised the issue and suggested the basic outline of
 the solution described in this PEP.
 
 
-References
-==========
+참조
+====
 
 .. [1] Issue 5251: contextlib.nested inconsistent with nested with statements
    (http://bugs.python.org/issue5251)
@@ -276,10 +276,10 @@ References
    (http://mail.python.org/pipermail/python-dev/2009-March/087263.html)
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 ..
    Local Variables:

@@ -12,8 +12,8 @@ Post-History: 04-Mar-2011, 20-Jul-2011, 16-Feb-2012
 Resolution: http://mail.python.org/pipermail/python-dev/2012-February/116594.html
 
 
-Abstract
-========
+초록
+====
 
 This PEP provides a convention to ensure that Python scripts can continue to
 be portable across ``*nix`` systems, regardless of the default version of the
@@ -64,8 +64,8 @@ These recommendations are the outcome of the relevant python-dev discussions
 in March and July 2011 ([1]_, [2]_) and February 2012 ([4]_).
 
 
-Rationale
-=========
+근거
+====
 
 This recommendation is needed as, even though the majority of distributions
 still alias the ``python`` command to Python 2, some now alias it to
@@ -220,8 +220,8 @@ here. PEP 397 and the related discussion on the python-dev mailing list
 address this issue.
 
 
-References
-==========
+참조
+====
 
 .. [1] Support the /usr/bin/python2 symlink upstream (with bonus grammar class!)
    (http://mail.python.org/pipermail/python-dev/2011-March/108491.html)

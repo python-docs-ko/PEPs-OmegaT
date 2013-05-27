@@ -12,8 +12,8 @@ Python-Version: 2.7, 3.1
 Post-History:
 
 
-Abstract
-========
+초록
+====
 
 This PEP proposes an ordered dictionary as a new data structure for
 the ``collections`` module, called "OrderedDict" in this PEP.  The
@@ -31,8 +31,8 @@ A working Py3.1 patch including tests and documentation is at:
 
 The check-in was in revisions: 70101 and 70102
 
-Rationale
-=========
+근거
+====
 
 In current Python versions, the widely used built-in dict type does
 not specify an order for the key/value pairs stored.  This makes it
@@ -305,16 +305,16 @@ could return odicts in the future that retain the attribute ordering
 of the source file.
 
 
-References
-==========
+참조
+====
 
 .. [1] http://bugs.python.org/issue1371075
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 ..

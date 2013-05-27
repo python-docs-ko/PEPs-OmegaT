@@ -10,8 +10,8 @@ Created: 07-Jul-2002
 Post-History: 18-Aug-2007
 
 
-Abstract
---------
+초록
+----
 
 This PEP documents operating systems (platforms) which are not
 supported in Python anymore.  For some of these systems,
@@ -20,8 +20,8 @@ in a future release - unless somebody steps forward as a volunteer
 to maintain this code.
 
 
-Rationale
----------
+근거
+----
 
 Over time, the Python source code has collected various pieces of
 platform-specific code, which, at some point in time, was
@@ -41,8 +41,8 @@ To reduce this risk, this PEP proposes a procedure to remove code
 for platforms with no Python users.
 
 
-Unsupporting platforms
-----------------------
+지원하지 않는 플랫폼
+--------------------
 
 If a certain platform that currently has special code in it is
 deemed to be without Python users, a note must be posted in this
@@ -108,8 +108,8 @@ source tree 3 years after the extended support for the compiler has
 ended (but continue to remain available in revision control).
 
 
-No-longer-supported platforms
------------------------------
+더 이상 지원하지 않는 플랫폼
+----------------------------
 
 * | Name:             MS-DOS, MS-Windows 3.x
   | Unsupported in:   Python 2.0
@@ -219,15 +219,15 @@ No-longer-supported platforms
   | Unsupported in:   Python 3.0 (some code actually removed)
   | Code removed in:  Python 3.4
 
-References
-----------
+참조
+----
 
 .. [1] http://support.microsoft.com/lifecycle/
 
-Copyright
----------
+저작권
+------
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

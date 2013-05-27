@@ -40,14 +40,14 @@ allow calling the constructor.)  GvR.
 module of Python 3.3.
 
 
-Abstract
-========
+초록
+====
 
 Add a new frozendict builtin type.
 
 
-Rationale
-=========
+근거
+====
 
 A frozendict is a read-only mapping: a key cannot be added nor removed, and a
 key is always mapped to the same value. However, frozendict values can be not
@@ -247,8 +247,8 @@ Links
    * `zope.security <http://pypi.python.org/pypi/zope.security>`_
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 

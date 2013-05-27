@@ -11,7 +11,7 @@ Python-Version: 2.4
 Post-History:
 
 
-Abstract
+초록
 
     This PEP (also known as PEP CCCXIII) proposes adding Roman
     numerals as a literal type.  It also proposes the new built-in
@@ -31,7 +31,7 @@ BDFL Pronouncement
     (ii) academic work, and (iii) Perl documentation.
 
 
-Rationale
+근거
 
     Roman numerals are used in a number of areas, and adding them to
     Python as literals would make computations in those areas easier.
@@ -102,7 +102,7 @@ Compatibility Issues
     oversight in the language.
 
 
-References
+참조
 
     [1] PEP 239, Adding a Rational Type to Python
         http://www.python.org/dev/peps/pep-0239/
@@ -114,9 +114,9 @@ References
         http://www.python.org/dev/peps/pep-0008/
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

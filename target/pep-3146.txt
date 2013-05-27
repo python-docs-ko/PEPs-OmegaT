@@ -20,8 +20,8 @@ With Unladen Swallow going the way of the Norwegian Blue [#us-post-mortem]_
 [#dead-parrot]_, this PEP has been deemed to have been withdrawn.
 
 
-Abstract
-========
+초록
+====
 
 This PEP proposes the merger of the Unladen Swallow project [#us]_ into
 CPython's source tree. Unladen Swallow is an open-source branch of CPython
@@ -1110,8 +1110,8 @@ License [#ui-lic]_, a liberal, OSI-approved license. The University of Illinois
 Urbana-Champaign is the sole copyright holder for LLVM.
 
 
-References
-==========
+참조
+====
 
 .. [#us-post-mortem]
    http://qinsb.blogspot.com/2011/03/unladen-swallow-retrospective.html   
@@ -1480,10 +1480,10 @@ References
    http://www.mail-archive.com/python-dev@python.org/msg45544.html
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 ..
    Local Variables:

@@ -9,7 +9,7 @@ Created:
 Post-History:
 
 
-Introduction
+도입
 
     This PEP describes the Python Advanced Library, a collection of
     high-quality and frequently-used third party extension modules.

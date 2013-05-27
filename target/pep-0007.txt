@@ -10,8 +10,8 @@ Created: 05-Jul-2001
 Post-History:
 
 
-Introduction
-============
+도입
+====
 
 This document gives coding conventions for the C code comprising the C
 implementation of Python.  Please see the companion informational PEP
@@ -46,8 +46,8 @@ C dialect
 * No compiler warnings with major compilers (gcc, VC++, a few others).
 
 
-Code lay-out
-============
+코드 레이아웃
+=============
 
 * Use 4-space indents and no tabs at all.
 
@@ -130,8 +130,8 @@ Code lay-out
       PyAPI_FUNC(PyObject *) PyObject_Repr(PyObject *);
 
 
-Naming conventions
-==================
+명명 관례
+=========
 
 * Use a ``Py`` prefix for public functions; never for static
   functions.  The ``Py_`` prefix is reserved for global service
@@ -198,17 +198,17 @@ Documentation Strings
   not all do; the MSVC compiler is known to complain about this.
 
 
-References
-==========
+참조
+====
 
 .. [1] PEP 8, "Style Guide for Python Code", van Rossum, Warsaw
        (http://www.python.org/dev/peps/pep-0008)
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

@@ -10,7 +10,7 @@ Python-Version: 2.2
 Post-History: 
 
 
-Introduction
+도입
 
     This PEP proposes adding a Set module to the standard Python
     library, and to then make sets a built-in Python type if that
@@ -22,7 +22,7 @@ Introduction
     elements, and the solution which the Set module will implement.
 
 
-Rationale
+근거
 
     Sets are a fundamental mathematical structure, and are very
     commonly used in algorithm specifications.  They are much less
@@ -137,7 +137,7 @@ Set Notation
     issue could be revisited for Python 3000 (see PEP 3000).
 
 
-History
+이력
 
     To gain experience with sets, a pure python module was introduced
     in Python 2.3.  Based on that implementation, the set and frozenset
@@ -199,7 +199,7 @@ Mutability
     and "frozenset" built-in types.
 
 
-Copyright
+저작권
 
     This document has been placed in the Public Domain.
 

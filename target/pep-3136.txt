@@ -19,8 +19,8 @@ See http://mail.python.org/pipermail/python-3000/2007-July/008663.html.
 
 
 
-Abstract
-========
+초록
+====
 
 This PEP proposes support for labels in Python's ``break`` and
 ``continue`` statements.  It is inspired by labeled ``break`` and
@@ -28,8 +28,8 @@ This PEP proposes support for labels in Python's ``break`` and
 persistent need for such a feature.
 
 
-Introduction
-============
+도입
+====
 
 The ``break`` statement allows the programmer to terminate a loop
 early, and the ``continue`` statement allows the programmer to move to
@@ -476,10 +476,10 @@ my knowledge.
   __ http://mail-archives.apache.org/mod_mbox/httpd-python-cvs/200511.mbox/%3C20051112204322.4010.qmail@minotaur.apache.org%3E
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

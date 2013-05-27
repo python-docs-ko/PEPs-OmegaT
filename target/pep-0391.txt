@@ -11,15 +11,15 @@ Python-Version: 2.7, 3.2
 Post-History:
 
 
-Abstract
-========
+초록
+====
 
 This PEP describes a new way of configuring logging using a dictionary
 to hold configuration information.
 
 
-Rationale
-=========
+근거
+====
 
 The present means for configuring Python's logging package is either
 by using the logging API to configure logging programmatically, or
@@ -678,17 +678,17 @@ http://bitbucket.org/vinay.sajip/dictconfig
 This incorporates all features other than the socket listener change.
 
 
-References
-==========
+참조
+====
 
 .. [1] PEP 8, Style Guide for Python Code, van Rossum, Warsaw
    (http://www.python.org/dev/peps/pep-0008)
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

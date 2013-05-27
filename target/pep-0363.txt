@@ -10,7 +10,7 @@ Created: 29-Jan-2007
 Post-History: 12-Feb-2007
 
 
-Abstract
+초록
 
     Dynamic attribute access is currently possible using the "getattr"
     and "setattr" builtins.  The present PEP suggests a new syntax to
@@ -28,7 +28,7 @@ Abstract
         z = getattr(getattr(y, 'foo_%d' % n), 'bar_%s' % s)
 
 
-Rationale
+근거
 
     Dictionary access and indexing both have a friendly invocation
     syntax: instead of x.__getitem__(12) the coder can write x[12].
@@ -225,7 +225,7 @@ Mailing Lists Discussion
     wrapper class idea was left open as a possibility for a future PEP.
 
 
-References
+참조
 
     [1] Sourceforge patch #1657573
         http://sourceforge.net/tracker/index.php?func=detail&aid=1657573&group_id=5470&atid=305470
@@ -237,9 +237,9 @@ References
         and following posts
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 Local Variables:

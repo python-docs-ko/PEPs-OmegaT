@@ -19,8 +19,8 @@ feature to be removed isn't all that harmful, and there are some use
 cases that would become harder.
 
 
-Abstract
-========
+초록
+====
 
 Python inherited many of its parsing rules from C.  While this has
 been generally useful, there are some individual rules which are less
@@ -342,8 +342,8 @@ Is there a better way to support external text extraction tools, or at
 least ``xgettext`` [#gettext]_ in particular?
 
 
-References
-==========
+참조
+====
 
 ..  [#Orendorff] Implicit String Concatenation, Orendorff
     http://mail.python.org/pipermail/python-ideas/2007-April/000397.html
@@ -372,10 +372,10 @@ References
     http://www.scit.wlv.ac.uk/cgi-bin/mansec?1+xgettext
 
 
-Copyright
-=========
+저작권
+======
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

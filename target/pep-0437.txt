@@ -11,8 +11,8 @@ Python-Version: 3.4
 Post-History:
 Resolution: http://mail.python.org/pipermail/python-dev/2013-May/126117.html
 
-Abstract
-========
+초록
+====
 
 The Python C-API currently has no mechanism for specifying and auto-generating
 function signatures, annotations or custom argument converters.
@@ -39,8 +39,8 @@ of the specific issues raised by this PEP were taken into account when
 designing the `second iteration of the PEP 436 DSL`_.
 
 
-Rationale
-=========
+근거
+====
 
 Opinions differ regarding the suitability of the PEP 436 DSL in the context
 of a C file. This PEP proposes an alternative DSL. The specific issues with
@@ -383,8 +383,8 @@ in PEP 436:
     unit.
 
 
-Copyright
-=========
+저작권
+======
 
 This document is licensed under the `Open Publication License`_.
 

@@ -11,14 +11,14 @@ Python-Version: 3.0
 Post-History: 28-Apr-2006, 6-May-2006, 10-Jun-2007, 14-Aug-2007, 14-Sep-2008
 
 
-Abstract
+초록
 
     This PEP proposes a new system for built-in string formatting
     operations, intended as a replacement for the existing '%' string
     formatting operator.
 
 
-Rationale
+근거
 
     Python currently provides two methods of string interpolation:
 
@@ -791,7 +791,7 @@ Backwards Compatibility
     older system.
 
 
-References
+참조
 
     [1] Python Library Reference - String formating operations
         http://docs.python.org/library/stdtypes.html#string-formatting-operations
@@ -812,9 +812,9 @@ References
         http://www.cheetahtemplate.org/
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 Local Variables:

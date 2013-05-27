@@ -15,7 +15,7 @@ Notice
     This PEP is withdrawn by the author (in favor of PEP 358).
 
 
-Abstract
+초록
 
     This PEP proposes the creation of a new standard type and builtin
     constructor called 'bytes'.  The bytes object is an efficiently
@@ -23,7 +23,7 @@ Abstract
     set it apart from several implementations that are similar.
 
 
-Rationale
+근거
 
     Python currently has many objects that implement something akin to
     the bytes object of this proposal.  For instance the standard
@@ -336,15 +336,15 @@ Additional Notes/Comments
     third party extensions, punt when the segment count is not 1.
 
 
-References
+참조
 
     [1] The buffer interface
         http://mail.python.org/pipermail/python-dev/2000-October/009974.html
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

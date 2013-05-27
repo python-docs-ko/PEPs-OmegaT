@@ -10,7 +10,7 @@ Created:
 Post-History:
 Superseded-By: 249
 
-Introduction
+도입
 
     This API has been defined to encourage similarity between the
     Python modules that are used to access databases.  By doing this,
@@ -314,7 +314,7 @@ Acknowledgements
     the PEP format.
 
 
-Copyright
+저작권
 
     This document has been placed in the Public Domain.
 

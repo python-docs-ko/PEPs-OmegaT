@@ -14,7 +14,7 @@ Notice
     This PEP is rejected by the author.  It has been superseded by PEP
     287.
 
-Abstract
+초록
 
     Named Python objects, such as modules, classes and functions, have a
     string attribute called __doc__. If the first expression inside

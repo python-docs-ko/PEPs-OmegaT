@@ -12,7 +12,7 @@ Python-Version: 2.6 / 3.0
 Post-History:
 
 
-Abstract
+초록
 
     This PEP proposes the inclusion of the pyProcessing [1] package
     into the Python standard library, renamed to "multiprocessing".
@@ -32,7 +32,7 @@ Abstract
     the primary focus of this PEP is the core threading-like API and
     capabilities of the package.
 
-Rationale
+근거
 
     The current CPython interpreter implements the Global Interpreter
     Lock (GIL) and barring work in Python 3000 or other versions
@@ -390,7 +390,7 @@ Closed Issues
       that Mark Hammond has suggested a factory-style interface for
       this[7].
 
-References
+참조
 
     [1] PyProcessing home page
         http://pyprocessing.berlios.de/
@@ -416,9 +416,9 @@ References
     [8] Addition Python-Dev discussion
         http://mail.python.org/pipermail/python-dev/2008-June/080011.html
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

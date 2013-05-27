@@ -9,14 +9,14 @@ Created: 09-Feb-2006
 Python-Version: 2.5
 Post-History:
 
-Abstract
+초록
 
     This PEP proposes adding an nb_index slot in PyNumberMethods and an
     __index__ special method so that arbitrary objects can be used
     whenever integers are explicitly needed in Python, such as in slice
     syntax (from which the slot gets its name).
 
-Rationale
+근거
 
     Currently integers and long integers play a special role in
     slicing in that they are the only objects allowed in slice
@@ -200,6 +200,6 @@ Reference Implementation
  
     Submitted as patch 1436368 to SourceForge.  
 
-Copyright
+저작권
 
     This document is placed in the public domain.

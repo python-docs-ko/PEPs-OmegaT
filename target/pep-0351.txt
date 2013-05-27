@@ -10,8 +10,8 @@ Created: 14-Apr-2005
 Post-History:
 
 
-Abstract
-========
+초록
+====
 
 This PEP describes a simple protocol for requesting a frozen,
 immutable copy of a mutable object.  It also defines a new built-in
@@ -27,8 +27,8 @@ This PEP was rejected.  For a rationale, see `this thread on python-dev`_.
 .. _this thread on python-dev: http://mail.python.org/pipermail/python-dev/2006-February/060793.html
 
 
-Rationale
-=========
+근거
+====
 
 Built-in objects such dictionaries and sets accept only immutable
 objects as keys.  This means that mutable objects like lists cannot be
@@ -164,10 +164,10 @@ Open issues
   __as_immutable__()?
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

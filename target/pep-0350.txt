@@ -17,8 +17,8 @@ This PEP has been rejected. While the community may be interested,
 there is no desire to make the standard library conform to this standard.
 
 
-Abstract
-========
+초록
+====
 
 This informational PEP aims to provide guidelines for consistent use
 of *codetags*, which would enable the construction of standard
@@ -654,8 +654,8 @@ Objections
     programming languages stick to ``<>``.
 
 
-References
-==========
+참조
+====
 
 Some other tools have approached defining/exploiting codetags.
 See http://tracos.org/codetag/wiki/Links.

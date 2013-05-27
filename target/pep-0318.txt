@@ -22,8 +22,8 @@ nor is it an attempt to exhaustively list all the positives and
 negatives of each form.
 
 
-Abstract
-========
+초록
+====
 
 The current method for transforming functions and methods (for instance,
 declaring them as a class or static method) is awkward and can lead to
@@ -844,17 +844,17 @@ syntactic support.
    In the end, the ``@`` character was kept.
 
 
-References
-==========
+참조
+====
 
 .. [#PEP-3129] PEP 3129, "Class Decorators", Winter
    http://www.python.org/dev/peps/pep-3129
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 ..

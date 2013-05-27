@@ -11,8 +11,8 @@ Python-Version: 2.5
 Post-History: 8-Nov-2004, 11-Feb-2006, 12-Feb-2006, 18-Feb-2006
 
 
-Abstract
-========
+초록
+====
 
 This PEP defines semantics for executing any Python module as a
 script, either with the ``-m`` command line switch, or by invoking
@@ -22,8 +22,8 @@ The ``-m`` switch implemented in Python 2.4 is quite limited. This
 PEP proposes making use of the PEP 302 [4]_ import hooks to allow any
 module which provides access to its code object to be executed.
 
-Rationale
-=========
+근거
+====
 
 Python 2.4 adds the command line switch ``-m`` to allow modules to be
 located using the Python module namespace for execution as scripts.
@@ -302,8 +302,8 @@ actual search for the module, and releases it before execution, even if
 
 
 
-References
-==========
+참조
+====
 
 .. [1] Special __main__() function in modules
    (http://www.python.org/dev/peps/pep-0299/)
@@ -320,10 +320,10 @@ References
 .. [5] PEP 338 documentation (for runpy module)
    (http://www.python.org/sf/1429605)
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 ..
    Local Variables:

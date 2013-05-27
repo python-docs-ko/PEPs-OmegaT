@@ -10,7 +10,7 @@ Python-Version: 2.0
 Post-History: 16-Aug-2000
 
 
-Introduction
+도입
 
     This PEP describes a syntax to extend the standard `print'
     statement so that it can be used to print to any file-like object,
@@ -357,7 +357,7 @@ More Justification by the BDFL
     [XXX this needs more justification, and a section of its own]
 
 
-References
+참조
 
     [1] http://docs.python.org/reference/simple_stmts.html#print
     [2] http://sourceforge.net/patch/download.php?id=100970

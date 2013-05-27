@@ -10,8 +10,8 @@ Created: 26-Sep-2007
 Python-Version: 3.0
 Post-History: 26-Sep-2007, 30-Sep-2007
 
-Introduction
-============
+도입
+====
 
 After releasing Python 3.0a1 with a mutable bytes type, pressure
 mounted to add a way to represent immutable bytes.  Gregory P. Smith
@@ -298,10 +298,10 @@ Pickling
 
 Left as an exercise for the reader.
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 ..

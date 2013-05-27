@@ -18,8 +18,8 @@ feature to be removed isn't all that harmful, and there are some use
 cases that would become harder.
 
 
-Abstract
-========
+초록
+====
 
 Python initially inherited its parsing from C.  While this has been
 generally useful, there are some remnants which have been less useful
@@ -213,8 +213,8 @@ Open Issues
   more indented than the initial line?
 
 
-References
-==========
+참조
+====
 
 ..  [#dedent] (email subject) PEP 30XZ: Simplified Parsing, van Rossum
     http://mail.python.org/pipermail/python-3000/2007-April/007063.html
@@ -231,10 +231,10 @@ References
     http://mail.python.org/pipermail/python-3000/2007-May/007244.html
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

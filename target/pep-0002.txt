@@ -14,7 +14,7 @@ PEP Replacement
     This PEP has been superseded by the updated material in the Python
     Developer's Guide [1].
 
-Introduction
+도입
 
     The Python Standard Library contributes significantly to Python's
     success.  The language comes with "batteries included", so it is
@@ -71,7 +71,7 @@ Maintainer(s)
     such as the ones detailed later in this document.
 
 
-Developers(s)
+개발자
 
     Contributions to the standard library have been developed by one
     or more developers.  The initial maintainers are the original
@@ -190,14 +190,14 @@ Open issues
 
     Relationship to the mythical Catalog?
 
-References
+참조
 
     [1] Adding to the Stdlib
         http://docs.python.org/devguide/stdlibchanges.html
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

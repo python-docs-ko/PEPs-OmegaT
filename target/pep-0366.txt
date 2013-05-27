@@ -11,8 +11,8 @@ Python-Version: 2.6, 3.0
 Post-History: 1-May-2007, 4-Jul-2007, 7-Jul-2007, 23-Nov-2007
 
 
-Abstract
-========
+초록
+====
 
 This PEP proposes a backwards compatible mechanism that permits
 the use of explicit relative imports from executable modules within
@@ -121,8 +121,8 @@ globals, rather than having to be worked out again for each relative
 import.
 
 
-References
-==========
+참조
+====
 
 .. [1] Absolute/relative import not working?
    (http://www.python.org/sf/1510172)
@@ -139,10 +139,10 @@ References
 .. [5] Acceptance of the PEP
    (http://mail.python.org/pipermail/python-dev/2007-November/075475.html)
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 ..
    Local Variables:

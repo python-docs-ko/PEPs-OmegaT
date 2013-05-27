@@ -11,8 +11,8 @@ Python-Version: 2.6
 Post-History: 05-Apr-2006, 06-Apr-2006, 13-Apr-2006
 
 
-Abstract
-========
+초록
+====
 
 This PEP proposes a generalization of the class-declaration syntax,
 the ``make`` statement.  The proposed syntax and semantics parallel
@@ -533,8 +533,8 @@ statement itself could be deprecated in favor of ``make type``
 statements.
 
 
-References
-==========
+참조
+====
 
 .. [1] Michele Simionato's original suggestion
    (http://mail.python.org/pipermail/python-dev/2005-October/057435.html)
@@ -567,10 +567,10 @@ References
    (http://mail.python.org/pipermail/python-list/2006-April/336774.html)
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 ..

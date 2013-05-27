@@ -10,8 +10,8 @@ Content-Type: text/x-rst
 Created: 27-Oct-2012
 
 
-Abstract
-========
+초록
+====
 
 This PEP proposes a strategy for migrating the default version of the
 Python documentation presented to users of Python when accessing
@@ -155,8 +155,8 @@ releases, exactly as it was at the time of the release.
 The developer's guide is not version specific, and thus retains its own
 stable ``/devguide/`` URL.
 
-Rationale
-=========
+근거
+====
 
 There is some desire to switch the unqualified references to mean Python 3
 as a sign of confidence in Python 3. Such a move would either break a lot of
@@ -202,8 +202,8 @@ team rather than through the CPython source repo, so acceptance and
 implementation of the ideas in this PEP will be up to the team.
 
 
-References
-==========
+참조
+====
 
 .. [1] May 2012 discussion
    (http://mail.python.org/pipermail/python-dev/2012-May/119524.html)

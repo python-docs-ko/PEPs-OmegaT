@@ -10,7 +10,7 @@ Python-Version: 2.3
 Post-History:
 
 
-Abstract
+초록
 
     Python 2.1 added new functionality to support iterators[1].
     Iterators have proven to be useful and convenient in many coding
@@ -78,7 +78,7 @@ Specification
     sequence 0,1,2,...,len(object)-1
 
 
-Rationale
+근거
 
     A common programming idiom is to take a collection of objects and
     apply some operation to each item in the collection in some
@@ -396,7 +396,7 @@ Issues:
     the various alternative suggestions are not discussed here further.
 
 
-Implementation
+구현
 
     An implementation is not available at this time but is expected
     to be straightforward.  The author has implemented a subclass of
@@ -404,7 +404,7 @@ Implementation
     out the ideas in this proposal, however.
 
 
-References
+참조
 
     [1] PEP 234, Iterators
     http://www.python.org/dev/peps/pep-0234/
@@ -416,9 +416,9 @@ References
     http://www.python.org/dev/peps/pep-0212/
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

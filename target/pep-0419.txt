@@ -10,8 +10,8 @@ Created: 06-Apr-2012
 Python-Version: 3.3
 
 
-Abstract
-========
+초록
+====
 
 This PEP proposes a way to protect Python code from being interrupted
 inside a finally clause or during context manager cleanup.
@@ -25,8 +25,8 @@ and collecting and incorporating feedback, and with sufficient available
 time to do so effectively.
 
 
-Rationale
-=========
+근거
+====
 
 Python has two nice ways to do cleanup.  One is a ``finally``
 statement and the other is a context manager (usually called using a
@@ -496,8 +496,8 @@ Both methods are considered too impractical and a way to catch exit
 from ``finally`` clauses is proposed.
 
 
-References
-==========
+참조
+====
 
 .. [1] Monocle
    https://github.com/saucelabs/monocle
@@ -515,10 +515,10 @@ References
    http://bugs.python.org/issue14730
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

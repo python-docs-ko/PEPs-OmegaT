@@ -13,8 +13,8 @@ Post-History: 04-Jun-2012
 Resolution: http://mail.python.org/pipermail/python-dev/2012-June/120682.html
 
 
-Abstract
-========
+초록
+====
 
 Python has always supported powerful introspection capabilities,
 including introspecting functions and methods (for the rest of
@@ -549,18 +549,18 @@ PEP 362 was accepted by Guido, Friday, June 22, 2012 [#accepted]_ .
 The reference implementation was committed to trunk later that day.
 
 
-References
-==========
+참조
+====
 
 .. [#impl] pep362 branch (https://bitbucket.org/1st1/cpython/overview)
 .. [#issue] issue 15008 (http://bugs.python.org/issue15008)
 .. [#accepted] "A Desperate Plea For Introspection (aka: BDFAP Needed)" (http://mail.python.org/pipermail/python-dev/2012-June/120682.html)
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 ..

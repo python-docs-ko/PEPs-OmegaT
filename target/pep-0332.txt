@@ -11,8 +11,8 @@ Python-Version: 2.5
 Post-History:
 
 
-Abstract
-========
+초록
+====
 
 This PEP outlines the introduction of a raw ``bytes`` sequence object
 and the unification of the current ``str`` and ``unicode`` objects.
@@ -28,8 +28,8 @@ written up as a new PEP.  See the thread starting at
 http://mail.python.org/pipermail/python-dev/2006-February/060930.html.
 
 
-Rationale
-=========
+근거
+====
 
 Python's current string objects are overloaded.  They serve both to
 hold ASCII and non-ASCII character data and to also hold sequences of
@@ -77,10 +77,10 @@ Issues
   like them to be mutable.)
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

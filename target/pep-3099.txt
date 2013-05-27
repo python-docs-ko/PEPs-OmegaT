@@ -10,8 +10,8 @@ Created: 04-Apr-2006
 Post-History:
 
 
-Abstract
-========
+초록
+====
 
 Some ideas are just bad.  While some thoughts on Python evolution are
 constructive, some go against the basic tenets of Python so
@@ -211,10 +211,10 @@ Interactive Interpreter
    http://mail.python.org/pipermail/python-3000/2006-November/004891.html
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

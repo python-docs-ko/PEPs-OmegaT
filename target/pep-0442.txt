@@ -13,8 +13,8 @@ Post-History: 2013-05-18
 Resolution: TBD
 
 
-Abstract
-========
+초록
+====
 
 This PEP proposes to deal with the current limitations of object
 finalization.  The goal is to be able to define and run finalizers
@@ -278,8 +278,8 @@ the following test suites:
 * `zope.interface <http://pypi.python.org/pypi/zope.interface>`_
 
 
-References
-==========
+참조
+====
 
 Notes about reference cycle collection and weak reference callbacks:
 http://hg.python.org/cpython/file/4e687d53b645/Modules/gc_weakref.txt
@@ -292,10 +292,10 @@ http://bugs.python.org/issue9141
 Module shutdown procedure based on GC
 http://bugs.python.org/issue812369
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 ..
    Local Variables:

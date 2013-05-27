@@ -11,15 +11,15 @@ Python-Version: 3.0
 Post-History: 7-May-2007
 
 
-Abstract
-========
+초록
+====
 
 This PEP proposes class decorators, an extension to the function
 and method decorators introduced in PEP 318.
 
 
-Rationale
-=========
+근거
+====
 
 When function decorators were originally debated for inclusion in
 Python 2.4, class decorators were seen as obscure and unnecessary
@@ -100,8 +100,8 @@ meaning that everyone agreed it should be accepted.
 The patch was committed to Subversion as revision 55430.
 
 
-References
-==========
+참조
+====
 
 .. [#obscure]
    http://www.python.org/dev/peps/pep-0318/#motivation
@@ -123,10 +123,10 @@ References
    
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

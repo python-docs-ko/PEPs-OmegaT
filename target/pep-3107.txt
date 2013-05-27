@@ -12,15 +12,15 @@ Python-Version: 3.0
 Post-History:
 
 
-Abstract
-========
+초록
+====
 
 This PEP introduces a syntax for adding arbitrary metadata annotations
 to Python functions [#functerm]_.
 
 
-Rationale
-=========
+근거
+====
 
 Because Python's 2.x series lacks a standard way of annotating a
 function's parameters and return values, a variety of tools
@@ -341,10 +341,10 @@ References and Footnotes
    http://docs.python.org/library/pydoc.html
    
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 ..

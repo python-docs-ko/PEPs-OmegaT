@@ -10,7 +10,7 @@ Python-Version: 2.3
 Post-History:
 
 
-Abstract
+초록
 
     This PEP describes the packages and modules in the Python 2
     standard library which should remain backward compatible with
@@ -21,7 +21,7 @@ Abstract
     This PEP has no bearing on the Python 3 standard library.
 
 
-Rationale
+근거
 
     Authors have various reasons why packages and modules should
     continue to work with previous versions of Python.  In order to
@@ -140,9 +140,9 @@ Backward Compatible Packages, Modules, and Tools
         gracefully on import by the tool in older Python versions.
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

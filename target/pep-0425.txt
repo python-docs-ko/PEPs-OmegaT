@@ -13,8 +13,8 @@ Post-History: 8-Aug-2012, 18-Oct-2012, 15-Feb-2013
 Resolution: http://mail.python.org/pipermail/python-dev/2013-February/124116.html
 
 
-Abstract
-========
+초록
+====
 
 This PEP specifies a tagging system to indicate with which versions of
 Python a built or binary distribution is compatible.  A set of three
@@ -29,8 +29,8 @@ PEP Acceptance
 This PEP was accepted by Nick Coghlan on 17th February, 2013.
 
 
-Rationale
-=========
+근거
+====
 
 Today "python setup.py bdist" generates the same filename on PyPy
 and CPython, but an incompatible archive, making it inconvenient to
@@ -267,8 +267,8 @@ Why is the ABI tag (the second tag) sometimes "none" in the reference implementa
     but in the meantime "none" is a good enough way to say "don't know".
 
 
-References
-==========
+참조
+====
 
 .. [1] Egg Filename-Embedded Metadata
    (http://peak.telecommunity.com/DevCenter/EggFormats#filename-embedded-metadata)
@@ -285,10 +285,10 @@ Acknowledgements
 The author thanks Paul Moore, Nick Coghlan, Mark Abramowitz, and
 Mr. Michele Lacchia for their valuable help and advice.
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

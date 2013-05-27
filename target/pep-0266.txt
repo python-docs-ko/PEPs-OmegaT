@@ -10,7 +10,7 @@ Python-Version: 2.3
 Post-History:
 
 
-Abstract
+초록
 
     The bindings for most global variables and attributes of other
     modules typically never change during the execution of a Python
@@ -22,7 +22,7 @@ Abstract
     code that changes the name bindings of such objects.
 
 
-Introduction
+도입
 
     Consider the workhorse function sre_compile._compile.  It is the
     internal compilation function for the sre module.  It consists
@@ -87,7 +87,7 @@ Threads
     FIXME: I suspect I need more here.
 
 
-Rationale
+근거
 
     Global variables and attributes rarely change.  For example, once
     a function imports the math module, the binding between the name
@@ -396,7 +396,7 @@ Backwards Compatibility
     assumed between versions.
 
 
-Implementation
+구현
 
     TBD.  This is where I need help.  I believe there should be either
     a central name/location registry or the code that modifies object
@@ -432,7 +432,7 @@ Performance
     defined in a given application.
 
 
-References
+참조
 
     [1] http://mail.python.org/pipermail/python-dev/2000-July/007609.html
 
@@ -441,9 +441,9 @@ References
     [3] http://www.musi-cal.com/~skip/python/rattlesnake20010813.tar.gz
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

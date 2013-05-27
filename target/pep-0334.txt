@@ -11,8 +11,8 @@ Python-Version: 3.0
 Post-History: 
 
 
-Abstract
-========
+초록
+====
 
 Asynchronous application frameworks such as Twisted [1]_ and Peak
 [2]_, are based on a cooperative multitasking via event queues or
@@ -32,8 +32,8 @@ SuspendIteration, which indicates that the given iterator may have
 more values to produce, but is unable to do so at this time.
 
 
-Rationale
-=========
+근거
+====
 
 There are two current approaches to bringing co-routines to Python.
 Christian Tismer's Stackless [6]_ involves a ground-up restructuring
@@ -366,8 +366,8 @@ The author of the PEP is not yet familiar with the Python execution
 model to comment in this area.
 
 
-References
-==========
+참조
+====
 
 .. [1] Twisted
    (http://twistedmatrix.com)
@@ -400,10 +400,10 @@ References
    (http://www-106.ibm.com/developerworks/linux/library/l-pythrd.html)
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 ..

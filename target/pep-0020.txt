@@ -10,7 +10,7 @@ Created: 19-Aug-2004
 Post-History: 22-Aug-2004
 
 
-Abstract
+초록
 
     Long time Pythoneer Tim Peters succinctly channels the BDFL's
     guiding principles for Python's design into 20 aphorisms, only 19
@@ -45,9 +45,9 @@ Easter Egg
     >>> import this
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

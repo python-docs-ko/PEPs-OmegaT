@@ -8,7 +8,7 @@ Type: Process
 Created: 1-Oct-2000
 Post-History:
 
-Introduction
+도입
 
     When new modules were added to the standard Python library in the
     past, it was not possible to foresee whether they would still be
@@ -259,7 +259,7 @@ Deprecation of modules removed in Python 3.0
 
 Undeprecated modules
 
-    None.
+    없음.
 
 
 

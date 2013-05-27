@@ -16,7 +16,7 @@ Deferral
     Hence, it is being deferred.
 
 
-Abstract
+초록
 
     This PEP proposes a new implementation of global module namespaces
     and the builtin namespace that speeds name resolution.  The
@@ -43,7 +43,7 @@ Abstract
     to preserve these dynamic features.
 
 
-Introduction
+도입
 
     This PEP proposes a new implementation of attribute access for
     module objects that optimizes access to module variables known at
@@ -220,7 +220,7 @@ Runtime model
     the backup dict.
 
 
-Backwards compatibility
+하위 호환성
 
     The dlict will need to maintain meta-information about whether a
     slot is currently used or not.  It will also need to maintain a
@@ -272,9 +272,9 @@ Related PEPs
     module rather than once per function call.
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

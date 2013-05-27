@@ -10,7 +10,7 @@ Python-Version: 2.1
 Post-History:
 
 
-Abstract
+초록
 
     This PEP describes a command-line driven online help facility for
     Python.  The facility should be able to build on existing
@@ -43,7 +43,7 @@ Interactive use:
     command.
 
 
-Implementation
+구현
 
     The help function is implemented in an onlinehelp module which is
     demand-loaded.

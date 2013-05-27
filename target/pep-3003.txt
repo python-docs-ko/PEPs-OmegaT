@@ -10,8 +10,8 @@ Created: 21-Oct-2009
 Post-History: 03-Nov-2009
 
 
-Abstract
-========
+초록
+====
 
 This PEP proposes a temporary moratorium (suspension) of all changes
 to the Python language syntax, semantics, and built-ins for a period
@@ -25,8 +25,8 @@ to "catch up" to the core implementation of the language, help ease adoption
 of Python 3.x, and provide a more stable base for the community.
 
 
-Rationale
-=========
+근거
+====
 
 This idea was proposed by Guido van Rossum on the python-ideas [1]_ mailing
 list. The premise of his email was to slow the alteration of the  Python core
@@ -142,13 +142,13 @@ Extensions
 The time period of the moratorium can only be extended through a new PEP.
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
-References
-==========
+참조
+====
 
 .. [1] http://mail.python.org/pipermail/python-ideas/2009-October/006305.html
 .. [2] http://www.jython.org/

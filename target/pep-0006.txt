@@ -9,7 +9,7 @@ Created: 15-Mar-2001
 Post-History: 15-Mar-2001 18-Apr-2001 19-Aug-2004
 
 
-Abstract
+초록
 
     Python has historically had only a single fork of development,
     with releases having the combined purpose of adding new features
@@ -39,7 +39,7 @@ Motivation
     machines.
 
 
-Prohibitions
+금지사항
 
     Bug fix releases are required to adhere to the following restrictions:
 
@@ -117,7 +117,7 @@ Version Numbers
     the 2.3 maintenance releases is release23-maint
 
 
-Procedure
+절차
 
     The process for managing bugfix releases is modeled in part on the
     Tcl system [1].
@@ -175,7 +175,7 @@ Patch Czar History
     Moshe Zadka is the Patch Czar for 2.0.1.
 
 
-History
+이력
 
     This PEP started life as a proposal on comp.lang.python.  The
     original version suggested a single patch for the N-1 release to
@@ -198,7 +198,7 @@ History
     lessons from the 2.3 release cycle. 
 
 
-References
+참조
 
     [1] http://www.tcl.tk/cgi-bin/tct/tip/28.html
 
@@ -209,9 +209,9 @@ References
         http://www.python.org/dev/peps/pep-0235/
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

@@ -10,7 +10,7 @@ Python-Version: 2.2
 Post-History: 17-Apr-2001
 
 
-Abstract
+초록
 
     This proposal gives the user optional control over the precision
     and range of numeric computations so that a computation can be
@@ -19,7 +19,7 @@ Abstract
     meaning of decimal literals is clarified.
 
 
-Rationale
+근거
 
     Currently it is impossible in every language except Fortran 90 to
     write a program in a portable way that uses floating point and
@@ -223,9 +223,9 @@ Rejection
     Numeric distribution.
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

@@ -10,7 +10,7 @@ Python-Version: 2.2
 Post-History: 16-Mar-2001, 14-Aug-2001, 23-Aug-2001
 
 
-Abstract
+초록
 
     Python currently distinguishes between two kinds of integers
     (ints): regular or short ints, limited by the size of a C long
@@ -22,7 +22,7 @@ Abstract
     perspective of the Python user.
 
 
-Rationale
+근거
 
     Many programs find a need to deal with larger numbers after the
     fact, and changing the algorithms later is bothersome.  It can
@@ -45,7 +45,7 @@ Rationale
     can start using the language.
 
 
-Implementation
+구현
 
     Initially, two alternative implementations were proposed (one by
     each author):
@@ -334,7 +334,7 @@ Resolved Issues
     - Should the overflow warning be on a portable maximum size?  No.
 
 
-Implementation
+구현
 
     The implementation work for the Python 2.x line is completed;
     phase A was released with Python 2.2, phase B0 with Python 2.3,
@@ -342,9 +342,9 @@ Implementation
     CVS).
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

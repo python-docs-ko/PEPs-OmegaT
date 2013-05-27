@@ -10,7 +10,7 @@ Python-Version: 2.4
 Post-History: 18-Jun-2002, 23-Mar-2004, 22-Aug-2004
 
 
-Abstract
+초록
 
     This PEP describes a simpler string substitution feature, also
     known as string interpolation.  This PEP is "simpler" in two
@@ -26,7 +26,7 @@ Abstract
        rules for what substitutions can occur in the string.
 
 
-Rationale
+근거
 
     Python currently supports a string substitution syntax based on
     C's printf() '%' formatting character[1].  While quite rich,
@@ -179,7 +179,7 @@ Reference Implementation
     The implementation has been committed to the Python 2.4 source tree.
 
 
-References
+참조
 
     [1] String Formatting Operations
         http://docs.python.org/library/stdtypes.html#string-formatting-operations
@@ -195,9 +195,9 @@ References
     [5] Reference Implementation
         http://sourceforge.net/tracker/index.php?func=detail&aid=1014055&group_id=5470&atid=305470
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

@@ -12,15 +12,15 @@ Created: 29-May-2001
 Post-History: 13-Jun-2001
 
 
-Abstract
-========
+초록
+====
 
 This PEP documents the semantics and conventions associated with
 Python docstrings.
 
 
-Rationale
-=========
+근거
+====
 
 The aim of this PEP is to standardize the high-level structure of
 docstrings: what they should contain, and how to say it (without
@@ -302,10 +302,10 @@ References and Footnotes
 .. _Doc-SIG: http://www.python.org/sigs/doc-sig/
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 Acknowledgements

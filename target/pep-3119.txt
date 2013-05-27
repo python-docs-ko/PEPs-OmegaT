@@ -10,8 +10,8 @@ Created: 18-Apr-2007
 Post-History: 26-Apr-2007, 11-May-2007
 
 
-Abstract
-========
+초록
+====
 
 This is a proposal to add Abstract Base Class (ABC) support to Python
 3000.  It proposes:
@@ -42,8 +42,8 @@ ABCs vs. Interfaces.  For that alone he deserves co-authorship.  The
 rest of the PEP uses "I" referring to the first author.
 
 
-Rationale
-=========
+근거
+====
 
 In the domain of object-oriented programming, the usage patterns for
 interacting with an object can be divided into two basic categories,
@@ -837,8 +837,8 @@ that simply returns False in the base implementation, and then provide
 overrides that return True for any classes of interest.
 
 
-References
-==========
+참조
+====
 
 .. [1] An Introduction to ABC's, by Talin
    (http://mail.python.org/pipermail/python-3000/2007-April/006614.html)
@@ -890,10 +890,10 @@ References
    (http://www.modpython.org/live/current/doc-html/pyapi-interps.html)
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

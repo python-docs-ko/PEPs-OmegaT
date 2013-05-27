@@ -17,8 +17,8 @@ Rejection Notice
 This proposal seems to have run out of steam.
 
 
-Abstract
-========
+초록
+====
 
 Python lends itself to inline documentation.  With its built-in
 docstring syntax, a limited form of `Literate Programming`_ is easy to
@@ -75,8 +75,8 @@ By separating out the issues, we can form consensus more easily
 (smaller fights ;-), and accept divergence more readily.
 
 
-Rationale
-=========
+근거
+====
 
 There are standard inline documentation systems for some other
 languages.  For example, Perl has POD_ ("Plain Old Documentation") and
@@ -280,10 +280,10 @@ References and Footnotes
 .. _Python Doc-SIG: http://www.python.org/sigs/doc-sig/
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 Acknowledgements

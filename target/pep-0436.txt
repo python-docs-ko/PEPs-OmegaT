@@ -10,8 +10,8 @@ Content-Type: text/x-rst
 Created: 22-Feb-2013
 
 
-Abstract
-========
+초록
+====
 
 This document proposes "Argument Clinic", a DSL to facilitate
 argument processing for built-in functions in the implementation of
@@ -782,8 +782,8 @@ to Nick Coglan and Guido van Rossum for a rousing two-hour in-person
 deep dive on the topic at PyCon US 2013.  
 
 
-References
-==========
+참조
+====
 
 .. [Cog] ``Cog``:
    http://nedbatchelder.com/code/cog/
@@ -814,10 +814,10 @@ References
    https://bitbucket.org/larry/python-clinic/
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

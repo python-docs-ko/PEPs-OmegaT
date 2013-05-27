@@ -10,7 +10,7 @@ Python-Version: 2.2
 Post-History:
 
 
-Abstract
+초록
 
     This PEP suggests a "sort by value" operation for dictionaries.
     The primary benefit would be in terms of "batteries included"
@@ -95,7 +95,7 @@ Motivation
     easier for all to use.
 
 
-Rationale
+근거
 
     As Tim Peters has pointed out, this sort of thing brings on the
     problem of trying to be all things to all people.  Therefore, we
@@ -160,7 +160,7 @@ Rationale
         (5) items_sorted_by_value(reversed=0)
 
 
-Implementation
+구현
 
     The proposed dictionary methods would necessarily be implemented
     in C.  Presumably, the implementation would be fairly simple since
@@ -185,7 +185,7 @@ Concerns
     a consideration.
 
 
-References
+참조
 
     A related thread called "counting occurrences" appeared on
     comp.lang.python in August, 2001.  This included examples of
@@ -193,9 +193,9 @@ References
     implementing it as reusable Python functions and classes.
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

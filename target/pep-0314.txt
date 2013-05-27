@@ -11,7 +11,7 @@ Python-Version: 2.5
 Post-History: 29-Apr-2003
 Replaces: 241
 
-Introduction
+도입
 
    This PEP describes a mechanism for adding metadata to Python
    packages.  It includes specifics of the field names, and their
@@ -286,15 +286,15 @@ Summary of Differences From PEP 241
 
 Open issues
 
-    None.
+    없음.
 
 
 Acknowledgements
 
-    None.
+    없음.
 
 
-References
+참조
 
     [1] reStructuredText 
         http://docutils.sourceforge.net/
@@ -303,9 +303,9 @@ References
         http://www.python.org/dev/peps/pep-0301/
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

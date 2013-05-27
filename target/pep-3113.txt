@@ -11,8 +11,8 @@ Python-Version: 3.0
 Post-History:
 
 
-Abstract
-========
+초록
+====
 
 Tuple parameter unpacking is the use of a tuple as a parameter in a
 function signature so as to have a sequence argument automatically
@@ -245,8 +245,8 @@ will be translated into::
  lambda x_y: x_y[0] + x_y[1]
 
 
-References
-==========
+참조
+====
 
 .. [#2to3] 2to3 refactoring tool
     (http://svn.python.org/view/sandbox/trunk/2to3/)
@@ -266,10 +266,10 @@ References
 .. [#pep-3107] PEP 3107 (Function Annotations)
     (http://www.python.org/dev/peps/pep-3107/)
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

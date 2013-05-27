@@ -10,14 +10,14 @@ Python-Version: 2.2
 Post-History:
 
 
-Abstract
+초록
 
     Much like the parser module exposes the Python parser, this PEP
     proposes that the parser generator used to create the Python
     parser, pgen, be exposed as a module in Python.
 
 
-Rationale
+근거
 
     Through the course of Pythonic history, there have been numerous
     discussions about the creation of a Python compiler [1].  These
@@ -157,7 +157,7 @@ Reference Implementation
     but that patch is no longer maintained.
 
 
-References
+참조
 
     [1] The (defunct) Python Compiler-SIG
         http://www.python.org/sigs/compiler-sig/
@@ -175,9 +175,9 @@ References
         http://www.python.org/sigs/types-sig/
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

@@ -12,8 +12,8 @@ Post-History:
 Resolution: http://mail.python.org/pipermail/python-dev/2011-November/114545.html
 
 
-Rationale
-=========
+근거
+====
 
 Python's introspection facilities have long had poor support for
 nested classes.  Given a class object, it is impossible to know
@@ -145,8 +145,8 @@ XML specification [2]_) found it obscure and non-obvious, which is why the
 slightly less short and more explicit ``__qualname__`` was finally chosen.
 
 
-References
-==========
+참조
+====
 
 .. [1] "pickle should support methods":
    http://bugs.python.org/issue9276
@@ -155,10 +155,10 @@ References
    http://en.wikipedia.org/wiki/QName
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

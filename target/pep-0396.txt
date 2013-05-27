@@ -10,8 +10,8 @@ Created: 2011-03-16
 Post-History: 2011-04-05
 
 
-Abstract
-========
+초록
+====
 
 Given that it is useful and common to specify version numbers for
 Python modules, and given that different ways of doing this have grown
@@ -66,8 +66,8 @@ library copy defines the version number in the module, and this same
 version number is used for the standalone distributions as well.
 
 
-Rationale
-=========
+근거
+====
 
 Python modules, both in the standard library and available from third
 parties, have long included version numbers.  There are established
@@ -264,8 +264,8 @@ install-time.  This way, the metadata will be available for
 introspection even when the code is not installed.
 
 
-References
-==========
+참조
+====
 
 .. [1] Distutils2 documentation
    (http://distutils2.notmyidea.org/)
@@ -296,10 +296,10 @@ References
    (http://www.python.org/dev/peps/pep-0376/)
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

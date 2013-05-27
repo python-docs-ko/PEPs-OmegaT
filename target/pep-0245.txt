@@ -20,7 +20,7 @@ Rejection Notice
     won't play a role in adaptation or whatever will replace it.  GvR.
 
 
-Introduction
+도입
 
     This PEP describes a proposed syntax for creating interface
     objects in Python.
@@ -471,7 +471,7 @@ Dissenting Opinion
     This PEP has not yet been discussed on python-dev.
         
 
-References
+참조
 
     [1] http://mail.python.org/pipermail/types-sig/1998-December/date.html
 
@@ -492,9 +492,9 @@ References
         http://www.python.org/dev/peps/pep-0236/
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

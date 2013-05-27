@@ -13,8 +13,8 @@ Post-History:
    This PEP has been rejected.  Guido views running scripts within a
    package as an anti-pattern [#guido-rejection]_.
 
-Abstract
-========
+초록
+====
 
 Because of how name resolution works for relative imports in a world
 where PEP 328 is implemented, the ability to execute modules within a
@@ -236,8 +236,8 @@ subclass would be the same as ``str``.
 This was rejected as it seemed like too much of a hack.
 
 
-References
-==========
+참조
+====
 
 .. [#2to3]  2to3 tool
    (http://svn.python.org/view/sandbox/trunk/2to3/) [ViewVC]
@@ -251,10 +251,10 @@ References
 
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

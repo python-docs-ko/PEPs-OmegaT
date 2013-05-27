@@ -15,7 +15,7 @@ Note
     This PEP has been moved to the Python dev guide.
 
 
-Abstract
+초록
 
     There's more to changing Python's grammar than editing
     Grammar/Grammar and Python/compile.c.  This PEP aims to be a
@@ -29,7 +29,7 @@ Abstract
     grammar hacking, for several reasons.
 
 
-Rationale
+근거
 
     People are getting this wrong all the time; it took well over a
     year before someone noticed[1] that adding the floor division
@@ -85,15 +85,15 @@ Checklist
        have to submit this file separately.
 
 
-References
+참조
 
     [1] SF Bug #676521, parser module validation failure
         http://www.python.org/sf/676521
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

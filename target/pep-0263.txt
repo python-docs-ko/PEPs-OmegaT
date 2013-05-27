@@ -10,7 +10,7 @@ Created: 06-Jun-2001
 Python-Version: 2.3
 Post-History: 
 
-Abstract
+초록
 
     This PEP proposes to introduce a syntax to declare the encoding of
     a Python source file. The encoding information is then used by the
@@ -189,7 +189,7 @@ Concepts
        subset of the encoding, and thus need no further conversion
        after step 4.
 
-Implementation
+구현
 
     For backwards-compatibility with existing code which currently
     uses non-ASCII in string literals without declaring an encoding,
@@ -229,14 +229,14 @@ Scope
     (more-or-less) undefined source code encoding situation to a more
     robust and portable definition.
 
-References
+참조
 
     [1] Phase 1 implementation:
         http://python.org/sf/526840
     [2] Phase 2 implementation:
         http://python.org/sf/534304
 
-History
+이력
 
     1.10 and above: see CVS history
     1.8: Added '.' to the coding RE.
@@ -248,9 +248,9 @@ History
          UTF-8 BOM mark detection, Emacs style magic comment,
          two phase approach to the implementation
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 Local Variables:

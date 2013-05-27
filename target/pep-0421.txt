@@ -12,8 +12,8 @@ Post-History: 26-April-2012
 Resolution: http://mail.python.org/pipermail/python-dev/2012-May/119683.html
 
 
-Abstract
-========
+초록
+====
 
 This PEP introduces a new attribute for the ``sys`` module:
 ``sys.implementation``.  The attribute holds consolidated information
@@ -135,8 +135,8 @@ familiar format and generally consistent with normal version format
 conventions.
 
 
-Rationale
-=========
+근거
+====
 
 The status quo for implementation-specific information gives us that
 information in a more fragile, harder to maintain way.  It is spread
@@ -448,8 +448,8 @@ Implementation
 The implementation of this PEP is covered in `issue #14673`_.
 
 
-References
-==========
+참조
+====
 
 .. [#original] The 2009 sys.implementation discussion:
    http://mail.python.org/pipermail/python-dev/2009-October/092893.html
@@ -516,10 +516,10 @@ References
 .. _Python/import.c:  http://hg.python.org/cpython/file/2f563908ebc5/Python/import.c
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

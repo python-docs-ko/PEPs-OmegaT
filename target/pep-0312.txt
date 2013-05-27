@@ -11,7 +11,7 @@ Python-Version: 2.4
 Post-History:
 
 
-Abstract
+초록
 
     This PEP proposes to make argumentless lambda keyword optional in
     some cases where it is not grammatically ambiguous.
@@ -40,7 +40,7 @@ Motivation
     "lambdaphobia".
 
 
-Rationale
+근거
 
     Sometimes people do not use lambdas because they fear to introduce
     a term with a theory behind it.  This proposal makes introducing
@@ -100,7 +100,7 @@ Examples of Use
         with(mylock, :x(y(), 23, z(), 'foo'))
 
 
-Implementation
+구현
 
     Implementation requires some tweaking of the Grammar/Grammar file
     in the Python sources, and some adjustment of
@@ -171,9 +171,9 @@ Credits
     thread "For review: PEP 308 - If-then-else expression".
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

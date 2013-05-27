@@ -20,8 +20,8 @@ approach.  But given the latest version of PEP 3119 I much prefer
 that.  GvR.
 
 
-Abstract
-========
+초록
+====
 
 Python's existing object model organizes objects according to their
 implementation.  It is often desirable -- especially in
@@ -32,8 +32,8 @@ introduces the concept of roles, a mechanism for organizing
 objects according to their intent rather than their implementation.
 
 
-Rationale
-=========
+근거
+====
 
 In the beginning were objects.  They allowed programmers to marry
 function and state, and to increase code reusability through concepts
@@ -527,8 +527,8 @@ hours of in-person discussion to iron out the differences, overlap
 and finer points of roles and abstract base classes.
 
 
-References
-==========
+참조
+====
 
 .. [#aibo]
    http://en.wikipedia.org/wiki/AIBO
@@ -546,10 +546,10 @@ References
    http://mail.python.org/pipermail/python-3000/2007-April/007026.html
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

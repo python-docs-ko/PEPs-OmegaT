@@ -11,8 +11,8 @@ Python-Version: 2.4
 Post-History: 
 
 
-Abstract
-========
+초록
+====
 
 Python 2.3 added a number of simple date and time types in the
 ``datetime`` module.  There's no support for parsing strings in various
@@ -114,8 +114,8 @@ function (Python implementation by Simon Willison at
 http://simon.incutio.com/archive/2003/10/07/dateInPython)
 	
 
-References
-==========
+참조
+====
 
 .. _RFC2822: http://rfc2822.x42.com
 
@@ -135,10 +135,10 @@ http://www.thinkage.ca/english/gcos/expl/b/lib/0tosec.html
 https://moin.conectiva.com.br/DateUtil
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

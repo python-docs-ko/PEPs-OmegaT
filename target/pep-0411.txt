@@ -12,8 +12,8 @@ Python-Version: 3.3
 Post-History: 2012-02-10, 2012-03-24
 
 
-Abstract
-========
+초록
+====
 
 The process of including a new package into the Python standard library is
 hindered by the API lock-in and promise of backward compatibility implied by
@@ -116,8 +116,8 @@ most of the API of most provisional packages will be unchanged at graduation.
 Withdrawals are expected to be rare.
 
 
-Rationale
-=========
+근거
+====
 
 Benefits for the core development team
 --------------------------------------
@@ -190,15 +190,15 @@ Rejected alternatives and variations
 See PEP 408.
 
 
-References
-==========
+참조
+====
 
 .. [#] http://mail.python.org/pipermail/python-dev/2012-January/115962.html
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 ..

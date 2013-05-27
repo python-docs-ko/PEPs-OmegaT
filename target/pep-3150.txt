@@ -12,8 +12,8 @@ Post-History: 2010-07-14, 2011-04-21, 2011-06-13
 Resolution: TBD
 
 
-Abstract
-========
+초록
+====
 
 This PEP proposes the addition of an optional ``given`` clause to several
 Python statements that do not currently have an associated code suite. This
@@ -238,8 +238,8 @@ PEP proposes the following additions for ``given`` statements to the
     function.
 
 
-Rationale
-=========
+근거
+====
 
 Function and class statements in Python have a unique property
 relative to ordinary assignment statements: to some degree, they are
@@ -671,8 +671,8 @@ TO-DO
 * Figure out if this can be used internally to make the implementation of
   zero-argument super() calls less awful
 
-References
-==========
+참조
+====
 
 .. [1] Explicitation lines in Python:
    http://mail.python.org/pipermail/python-ideas/2010-June/007476.html
@@ -701,10 +701,10 @@ References
 .. [9] Possible PEP 3150 style guidelines (#2):
    http://mail.python.org/pipermail/python-ideas/2011-October/012341.html
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

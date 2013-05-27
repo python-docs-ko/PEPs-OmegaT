@@ -9,7 +9,7 @@ Created: 14-Aug-2000
 Post-History:
 
 
-Abstract
+초록
 
     Demonstrates why the changes described in the stackless PEP are
     desirable.  A low-level continuations module exists.  With it,

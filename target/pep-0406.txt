@@ -10,8 +10,8 @@ Created: 4-Jul-2011
 Python-Version: 3.4
 Post-History: 31-Jul-2011, 13-Nov-2011, 4-Dec-2011
 
-Abstract
-========
+초록
+====
 
 This PEP proposes the introduction of a new 'ImportEngine' class as part of
 ``importlib`` which would encapsulate all state related to importing modules
@@ -42,8 +42,8 @@ Accordingly, the proposal in this PEP will not be seriously considered until
 Python 3.4 at the earliest.
 
 
-Rationale
-=========
+근거
+====
 
 Currently, most state related to the import system is stored as module level
 attributes in the ``sys`` module. The one exception is the import lock, which
@@ -243,8 +243,8 @@ affecting further imports from the imported module, hence the change to the
 context management based proposal for substituting the global state.
 
 
-References
-==========
+참조
+====
 
 .. [1] PEP 302, New Import Hooks, J van Rossum, Moore
   (http://www.python.org/dev/peps/pep-0302)
@@ -259,10 +259,10 @@ References
   (https://bitbucket.org/jergosh/gsoc_import_engine/src/default/Lib/importlib/engine.py)
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 ..
   Local Variables:

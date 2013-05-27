@@ -67,7 +67,7 @@ Adding a conditional expression
         [f for f in 1, lambda x: x if x >= 0 else -1]      # INVALID
 
 
-References
+참조
 
     [1] Pronouncement
         http://mail.python.org/pipermail/python-dev/2005-September/056846.html
@@ -439,9 +439,9 @@ Detailed Results of Voting
     3:  Q reject C?(x, y)
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

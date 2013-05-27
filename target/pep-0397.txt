@@ -11,7 +11,7 @@ Created: 15-Mar-2011
 Post-History: 21-July-2011, 17-May-2011, 15-Mar-2011
 Resolution: http://mail.python.org/pipermail/python-dev/2012-June/120505.html
 
-Abstract
+초록
 
     This PEP describes a Python launcher for the Windows platform.  A 
     Python launcher is a single executable which uses a number of 
@@ -19,7 +19,7 @@ Abstract
     specified command line.
 
 
-Rationale
+근거
 
     Windows provides "file associations" so an executable can be associated
     with an extension, allowing for scripts to be executed directly in some
@@ -393,7 +393,7 @@ Discussion
     is available in Windows XP and later, this launcher will not work on 
     Windows 2000 or earlier.
 
-References
+참조
 
     [1] http://linux.die.net/man/2/execve
 
@@ -403,9 +403,9 @@ References
 
     [4] https://bitbucket.org/vinay.sajip/pylauncher/src/tip/Doc/launcher.rst
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

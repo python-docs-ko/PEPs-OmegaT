@@ -9,14 +9,14 @@ Content-Type: text/x-rst
 Created: 18-Jun-2009
 
 
-Abstract
-========
+초록
+====
 
 This PEP outlines Python's backwards compatibility policy.
 
 
-Rationale
-=========
+근거
+====
 
 As one of the most used programming languages today [#tiobe]_, the Python core
 language and its standard library play a critcal role in thousands of
@@ -103,8 +103,8 @@ process over several releases:
    in the next release.  Remove the old version and warning.
 
 
-References
-==========
+참조
+====
 
 .. [#tiobe] TIOBE Programming Community Index
 
@@ -115,10 +115,10 @@ References
    http://docs.python.org/library/warnings.html
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

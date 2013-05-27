@@ -10,7 +10,7 @@ Python-Version: 2.3
 Post-History: 26-Oct-2001
 
 
-Abstract
+초록
 
     This PEP adds the ability to import Python modules
     *.py, *.py[co] and packages from zip archives.  The
@@ -187,7 +187,7 @@ Custom Imports
     define any custom importers, and this note is for information only.
 
 
-Implementation
+구현
 
     A C implementation is available as SourceForge patch 492105.
     Superceded by patch 652586 and current CVS.
@@ -203,9 +203,9 @@ Implementation
     http://python.org/sf/652586
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

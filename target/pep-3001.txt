@@ -10,8 +10,8 @@ Created: 05-Apr-2006
 Post-History:
 
 
-Abstract
-========
+초록
+====
 
 This PEP describes a procedure for reviewing and improving standard
 library modules, especially those written in Python, making them ready
@@ -119,13 +119,13 @@ The change must be fully documented as "New in Version 3.0", and the
 python3warn.py script must know about it.
 
 
-References
-==========
+참조
+====
 
 None yet.
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.

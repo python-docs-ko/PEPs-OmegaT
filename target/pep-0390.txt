@@ -13,8 +13,8 @@ Python-Version: 2.7 and 3.2
 Post-History:
 Resolution: http://mail.python.org/pipermail/distutils-sig/2013-April/020597.html
 
-Abstract
-========
+초록
+====
 
 This PEP describes a new section and a new format for the ``setup.cfg`` file,
 that allows describing the Metadata of a package without using ``setup.py``.
@@ -31,8 +31,8 @@ defines the minimum amount of information needed to generate an sdist
 archive given a source tarball or VCS checkout.
 
 
-Rationale
-=========
+근거
+====
 
 Today, if you want to list all the Metadata of a distribution (see PEP 314)
 that is not installed, you need to use the ``setup.py`` command line interface.
@@ -239,10 +239,10 @@ Acknowledgments
 The Distutils-SIG.
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 ..

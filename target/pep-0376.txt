@@ -10,8 +10,8 @@ Created: 22-Feb-2009
 Python-Version: 2.7, 3.2
 Post-History:
 
-Abstract
-========
+초록
+====
 
 The goal of this PEP is to provide a standard infrastructure to manage
 project distributions installed on a system, so all tools that are
@@ -27,8 +27,8 @@ In the past an attempt was made to create an installation database (see PEP 262
 Combined with PEP 345, the current proposal supersedes PEP 262.
 
 
-Rationale
-=========
+근거
+====
 
 There are two problems right now in the way distributions are installed in
 Python:
@@ -594,8 +594,8 @@ ignored. Third-party tools may of course to continue to support previous
 formats in addition to the new format, in order to ease the transition.
 
 
-References
-==========
+참조
+====
 
 .. [#distutils]
    http://docs.python.org/distutils
@@ -642,10 +642,10 @@ Acknowledgements
 Jim Fulton, Ian Bicking, Phillip Eby, Rafael Villar Burke, and many people at
 Pycon and Distutils-SIG.
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

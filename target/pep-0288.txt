@@ -10,7 +10,7 @@ Python-Version: 2.5
 Post-History:
 
 
-Abstract
+초록
 
     This PEP proposes to enhance generators by providing mechanisms for
     raising exceptions and sharing data with running generators.
@@ -25,7 +25,7 @@ Status
     its own namespace.
 
 
-Rationale
+근거
 
     Currently, only class based iterators can provide attributes and
     exception handling.  However, class based iterators are harder to
@@ -136,7 +136,7 @@ Specification for Generator Exception Passing:
 
 
 
-References
+참조
 
     [1] Dr. David Mertz's draft columns for Charming Python:
         http://gnosis.cx/publish/programming/charming_python_b5.txt
@@ -150,9 +150,9 @@ References
 
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

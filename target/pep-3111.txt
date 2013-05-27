@@ -11,8 +11,8 @@ Python-Version: 3.0
 Post-History: 22-Dec-2006
 
 
-Abstract
-========
+초록
+====
 
 Input and output are core features of computer programs.  Currently,
 Python provides a simple means of output through the print keyword
@@ -51,8 +51,8 @@ require simple input/output can be written from day one, without requiring
 discussions of importing modules, streams, etc.
 
 
-Rationale
-=========
+근거
+====
 
 Current built-in functions, like input() and raw_input(), are found to be
 extremely useful in traditional teaching settings. (For more details,
@@ -136,8 +136,8 @@ although it could cause confusion for people reading older books or tutorials.
 The rationale for accepting the renaming can be found here [4].
 
 
-References
-==========
+참조
+====
 
 .. [1] PEP 3100, Miscellaneous Python 3.0 Plans, Kuchling, Cannon
    http://www.python.org/dev/peps/pep-3100/
@@ -154,9 +154,9 @@ References
 .. [5] BDFL acceptance of the PEP
    http://mail.python.org/pipermail/python-3000/2006-December/005257.html
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 

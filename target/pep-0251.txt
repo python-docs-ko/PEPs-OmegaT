@@ -9,7 +9,7 @@ Created: 17-Apr-2001
 Python-Version: 2.2
 Post-History: 14-Aug-2001
 
-Abstract
+초록
 
     This document describes the Python 2.2 development and release
     schedule.  The schedule primarily concerns itself with PEP-sized
@@ -21,7 +21,7 @@ Abstract
     should be covered by separate PEPs.
 
 
-Release Schedule
+릴리스 일정
 
     Tentative future release dates.  Note that we've slipped this
     compared to the schedule posted around the release of 2.2a1.
@@ -36,7 +36,7 @@ Release Schedule
     18-Jul-2001: 2.2a1 [Released]
 
 
-Release Manager
+릴리스 관리자
 
     Barry Warsaw was the Python 2.2 release manager.
 
@@ -51,7 +51,7 @@ Release Mechanics
     PEP 101 for the actual release mechanics[1].
 
 
-New features for Python 2.2
+파이썬 2.2의 새로운 기능
 
     The following new features are introduced in Python 2.2.  For a
     more detailed account, see Misc/NEWS[2] in the Python
@@ -65,7 +65,7 @@ New features for Python 2.2
     - unification of types and classes (PEP 252, PEP 253)
 
 
-References
+참조
 
     [1] PEP 101, Doing Python Releases 101
         http://www.python.org/dev/peps/pep-0101/
@@ -77,9 +77,9 @@ References
         http://www.python.org/doc/2.2.1/whatsnew/whatsnew22.html
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

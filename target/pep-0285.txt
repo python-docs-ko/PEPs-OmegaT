@@ -10,7 +10,7 @@ Python-Version: 2.3
 Post-History: 8-Mar-2002, 30-Mar-2002, 3-Apr-2002
 
 
-Abstract
+초록
 
     This PEP proposes the introduction of a new built-in type, bool,
     with two constants, False and True.  The bool type would be a
@@ -136,7 +136,7 @@ Review
        also the section "Clarification" below.)
 
 
-Rationale
+근거
 
     Most languages eventually grow a Boolean type; even C99 (the new
     and improved C standard, not yet widely adopted) has one.
@@ -418,7 +418,7 @@ Resolved Issues
       conveys the intention to henceforth use the value as an int.
 
 
-Implementation
+구현
 
     A complete implementation in C has been uploaded to the
     SourceForge patch manager:
@@ -428,9 +428,9 @@ Implementation
     This will soon be checked into CVS for python 2.3a0.
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

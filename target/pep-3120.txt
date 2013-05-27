@@ -47,8 +47,8 @@ transitional period. This transition ended with Python 2.5, which
 gives an error if non-ASCII characters are encountered and no source
 encoding is declared.
 
-Rationale
-=========
+근거
+====
 
 With PEP 263, using arbitrary non-ASCII characters in a Python file is
 possible, but tedious. One has to explicitly add an encoding
@@ -82,18 +82,18 @@ as the parser converts all source code to UTF-8, anyway).
 IDLE needs to be changed to use UTF-8 as the default encoding.
 
 
-References
-==========
+참조
+====
 
 .. [#pep263]
    http://www.python.org/dev/peps/pep-0263/
    
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

@@ -10,8 +10,8 @@ Created: 17-May-2009
 Python-Version: 3.2
 Post-History:
 
-Abstract
-========
+초록
+====
 
 Currently, each feature release introduces a new name for the
 Python DLL on Windows, and may cause incompatibilities for extension
@@ -22,8 +22,8 @@ versions. Extension modules and applications embedding Python
 can work with different feature releases as long as they restrict
 themselves to this stable ABI.
 
-Rationale
-=========
+근거
+====
 
 The primary source of ABI incompatibility are changes to the lay-out
 of in-memory structures. For example, the way in which string interning
@@ -360,8 +360,8 @@ whether their modules conform to the ABI. To avoid users having to
 rewrite their type definitions, a script to convert C source code
 containing type definitions will be provided [3]_.
 
-References
-==========
+참조
+====
 
 .. [1] "python3 module definition file":
    http://svn.python.org/projects/python/branches/pep-0384/PC/python3.def
@@ -370,10 +370,10 @@ References
 .. [3] "ABI type conversion script":
    http://svn.python.org/projects/python/branches/pep-0384/Tools/scripts/abitype.py
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 ..

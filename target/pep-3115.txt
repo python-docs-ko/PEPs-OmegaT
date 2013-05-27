@@ -10,14 +10,14 @@ Created: 07-Mar-2007
 Python-Version: 3.0
 Post-History: 11-March-2007, 14-March-2007
 
-Abstract
+초록
 
      This PEP proposes changing the syntax for declaring metaclasses,
      and alters the semantics for how classes with metaclasses are
      constructed.
 
 
-Rationale
+근거
 
      There are two rationales for this PEP, both of which are somewhat
      subtle.
@@ -279,7 +279,7 @@ Backwards Compatibility
      the new syntax.
 
 
-References
+참조
 
      [1] [Python-3000] Metaclasses in Py3K (original proposal)
          http://mail.python.org/pipermail/python-3000/2006-December/005030.html
@@ -299,9 +299,9 @@ References
      [6] PEP 3102: Keyword-only arguments -
          http://www.python.org/dev/peps/pep-3102/
 
-Copyright
+저작권
 
-     This document has been placed in the public domain.
+     이 문서는 퍼블릭 도메인에 속한다.
 
 
 Local Variables:

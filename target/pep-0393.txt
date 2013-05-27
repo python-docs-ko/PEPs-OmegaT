@@ -10,8 +10,8 @@ Created: 24-Jan-2010
 Python-Version: 3.3
 Post-History:
 
-Abstract
-========
+초록
+====
 
 The Unicode string type is changed to support multiple internal
 representations, depending on the character with the largest Unicode
@@ -22,8 +22,8 @@ may exist in parallel; over time, this compatibility should be phased
 out. The distinction between narrow and wide Unicode builds is
 dropped.  An implementation of this PEP is available at [1]_.
 
-Rationale
-=========
+근거
+====
 
 There are two classes of complaints about the current implementation
 of the unicode type: on systems only supporting UTF-16, users complain
@@ -449,18 +449,18 @@ be necessary: PyUnicode_Find, PyUnicode_FindChar, PyUnicode_Ord, and
 PyUnicode_CopyCharacters help in analyzing and creating string
 objects, operating on indexes instead of data pointers.
 
-References
-==========
+참조
+====
 
 .. [1] PEP 393 branch
        https://bitbucket.org/t0rsten/pep-393
 .. [2] Django measurement results
        http://www.dcl.hpi.uni-potsdam.de/home/loewis/djmemprof/
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 ..

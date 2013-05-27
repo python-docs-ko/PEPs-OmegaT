@@ -18,8 +18,8 @@ This PEP has been withdrawn by its author, as much of the detailed design
 is no longer valid following the migration to importlib in Python 3.3.
 
 
-Abstract
-========
+초록
+====
 
 This PEP proposes enhancements for the import machinery to add 
 post import hooks. It is intended primarily to support the wider
@@ -30,8 +30,8 @@ post import hooks. After some discussion on the python-dev mailing
 list the PEP was parted in two separate PEPs. [1]_
 
 
-Rationale
-=========
+근거
+====
 
 Python has no API to hook into the import machinery and execute code
 *after* a module is successfully loaded. The import hooks of PEP 302 are
@@ -265,14 +265,14 @@ Nick Coghlan, for proof reading and the initial discussion
 Phillip J. Eby, for his implementation in PEAK and help with my own implementation
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
-References
-==========
+참조
+====
 
 .. [1] PEP: Lazy module imports and post import hook
    http://permalink.gmane.org/gmane.comp.python.devel/90949

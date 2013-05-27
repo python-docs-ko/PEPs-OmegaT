@@ -9,7 +9,7 @@ Created: 29-Jul-2003
 Python-Version: 2.4
 Post-History: 1-Dec-2004
 
-Abstract
+초록
 
     This document describes the development and release schedule for
     Python 2.4.  The schedule primarily concerns itself with PEP-sized
@@ -19,14 +19,14 @@ Abstract
     There will be at least two alpha releases, two beta releases, and
     one release candidate.  The release date was 30th November, 2004.
 
-Release Manager
+릴리스 관리자
 
     Anthony Baxter
 
     Martin von Lowis is building the Windows installers, Fred the 
     doc packages, Sean the RPMs.
 
-Release Schedule
+릴리스 일정
 
     July 9: alpha 1 [completed]
 
@@ -206,9 +206,9 @@ Carryover features from Python 2.3
       Too much effort to bother.
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

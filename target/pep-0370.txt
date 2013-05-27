@@ -11,15 +11,15 @@ Python-Version: 2.6, 3.0
 Post-History:
 
 
-Abstract
-========
+초록
+====
 
 This PEP proposes a new a per user site-packages directory to allow
 users the local installation of Python packages in their home directory.
 
 
-Rationale
-=========
+근거
+====
 
 Current Python versions don't have a unified way to install packages
 into the home directory of a user (except for Mac Framework
@@ -190,14 +190,14 @@ Reference Implementation
 A reference implementation is available in the bug tracker. [4]_
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
-References
-==========
+참조
+====
 
 .. [1] Virtual Python
    http://peak.telecommunity.com/DevCenter/EasyInstall#creating-a-virtual-python

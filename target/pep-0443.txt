@@ -12,8 +12,8 @@ Post-History: 22-May-2013, 25-May-2013
 Replaces: 245, 246, 3124
 
 
-Abstract
-========
+초록
+====
 
 This PEP proposes a new mechanism in the ``functools`` standard library
 module that provides a simple form of generic programming known as
@@ -349,8 +349,8 @@ pprint rewrite. Huge thanks to Nick Coghlan for encouraging me to create
 this PEP and providing initial feedback.
 
 
-References
-==========
+참조
+====
 
 .. [#ref-impl]
    http://hg.python.org/features/pep-443/file/tip/Lib/functools.py#l359
@@ -379,10 +379,10 @@ References
 .. [#issue-5135] http://bugs.python.org/issue5135
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

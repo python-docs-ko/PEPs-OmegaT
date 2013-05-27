@@ -12,8 +12,8 @@ Post-History: 2010-07-14, 2010-07-22
 Resolution: http://mail.python.org/pipermail/python-dev/2010-September/103408.html
 
 
-Abstract
-========
+초록
+====
 
 PEP 3147 [1]_ described an extension to Python's import machinery that
 improved the sharing of Python source code, by allowing more than one
@@ -59,8 +59,8 @@ major versions.  Thus a mechanism for discriminating extension module
 file names is proposed.
 
 
-Rationale
-=========
+근거
+====
 
 Linux distributions such as Ubuntu [3]_ and Debian [4]_ provide more
 than one Python version at the same time to their users.  For example,
@@ -286,8 +286,8 @@ can also be viewed [10]_ and is updated automatically as new changes
 are uploaded.
 
 
-References
-==========
+참조
+====
 
 .. [1] PEP 3147
 
@@ -310,10 +310,10 @@ References
 .. [10] https://code.edge.launchpad.net/~barry/python/sovers/+merge/29411
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

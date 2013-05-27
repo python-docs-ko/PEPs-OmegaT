@@ -10,8 +10,8 @@ Created: 23-Apr-2007
 Post-History: 25-Apr-2007, 16-May-2007, 02-Aug-2007
 
 
-Abstract
-========
+초록
+====
 
 This proposal defines a hierarchy of Abstract Base Classes (ABCs) (PEP
 3119) to represent number-like classes. It proposes a hierarchy of
@@ -19,8 +19,8 @@ This proposal defines a hierarchy of Abstract Base Classes (ABCs) (PEP
 means "A is a supertype of B". The hierarchy is inspired by Scheme's
 numeric tower [#schemetower]_.
 
-Rationale
-=========
+근거
+====
 
 Functions that take numbers as arguments should be able to determine
 the properties of those numbers, and if and when overloading based on
@@ -515,8 +515,8 @@ After consultation with its authors it has been decided that the
 tower.
 
 
-References
-==========
+참조
+====
 
 .. [#pep3119] Introducing Abstract Base Classes
    (http://www.python.org/dev/peps/pep-3119/)
@@ -542,10 +542,10 @@ reminding me that Scheme had already done this, and to Guido van
 Rossum and lots of other people on the mailing list for refining the
 concept.
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

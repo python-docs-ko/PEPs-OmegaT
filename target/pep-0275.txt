@@ -14,7 +14,7 @@ Rejection Notice
     A similar PEP for Python 3000, PEP 3103 [2], was already rejected,
     so this proposal has no chance of being accepted either.
 
-Abstract
+초록
 
     This PEP proposes strategies to enhance Python's performance
     with respect to handling switching on a single variable having
@@ -316,7 +316,7 @@ Examples:
              case 'string':
                  SUITE
 
-Scope
+범위
 
      XXX Explain "from __future__ import switch"
 
@@ -329,14 +329,14 @@ Credits
     Greg Ewing (switch syntax)
     Jack Jansen (type switching examples)
 
-References
+참조
 
     [1] https://sourceforge.net/tracker/index.php?func=detail&aid=481118&group_id=5470&atid=305470
     [2] http://www.python.org/dev/peps/pep-3103
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 Local Variables:

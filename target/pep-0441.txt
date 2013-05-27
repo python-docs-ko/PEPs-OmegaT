@@ -116,8 +116,8 @@ as a way to distribute an installer.  They may also prove useful as a
 way to deliver applications when users shouldn’t be asked to perform
 virtualenv + “pip install”.
 
-References
-==========
+참조
+====
 
 .. [1]  “Allow interpreter to execute a zip file”
    (http://bugs.python.org/issue1739468)
@@ -125,8 +125,8 @@ References
 .. [2] “Feature is not documented”
    (http://bugs.python.org/issue17359)
 
-Copyright
-=========
+저작권
+======
 
 This document has been placed into the public domain.
 

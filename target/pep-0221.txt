@@ -10,7 +10,7 @@ Python-Version: 2.0
 Post-History:
 
 
-Introduction
+도입
 
     This PEP describes the `import as' proposal for Python 2.0.  This
     PEP tracks the status and ownership of this feature.  It contains
@@ -19,7 +19,7 @@ Introduction
     contains the definitive historical record.
 
 
-Rationale
+근거
 
     This PEP proposes an extention of Python syntax regarding the
     `import' and `from <module> import' statements.  These statements
@@ -98,12 +98,12 @@ Implementation details
     `hypergeneralization'.
 
 
-Copyright
+저작권
 
     This document has been placed in the Public Domain.
 
 
-References
+참조
 
     [1] http://sourceforge.net/patch/?func=detailpatch&patch_id=101135&group_id=5470
 

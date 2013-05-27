@@ -18,8 +18,8 @@ Numbering Note
 This PEP started its life as PEP 367.  Since it is now targeted
 for Python 3000, it has been moved into the 3xxx space.
 
-Abstract
-========
+초록
+====
 
 This PEP proposes syntactic sugar for use of the ``super`` type to automatically
 construct instances of the super type binding to the class that a method was
@@ -34,8 +34,8 @@ to replace the old::
 
     super(Foo, self).foo(1, 2)
 
-Rationale
-=========
+근거
+====
 
 The current usage of super requires an explicit passing of both the class and
 instance it must operate from, requiring a breaking of the DRY (Don't Repeat
@@ -206,8 +206,8 @@ History
 06-May-2007 - Updated by Tim Delaney to reflect discussions on the python-3000
               and python-dev mailing lists.
 
-References
-==========
+참조
+====
 
 .. [1] Fixing super anyone?
    (http://mail.python.org/pipermail/python-3000/2007-April/006667.html)
@@ -216,10 +216,10 @@ References
    (http://mail.python.org/pipermail/python-ideas/2007-April/000542.html)
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

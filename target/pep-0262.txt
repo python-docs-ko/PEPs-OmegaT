@@ -8,7 +8,7 @@ Type: Standards Track
 Created: 08-Jul-2001
 Post-History: 27-Mar-2002
 
-Introduction
+도입
 
     This PEP describes a format for a database of the Python software
     installed on a system.
@@ -300,7 +300,7 @@ Rejected Suggestions
     for Windows.
   
 
-References
+참조
 
     [1] Michael Muller's patch (posted to the Distutils-SIG around 28
         Dec 1999) generates a list of installed files.
@@ -322,9 +322,9 @@ Acknowledgements
     readers of the Distutils SIG.   
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 Local Variables:

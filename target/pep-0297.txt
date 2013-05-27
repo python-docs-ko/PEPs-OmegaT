@@ -14,7 +14,7 @@ Rejection Notice
     This PEP is rejected for failure to generate significant interest.
 
 
-Abstract
+초록
 
     This PEP proposes strategies to allow the Python standard library
     to be upgraded in parts without having to reinstall the complete
@@ -85,7 +85,7 @@ Proposed Solutions
     define a standard way of switching on the proposed behaviour.
 
 
-Scope
+범위
 
     Solution 1: Python 2.6 and up
     Solution 2: all Python versions supported by distutils
@@ -96,14 +96,14 @@ Credits
     None
 
 
-References
+참조
 
     None
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

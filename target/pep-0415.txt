@@ -14,8 +14,8 @@ Replaces: 409
 Resolution: http://mail.python.org/pipermail/python-dev/2012-May/119467.html
 
 
-Abstract
-========
+초록
+====
 
 PEP 409 introduced support for the ``raise exc from None`` construct to
 allow the display of the exception context to be explicitly suppressed.
@@ -31,8 +31,8 @@ PEP Acceptance
 This PEP was accepted by Nick Coghlan on the 14th of May, 2012.
 
 
-Rationale
-=========
+근거
+====
 
 PEP 409 changes ``__cause__`` to be ``Ellipsis`` by default. Then if
 ``__cause__`` is set to ``None`` by ``raise exc from None``, no context or cause
@@ -81,17 +81,17 @@ Patches
 There is a patch on `Issue 14133`_.
 
 
-References
-==========
+참조
+====
 
 .. _issue 14133:
    http://bugs.python.org/issue14133
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 ..

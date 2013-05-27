@@ -10,8 +10,8 @@ Created: 30-Apr-2007
 Post-History: 30-Apr-2007
 
 
-Abstract
-========
+초록
+====
 
 This PEP proposes adding an enhanced version of the ``pkg_resources``
 module to the standard library.
@@ -59,8 +59,8 @@ tools such as ``setuptools``, ``workingenv`` and ``zc.buildout``,
 simply by supplying the tool's name on the command line.
 
 
-Rationale
-=========
+근거
+====
 
 Many users have requested that ``setuptools`` be included in the
 standard library, to save users needing to go through the awkward
@@ -110,10 +110,10 @@ at:
 of the changes found in the Subversion trunk's ``.txt`` versions.)
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

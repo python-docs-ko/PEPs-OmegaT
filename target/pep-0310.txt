@@ -12,7 +12,7 @@ Python-Version: 2.4
 Post-History:
 
 
-Abstract
+초록
 
     It would be nice to have a less typing-intense way of writing:
 
@@ -29,7 +29,7 @@ Pronouncement
 
     This PEP is rejected in favor of PEP 343.
 
-Rationale
+근거
 
     One of the advantages of Python's exception handling philosophy is
     that it makes it harder to do the "wrong" thing (e.g. failing to
@@ -209,7 +209,7 @@ Cost of Non-Adoption
     incorrect code.
 
 
-References
+참조
 
     There are various python-list and python-dev discussions that
     could be mentioned here.
@@ -229,9 +229,9 @@ References
 
         http://mail.python.org/pipermail/python-dev/2003-August/037803.html
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

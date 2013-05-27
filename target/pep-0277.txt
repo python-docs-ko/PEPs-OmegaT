@@ -10,14 +10,14 @@ Python-Version: 2.3
 Post-History:
 
 
-Abstract
+초록
 
     This PEP discusses supporting access to all files possible on
     Windows NT by passing Unicode file names directly to the system's
     wide-character functions.
 
 
-Rationale
+근거
 
     Python 2.2 on Win32 platforms converts Unicode file names passed
     to open and to functions in the os module into the 'mbcs' encoding
@@ -98,15 +98,15 @@ Reference Implementation
         http://python.org/sf/594001
 
 
-References
+참조
 
     [1] Microsoft Windows APIs
         http://msdn.microsoft.com/
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

@@ -12,8 +12,8 @@ Post-History: 2011-06-28
 Resolution: TBD
 
 
-Abstract
-========
+초록
+====
 
 In honour of Tau Day 2011, this PEP proposes the addition of the circle
 constant ``math.tau`` to the Python standard library.
@@ -85,10 +85,10 @@ may be of interest:
 .. _a page of resources: http://www.math.utah.edu/~palais/pi.html
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 ..
    Local Variables:

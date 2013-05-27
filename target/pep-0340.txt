@@ -9,7 +9,7 @@ Content-Type: text/plain
 Created: 27-Apr-2005
 Post-History:
 
-Introduction
+도입
 
     This PEP proposes a new type of compound statement which can be
     used for resource management purposes.  The new statement type
@@ -549,7 +549,7 @@ Acknowledgements
     Reedy, Tim Delaney, Aahz, and others.  Thanks all for the valuable
     contributions!
 
-References
+참조
 
     [1] http://mail.python.org/pipermail/python-dev/2005-April/052821.html
 
@@ -557,6 +557,6 @@ References
 
     [3] http://effbot.org/zone/asyncore-generators.htm
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.

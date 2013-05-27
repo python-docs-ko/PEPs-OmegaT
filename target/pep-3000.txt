@@ -10,8 +10,8 @@ Created: 05-Apr-2006
 Post-History: 
 
 
-Abstract
-========
+초록
+====
 
 This PEP sets guidelines for Python 3000 development.  Ideally, we
 first agree on the process, and start discussing features only after
@@ -140,8 +140,8 @@ by the author.  Draft meta-PEPs for the topics above and additional
 topics are even more welcome!
 
 
-References
-==========
+참조
+====
 
 .. [1] The 2to3 tool, in the subversion sandbox
    http://svn.python.org/view/sandbox/trunk/2to3/
@@ -153,10 +153,10 @@ References
    http://www.python.org/dev/peps/pep-0361
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

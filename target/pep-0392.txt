@@ -10,8 +10,8 @@ Created: 30-Dec-2009
 Python-Version: 3.2
 
 
-Abstract
-========
+초록
+====
 
 This document describes the development and release schedule for the
 Python 3.2 series.  The schedule primarily concerns itself with PEP-sized
@@ -107,18 +107,18 @@ syntax and no additions to the builtins may be made.
 No large-scale changes have been recorded yet.
 
 
-References
-==========
+참조
+====
 
 .. [#pep3003]
    http://www.python.org/dev/peps/pep-3003/
 
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

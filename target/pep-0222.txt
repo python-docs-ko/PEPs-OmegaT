@@ -10,7 +10,7 @@ Python-Version: 2.1
 Post-History: 22-Dec-2000
 
 
-Abstract
+초록
 
     This PEP proposes a set of enhancements to the CGI development
     facilities in the Python standard library.  Enhancements might be

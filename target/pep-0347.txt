@@ -11,16 +11,16 @@ Created: 14-Jul-2004
 Post-History: 14-Jul-2004
 
 
-Abstract
-========
+초록
+====
 
 The Python source code is currently managed in a CVS repository on
 sourceforge.net.  This PEP proposes to move it to a Subversion
 repository on svn.python.org.
 
 
-Rationale
-=========
+근거
+====
 
 This change has two aspects: moving from CVS to Subversion, and moving
 from SourceForge to python.org.  For each, a rationale will be given.
@@ -304,10 +304,10 @@ The rejected alternatives are shortly discussed here:
     with nobody reachable, and no explanation when it came back.
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 ..

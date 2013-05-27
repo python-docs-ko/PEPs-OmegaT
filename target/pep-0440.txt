@@ -13,8 +13,8 @@ Post-History: 30 Mar 2013, 27-May-2013
 Replaces: 386
 
 
-Abstract
-========
+초록
+====
 
 This PEP describes a scheme for identifying versions of Python software
 distributions, and declaring dependencies on particular versions.
@@ -1050,8 +1050,8 @@ allow the new metadata standard to natively support an existing feature of
 ``file:///localbuilds/exampledist-1.0-py33-none-any.whl``.
 
 
-References
-==========
+참조
+====
 
 The initial attempt at a standardised version scheme, along with the
 justifications for needing such a standard can be found in PEP 386.
@@ -1132,10 +1132,10 @@ Metadata v1.2 guidelines versus setuptools::
       No applicable versions: 249 / 28194 (0.88 %)
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 ..

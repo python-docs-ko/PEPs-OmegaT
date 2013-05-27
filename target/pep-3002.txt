@@ -10,8 +10,8 @@ Created: 27-Mar-2006
 Post-History: 27-Mar-2006, 13-Apr-2006
 
 
-Abstract
-========
+초록
+====
 
 This PEP describes the procedure for changes to Python that are
 backwards-incompatible between the Python 2.X series and Python 3000.
@@ -20,8 +20,8 @@ and must be accompanied by code that can identify when pieces of
 Python 2.X code may be problematic in Python 3000.
 
 
-Rationale
-=========
+근거
+====
 
 Python 3000 will introduce a number of backwards-incompatible changes
 to Python, mainly to streamline the language and to remove some
@@ -107,16 +107,16 @@ existing code should continue to work. (Code that relies on
 be pretty much non-existent.)
 
 
-References
-==========
+참조
+====
 
 TBD
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 ..

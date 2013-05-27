@@ -11,8 +11,8 @@ Python-Version: 3.3
 Post-History:
 Resolution: http://mail.python.org/pipermail/python-dev/2012-May/119651.html
 
-Abstract
-========
+초록
+====
 
 Namespace packages are a mechanism for splitting a single Python package
 across multiple directories on disk.  In current Python versions, an algorithm
@@ -86,8 +86,8 @@ for namespace packages.  Note that PEP 402 has been rejected, but the
 motivating use cases are still valid.
 
 
-Rationale
-=========
+근거
+====
 
 The current imperative approach to namespace packages has led to
 multiple slightly-incompatible mechanisms for providing namespace
@@ -604,8 +604,8 @@ different sets of the related attributes::
     >>>
 
 
-References
-==========
+참조
+====
 
 .. [1] PEP 420 branch (http://hg.python.org/features/pep-420)
 
@@ -631,10 +631,10 @@ References
 .. [8] Discussion about dynamic path computation
        (http://mail.python.org/pipermail/python-dev/2012-May/119560.html)
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 ..

@@ -11,8 +11,8 @@ Python-Version:
 Post-History:
 
 
-Abstract
-========
+초록
+====
 
 This submission describes programming by contract for Python.
 Eiffel's Design By Contract(tm) is perhaps the most popular use of
@@ -326,8 +326,8 @@ Because pre-conditions can only be weakened, a ``ComplexMailClient`` can
 replace a ``SimpleMailClient`` with no fear of breaking existing code.
 
 
-Rationale
-=========
+근거
+====
 
 Except for the following differences, programming-by-contract for
 Python mirrors the Eiffel DBC specification [#oosc]_.
@@ -388,8 +388,8 @@ Other implementations exist that either hack ``__getattr__`` [#dbc4p]_
 or use ``__metaclass__`` [#pydbc]_.
 
 
-References
-==========
+참조
+====
 
 .. [#imp] Implementation described in this document.
           (http://www.wayforward.net/pycontract/)
@@ -422,10 +422,10 @@ References
         ISBN 0-13-978529-9
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 ..

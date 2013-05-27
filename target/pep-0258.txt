@@ -995,7 +995,7 @@ http://docutils.sourceforge.net/.
  Copyright
 ===========
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 ==================

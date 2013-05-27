@@ -36,16 +36,16 @@ The math and the sys module also have gained additional features,
 ``sys.float_info``, ``math.isinf``, ``math.isnan``, ``math.copysign``.
 
 
-Abstract
-========
+초록
+====
 
 This PEP proposes an API and a provides a reference module that
 generates and tests for IEEE 754 double-precision special values:
 positive infinity, negative infinity, and not-a-number (NaN).
 
 
-Rationale
-=========
+근거
+====
 
 The IEEE 754 standard defines a set of binary representations and
 algorithmic rules for floating point arithmetic.  Included in the
@@ -191,8 +191,8 @@ Patch 1151323 "New fpconst module" [2]_ on SourceForge adds the
 fpconst module to the Python standard library.
 
 
-References
-==========
+참조
+====
 
 See http://babbage.cs.qc.edu/courses/cs341/IEEE-754references.html for
 reference material on the IEEE 754 floating point standard.
@@ -204,10 +204,10 @@ reference material on the IEEE 754 floating point standard.
 
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 ..

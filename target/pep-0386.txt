@@ -9,8 +9,8 @@ Content-Type: text/x-rst
 Created: 4-June-2009
 
 
-Abstract
-========
+초록
+====
 
 This PEP proposes a new version comparison schema system in Distutils.
 
@@ -467,8 +467,8 @@ Distutils will deprecate its existing versions class in favor of
 ``NormalizedVersion``. The ``verlib`` module presented in this PEP will be
 renamed to ``version`` and placed into the ``distutils`` package.
 
-References
-==========
+참조
+====
 
 .. [#distutils]
    http://docs.python.org/distutils
@@ -506,10 +506,10 @@ Acknowledgments
 Trent Mick, Matthias Klose, Phillip Eby, David Lyon, and many people at Pycon
 and Distutils-SIG.
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

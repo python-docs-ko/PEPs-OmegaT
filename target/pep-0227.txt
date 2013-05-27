@@ -9,7 +9,7 @@ Created: 01-Nov-2000
 Python-Version: 2.1
 Post-History:
 
-Abstract
+초록
 
     This PEP describes the addition of statically nested scoping
     (lexical scoping) for Python 2.2, and as an source level option
@@ -28,7 +28,7 @@ Abstract
     arguments to explicitly creating bindings in the lambda's
     namespace.
 
-Introduction
+도입
 
     This proposal changes the rules for resolving free variables in
     Python functions.  The new name resolution semantics will take
@@ -279,7 +279,7 @@ Examples
 
     XXX need some counterexamples
 
-Backwards compatibility
+하위 호환성
 
     There are two kinds of compatibility problems caused by nested
     scopes.  In one case, code that behaved one way in earlier
@@ -377,7 +377,7 @@ locals() / vars()
     Under this proposal, it will not be possible to gain
     dictionary-style access to all visible scopes.
 
-Warnings and Errors
+경고 및 오류
 
     The compiler will issue warnings in Python 2.1 to help identify
     programs that may not compile or run correctly under future
@@ -456,7 +456,7 @@ Rebinding names in enclosing scopes
     Since classes seem to achieve the same effect in a more
     straightforward manner, they are preferred.
 
-Implementation
+구현
 
     XXX Jeremy, is this still the case?
 
@@ -485,14 +485,14 @@ Implementation
 
     XXX Much more to say here
 
-References
+참조
 
     [1] Luca Cardelli.  Compiling a functional language.  In Proc. of
     the 1984 ACM Conference on Lisp and Functional Programming,
     pp. 208-217, Aug. 1984
         http://citeseer.ist.psu.edu/cardelli84compiling.html
 
-Copyright
+저작권
 
     XXX
 

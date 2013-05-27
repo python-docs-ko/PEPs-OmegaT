@@ -12,8 +12,8 @@ Python-Version: 3.0
 Post-History: 18-Mar-2007
 
 
-Abstract
-========
+초록
+====
 
 This PEP proposes changes to the Python core to rationalize
 the treatment of string literal representations of integers
@@ -149,8 +149,8 @@ attempts to use oldoctinteger literals to raise an
 exception.
 
 
-Rationale
-=========
+근거
+====
 
 Most of the discussion on these issues occurred on the Python-3000
 mailing list starting 14-Mar-2007, prompted by an observation that
@@ -485,8 +485,8 @@ Should a bin() function which matches hex() and oct() be added?
 Is hex() really that useful once we have advanced string formatting?
 
 
-References
-==========
+참조
+====
 
 .. [1] GNU libc manual printf integer format conversions
    (http://www.gnu.org/software/libc/manual/html_node/Integer-Conversions.html)
@@ -503,10 +503,10 @@ References
 .. [5] BCD page at wikipedia
     (http://en.wikipedia.org/wiki/Binary-coded_decimal)
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

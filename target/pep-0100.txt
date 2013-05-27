@@ -10,7 +10,7 @@ Python-Version: 2.0
 Post-History:
 
 
-Historical Note
+참고 이력
 
     This document was first written by Marc-Andre in the pre-PEP days,
     and was originally distributed as Misc/unicode.txt in Python
@@ -25,7 +25,7 @@ Historical Note
     -Barry Warsaw, PEP editor
 
 
-Introduction
+도입
 
     The idea of this proposal is to add native Unicode 3.0 support to
     Python in a way that makes use of Unicode strings as simple as
@@ -52,7 +52,7 @@ Introduction
      retrieved from MAL's url, or Misc/unicode.txt]
 
 
-Conventions
+관례
 
     - In examples we use u = Unicode object and s = Python string
 
@@ -1005,7 +1005,7 @@ Test Cases
     Codecs.
 
 
-References
+참조
 
     Unicode Consortium:
             http://www.unicode.org/

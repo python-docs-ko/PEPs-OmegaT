@@ -11,8 +11,8 @@ Python-Version: 3.0
 Post-History:
 
 
-Abstract
-========
+초록
+====
 
 This PEP proposes a change to iterable unpacking syntax, allowing to
 specify a "catch-all" name which will be assigned a list of all items
@@ -29,8 +29,8 @@ An example says more than a thousand words::
     [1, 2, 3]
 
 
-Rationale
-=========
+근거
+====
 
 Many algorithms require splitting a sequence in a "first, rest" pair.
 With the new syntax, ::
@@ -175,17 +175,17 @@ were:
   of the result harder.
 
 
-References
-==========
+참조
+====
 
 .. [SFPATCH] http://python.org/sf/1711529
 .. [1] http://mail.python.org/pipermail/python-3000/2007-May/007198.html
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

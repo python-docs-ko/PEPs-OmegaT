@@ -10,8 +10,8 @@ Created: 04-Apr-2011
 Python-Version: 3.3
 Post-History: 04-Apr-2011, 12-Apr-2011, 17-Jul-2011, 15-Aug-2011, 01-Jan-2013
 
-Abstract
-========
+초록
+====
 
 The Python standard library under CPython contains various instances
 of modules implemented in both pure Python and C (either entirely or
@@ -23,8 +23,8 @@ C-based modules lacking a pure Python equivalent implementation get
 special permission to be added to the standard library.
 
 
-Rationale
-=========
+근거
+====
 
 Python has grown beyond the CPython virtual machine (VM). IronPython_,
 Jython_, and PyPy_ are all currently viable alternatives to the
@@ -168,10 +168,10 @@ with any object that duck types to the proper interface instead of a
 specific type.
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 .. _IronPython: http://ironpython.net/

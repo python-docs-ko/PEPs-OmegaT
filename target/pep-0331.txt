@@ -11,7 +11,7 @@ Python-Version: 2.4
 Post-History: 21-Jul-2003, 13-Aug-2003, 18-Jun-2004
 
 
-Abstract
+초록
 
     Support for the LC_NUMERIC locale category in Python 2.3 is
     implemented only in Python-space.  This causes inconsistent
@@ -22,7 +22,7 @@ Abstract
     locale-agnostic functions as necessary.
 
 
-Introduction
+도입
 
     Python provides generic localization services through the locale
     module, which among other things allows localizing the display and
@@ -50,7 +50,7 @@ Introduction
     generate floats incorrectly.
 
 
-Rationale
+근거
 
     The inconsistency between Python and C library localization for
     LC_NUMERIC is a problem for any localized application using C
@@ -152,7 +152,7 @@ Risks
     currently exist.
 
 
-Implementation
+구현
 
     An implementation was developed by Gustavo Carneiro <gjc at
     inescporto.pt>, and attached to Sourceforge.net bug 774665 [10]
@@ -161,7 +161,7 @@ Implementation
     Löwis on 2004-06-08, as stated in the bug report.
 
 
-References
+참조
 
     [1] PEP 1, PEP Purpose and Guidelines, Warsaw, Hylton
         http://www.python.org/dev/peps/pep-0001/
@@ -195,9 +195,9 @@ References
          https://sourceforge.net/tracker/download.php?group_id=5470&atid=305470&file_id=89685&aid=774665
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 Local Variables:

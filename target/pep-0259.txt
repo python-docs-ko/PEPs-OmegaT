@@ -9,7 +9,7 @@ Created: 11-Jun-2001
 Python-Version: 2.2
 Post-History: 11-Jun-2001
 
-Abstract
+초록
 
     Currently, the print statement always appends a newline, unless a
     trailing comma is used.  This means that if we want to print data
@@ -75,7 +75,7 @@ Proposed Solution
     softspace flag is reset to zero.
 
 
-Scope
+범위
 
     This only affects printing of 8-bit strings.  It doesn't affect
     Unicode, although that could be considered a bug in the Unicode
@@ -103,7 +103,7 @@ Risks
     this feature) breaks.
 
 
-Implementation
+구현
 
     A patch relative to current CVS is here:
 
@@ -122,9 +122,9 @@ Rejected
       please).
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 Local Variables:

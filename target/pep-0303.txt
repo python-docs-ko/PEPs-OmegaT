@@ -11,7 +11,7 @@ Python-Version: 2.3
 Post-History:
 
 
-Abstract
+초록
 
     This PEP describes an extension to the built-in divmod() function,
     allowing it to take multiple divisors, chaining several calls to
@@ -99,7 +99,7 @@ Motivation
       = 20 fluid ounces
 
 
-Rationale
+근거
 
     The idea comes from APL, which has an operator that does this.  (I
     don't remember what the operator looks like, and it would probably
@@ -182,9 +182,9 @@ Reference Implementation
     Python/bltinmodule.c
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

@@ -17,8 +17,8 @@ Post-History:
              methodology to be used for any and all code checked into
              Python's code repository.
 
-Abstract
-========
+초록
+====
 
 There are many great pieces of Python software developed outside of
 the Python standard library (a.k.a., the "stdlib").  Sometimes it
@@ -109,8 +109,8 @@ reports and patches should pass through the Web-SIG mailing list
 [#web-sig]_ for discussion.
 
 
-References
-==========
+참조
+====
 
 .. [#element-tree] Fredrik's handing over of ElementTree
    (http://mail.python.org/pipermail/python-dev/2012-February/116389.html)
@@ -119,10 +119,10 @@ References
    (http://mail.python.org/mailman/listinfo/web-sig)
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 ..

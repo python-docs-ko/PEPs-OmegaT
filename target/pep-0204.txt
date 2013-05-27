@@ -10,7 +10,7 @@ Python-Version: 2.0
 Post-History:
 
 
-Introduction
+도입
 
     This PEP describes the `range literal' proposal for Python 2.0.
     This PEP tracks the status and ownership of this feature, slated
@@ -279,7 +279,7 @@ Rejection
       and/or reconsideration, for future reference. ]
 
 
-Copyright
+저작권
 
     This document has been placed in the Public Domain.
 

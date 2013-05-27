@@ -8,14 +8,14 @@ Type: Informational
 Created: 18-Sep-2001
 Post-History: 17-Apr-2002, 29-May-2002
 
-Abstract
+초록
 
     This document specifies a standard API for secret-key block
     encryption algorithms such as DES or Rijndael, making it easier to
     switch between different algorithms and implementations.  
 
 
-Introduction
+도입
 
     Encryption algorithms transform their input data (called
     plaintext) in some way that is dependent on a variable key,
@@ -189,7 +189,7 @@ Specification
     'Guido van Rossum is a space alien.XXXXXX'
 
 
-References
+참조
 
     [1] NIST publication SP 800-38A, "Recommendation for Block Cipher
     Modes of Operation" (http://csrc.nist.gov/encryption/modes/)
@@ -217,9 +217,9 @@ Acknowledgements
     this PEP.
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

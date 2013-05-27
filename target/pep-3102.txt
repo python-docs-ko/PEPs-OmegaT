@@ -11,7 +11,7 @@ Python-Version: 3.0
 Post-History: 28-Apr-2006, May-19-2006
 
 
-Abstract
+초록
 
     This PEP proposes a change to the way that function arguments are
     assigned to named parameter slots.  In particular, it enables the
@@ -20,7 +20,7 @@ Abstract
     filled in by a positional argument.
 
 
-Rationale
+근거
 
     The current Python function-calling paradigm allows arguments to
     be specified either by position or by keyword.  An argument can be
@@ -176,9 +176,9 @@ Backwards Compatibility
     existing programs will continue to work.
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 Local Variables:

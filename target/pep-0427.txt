@@ -12,8 +12,8 @@ Created: 20-Sep-2012
 Post-History: 18-Oct-2012, 15-Feb-2013
 Resolution: http://mail.python.org/pipermail/python-dev/2013-February/124103.html
 
-Abstract
-========
+초록
+====
 
 This PEP describes a built-package format for Python called "wheel".
 
@@ -33,8 +33,8 @@ This PEP was accepted, and the defined wheel version updated to 1.0, by
 Nick Coghlan on 16th February, 2013 [1]_
 
 
-Rationale
-=========
+근거
+====
 
 Python needs a package format that is easier to install than sdist.
 Python's sdist packages are defined by and require the distutils and
@@ -380,8 +380,8 @@ What's the deal with "purelib" vs. "platlib"?
     depending on whether it is pure Python or not and those files should
     be at the root.
 
-References
-==========
+참조
+====
 
 .. [1] PEP acceptance
    (http://mail.python.org/pipermail/python-dev/2013-February/124103.html)
@@ -403,8 +403,8 @@ Example urlsafe-base64-nopad implementation::
         return base64.urlsafe_b64decode(data + pad)
 
 
-Copyright
-=========
+저작권
+======
 
 This document has been placed into the public domain.
 

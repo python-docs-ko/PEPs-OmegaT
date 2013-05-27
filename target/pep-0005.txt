@@ -8,7 +8,7 @@ Type: Process
 Created: 26-Oct-2000
 Post-History:
 
-Abstract
+초록
 
     In the natural evolution of programming languages it is sometimes
     necessary to make changes that modify the behavior of older
@@ -17,14 +17,14 @@ Abstract
     users.
 
 
-Implementation Details
+상세 구현
 
     Implementation of this PEP requires the addition of a formal
     warning and deprecation facility that will be described in another
     proposal.
 
 
-Scope
+범위
 
     These guidelines apply to future versions of Python that introduce
     backward-incompatible behavior.  Backward incompatible behavior is
@@ -44,7 +44,7 @@ Scope
     constitute a backwards-incompatible change of behavior!
 
 
-Steps For Introducing Backwards-Incompatible Features
+하위 호환되지 않는 기능을 도입하기 위한 절차
 
     1. Propose backwards-incompatible behavior in a PEP.  The PEP must
        include a section on backwards compatibility that describes in

@@ -14,8 +14,8 @@ Post-History:
 .. note:: This PEP has been rejected [#rejected]_.
 
 
-Abstract
-========
+초록
+====
 
 Python, as of version 2.4, has 38 exceptions (including warnings) in
 the built-in namespace in a rather shallow hierarchy.  These
@@ -443,8 +443,8 @@ Raymond Hettinger, and everyone else I missed for participating in the
 discussion.
 
 
-References
-==========
+참조
+====
 
 .. [#PEP342] PEP 342 (Coroutines via Enhanced Generators)
    http://www.python.org/dev/peps/pep-0342/
@@ -514,10 +514,10 @@ References
    http://mail.python.org/pipermail/python-dev/2005-August/055676.html
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 ..

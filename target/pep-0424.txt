@@ -10,8 +10,8 @@ Created: 14-July-2012
 Python-Version: 3.4
 Post-History: http://mail.python.org/pipermail/python-dev/2012-July/120920.html
 
-Abstract
-========
+초록
+====
 
 CPython currently defines a ``__length_hint__`` method on several
 types, such as various iterators.  This method is then used by various
@@ -69,16 +69,16 @@ should be used)::
             return hint
 
 
-Rationale
-=========
+근거
+====
 
 Being able to pre-allocate lists based on the expected size, as
 estimated by ``__length_hint__``, can be a significant optimization.
 CPython has been observed to run some code faster than PyPy, purely
 because of this optimization being present.
 
-Copyright
-=========
+저작권
+======
 
 This document has been placed into the public domain.
 

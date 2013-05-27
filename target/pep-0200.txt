@@ -10,7 +10,7 @@ Python-Version: 2.0
 Post-History:
 
 
-Introduction
+도입
 
     This PEP describes the Python 2.0 release schedule, tracking the
     status and ownership of the major new features, summarizes

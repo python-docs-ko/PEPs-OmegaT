@@ -11,8 +11,8 @@ Created: 24-May-2012
 Post-History: 
 
 
-Abstract
-========
+초록
+====
 
 This document deals with:
 
@@ -771,8 +771,8 @@ So let's introduce and promote naming conventions as soon as possible
 (i.e. **now**).
 
 
-References
-==========
+참조
+====
 
 Additional background:
 
@@ -833,10 +833,10 @@ References and footnotes:
    http://guide.python-distribute.org/specification.html#naming-specification
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

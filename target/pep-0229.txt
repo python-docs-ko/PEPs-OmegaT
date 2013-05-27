@@ -9,7 +9,7 @@ Created: 16-Nov-2000
 Post-History:
 
 
-Introduction
+도입
 
     The Modules/Setup mechanism has some flaws:
 
@@ -54,7 +54,7 @@ Proposal
     modified.
 
 
-Implementation
+구현
 
     Patch #102588 on SourceForge contains the proposed patch.
     Currently the patch tries to be conservative and to change as few
@@ -108,9 +108,9 @@ Unresolved Issues
     the top-level Makefile.pre.in is good enough.]
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

@@ -16,7 +16,7 @@ Update
     This PEP has partially been superseded by PEP 3137.
 
 
-Abstract
+초록
 
     This PEP outlines the introduction of a raw bytes sequence type.
     Adding the bytes type is one step in the transition to Unicode
@@ -260,9 +260,9 @@ Frequently Asked Questions
        to encode non-ASCII data.
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

@@ -13,8 +13,8 @@ Post-History: 24-Oct-2011, 28-Oct-2011, 06-Mar-2012, 24-May-2012
 Resolution: http://mail.python.org/pipermail/python-dev/2012-May/119668.html
 
 
-Abstract
-========
+초록
+====
 
 This PEP proposes to add to Python a mechanism for lightweight
 "virtual environments" with their own site directories, optionally
@@ -518,10 +518,10 @@ Mercurial repository`_.  To test it, build and run ``bin/pyvenv
 .. _a clone of the CPython Mercurial repository: http://hg.python.org/sandbox/vsajip#venv
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

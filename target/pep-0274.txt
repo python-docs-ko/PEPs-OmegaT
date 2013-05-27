@@ -10,7 +10,7 @@ Python-Version: 2.7, 3.0 (originally 2.3)
 Post-History: 29-Oct-2001
 
 
-Abstract
+초록
 
     PEP 202 introduces a syntactical extension to Python called the
     "list comprehension"[1].  This PEP proposes a similar syntactical
@@ -45,7 +45,7 @@ Proposed Solution
     applied to dictionaries.
 
 
-Rationale
+근거
 
     There are times when you have some data arranged as a sequences of
     length-2 sequences, and you want to turn that into a dictionary.
@@ -110,21 +110,21 @@ Examples
          2, 3): 5}
 
 
-Implementation
+구현
 
     All implementation details were resolved in the Python 2.7 and 3.0
     time-frame. 
 
 
-References
+참조
 
     [1] PEP 202, List Comprehensions
         http://www.python.org/dev/peps/pep-0202/
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

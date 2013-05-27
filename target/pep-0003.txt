@@ -8,7 +8,7 @@ Type: Process
 Created: 25-Sep-2000
 Post-History:
 
-Introduction
+도입
 
     This PEP contained guidelines for handling bug reports in 
     the Python bug tracker.  It has been replaced by the Issue Workflow
@@ -56,6 +56,6 @@ Original Guidelines
        deal with it, otherwise it's probably best to unassign it.
 
 
-References
+참조
 
     [1] http://bugs.python.org/

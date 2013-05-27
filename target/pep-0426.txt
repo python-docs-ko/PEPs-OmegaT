@@ -16,8 +16,8 @@ Post-History: 14 Nov 2012, 5 Feb 2013, 7 Feb 2013, 9 Feb 2013, 27-May-2013
 Replaces: 345
 
 
-Abstract
-========
+초록
+====
 
 This PEP describes a mechanism for publishing and exchanging metadata
 related to Python distributions. It includes specifics of the field names,
@@ -1994,8 +1994,8 @@ is rejected unless someone can present a compelling use case (and even then
 the idea wouldn't be reconsidered until metadata 2.1 at the earliest).
 
 
-References
-==========
+참조
+====
 
 This document specifies version 2.0 of the metadata format.
 Version 1.0 is specified in PEP 241.
@@ -2018,10 +2018,10 @@ justifications for needing such a standard can be found in PEP 386.
 .. _TR39: http://www.unicode.org/reports/tr39/tr39-1.html#Confusable_Detection
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 ..

@@ -11,7 +11,7 @@ Python-Version: 2.4
 Post-History:
 
 
-Abstract
+초록
 
     Generators allow for natural coding and abstraction of traversal
     over data.  Currently if external resources needing proper timely
@@ -31,7 +31,7 @@ Pronouncement
     Rejected in favor of PEP 342 which includes substantially all of
     the requested behavior in a more refined form.
 
-Rationale
+근거
 
     Python generators allow for natural coding of many data traversal
     scenarios.  Their instantiation produces iterators,
@@ -263,7 +263,7 @@ Alternative Ideas
     case for the more general functionality.
 
 
-References
+참조
 
     [1] PEP 255 Simple Generators
         http://www.python.org/dev/peps/pep-0255/
@@ -272,9 +272,9 @@ References
         http://www.python.org/dev/peps/pep-0288/
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

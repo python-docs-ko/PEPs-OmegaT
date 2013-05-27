@@ -17,7 +17,7 @@ Deferral
   four years, no implementation or widespread interest has emerged.
 
 
-Abstract
+초록
 
     This PEP suggests that some iterator types should support shallow
     copies of their instances by exposing a __copy__ method which meets
@@ -258,7 +258,7 @@ Details
     the new itertools.tee function mentioned in the Motivation section.
 
 
-Rationale
+근거
 
     The main use case for (shallow) copying of an iterator is the same as
     for the function itertools.tee (new in 2.4).  User code will not
@@ -457,7 +457,7 @@ Rationale
     specific iterator type at the same time.
 
 
-References
+참조
 
     [1] Discussion on python-dev starting at post:
         http://mail.python.org/pipermail/python-dev/2003-October/038969.html
@@ -468,9 +468,9 @@ References
     [3] PEP 289, Generator Expressions, Hettinger
         http://www.python.org/dev/peps/pep-0289/
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

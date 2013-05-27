@@ -10,7 +10,7 @@ Python-Version: 2.0
 Post-History: 27-Jul-2000
 
 
-Introduction
+도입
 
     This PEP describes the `lockstep iteration' proposal.  This PEP
     tracks the status and ownership of this feature, slated for
@@ -260,7 +260,7 @@ Other Changes
           zip(firstseq, chain(secondseq, repeat(None)))
 
 
-References
+참조
 
     [1] http://docs.python.org/reference/compound_stmts.html#for
     [2] http://www.haskell.org/onlinereport/standard-prelude.html#$vzip
@@ -269,9 +269,9 @@ References
     http://www.python.org/pipermail/python-dev/2000-July/013139.html
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

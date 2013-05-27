@@ -18,8 +18,8 @@ fruitful discussion about PEP 382 and PEP 402.  We ended up rejecting
 both but a new PEP will be written to carry on in the spirit of PEP
 402.  Martin von Löwis wrote up a summary: [2]_.
 
-Abstract
-========
+초록
+====
 
 Namespace packages are a mechanism for splitting a single Python
 package across multiple directories on disk. In current Python
@@ -76,8 +76,8 @@ setuptools allows declaring namespace packages in a distribution's
 setup.py, so that distribution developers don't need to put the
 magic __path__ modification into __init__.py themselves.
 
-Rationale
-=========
+근거
+====
 
 The current imperative approach to namespace packages has lead to
 multiple slightly-incompatible mechanisms for providing namespace
@@ -202,8 +202,8 @@ mechanisms. extend_path will be adjusted to this specification;
 any other mechanism might cause portions to get added twice to
 __path__.
 
-References
-==========
+참조
+====
 
 .. [1] PEP 382 branch
        (http://hg.python.org/features/pep-382-2#pep-382)
@@ -211,10 +211,10 @@ References
 .. [2] Namespace Packages resolution
        (http://mail.python.org/pipermail/import-sig/2012-March/000421.html)
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 ..

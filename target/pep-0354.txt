@@ -25,8 +25,8 @@ packages that meet these needs.
 *Note: this PEP was superseded by PEP 435, which has been accepted in
 May 2013.*
 
-Abstract
-========
+초록
+====
 
 This PEP specifies an enumeration data type for Python.
 
@@ -243,10 +243,10 @@ References and Footnotes
     <http://cheeseshop.python.org/pypi/enum/>
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 ..

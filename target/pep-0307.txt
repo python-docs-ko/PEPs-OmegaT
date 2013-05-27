@@ -10,7 +10,7 @@ Created: 31-Jan-2003
 Post-History: 7-Feb-2003
 
 
-Introduction
+도입
 
     Pickling new-style objects in Python 2.2 is done somewhat clumsily
     and causes pickle size to bloat compared to classic class
@@ -757,9 +757,9 @@ Pickling of large lists and dicts
     this unpickling temp-space optimization.
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

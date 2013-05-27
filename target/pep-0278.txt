@@ -10,7 +10,7 @@ Python-Version: 2.3
 Post-History:
 
 
-Abstract
+초록
 
     This PEP discusses a way in which Python can support I/O on files
     which have a newline format that is not the native format on the
@@ -58,7 +58,7 @@ Specification
     newline types seen.
 
     
-Rationale
+근거
 
     Universal newline support is implemented in C, not in Python.
     This is done because we want files with a foreign newline
@@ -190,14 +190,14 @@ Reference Implementation
     #476814: http://www.python.org/sf/476814
 
 
-References
+참조
 
-    None.
+    없음.
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

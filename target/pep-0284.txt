@@ -11,7 +11,7 @@ Python-Version: 2.3
 Post-History:
 
 
-Abstract
+초록
 
     This PEP proposes to simplify iteration over intervals of
     integers, by extending the range of expressions allowed after a
@@ -39,7 +39,7 @@ Pronouncement
     that needs to be fixed (except range() needs to become an iterator,
     which it will in Python 3.0)."
 
-Rationale
+근거
 
     One of the most common uses of for-loops in Python is to iterate
     over an interval of integers.  Python provides functions range()
@@ -233,7 +233,7 @@ Issues
       at zero.  Also, in general int(f) can be very far from f.
 
 
-Implementation
+구현
 
     An implementation is not available at this time.  Implementation
     is not expected to pose any great difficulties: the new syntax
@@ -244,7 +244,7 @@ Implementation
     into a loop over the items in a special iterator object.
 
 
-References
+참조
 
     [1] PEP 204, Range Literals
         http://www.python.org/dev/peps/pep-0204/
@@ -259,9 +259,9 @@ References
         http://www.python.org/dev/peps/pep-0276/
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

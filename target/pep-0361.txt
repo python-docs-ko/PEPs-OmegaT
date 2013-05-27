@@ -9,7 +9,7 @@ Created: 29-June-2006
 Python-Version: 2.6 and 3.0
 Post-History: 17-Mar-2008
 
-Abstract
+초록
 
     This document describes the development and release schedule for
     Python 2.6 and 3.0.  The schedule primarily concerns itself with
@@ -55,7 +55,7 @@ Release Lifespan
     purpose.
 
 
-Release Schedule
+릴리스 일정
 
     Note that this schedule is completely tentative. The number of alphas,
     betas and release candidates will be determined as the release process
@@ -249,7 +249,7 @@ Open issues
     http://python.org/sf/1515609
     http://python.org/sf/1515361
 
-References
+참조
 
 .. [1] Adding a __dir__() magic method
    http://mail.python.org/pipermail/python-dev/2006-July/067139.html
@@ -282,9 +282,9 @@ References
    http://www.google.com/calendar/ical/b6v58qvojllt0i6ql654r1vh00%40group.calendar.google.com/public/basic.ics
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

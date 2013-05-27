@@ -10,16 +10,16 @@ Created: 01-Apr-2009
 Post-History: 01-Apr-2009
 
 
-Abstract
-========
+초록
+====
 
 The BDFL, having shepherded Python development for 20 years,
 officially announces his retirement, effective immediately.  Following
 a unanimous vote, his replacement is named.
 
 
-Rationale
-=========
+근거
+====
 
 Guido wrote the original implementation of Python in 1989, and after
 nearly 20 years of leading the community, has decided to step aside as
@@ -85,8 +85,8 @@ him:
   transferred to the PSU (not that PSU, the other PSU).
 
 
-References
-==========
+참조
+====
 
 .. [1] http://www.parrot.org
 
@@ -101,8 +101,8 @@ References
 .. [6] http://www.pythonlabs.com
 
 
-Copyright
-=========
+저작권
+======
 
 This document is the property of the Python Steering Union (not to be
 confused with the Python Secret Underground, which emphatically does

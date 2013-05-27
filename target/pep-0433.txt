@@ -10,8 +10,8 @@ Created: 10-January-2013
 Python-Version: 3.4
 
 
-Abstract
-========
+초록
+====
 
 Add a new optional *cloexec* parameter on functions creating file
 descriptors, add different ways to change default values of this
@@ -23,8 +23,8 @@ parameter, and add four new functions:
  * ``sys.setdefaultcloexec(cloexec)``
 
 
-Rationale
-=========
+근거
+====
 
 A file descriptor has a close-on-exec flag which indicates if the file
 descriptor will be inherited or not.

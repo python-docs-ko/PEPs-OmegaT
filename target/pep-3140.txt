@@ -18,7 +18,7 @@ Rejection
    http://mail.python.org/pipermail/python-3000/2008-May/013876.html.
 
 
-Abstract
+초록
 
    This document discusses the advantages and disadvantages of the
    current implementation of str(container).  It also discusses the
@@ -190,9 +190,9 @@ Backward compatibility
    calling repr explicitly.
 
 
-Copyright
+저작권
 
-   This document has been placed in the public domain.
+   이 문서는 퍼블릭 도메인에 속한다.
 
 
 

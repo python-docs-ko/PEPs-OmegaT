@@ -24,8 +24,8 @@ to use the module for the reasons listed in
 `Independent Implementations?`_.
 
 
-Abstract
-========
+초록
+====
 
 This PEP proposes two singleton constants that represent a top and
 bottom [3]_ value: ``Max`` and ``Min`` (or two similarly suggestive
@@ -38,8 +38,8 @@ temporary minimum or maximum value is required, and an actual minimum
 or maximum numeric value is not limited.
 
 
-Rationale
-=========
+근거
+====
 
 While ``None`` can be used as an absolute minimum that any value can
 attain [1]_, this may be deprecated [4]_ in Python 3.0 and shouldn't
@@ -430,8 +430,8 @@ name, renaming the singletons during import is suggested::
                          UniversalMinimum as uMin
 
 
-References
-==========
+참조
+====
 
 .. [1] RE: [Python-Dev] Re: Got None. Maybe Some?, Peters, Tim
    (http://mail.python.org/pipermail/python-dev/2003-December/041374.html)
@@ -511,10 +511,10 @@ Changes
 - BDFL rejects [12]_ PEP 326
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 ..

@@ -25,8 +25,8 @@ References in this PEP to a "functional" module have been left in for
 historical reasons.
 
 
-Abstract
-========
+초록
+====
 
 This proposal is for a function or callable class that allows a new
 callable to be constructed from a callable and a partial argument list
@@ -280,8 +280,8 @@ it is not expected to be included until after the Python
 implementation has proven itself useful enough to be worth optimising.
 
 
-References
-==========
+참조
+====
 
 .. [1] http://mail.python.org/pipermail/python-dev/2006-March/062290.html
 
@@ -294,10 +294,10 @@ References
 .. _931010: http://www.python.org/sf/931010
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

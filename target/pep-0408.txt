@@ -13,8 +13,8 @@ Post-History: 2012-01-27
 Resolution: http://mail.python.org/pipermail/python-dev/2012-January/115962.html
 
 
-Abstract
-========
+초록
+====
 
 The process of including a new module into the Python standard library is
 hindered by the API lock-in and promise of backward compatibility implied by
@@ -126,8 +126,8 @@ release ``3.X+1``, it will be moved to a permanent location in the library::
 And importing it from ``__preview__`` will no longer work.
 
 
-Rationale
-=========
+근거
+====
 
 Benefits for the core development team
 --------------------------------------
@@ -287,8 +287,8 @@ in Python [2]_.  Although his original proposal uses the name
 package in a better way.
 
 
-References
-==========
+참조
+====
 
 .. [#] Discussed in this thread:
        http://mail.python.org/pipermail/python-ideas/2012-January/013246.html
@@ -301,10 +301,10 @@ References
 .. [#] Proposal for inclusion of regex: http://bugs.python.org/issue2636
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 ..

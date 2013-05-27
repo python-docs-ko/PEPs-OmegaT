@@ -10,7 +10,7 @@ Python-Version: 2.1
 Post-History:
 
 
-Abstract
+초록
 
     Many Python types implement numeric operations.  When the arguments of
     a numeric operation are of different types, the interpreter tries to
@@ -24,7 +24,7 @@ Abstract
     flexible, and faster than having the interpreter do coercion.
 
 
-Rationale
+근거
 
     When implementing numeric or other related operations, it is often
     desirable to provide not only operations between operands of one type
@@ -210,12 +210,12 @@ Credits
     Lemburg[3].
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
-References
+참조
 
     [1] http://www.lemburg.com/files/python/mxDateTime.html
     [2] http://sourceforge.net/patch/?func=detailpatch&patch_id=102652&group_id=5470

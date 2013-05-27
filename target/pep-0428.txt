@@ -11,8 +11,8 @@ Python-Version: 3.4
 Post-History: http://mail.python.org/pipermail/python-ideas/2012-October/016338.html
 
 
-Abstract
-========
+초록
+====
 
 This PEP proposes the inclusion of a third-party module, `pathlib`_, in
 the standard library.  The inclusion is proposed under the provisional
@@ -677,8 +677,8 @@ location) between two accesses.
 .. _`openat()`: http://pubs.opengroup.org/onlinepubs/9699919799/functions/open.html
 
 
-Copyright
-=========
+저작권
+======
 
 This document has been placed into the public domain.
 

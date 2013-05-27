@@ -10,8 +10,8 @@ Created: 22-Apr-2009
 Python-Version: 3.1
 Post-History:
 
-Abstract
-========
+초록
+====
 
 File names, environment variables, and command line arguments are
 defined as being character data in POSIX; the C APIs however allow
@@ -20,8 +20,8 @@ or not. This PEP proposes a means of dealing with such irregularities
 by embedding the bytes in character strings in such a way that allows
 recreation of the original byte string.
 
-Rationale
-=========
+근거
+====
 
 The C char type is a data type that is commonly used to represent both
 character data and bytes. Certain POSIX interfaces are specified and
@@ -168,8 +168,8 @@ as a string termination, even though the string continues.
 In particular, the gtk libraries will truncate text in this
 case; other libraries may show similar problems.
 
-References
-==========
+참조
+====
 
   [1] PEP 277
       "Unicode file name support for Windows NT"
@@ -182,10 +182,10 @@ References
   [3] UTF-8b
       http://mail.nl.linux.org/linux-utf8/2000-07/msg00040.html
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 ..

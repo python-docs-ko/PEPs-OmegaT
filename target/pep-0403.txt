@@ -12,8 +12,8 @@ Post-History: 2011-10-13
 Resolution: TBD
 
 
-Abstract
-========
+초록
+====
 
 This PEP proposes the addition of a new ``@in`` decorator clause that makes
 it possible to override the name binding step of a function or class
@@ -495,17 +495,17 @@ subexpressions rather than being restricted to a single function or
 class definition.
 
 
-References
-==========
+참조
+====
 
 .. [1] Start of python-ideas thread:
    http://mail.python.org/pipermail/python-ideas/2011-October/012276.html
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 ..

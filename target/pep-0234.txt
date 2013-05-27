@@ -9,7 +9,7 @@ Created: 30-Jan-2001
 Python-Version: 2.1
 Post-History: 30-Apr-2001
 
-Abstract
+초록
 
     This document proposes an iteration interface that objects can
     provide to control the behaviour of 'for' loops.  Looping is
@@ -273,7 +273,7 @@ File Iterators
     due to the internal buffer in the iterator.)
 
 
-Rationale
+근거
 
     If all the parts of the proposal are included, this addresses many
     concerns in a consistent and flexible fashion.  Among its chief
@@ -481,7 +481,7 @@ Mailing Lists
         http://groups.yahoo.com/group/python-iter
 
 
-Copyright
+저작권
 
     This document is in the public domain.
 

@@ -11,8 +11,8 @@ Python-Version: 3.0
 Post-History:
 
 
-Abstract
-========
+초록
+====
 
 The iterator protocol in Python 2.x consists of two methods:
 ``__iter__()`` called on an iterable object to yield an iterator, and
@@ -187,8 +187,8 @@ A patch with the necessary changes (except the 2to3 tool) was written
 by Georg Brandl and committed as revision 54910.
 
 
-References
-==========
+참조
+====
 
 .. [1] Single- vs. Multi-pass iterability (Guido van Rossum)
    http://mail.python.org/pipermail/python-dev/2002-July/026814.html
@@ -209,10 +209,10 @@ References
    http://mail.python.org/pipermail/python-3000/2007-March/006027.html
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

@@ -15,8 +15,8 @@ Post-History:
     developer's guide.
 
 
-Abstract
---------
+초록
+----
 
 Historically (through 2.4), compilation from source code to bytecode
 involved two steps:
@@ -546,8 +546,8 @@ having to support both classic and new-style classes.
 
 
 
-References
-----------
+참조
+----
 
 .. [Aho86] Alfred V. Aho, Ravi Sethi, Jeffrey D. Ullman.
    `Compilers: Principles, Techniques, and Tools`,

@@ -10,7 +10,7 @@ Created: 05-Feb-2003
 Post-History: 05-Feb-2003 14-Feb-2003 19-Apr-2003
 
 
-Abstract
+초록
 
     This PEP proposes a simplified API for access to the Global
     Interpreter Lock (GIL) for Python extension modules.
@@ -24,7 +24,7 @@ Abstract
     implementation.
 
 
-Rationale
+근거
 
     The current Python interpreter state API is suitable for simple,
     single-threaded extensions, but quickly becomes incredibly complex
@@ -209,20 +209,20 @@ Design and Implementation
     desired.
 
 
-Implementation
+구현
 
     An implementation of this proposal can be found at
     http://www.python.org/sf/684256
 
 
-References
+참조
 
     [1] http://mail.python.org/pipermail/python-dev/2002-December/031424.html
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

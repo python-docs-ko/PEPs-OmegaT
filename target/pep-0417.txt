@@ -12,15 +12,15 @@ Post-History: 12-Mar-2012
 Resolution: http://mail.python.org/pipermail/python-dev/2012-March/117507.html
 
 
-Abstract
-========
+초록
+====
 
 This PEP proposes adding the mock [1]_ testing library
 to the Python standard library as ``unittest.mock``.
 
 
-Rationale
-=========
+근거
+====
 
 Creating mock objects for testing is a common need in Python.
 Many developers create ad-hoc mocks, as needed, in their test
@@ -67,18 +67,18 @@ an older mock feature called "mocksignature". The
 altogether prior to inclusion.
     
 
-References
-==========
+참조
+====
 
 .. [1] `mock library on PyPI <http://pypi.python.org/pypi/mock>`_
 .. [2] http://pypi.python.org/pypi?%3Aaction=search&term=mock&submit=search
 .. [3] http://bugs.python.org/issue11664
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

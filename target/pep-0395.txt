@@ -11,8 +11,8 @@ Python-Version: 3.4
 Post-History: 5-Mar-2011, 19-Nov-2011
 
 
-Abstract
-========
+초록
+====
 
 This PEP proposes new mechanisms that eliminate some longstanding traps for
 the unwary when dealing with Python's import system, as well as serialisation
@@ -696,8 +696,8 @@ Reference Implementation
 None as yet.
 
 
-References
-==========
+참조
+====
 
 .. [1] Module aliases and/or "real names"
    (http://mail.python.org/pipermail/python-ideas/2011-January/008983.html)
@@ -711,10 +711,10 @@ References
 .. [4] Elaboration of compatibility problems between this PEP and PEP 402
    (http://mail.python.org/pipermail/import-sig/2011-November/000403.html)
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 ..
    Local Variables:

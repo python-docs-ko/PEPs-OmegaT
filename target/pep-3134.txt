@@ -17,7 +17,7 @@ Numbering Note
     for Python 3000, it has been moved into the 3xxx space.
 
 
-Abstract
+초록
 
     This PEP proposes three standard attributes on exception instances:
     the '__context__' attribute for implicitly chained exceptions, the
@@ -53,7 +53,7 @@ Motivation
     the exception information accessible from a single place.
 
 
-History
+이력
 
     Raymond Hettinger [1] raised the issue of masked exceptions on
     Python-Dev in January 2003 and proposed a PyErr_FormatAppend()
@@ -74,7 +74,7 @@ History
     of the same ideas [6] [7].
 
 
-Rationale
+근거
 
     The Python-Dev discussions revealed interest in exception chaining
     for two quite different purposes.  To handle the unexpected raising
@@ -483,7 +483,7 @@ Possible Future Incompatible Changes
       argument instead of the type, value, and traceback arguments.
 
 
-Implementation
+구현
 
     The __traceback__ and __cause__ attributes and the new raise syntax were
     implemented in revision 57783 [14].
@@ -495,7 +495,7 @@ Acknowledgements
     J. Eby, Raymond Hettinger, Walter Dörwald, and others.
 
 
-References
+참조
 
     [1] Raymond Hettinger, "Idea for avoiding exception masking"
         http://mail.python.org/pipermail/python-dev/2003-January/032492.html
@@ -540,9 +540,9 @@ References
         http://svn.python.org/view/python/branches/py3k/Include/?rev=57783&view=rev
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 Local Variables:

@@ -10,7 +10,7 @@ Python-Version: 2.2
 Post-History: 16-Mar-2001, 26-Jul-2001, 27-Jul-2001
 
 
-Abstract
+초록
 
     The current division (/) operator has an ambiguous meaning for
     numerical arguments: it returns the floor of the mathematical
@@ -488,14 +488,14 @@ FAQ
        hence the requirement that it be discussed on c.l.py first.)
 
 
-Implementation
+구현
 
     Essentially everything mentioned here is implemented in CVS and
     will be released with Python 2.2a3; most of it was already
     released with Python 2.2a2.
 
 
-References
+참조
 
     [0] PEP 228, Reworking Python's Numeric Model
         http://www.python.org/dev/peps/pep-0228/
@@ -516,9 +516,9 @@ References
         http://www.python.org/dev/peps/pep-0236/
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

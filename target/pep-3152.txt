@@ -11,8 +11,8 @@ Python-Version: 3.3
 Post-History:
 
 
-Abstract
-========
+초록
+====
 
 A syntax is proposed for defining and calling a special type of
 generator called a 'cofunction'.  It is designed to provide a
@@ -148,10 +148,10 @@ here:
 http://www.cosc.canterbury.ac.nz/greg.ewing/python/generators/cofunctions.html
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

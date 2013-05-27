@@ -10,7 +10,7 @@ Python-Version: 2.1
 Post-History:
 
 
-Introduction
+도입
 
     This PEP describes the "attribute docstring" proposal for Python
     2.0.  This PEP tracks the status and ownership of this feature.
@@ -19,7 +19,7 @@ Introduction
     this file contains the definitive historical record.
 
 
-Rationale
+근거
 
     This PEP proposes a small addition to the way Python currently
     handles docstrings embedded in Python code.
@@ -61,7 +61,7 @@ Rationale
     introspection.
 
 
-Implementation
+구현
 
     Docstrings are handled by the byte code compiler as expressions.
     The current implementation special cases the few locations
@@ -240,12 +240,12 @@ Comments from our BDFL
         doc string.
 
         
-Copyright
+저작권
 
     This document has been placed in the Public Domain.
 
 
-References
+참조
 
     [1] http://sourceforge.net/patch/?func=detailpatch&patch_id=101264&group_id=5470
 

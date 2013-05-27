@@ -11,16 +11,16 @@ Python-Version: 3.0
 Post-History:
 
 
-Abstract
-========
+초록
+====
 
 The title says it all -- this PEP proposes a new ``print()`` builtin
 that replaces the ``print`` statement and suggests a specific signature
 for the new function.
 
 
-Rationale
-=========
+근거
+====
 
 The ``print`` statement has long appeared on lists of dubious language
 features that are to be removed in Python 3000, such as Guido's "Python
@@ -126,8 +126,8 @@ library has been converted too, but it is an ongoing effort to catch
 every print statement that may be left in the distribution.
 
 
-References
-==========
+참조
+====
 
 .. [1] http://www.python.org/doc/essays/ppt/regrets/PythonRegrets.pdf
 
@@ -138,10 +138,10 @@ References
        http://mail.python.org/pipermail/python-3000/2006-November/004485.html
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 ..

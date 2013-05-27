@@ -11,8 +11,8 @@ Python-Version: 2.5
 Post-History:
 
 
-Abstract
-========
+초록
+====
 
 This PEP is a combination of PEP 310's "Reliable Acquisition/Release
 Pairs" with the "Anonymous Block Statements" of Guido's PEP 340.  This
@@ -47,8 +47,8 @@ and the combined generator enhancement PEP will cover the important
 ideas.
 
 
-Introduction
-============
+도입
+====
 
 This PEP proposes that Python's ability to reliably manage resources
 be enhanced by the introduction of a new ``with`` statement that
@@ -1260,8 +1260,8 @@ Delaney and Arnold deVos for prompting particular ideas that made
 their way into this text.
 
 
-References
-==========
+참조
+====
 
 .. [1] Reliable Acquisition/Release Pairs
    (http://www.python.org/dev/peps/pep-0310/)
@@ -1288,10 +1288,10 @@ References
    (http://msdn.microsoft.com/vcsharp/programming/language/ask/withstatement/)
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 ..

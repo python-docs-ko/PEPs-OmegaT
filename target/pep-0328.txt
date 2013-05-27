@@ -11,8 +11,8 @@ Python-Version: 2.4, 2,5, 2.6
 Post-History: 8-Mar-2004
 
 
-Abstract
-========
+초록
+====
 
 The ``import`` statement has two problems:
 
@@ -296,8 +296,8 @@ sys.modules will no longer be supported.
 
 
 
-References
-==========
+참조
+====
 
 For more background, see the following python-dev threads:
 
@@ -318,10 +318,10 @@ For more background, see the following python-dev threads:
 .. [2] http://www.python.org/doc/essays/packages.html
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 ..

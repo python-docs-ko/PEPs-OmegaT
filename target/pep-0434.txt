@@ -16,8 +16,8 @@ Post-History: 16-Feb-2013
 Resolution: http://mail.python.org/pipermail/python-dev/2013-March/125003.html
 
 
-Abstract
-========
+초록
+====
 
 Most CPython tracker issues are classified as behavior or enhancement.
 Most behavior patches are backported to branches for existing
@@ -79,8 +79,8 @@ will allow the Python community to make that learner's experience with
 IDLE awesome by making IDLE a simple tool for beginners to get started
 with Python.
 
-Rationale
-=========
+근거
+====
 
 People primarily use IDLE by running the graphical user interface
 (GUI) application, rather than by directly importing the effectively
@@ -166,8 +166,8 @@ whether this violates the guarantee, but there is a second patch that
 fixes assumption b).  It should be applied when it is clear that the
 first patch will not have to be reverted.
 
-References
-==========
+참조
+====
 
 .. [1] IDLE: Right Click Context Menu, Foord, Michael
    (http://bugs.python.org/issue1207589)
@@ -191,10 +191,10 @@ References
    (http://bugs.python.org/issue13052)
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

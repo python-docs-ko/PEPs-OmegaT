@@ -12,8 +12,8 @@ Python-Version: 2.5
 Post-History:
 
 
-Abstract
-========
+초록
+====
 
 This PEP describes a mechanism for adding metadata to Python distributions.
 It includes specifics of the field names, and their semantics and
@@ -528,8 +528,8 @@ Summary of Differences From PEP 314
   - Obsoletes (in favor of Obsoletes-Dist)
 
 
-References
-==========
+참조
+====
 
 This document specifies version 1.2 of the metadata format.
 Version 1.0 is specified in PEP 241.
@@ -543,10 +543,10 @@ Version 1.1 is specified in PEP 314.
 .. [2] RFC 822 Long Header Fields:
    http://www.freesoft.org/CIE/RFC/822/7.htm
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 Acknowledgements

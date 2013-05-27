@@ -10,7 +10,7 @@ Python-Version: 2.1
 Post-History:
 
 
-Abstract
+초록
 
     This PEP proposes several new features for comparisons:
 
@@ -202,9 +202,9 @@ Implementation Proposal
       when __lt__ etc. have been tried and return NotImplemented.
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 Appendix
@@ -215,7 +215,7 @@ Appendix
     above.
 
 
-Abstract
+초록
 
     A new mechanism allowing comparisons of Python objects to return
     values other than -1, 0, or 1 (or raise exceptions) is

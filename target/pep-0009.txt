@@ -10,7 +10,7 @@ Created: 14-Aug-2001
 Post-History:
 
 
-Abstract
+초록
 
     This PEP provides a boilerplate or sample template for creating
     your own plaintext PEPs.  In conjunction with the content
@@ -29,7 +29,7 @@ Abstract
     see PEP 12, "Sample reStructuredText PEP Template" [2].
 
 
-Rationale
+근거
 
     PEP submissions come in a wide variety of forms, not all adhering
     to the format guidelines set forth below.  Use this template, in
@@ -185,7 +185,7 @@ Plaintext PEP Formatting Requirements
             Refer to PEP 1 [7] for more information about PEP style
             ...
 
-        References
+        참조
 
             [7] PEP 1, PEP Purpose and Guidelines, Warsaw, Hylton
                 http://www.python.org/dev/peps/pep-0001/
@@ -200,7 +200,7 @@ Plaintext PEP Formatting Requirements
     are never padded.
 
 
-References
+참조
 
     [1] PEP 1, PEP Purpose and Guidelines, Warsaw, Hylton
         http://www.python.org/dev/peps/pep-0001/
@@ -212,9 +212,9 @@ References
 
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

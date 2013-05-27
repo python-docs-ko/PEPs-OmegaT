@@ -10,8 +10,8 @@ Created: 19-Dec-2006
 Post-History:
 
 
-Abstract
-========
+초록
+====
 
 This PEP proposes to change the .keys(), .values() and .items()
 methods of the built-in dict type to return a set-like or unordered
@@ -23,8 +23,8 @@ The approach is inspired by that taken in the Java Collections
 Framework [1]_.
 
 
-Introduction
-============
+도입
+====
 
 It has long been the plan to change the .keys(), .values() and
 .items() methods of the built-in dict type to return a more
@@ -330,8 +330,8 @@ I'll leave the decisions (especially about naming) up to whoever
 submits a working implementation.
 
 
-References
-==========
+참조
+====
 
 .. [1] Java Collections Framework
    http://java.sun.com/docs/books/tutorial/collections/index.html

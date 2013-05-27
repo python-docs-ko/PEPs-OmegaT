@@ -24,7 +24,7 @@ Rejection Notice
     proposal might be more palatable.
 
 
-Abstract
+초록
 
     This PEP describes a new class, Path, to be added to the os
     module, for handling paths in an object oriented fashion.  The
@@ -102,7 +102,7 @@ Motivation
           jpegdecode(imgpath)
 
 
-Rationale
+근거
 
     The following points summarize the design:
 
@@ -559,9 +559,9 @@ References and Footnotes
     [7] http://wiki.python.org/moin/PathClass
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 Local Variables:

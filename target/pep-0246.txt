@@ -19,7 +19,7 @@ Rejection Notice
     PEP.  GvR.
 
 
-Abstract
+초록
 
     This proposal puts forth an extensible cooperative mechanism for
     the adaptation of an incoming object to a context which expects an
@@ -731,9 +731,9 @@ References and Footnotes
     [5] http://peak.telecommunity.com/PyProtocols.html
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

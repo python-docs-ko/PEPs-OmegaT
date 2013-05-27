@@ -10,7 +10,7 @@ Created: 28-Oct-2004
 Post-History: 
 
 
-Abstract
+초록
 
     None should be a callable object that when called with any
     arguments has no side effect and returns None.
@@ -31,7 +31,7 @@ Motivation
     of the Python language.
 
 
-Rationale
+근거
 
     Allow the use of None in method tables as a universal no effect
     rather than either (1) checking a method table entry against None
@@ -110,15 +110,15 @@ How To Use
                        }.get(input, None)(input)
 
 
-References
+참조
 
     [1] Python Reference Manual, Section 3.2,
         http://docs.python.org/reference/
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

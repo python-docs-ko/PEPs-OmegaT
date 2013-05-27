@@ -11,7 +11,7 @@ Python-Version: 2.5
 Post-History: 10-Nov-2004
 
 
-Abstract
+초록
 
     This PEP defines a standard for using the logging system (PEP 282
     [1]) in the standard library.
@@ -34,7 +34,7 @@ PEP Deferral
     available time to do so effectively.
 
 
-Rationale
+근거
 
     There are a couple of situations when output to stdout or stderr
     is impractical:
@@ -175,7 +175,7 @@ Guidelines for Logging Usage
     name "dummy.junk".
 
 
-References
+참조
 
     [1] PEP 282, A Logging System, Vinay Sajip, Trent Mick
         http://www.python.org/dev/peps/pep-0282/
@@ -183,9 +183,9 @@ References
     [2] http://mail.python.org/pipermail/python-dev/2004-October/049282.html
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

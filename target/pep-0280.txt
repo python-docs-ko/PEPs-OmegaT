@@ -17,7 +17,7 @@ Deferral
     Hence, it is being deferred.
 
 
-Abstract
+초록
 
     This PEP describes yet another approach to optimizing access to
     module globals, providing an alternative to PEP 266 (Optimizing
@@ -514,9 +514,9 @@ Comparison
     XXX Here, a comparison of the three approaches could be added.
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

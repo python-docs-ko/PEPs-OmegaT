@@ -19,7 +19,7 @@ Rejection Notice
     been lukewarm at best.
 
 
-Abstract
+초록
 
     It is common to need a reference to the current module, class,
     or function, but there is currently no entirely correct way to
@@ -162,7 +162,7 @@ Backwards Compatibility
     names within a single feature release.
 
 
-Implementation
+구현
 
     Ideally, these names would be keywords treated specially by the
     bytecode compiler.
@@ -190,7 +190,7 @@ Open Issues
       separately from other functions?
 
 
-References
+참조
 
     [1] Fixing super anyone?  Guido van Rossum
         http://mail.python.org/pipermail/python-3000/2007-April/006671.html
@@ -199,9 +199,9 @@ References
         http://groups.google.com/group/comp.lang.python/browse_frm/thread/a6010c7494871bb1/62a2da68961caeb6?lnk=gst&q=simionato+challenge&rnum=1&hl=en#62a2da68961caeb6
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

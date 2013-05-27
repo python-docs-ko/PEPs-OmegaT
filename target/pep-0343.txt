@@ -10,7 +10,7 @@ Created: 13-May-2005
 Python-Version: 2.5
 Post-History: 2-Jun-2005, 16-Oct-2005, 29-Oct-2005, 23-Apr-2006, 1-May-2006, 30-Jul-2006
 
-Abstract
+초록
 
     This PEP adds a new statement "with" to the Python language to make
     it possible to factor out standard uses of try/finally statements.
@@ -35,7 +35,7 @@ Author's Note
     working on this PEP for over a year now, so things that were
     originally in the future are now in the past :)
 
-Introduction
+도입
 
     After a lot of discussion about PEP 340 and alternatives, I
     decided to withdraw PEP 340 and proposed a slight variant on PEP
@@ -900,7 +900,7 @@ Ackowledgements
     discussions on python-dev.
 
 
-References
+참조
 
     [1] Raymond Chen's article on hidden flow control
     http://blogs.msdn.com/oldnewthing/archive/2005/01/06/347666.aspx
@@ -950,9 +950,9 @@ References
     [16] Proposal to use 'context guard' instead of 'context manager'
     http://mail.python.org/pipermail/python-dev/2006-May/064676.html
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 .. 

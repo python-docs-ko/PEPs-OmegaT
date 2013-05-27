@@ -13,8 +13,8 @@ Post-History:
 Resolution: TBD
 
 
-Abstract
-========
+초록
+====
 
 Data serialized using the pickle module must be portable across Python
 versions.  It should also support the latest language features as well
@@ -28,8 +28,8 @@ required for (de)serializing, and disk size / network bandwidth
 required for data transfer).
 
 
-Rationale
-=========
+근거
+====
 
 The latest current protocol, coincidentally named protocol 3, appeared
 with Python 3.0 and supports the new incompatible features in the
@@ -170,8 +170,8 @@ In alphabetic order:
   Google Summer of Code project mentored by Alexandre Vassalotti [7]_.
 
 
-References
-==========
+참조
+====
 
 .. [1] "pickle not 64-bit ready":
    http://bugs.python.org/issue11564
@@ -195,10 +195,10 @@ References
    http://bugs.python.org/issue15642
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

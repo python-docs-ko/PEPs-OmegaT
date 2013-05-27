@@ -11,14 +11,14 @@ Python-Version: N.A.
 Post-History:
 
 
-Abstract
-========
+초록
+====
 
 This PEP describes a mirroring infrastructure for PyPI.
 
 
-Rationale
-=========
+근거
+====
 
 PyPI is hosting over 6000 projects and is used on a daily basis
 by people to build applications. Especially systems like `easy_install`
@@ -323,8 +323,8 @@ packaging system with all levels of privacy.
 It is up the client to deal with the merging.
 
 
-References
-==========
+참조
+====
 
 .. [#pep305]
    http://www.python.org/dev/peps/pep-0305/#id19
@@ -357,10 +357,10 @@ Acknowledgments
 Georg Brandl.
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 ..

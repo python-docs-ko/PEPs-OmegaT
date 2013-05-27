@@ -10,8 +10,8 @@ Created: 28-May-2011
 Python-Version: 3.3
 
 
-Abstract
-========
+초록
+====
 
 io.TextIOWrapper and codecs.StreamReaderWriter offer the same API
 [#f1]_. TextIOWrapper has more features and is faster than
@@ -71,8 +71,8 @@ Accordingly, this PEP proposes that:
   3.3.
 
 
-Rationale
-=========
+근거
+====
 
 StreamReader and StreamWriter issues
 ''''''''''''''''''''''''''''''''''''
@@ -321,10 +321,10 @@ Links
    <http://mail.python.org/pipermail/python-dev/2011-May/111591.html>`_
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 Footnotes

@@ -10,7 +10,7 @@ Python-Version: 2.1
 Post-History: 05-Nov-2000
 
 
-Abstract
+초록
 
     This PEP proposes a C and Python level API, as well as command
     line flags, to issue warning messages and control what happens to
@@ -390,7 +390,7 @@ Rejected Concerns
       problem with making them available as built-ins.
 
 
-Implementation
+구현
 
     Here's a prototype implementation:
 

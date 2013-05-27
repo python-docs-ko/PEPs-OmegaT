@@ -10,8 +10,8 @@ Created: 22-Jan-2003
 Post-History: 27-Jan-2003, 31-Jan-2003, 17-Jun-2005
 
 
-Abstract
-========
+초록
+====
 
 This PEP outlines a mechanism for controlling the generation and
 location of compiled Python bytecode files.  This idea originally
@@ -167,8 +167,8 @@ There is nothing special about sys.bytecodebase.  The user may change
 it at runtime if desired, but normally it will not be modified.
 
 
-Rationale
-=========
+근거
+====
 
 In many environments it is not possible for non-root users to write
 into directories containing Python source files.  Most of the time,
@@ -314,8 +314,8 @@ Implementation
 
 See the patch on Sourceforge. [6]_
 
-References
-==========
+참조
+====
 
 .. [1] patch 602345, Option for not writing py.[co] files, Klose
    (http://www.python.org/sf/602345)
@@ -336,10 +336,10 @@ References
    (http://www.python.org/sf/677103)
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

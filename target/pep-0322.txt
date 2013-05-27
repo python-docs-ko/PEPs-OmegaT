@@ -11,8 +11,8 @@ Python-Version: 2.4
 Post-History: 24-Sep-2003
 
 
-Abstract
-========
+초록
+====
 
 This proposal is to add a builtin function to support reverse
 iteration over sequences.
@@ -182,10 +182,10 @@ with their simplicity, daily utility, and accessibility.  They are core
 looping constructs, independent of any one application domain.
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

@@ -17,8 +17,8 @@ Post-History: 19-Dec-2002
    and provided for historical purposes only.
 
 
-Abstract
-========
+초록
+====
 
 This PEP proposes to add a new set of import hooks that offer better
 customization of the Python import mechanism.  Contrary to the current
@@ -115,8 +115,8 @@ Yet it is completely superfluous when this PEP gets accepted, as it offers a
 much nicer and general way to do the same thing.
 
 
-Rationale
-=========
+근거
+====
 
 While experimenting with alternative implementation ideas to get built-in Zip
 import, it was discovered that achieving this is possible with only a fairly
@@ -565,10 +565,10 @@ References and Footnotes
    http://docs.python.org/3/library/importlib.html#module-importlib
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

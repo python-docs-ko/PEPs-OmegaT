@@ -9,7 +9,7 @@ Created: 16-Oct-2000
 Python-Version: 2.1
 Post-History:
 
-Abstract
+초록
 
     This document describes the post Python 2.0 development and
     release schedule.  According to this schedule, Python 2.1 will be
@@ -18,7 +18,7 @@ Abstract
     occur up until the first beta release.
 
 
-Release Schedule
+릴리스 일정
 
     Tentative future release dates
 

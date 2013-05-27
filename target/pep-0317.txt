@@ -11,8 +11,8 @@ Python-Version: 2.4
 Post-History: 09-Jun-2003
 
 
-Abstract
-========
+초록
+====
 
     "For clarity in new code, the form ``raise class(argument, ...)``
     is recommended (i.e. make an explicit call to the constructor)."
@@ -427,8 +427,8 @@ met by extending the phase-in period.  For example, warnings could
 first be issued in 3.0, and become errors in some later release.
 
 
-References
-==========
+참조
+====
 
 .. [1] "Standard Exception Classes in Python 1.5", Guido van Rossum.
        http://www.python.org/doc/essays/stdexceptions.html
@@ -449,10 +449,10 @@ References
        http://mail.python.org/pipermail/python-dev/2003-June/036176.html
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

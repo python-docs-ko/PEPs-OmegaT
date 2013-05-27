@@ -10,8 +10,8 @@ Created: 18-Dec-2005
 Post-History:
 
 
-Abstract
-========
+초록
+====
 
 In Python 2.4, indices of sequences are restricted to the C type
 int. On 64-bit machines, sequences therefore cannot use the full
@@ -21,8 +21,8 @@ Py_ssize_t. An implementation of the proposed change is in
 http://svn.python.org/projects/python/branches/ssize_t.
 
 
-Rationale
-=========
+근거
+====
 
 64-bit machines are becoming more popular, and the size of main memory
 increases beyond 4GiB. On such machines, Python currently is limited,
@@ -257,10 +257,10 @@ Open Issues
   that requirement.
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

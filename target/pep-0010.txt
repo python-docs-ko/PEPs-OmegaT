@@ -9,7 +9,7 @@ Created: 07-Mar-2002
 Post-History: 07-Mar-2002
 
 
-Abstract
+초록
 
     This PEP outlines the python-dev voting guidelines.  These
     guidelines serve to provide feedback or gauge the "wind direction"
@@ -17,7 +17,7 @@ Abstract
     binding force.
 
 
-Rationale
+근거
 
     When a new idea, feature, patch, etc. is floated in the Python
     community, either through a PEP or on the mailing lists (most
@@ -52,7 +52,7 @@ Voting Scores
     people get excited about such geeky stuff.
 
 
-References
+참조
 
     [1] Python Developer's Guide,
 	http://www.python.org/dev/
@@ -61,9 +61,9 @@ References
 	http://httpd.apache.org/dev/guidelines.html
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

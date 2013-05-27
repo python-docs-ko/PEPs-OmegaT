@@ -10,7 +10,7 @@ Created: 04-May-2005
 Post-History:
 
 
-Abstract
+초록
 
     This PEP proposes a change in the syntax and semantics of try
     statements to allow combined try-except-finally blocks. This
@@ -90,7 +90,7 @@ Changes to the grammar
                     'finally' ':' suite
                   )
 
-Implementation
+구현
 
     As the PEP author currently does not have sufficient knowledge
     of the CPython implementation, he is unfortunately not able
@@ -102,16 +102,16 @@ Implementation
     This patch was committed 17 December 2005, SVN revision 41740 [3].
 
 
-References
+참조
 
     [1] http://mail.python.org/pipermail/python-dev/2005-May/053319.html
     [2] http://python.org/sf/1355913
     [3] http://mail.python.org/pipermail/python-checkins/2005-December/048457.html
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

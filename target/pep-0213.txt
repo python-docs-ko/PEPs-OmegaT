@@ -10,7 +10,7 @@ Python-Version: 2.1
 Post-History:
 
 
-Introduction
+도입
 
      It is possible (and even relatively common) in Python code and 
      in extension modules to "trap" when an instance's client code 

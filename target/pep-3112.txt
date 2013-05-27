@@ -12,8 +12,8 @@ Python-Version: 3.0
 Post-History: 23-Feb-2007
 
 
-Abstract
-========
+초록
+====
 
 This PEP proposes a literal syntax for the ``bytes`` objects
 introduced in PEP 358.  The purpose is to provide a convenient way to
@@ -107,8 +107,8 @@ The bytes in the new object are the bytes represented by the
 same order.
 
 
-Rationale
-=========
+근거
+====
 
 The proposed syntax provides a cleaner migration path from Python 2.x
 to Python 3000 for most code involving 8-bit strings.  Preserving the
@@ -137,8 +137,8 @@ Thomas Wouters has checked an implementation into the Py3K branch,
 r53872.
 
 
-References
-==========
+참조
+====
 
 .. [#stringliterals]
    http://docs.python.org/reference/lexical_analysis.html#string-literals
@@ -153,7 +153,7 @@ References
    http://mail.python.org/pipermail/python-3000/2007-February/005779.html
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.

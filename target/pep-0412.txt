@@ -11,8 +11,8 @@ Python-Version: 3.3 or 3.4
 Post-History: 08-Feb-2012
 
 
-Abstract
-========
+초록
+====
 
 This PEP proposes a change in the implementation of the builtin
 dictionary type ``dict``.  The new implementation allows dictionaries
@@ -175,16 +175,16 @@ The "indexed" version will not be included in this implementation, but
 should be considered deferred rather than rejected, pending further
 experimentation.
 
-References
-==========
+참조
+====
 
 .. [1] Reference Implementation:
    https://bitbucket.org/markshannon/cpython_new_dict
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

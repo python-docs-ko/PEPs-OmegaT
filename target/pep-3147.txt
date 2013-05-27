@@ -12,8 +12,8 @@ Post-History: 2010-01-30, 2010-02-25, 2010-03-03, 2010-04-12
 Resolution: http://mail.python.org/pipermail/python-dev/2010-April/099414.html
 
 
-Abstract
-========
+초록
+====
 
 This PEP describes an extension to Python's import mechanism which
 improves sharing of Python source code files among multiple installed
@@ -51,8 +51,8 @@ source code proves that within recent memory, every new CPython major
 release has bumped the pyc magic number.
 
 
-Rationale
-=========
+근거
+====
 
 Linux distributions such as Ubuntu [4]_ and Debian [5]_ provide more
 than one Python version at the same time to their users.  For example,
@@ -562,8 +562,8 @@ A Rietveld code review issue [24]_ has been opened as of 2010-04-01 (no,
 this is not an April Fools joke :).
 
 
-References
-==========
+참조
+====
 
 .. [1] PEP 3146
 
@@ -639,10 +639,10 @@ provided useful feedback including but not limited to:
 * Toshio Kuratomi
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

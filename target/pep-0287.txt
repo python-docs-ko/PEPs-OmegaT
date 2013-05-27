@@ -12,8 +12,8 @@ Post-History: 02-Apr-2002
 Replaces: 216
 
 
-Abstract
-========
+초록
+====
 
 When plaintext hasn't been expressive enough for inline documentation,
 Python programmers have sought out a format for docstrings.  This PEP
@@ -159,8 +159,8 @@ specify what over/underline styles are allowed for PEP section
 headers, for uniformity.
 
 
-Rationale
-=========
+근거
+====
 
 The lack of a standard syntax for docstrings has hampered the
 development of standard tools for extracting and converting docstrings
@@ -552,7 +552,7 @@ Questions & Answers
    footnotes.  reStructuredText differentiates between the two.  A PEP
    might contain references like this::
 
-       Abstract
+       초록
 
            This PEP proposes adding frungible doodads [1] to the core.
            It extends PEP 9876 [2] via the BCA [3] mechanism.
@@ -790,10 +790,10 @@ __ http://www.python.org/doc/Humor.html#zen
 .. _Docutils: http://docutils.sourceforge.net/
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 Acknowledgements

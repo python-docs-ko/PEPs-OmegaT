@@ -10,8 +10,8 @@ Created: 17-Oct-2012
 Python-Version: 3.4
 
 
-Abstract
-========
+초록
+====
 
 This document describes the development and release schedule for
 Python 3.4.  The schedule primarily concerns itself with PEP-sized
@@ -85,10 +85,10 @@ Deferred to post-3.4:
 
 * None so far
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

@@ -10,7 +10,7 @@ Python-Version: 2.3
 Post-History: 
 
 
-Abstract
+초록
 
     PyArg_ParseTuple is confronted with difficult memory management if
     an argument converter creates new memory.  To deal with these
@@ -101,9 +101,9 @@ New converters
     the argument tuple.  The e* converters are deprecated.
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

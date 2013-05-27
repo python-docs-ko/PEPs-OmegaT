@@ -11,8 +11,8 @@ Python-Version: 3.4
 Post-History: 28-Dec-2012, 2-Jan-2013
 
 
-Abstract
-========
+초록
+====
 
 This PEP proposes a mechanism for simplifying the startup sequence for
 CPython, making it easier to modify the initialization behaviour of the
@@ -1225,8 +1225,8 @@ first comment line in the main script)
 Also see detailed sequence of operations notes at [1_]
 
 
-References
-==========
+참조
+====
 
 .. [1] CPython interpreter initialization notes
    (http://wiki.python.org/moin/CPythonInterpreterInitialization)

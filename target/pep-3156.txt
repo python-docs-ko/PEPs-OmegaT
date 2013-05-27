@@ -9,8 +9,8 @@ Content-Type: text/x-rst
 Created: 12-Dec-2012
 Post-History: 21-Dec-2012
 
-Abstract
-========
+초록
+====
 
 This is a proposal for asynchronous I/O in Python 3, starting with
 Python 3.3.  Consider this the concrete proposal that is missing from
@@ -21,8 +21,8 @@ implementation is in the works under the code name Tulip.  The Tulip
 repo is linked from the References section at the end.
 
 
-Introduction
-============
+도입
+====
 
 The event loop is the place where most interoperability occurs.  It
 should be easy for (Python 3.3 ports of) frameworks like Twisted,
@@ -1431,8 +1431,8 @@ Open Issues
   default for a specific operation globally (i.e., per event loop).
 
 
-References
-==========
+참조
+====
 
 - PEP 380 describes the semantics of ``yield from``.  
 
@@ -1473,10 +1473,10 @@ support in the NDB library for Google App Engine was an important
 influence.
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

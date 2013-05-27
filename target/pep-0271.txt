@@ -10,7 +10,7 @@ Python-Version: 2.2
 Post-History:
 
 
-Abstract
+초록
 
     At present, setting the PYTHONPATH environment variable is the
     only method for defining additional Python module search
@@ -20,7 +20,7 @@ Abstract
     as an alternative to PYTHONPATH.
 
 
-Rationale
+근거
 
     On Unix:
 
@@ -62,9 +62,9 @@ Reference Implementation
     http://sourceforge.net/tracker/?func=detail&atid=305470&aid=429614&group_id=5470
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

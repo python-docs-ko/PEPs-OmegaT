@@ -10,7 +10,7 @@ Python-Version: 2.2
 Post-History: 30-Mar-2001
 
 
-Abstract
+초록
 
     The standard Python distribution includes a directory
     Lib/site-packages, which is used on Unix platforms to hold
@@ -51,7 +51,7 @@ Motivation
     modules directory.
 
 
-Implementation
+구현
 
     The implementation of this feature is fairly trivial.  All that
     would be required is a change to site.py, to change the section
@@ -126,9 +126,9 @@ Open Issues
       users who embed Python.
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

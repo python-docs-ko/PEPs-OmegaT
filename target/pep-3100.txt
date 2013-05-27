@@ -10,8 +10,8 @@ Created: 20-Aug-2004
 Post-History:
 
 
-Abstract
-========
+초록
+====
 
 This PEP, previously known as PEP 3000, describes smaller scale changes
 and new features for which no separate PEP is written yet, all targeted
@@ -264,8 +264,8 @@ Outstanding Issues
 * Remove support for old systems, including: BeOS, RISCOS, (SGI) Irix, Tru64
 
 
-References
-==========
+참조
+====
 
 .. [1] PyCon 2003 State of the Union:
    http://www.python.org/doc/essays/ppt/pycon2003/pycon2003.ppt
@@ -418,10 +418,10 @@ References
 .. [#remove-operator-funcs] Remove deprecated functions from operator
    http://www.python.org/sf/1516309
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

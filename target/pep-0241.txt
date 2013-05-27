@@ -8,7 +8,7 @@ Type: Standards Track
 Created: 12-Mar-2001
 Post-History: 19-Mar-2001
 
-Introduction
+도입
 
    This PEP describes a mechanism for adding metadata to Python
    packages.  It includes specifics of the field names, and their
@@ -224,9 +224,9 @@ Acknowledgements
     Evans also offered several useful suggestions on this list.
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

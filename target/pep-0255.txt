@@ -14,7 +14,7 @@ Python-Version: 2.2
 Post-History: 14-Jun-2001, 23-Jun-2001
 
 
-Abstract
+초록
 
     This PEP introduces the concept of generators to Python, as well
     as a new statement used in conjunction with them, the "yield"
@@ -499,9 +499,9 @@ Footnotes and References
         examples, including all those in this PEP.
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

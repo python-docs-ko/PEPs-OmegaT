@@ -12,8 +12,8 @@ Post-History: 18-Apr-2004
 
 
 
-Abstract
-========
+초록
+====
 
 The proposal is to add a function for treating builtin references as
 constants and to apply that function throughout the standard library.
@@ -252,8 +252,8 @@ The final code should add a flag to make it easy to disable binding.
 
 
 
-References
-==========
+참조
+====
 
 .. [1] Optimizing Global Variable/Attribute Access
        http://www.python.org/dev/peps/pep-0266/
@@ -267,7 +267,7 @@ References
 Copyright
 =========
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

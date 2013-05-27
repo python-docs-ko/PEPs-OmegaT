@@ -10,7 +10,7 @@ Python-Version: 2.5
 Post-History:
 
 
-Abstract
+초록
 
     This PEP proposes that symbols matching the type name should be
     added to the types module for all basic Python types in the types
@@ -44,7 +44,7 @@ Pronouncement
     smoother transition to Python 3.0.
     
 
-Rationale
+근거
 
     Using two sets of names for the same objects is redundant and
     confusing.
@@ -91,9 +91,9 @@ Reference Implementation
     #569328: http://www.python.org/sf/569328
   
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

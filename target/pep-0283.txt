@@ -9,7 +9,7 @@ Created: 27-Feb-2002
 Python-Version: 2.3
 Post-History: 27-Feb-2002
 
-Abstract
+초록
 
     This document describes the development and release schedule for
     Python 2.3.  The schedule primarily concerns itself with PEP-sized
@@ -31,7 +31,7 @@ Abstract
       candidate 2  --  24 Jul 2003
       final        --  29 Jul 2003
 
-Release Manager
+릴리스 관리자
 
     Barry Warsaw, Jeremy Hylton, Tim Peters
 
@@ -295,9 +295,9 @@ Features that did not make it into Python 2.3
       Too much effort to bother.
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

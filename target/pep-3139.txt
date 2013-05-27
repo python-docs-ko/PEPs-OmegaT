@@ -17,16 +17,16 @@ Guido's -0.5 put an end to this PEP.  See
 http://mail.python.org/pipermail/python-3000/2008-April/012977.html.
 
 
-Abstract
-========
+초록
+====
 
 This PEP proposes a new low-level module for CPython-specific interpreter
 functions in order to clean out the sys module and separate general Python
 functionality from implementation details.
 
 
-Rationale
-=========
+근거
+====
 
 The sys module currently contains functions and data that can be put into two
 major groups:
@@ -155,8 +155,8 @@ been suggested [#pyvm-name]_.  The name "cpython" was well liked
 [#cpython-name]_.
 
 
-References
-==========
+참조
+====
 
 .. [#bug-1522]
 
@@ -178,10 +178,10 @@ References
 
    http://mail.python.org/pipermail/stdlib-sig/2008-April/000223.html
 
-Copyright
-=========
+저작권
+======
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

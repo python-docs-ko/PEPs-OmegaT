@@ -14,8 +14,8 @@ Post-History: 2013-02-23, 2013-05-02
 Resolution: http://mail.python.org/pipermail/python-dev/2013-May/126112.html
 
 
-Abstract
-========
+초록
+====
 
 This PEP proposes adding an enumeration type to the Python standard library.
 
@@ -579,8 +579,8 @@ by Barry Warsaw into the stdlib, and is inspired in large parts by it.
 Ben Finney is the author of the earlier enumeration PEP 354.
 
 
-References
-==========
+참조
+====
 
 .. [1] http://mail.python.org/pipermail/python-dev/2013-May/126112.html
 .. [2] http://www.python.org/dev/peps/pep-0354/
@@ -604,10 +604,10 @@ References
 .. [9] http://docs.python.org/3/howto/descriptor.html
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 ..

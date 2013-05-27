@@ -11,7 +11,7 @@ Python-Version: 2.2
 Post-History: 30-Jul-2001
 
 
-Abstract
+초록
 
     As noted in PEP 236, there is no clear way for "simulated
     interactive shells" to simulate the behaviour of __future__
@@ -119,7 +119,7 @@ Issues
     Jython.
 
 
-Implementation
+구현
 
     A series of preliminary implementations are at:
 
@@ -128,9 +128,9 @@ Implementation
     After light massaging by Tim Peters, they have now been checked in.
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

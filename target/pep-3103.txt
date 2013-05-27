@@ -18,8 +18,8 @@ A quick poll during my keynote presentation at PyCon 2007 shows this
 proposal has no popular support.  I therefore reject it.
 
 
-Abstract
-========
+초록
+====
 
 Python-dev has recently seen a flurry of discussion on adding a switch
 statement.  In this PEP I'm trying to extract my own preferences from
@@ -37,8 +37,8 @@ as "alternative 1", "school II", "option 3" and so on.  Hopefully
 these names will help the discussion.
 
 
-Rationale
-=========
+근거
+====
 
 A common programming idiom is to consider an expression and do
 different things depending on its value.  This is usually done with a
@@ -620,10 +620,10 @@ Python is fine without a switch statement, and perhaps those who claim
 it would be a mistake to add one are right.
 
 
-Copyright
-=========
+저작권
+======
 
-This document has been placed in the public domain.
+이 문서는 퍼블릭 도메인에 속한다.
 
 
 

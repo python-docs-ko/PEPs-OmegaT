@@ -15,7 +15,7 @@ Withdrawal
     This PEP has been withdrawn in favor of PEP 3141.
 
 
-Abstract
+초록
 
     Today, Python's numerical model is similar to the C numeric model:
     there are several unrelated numerical types, and when operations
@@ -29,7 +29,7 @@ Abstract
     motivation in this PEP (and details) need to be extended.
 
 
-Rationale
+근거
 
     In usability studies, one of the least usable aspect of Python was
     the fact that integer division returns the floor of the division.
@@ -132,9 +132,9 @@ Unresolved Issues
     by avoiding the conversion to float.  (Due to Andrew Koenig.)
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 

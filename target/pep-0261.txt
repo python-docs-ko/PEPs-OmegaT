@@ -10,7 +10,7 @@ Python-Version: 2.2
 Post-History: 27-Jun-2001
 
 
-Abstract
+초록
 
     Python 2.1 unicode characters can have ordinals only up to 2**16 -1.  
     This range corresponds to a range in Unicode known as the Basic
@@ -186,7 +186,7 @@ Proposed Solution
       literals or unichr().
 
 
-Implementation
+구현
 
     There is a new define:
 
@@ -268,14 +268,14 @@ Rejected Suggestions
     this.
 
 
-References
+참조
 
     Unicode Glossary: http://www.unicode.org/glossary/
 
 
-Copyright
+저작권
 
-    This document has been placed in the public domain.
+    이 문서는 퍼블릭 도메인에 속한다.
 
 
 Local Variables:
