@@ -1,0 +1,103 @@
+PEP: 373
+Title: Python 2.7 Release Schedule
+Version: $Revision$
+Last-Modified: $Date$
+Author: Benjamin Peterson <benjamin@python.org>
+Status: Active
+Type: Informational
+Content-Type: text/x-rst
+Created: 3-Nov-2008
+Python-Version: 2.7
+
+
+Abstract
+========
+
+This document describes the development and release schedule for
+Python 2.7.  The schedule primarily concerns itself with PEP-sized
+items.  Small features may be added up to and including the first beta
+release.  Bugs may be fixed until the final release.
+
+
+Release Manager and Crew
+========================
+
+============================ ==================
+Position                     Name
+============================ ==================
+2.7 Release Manager          Benjamin Peterson
+Windows installers           Martin v. Loewis
+Mac installers               Ned Deily
+============================ ==================
+
+
+Release Schedule
+================
+
+The current schedule is:
+
+- 2.7 alpha 1 2009-12-05
+- 2.7 alpha 2 2010-01-09
+- 2.7 alpha 3 2010-02-06
+- 2.7 alpha 4 2010-03-06
+- 2.7 beta 1 2010-04-03
+- 2.7 beta 2 2010-05-08
+- 2.7 rc1 2010-06-05
+- 2.7 rc2 2010-06-19
+- 2.7 final 2010-07-03
+
+Maintenance releases
+====================
+
+Being the last of the 2.x series, 2.7 will have an extended period of
+maintenance. The current plan is to support it for at least 5 years
+from the initial 2.7 release. This means there will be bugfix releases
+until 2015.
+
+Planned future release dates:
+
+- 2.7.6 November 2013
+- 2.7.7 May 2014
+- 2.7.8 November 2014
+- 2.7.9 May 2015
+
+Dates of previous maintenance releases:
+
+- 2.7.1 2010-11-27
+- 2.7.2 2011-07-21
+- 2.7.3rc1 2012-02-23
+- 2.7.3rc2 2012-03-15
+- 2.7.3 2012-03-09
+- 2.7.4rc1 2013-03-23
+- 2.7.4 2013-04-06
+- 2.7.5 2013-05-12
+
+
+Possible features for 2.7
+=========================
+
+Nothing here. [Note that a moratorium on core language changes is in effect.]
+
+
+References
+==========
+
+None yet!
+
+
+
+Copyright
+=========
+
+This document has been placed in the public domain.
+
+
+
+..
+  Local Variables:
+  mode: indented-text
+  indent-tabs-mode: nil
+  sentence-end-double-space: t
+  fill-column: 70
+  coding: utf-8
+  End:
