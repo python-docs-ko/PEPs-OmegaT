@@ -21,6 +21,28 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>1. Preamble -- RFC 822 style headers containing meta-data about the
+   PEP, including the PEP number, a short descriptive title (limited
+   to a maximum of 44 characters), the names, and optionally the
+   contact info for each author, etc.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125525Z">
+        <seg>1. 서론 -- PEP 번호, 짧고 설명적인 제목(최대 44 글자로 제한), 이름, 각
+   저자에 대한 연락 정보 등의 PEP에 대한 메타 정보를 담은 RFC 822 스타일의
+   머리말.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>2. Abstract -- a short (~200 word) description of the technical issue
+   being addressed.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125540Z">
+        <seg>2. 초록 -- 기술적인 이슈에 대한 짧은(200 단어 이내) 설명을 제시.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>2. An **Informational** PEP describes a Python design issue, or
    provides general guidelines or information to the Python community,
    but does not propose a new feature.  Informational PEPs do not
@@ -38,12 +60,184 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>3. A **Process** PEP describes a process surrounding Python, or
+   proposes a change to (or an event in) a process.  Process PEPs are
+   like Standards Track PEPs but apply to areas other than the Python
+   language itself.  They may propose an implementation, but not to
+   Python's codebase; they often require community consensus; unlike
+   Informational PEPs, they are more than recommendations, and users
+   are typically not free to ignore them.  Examples include
+   procedures, guidelines, changes to the decision-making process, and
+   changes to the tools or environment used in Python development.
+   Any meta-PEP is also considered a Process PEP.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T124935Z">
+        <seg>3. **프로세스** PEP는 파이썬을 둘러싼 프로세스 또는 프로세스(또는 프로세스
+   내의 이벤트)의 변경을 기술한다.  프로세스 PEP들은 표준 트랙 PEP와 비슷하지만
+   파이썬 언어 자체가 아닌 영역에 적용된다.  구현에 대하여 제안할 수도 있지만,
+   파이썬의 코드 기반에 대한 것이 아니다.  그것들은 종종 커뮤니티의 합의를
+   필요로 하기 때문이다.  정보 PEP와 달리, 그것들은 권고 이상이며 사용자가
+   쉽게 무시할 수 없는 것들이다.  절차, 안내, 의사결정 프로세스의 변경 및
+   파이썬 개발에 사용되는 도구나 환경의 변화를 예로 들 수 있다.  메타 PEP
+   역시 프로세스 PEP로 간주한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>3. Copyright/public domain -- Each PEP must either be explicitly
+   labeled as placed in the public domain (see this PEP as an
+   example) or licensed under the `Open Publication License`_.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125557Z">
+        <seg>3. 저작권/공개 도메인 -- 각 PEP는 공개 도메인(이 PEP가 그 예이다) 또는
+   `Open Publication License`_\ 에 의거하여 라이선스됨을 명시하여야 한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>4. Specification -- The technical specification should describe the
+   syntax and semantics of any new language feature.  The
+   specification should be detailed enough to allow competing,
+   interoperable implementations for at least the current major Python
+   platforms (CPython, Jython, IronPython, PyPy).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125600Z">
+        <seg>4. 명세 -- 기술적인 명세는 새로운 언어 기능에 대한 구문(syntax)과 의미
+   (semantics)를 기술한다.  명세는 최소한 현재의 주요한 파이썬 플랫폼(CPython,
+   Jython, IronPython, PyPy)을 위한 경쟁적이고 상호운용 가능한 구현을 하기에
+   충분할 만큼 자세하여야 한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>5. Motivation -- The motivation is critical for PEPs that want to
+   change the Python language.  It should clearly explain why the
+   existing language specification is inadequate to address the
+   problem that the PEP solves.  PEP submissions without sufficient
+   motivation may be rejected outright.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125609Z">
+        <seg>5. 동기부여 -- 파이썬 언어를 바꾸고자 하는 PEP에 있어서 동기가 중요하다.
+   PEP가 해결하고자하는 문제를 해결하기에 기존의 언어 명세가 불충분한 이유를
+   명확하게 설명하여야 한다.  충분한 동기 부여가 되지 않는 PEP 제출은 즉시
+   거부할 수 있다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>6. Rationale -- The rationale fleshes out the specification by
+   describing what motivated the design and why particular design
+   decisions were made.  It should describe alternate designs that
+   were considered and related work, e.g. how the feature is supported
+   in other languages.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125620Z">
+        <seg>6. 근거 -- 특정 디자인을 채택한 동기와 이유를 기술한다. 대체 가능한 다른
+   디자인에 대한 검토 결과와 함께, 다른 언어에서는 그 기능을 어떻게
+   지원하는지와 같은 관련 작업을 기술한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>7. Backwards Compatibility -- All PEPs that introduce backwards
+   incompatibilities must include a section describing these
+   incompatibilities and their severity.  The PEP must explain how the
+   author proposes to deal with these incompatibilities.  PEP
+   submissions without a sufficient backwards compatibility treatise
+   may be rejected outright.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125648Z">
+        <seg>7. 하위 호환성 -- 이전 버전과 호환되지 않는 모든 PEP는 이러한 비호환성과
+   심각성을 기술하는 섹션을 포함하여야 한다.  PEP는 이러한 비호환성을 어떻게
+   처리할 것인지에 대한 저자의 제안을 반드시 설명하여야 한다. 하위 호환성에
+   대한 적절한 논문을 갖추지 않은 PEP는 즉시 거부된다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>8. Reference Implementation -- The reference implementation must be
+   completed before any PEP is given status "Final", but it need not
+   be completed before the PEP is accepted.  While there is merit
+   to the approach of reaching consensus on the specification and
+   rationale before writing code, the principle of "rough consensus
+   and running code" is still useful when it comes to resolving many
+   discussions of API details.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125659Z">
+        <seg>8. 참조 구현 -- PEP가 "최종" 상태를 얻기 전에 참조 구현이 반드시 완성되어야
+   하지만, PEP가 수용되기 전에 반드시 완성되어야 하는 것은 아니다.  코드를
+   작성하기 전에 명세 및 근거에 대한 합의에 도달하는 데에 이점이 있기는
+   하지만, API의 세부사항에 대한 많은 논의를 해결하기 위한 "거친 합의와
+   실행되는 코드"의 원칙은 여전히 유효하다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A PEP can also be "Rejected".  Perhaps after all is said and done it
+was not a good idea.  It is still important to have a record of this
+fact. The "Withdrawn" status is similar - it means that the PEP author
+themselves has decided that the PEP is actually a bad idea, or has
+accepted that a competing proposal is a better alternative.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125407Z">
+        <seg>PEP는 "거부(Rejected)"될 수도 있다.  논의 끝에 좋지 못한 아이디어라고
+판명되었기 때문일 수 있다.  이 사실에 대한 기록을 갖는 것이 중요하다. 
+"철회(Withdrawn)" 상태도 이와 비슷하게, PEP 저자가 그 PEP에 대하여 좋지
+못한 아이디어라고 생각하거나 경쟁 관계의 다른 제안이 더 나은 대안임을 받아들인
+것을 의미한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A PEP can also be assigned status "Deferred".  The PEP author or an
+editor can assign the PEP this status when no progress is being made
+on the PEP.  Once a PEP is deferred, a PEP editor can re-assign it
+to draft status.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125358Z">
+        <seg>PEP에는 "지연(Deferred)" 상태를 할당할 수도 있다.  PEP에 대하여 아무 진전이
+없을 때 PEP 저자 또는 편집자가 이 상태를 부여할 수 있다.  PEP가 일단 지연되면,
+PEP 편집자는 그것을 초안 상태로 되돌릴  수 있다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>After a PEP number has been assigned, a draft PEP may be discussed further on
+python-ideas (getting a PEP number assigned early can be useful for ease of
+reference, especially when multiple draft PEPs are being considered at the
+same time). Eventually, all Standards Track PEPs must  be sent to the
+`python-dev list &lt;mailto:python-dev@python.org&gt;`__ for review as described
+in the next section.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125229Z">
+        <seg>PEP 번호가 할당되면, PEP 초안이 python-ideas에서 논의될 것이다(PEP 번호를
+빨리 할당받는 것이 쉽게 찾는 데에 도움이 된다.  동시에 여러 개의 PEP 초안이
+검토 중일 때 특히 그러하다). 결국, 모든 표준 트랙 PEP는 `python-dev 리스트
+&lt;mailto:python-dev@python.org&gt;`__\ 로 보내어져서 다음 섹션에서 기술하는
+바와 같이 검토된다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As updates are necessary, the PEP author can check in new versions if they
+(or a collaborating developer) have hg push privileges, or else they can
+email new PEP versions to the PEP editors for publication.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125218Z">
+        <seg>업데이트가 성공적이면, PEP 저자는 hg push 권한을 가지고 있는 경우 직접(또는
+동료 개발자를 통해) 새로운 버전을 체크인할 수도 있고, 새로운 PEP 버전을 PEP
+편집자에게 이메일로 보내어 출판하도록 할 수도 있다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Because the PEPs are maintained as text files in a versioned
 repository, their revision history is the historical record of the
 feature proposal [1]_.</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T123117Z">
-        <seg>PEP는 버전이 매겨진 저장소 내의 텍스트 파일로 관리되기 때문에, 버전의 이력이 곧 기능 제안에 대한 기록이 된다 [1]_.</seg>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T124925Z">
+        <seg>PEP는 버전이 매겨진 저장소 내의 텍스트 파일로 관리되기 때문에, 버전의 이력이
+곧 기능 제안에 대한 기록이 된다 [1]_.</seg>
       </tuv>
     </tu>
     <tu>
@@ -58,14 +252,298 @@ feature proposal [1]_.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Developers with hg push privileges for the `PEP repository`_ may claim
+PEP numbers directly by creating and committing a new PEP. When doing so,
+the developer must handle the tasks that would normally be taken care of by
+the PEP editors (see `PEP Editor Responsibilities &amp; Workflow`_). This
+includes ensuring the initial version meets the expected standards for
+submitting a PEP. Alternately, even developers may choose to submit PEPs
+through the PEP editors. When doing so, let the PEP editors know you have
+hg push privileges and they can guide you through the process of updating
+the PEP repository directly.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125209Z">
+        <seg>`PEP repository`_\ 에 대한 hg push 권한을 가진 개발자는 새로운 PEP를 생성 및
+커밋함으로써 직접 PEP 번호를 얻을 수 있다.  그렇게 할 때에는, 개발자는
+일반적으로 PEP 편집자가 담당하는 업무를 처리하여야 한다(`PEP Editor
+Responsibilities &amp; Workflow`_ 참조).  초기 버전이 PEP를 제출하는 데에 있어
+따라야 하는 표준을 충족하는지 확인하는 것을 포함한다.  다른 방법으로,
+개발자가 PEP를 PEP 편집자에게 제출하는 것을 선택할 수도 있다.  그럴 경우에는
+당신이 hg push 권한을 갖고 있다는 것을 PEP 편집자에게 알림으로써 PEP
+저장소에 직접 업데이트하는 절차에 대한 안내를 받기 바란다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Each PEP must have a champion -- someone who writes the PEP using the
+style and format described below, shepherds the discussions in the
+appropriate forums, and attempts to build community consensus around
+the idea.  The PEP champion (a.k.a. Author) should first attempt to
+ascertain whether the idea is PEP-able.  Posting to the
+comp.lang.python newsgroup (a.k.a. python-list@python.org mailing
+list) or the python-ideas mailing list is the best way to go about this.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125108Z">
+        <seg>각 PEP에는 다음에 기술된 문체와 형식에 따라 PEP를 작성하고, 적절한 포럼에서
+토의하며, 아이디어에 대한 커뮤니티의 합의를 구축할 사람이 필요하며, 그러한
+역할을 담당하는 사람을 챔피언이라 한다.  이러한 PEP 챔피언(혹은 저자)는
+아이디어가 PEP가 될 수 있는지 일단 검토해야 한다.  comp.lang.python 뉴스그룹
+(혹은 python-list@python.org 메일링 리스트) 또는 python-ideas 메일링 리스트에
+게재하는 것이 최선의 방법이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Each PEP should have the following parts:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125517Z">
+        <seg>각 PEP는 다음과 같은 부분을 갖추어야 한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Following a discussion on python-ideas, the proposal should be sent as a
+draft PEP to the PEP editors &lt;peps@python.org&gt;.  The draft must be written
+in PEP style as described below, else it will be sent back without further
+regard until proper formatting rules are followed (although minor errors
+will be corrected by the editors).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125146Z">
+        <seg>python-ideas에서의 논의에 따라, 그 제안은 PEP 초안으로서 PEP 편집자
+&lt;peps@python.org&gt; 메일링 리스트에 전달되어야 한다.  초안은 아래에 기술하는
+PEP 형식에 맞추어 기술하여야 하며, 그렇지 않으면 올바른 형식을 따를 때까지
+검토 없이 반송된다(작은 오류는 편집자가 수정한다).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For a PEP to be accepted it must meet certain minimum criteria.  It
+must be a clear and complete description of the proposed enhancement.
+The enhancement must represent a net improvement.  The proposed
+implementation, if applicable, must be solid and must not complicate
+the interpreter unduly.  Finally, a proposed enhancement must be
+"pythonic" in order to be accepted by the BDFL.  (However, "pythonic"
+is an imprecise term; it may be defined as whatever is acceptable to
+the BDFL.  This logic is intentionally circular.)  See PEP 2 [2]_ for
+standard library module acceptance criteria.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125341Z">
+        <seg>PEP가 수용되기 위해서는 몇 가지 최소한의 요건을 갖추어야 한다.  그것은
+제안하는 개선사항에 대한 명확하고 완전한 기술이어야 한다.  개선은 완전한
+구현을 표현해야 한다.  제안하는 구현은 가능하다면 변함이 없고 인터프리터를
+지나치게 복잡하게 만들지 않아야 한다.  마지막으로, 제안하는 개선 사항이
+BDFL에 의해 수용되기 위해서는 반드시 "파이썬다와야(pythonic)" 한다.  (그러나,
+"파이썬다움"은 부정확한 단어이며, BDFL이 수용하느냐에 달려있다. 이것은 순환
+논리이다.)  표준 라이브러리 모듈의 수용 요건에 대해서는 PEP 2 [2]_\ 를
+참조하라.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the PEP editors approve, they will assign the PEP a number, label it
+as Standards Track, Informational, or Process, give it status "Draft",
+and create and check-in the initial draft of the PEP.  The PEP editors
+will not unreasonably deny a PEP.  Reasons for denying PEP status
+include duplication of effort, being technically unsound, not
+providing proper motivation or addressing backwards compatibility, or
+not in keeping with the Python philosophy.  The BDFL can be consulted
+during the approval phase, and is the final arbiter of the draft's
+PEP-ability.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125201Z">
+        <seg>PEP 편집자가 승인하면, PEP에 번호를 붙이고, 표준 트랙, 정보 혹은 프로세스의
+라벨을 붙이고, "초안" 상태를 부여하여 PEP의 최초 초안을 체크인한다.  PEP
+편집자는 이유 없이 PEP를 기각하지 않을 것이다.  PEP 상태를 기각하는 주된
+이유는 노력의 중복을 초래하거나, 기술적으로 나쁘거나, 적절한 동기 또는 하위
+호환성을 제공하지 못하거나, 파이썬 철학에 위배되는 것 등이다.  BDFL은 승인
+단계에 관여할 수 있으며, 초안이 PEP가 될 수 있는지에 대한 최종 결정권을
+갖는다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the final decision on a PEP is to be made by a delegate rather than
+directly by the BDFL, this will be recorded by including the
+"BDFL-Delegate" header in the PEP.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125324Z">
+        <seg>최종 결정이 BDFL에 의하여 직접 이루어지지 않고 위임에 의한 것인 경우에는,
+PEP에 "BDFL-Delegate" 머리말로서 기록을 남긴다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In general, Standards track PEPs are no longer modified after they have
+reached the Final state. Once a PEP has been completed, the Language and
+Standard Library References become the formal documentation of the expected
+behavior.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125456Z">
+        <seg>일반적으로, 표준 트랙 PEP는 최종 상태에 도달한 이후에는 더 이상 수정되지
+않는다. PEP가 일단 완료되면, 언어 및 표준 라이브러리 레퍼런스가 기대되는
+작용에 대한 형식적 문서가 된다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Informational and Process PEPs may be updated over time to reflect changes
+to development practices and other details. The precise process followed in
+these cases will depend on the nature and purpose of the PEP being updated.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125503Z">
+        <seg>정보 및 프로세스 PEP는 개발 사례 및 기타 세부 사항에 대한 변경 사항을 반영하기
+위해 시간이 지남에 따라 갱신될 수 있다.  정확한 과정은 갱신되는 PEP의 성격과
+목적에 따라 달라진다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Once a PEP has been accepted, the reference implementation must be
+completed.  When the reference implementation is complete and incorporated
+into the main source code repository, the status will be changed to "Final".</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125350Z">
+        <seg>일단 PEP가 수용되면, 참조 구현을 반드시 완료하여야 한다.  참조 구현이 완료되어
+주 소스 코드 저장소에 통합되면, 상태가 "최종(Final)"으로 변경된다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Once the authors have completed a PEP, they may request a review for
+style and consistency from the PEP editors.  However, the content and
+final acceptance of the PEP must be requested of the BDFL, usually via
+an email to the python-dev mailing list.  PEPs are reviewed by the
+BDFL and his chosen consultants, who may accept or reject a PEP or
+send it back to the author(s) for revision.  For a PEP that is
+predetermined to be acceptable (e.g., it is an obvious win as-is
+and/or its implementation has already been checked in) the BDFL may
+also initiate a PEP review, first notifying the PEP author(s) and
+giving them a chance to make revisions.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125303Z">
+        <seg>저자가 PEP를 완료하면, PEP 편집자에게 형식과 일관성에 대해 검토를 요청할
+수 있다.  그러나, PEP의 내용과 최종 수용은 BDFL에게 요청하여야 하며, 보통
+python-dev 메일링 리스트에 이메일을 보냄으로써 이루어진다.  BDFL과 그가
+선택한 컨설턴트들이 PEP를 검토하여, PEP를 승인 또는 기각하거나 개정을 위해
+저자에게 반송한다.  수용이 이미 정해진 PEP(명백한 것 및 구현이 이미 체크인
+된 것 등)에 대해서도 BDFL이 PEP 검토에 착수하고 PEP 저자에게 알림으로써
+개정의 기회를 부여할 수 있다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Once the champion has asked the Python community as to whether an
+idea has any chance of acceptance, a draft PEP should be presented to
+python-ideas.  This gives the author a chance to flesh out the draft
+PEP to make properly formatted, of high quality, and to address
+initial concerns about the proposal.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125137Z">
+        <seg>챔피언이 파이썬 커뮤니티에 질문하여 아이디어가 받아들여질 가능성이 있다고
+판단되면, 아이디어를 나타낸 PEP를 작성한다.  저자에게는 적합한 형식과 높은
+품질을 갖추고 제안의 주된 관심사를 적시할 기회가 주어진다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PEP Editors
+-----------</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125012Z">
+        <seg>PEP 편집자
+----------</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PEP Maintenance
+---------------</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125449Z">
+        <seg>PEP 유지관리
+------------</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PEP Review &amp; Resolution
+-----------------------</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125251Z">
+        <seg>PEP 검토 및 해결
+----------------</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PEP Workflow
+============</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T124947Z">
+        <seg>PEP의 흐름
+==========</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PEP authors are responsible for collecting community feedback on a PEP
+before submitting it for review. However, wherever possible, long
+open-ended discussions on public mailing lists should be avoided.
+Strategies to keep the discussions efficient include: setting up a
+separate SIG mailing list for the topic, having the PEP author accept
+private comments in the early design phases, setting up a wiki page, etc.
+PEP authors should use their discretion here.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125247Z">
+        <seg>PEP 저자는 PEP를 검토를 위해 제출하기에 앞서 커뮤니티의 피드백을 수집하는
+책임을 진다.  그러나, 공개된 메일링 리스트에서 끝없이 이어지는 논의는 가능한
+피하도록 한다. 효율적인 논의를 위한 방법으로는 각 주제별로 SIG 메일링 리스트를
+구성하거나, 초기 디자인 단계에서는 개인적인 조언을 얻거나, 위키 페이지를
+구성하는 것 등이 있다.  이 부분은 PEP 저자의 재량에 맡긴다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PEP editorship is by invitation of the current editors.  The address
+&lt;peps@python.org&gt; is a mailing list for contacting the PEP editors.  All
+email related to PEP administration (such as requesting a PEP number
+or providing an updated version of a PEP for posting) should be sent to
+this address (no cross-posting please).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125032Z">
+        <seg>PEP의 편집자는 현재 편집자의 초대를 통해 선임한다.  &lt;peps@python.org&gt; 메일링
+리스트를 통해 PEP 편집자에게 연락할 수 있다.  PEP 관리와 관련한 모든 이메일
+(PEP 번호 요청 및 변경된 버전)은 이 주소로 발송하여야 한다(중복으로 글을
+올리지 말기 바란다).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PEP review and resolution may also occur on a list other than python-dev
+(for example, distutils-sig for packaging related PEPs that don't
+immediately affect the standard library). In this case, the "Discussions-To"
+heading in the PEP will identify the appropriate alternative list where
+discussion, review and pronouncement on the PEP will occur.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125333Z">
+        <seg>PEP 검토 및 해결은 python-dev 이외의 곳에서 이루어질 수도 있다(예를 들어,
+표준 라이브러리에 직접적인 영향을 미치지 않는, 패키징에 관련해서는
+distutils-sig에서 이루어진다). 이 경우, "Discussions-To" 머리말이 논의와
+검토, 공고가 이루어질 메일링 리스트를 식별한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>PEP stands for Python Enhancement Proposal.  A PEP is a design
 document providing information to the Python community, or describing
 a new feature for Python or its processes or environment.  The PEP
 should provide a concise technical specification of the feature and a
 rationale for the feature.</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T123041Z">
-        <seg>PEP는 파이썬 커뮤니티에 정보를 제공하거나, 새로운 기능이나 프로세스 또는 환경을 기술하는 설계 문서이다. PEP는 기능에 대한 간결한 기술 명세와 기능에 대한 이론적 근거를 제공해야 한다.</seg>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T124857Z">
+        <seg>PEP는 파이썬 커뮤니티에 정보를 제공하거나, 새로운 기능이나 프로세스 또는
+환경을 기술하는 설계 문서이다. PEP는 기능에 대한 간결한 기술 명세와 기능에
+대한 이론적 근거를 제공해야 한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -98,6 +576,162 @@ Post-History: 21-Mar-2001, 29-Jul-2002, 03-May-2003, 05-May-2012,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>PEPs can also be superseded by a different PEP, rendering the original
+obsolete.  This is intended for Informational PEPs, where version 2 of
+an API can replace version 1.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125423Z">
+        <seg>PEP는 원래의 것을 쓸모 없게 만드는 다른 PEP로 대체될 수도 있다. 이것은
+정보 PEP를 위한 것으로, 어떤 API의 버전 2는 버전 1을 대신할 수 있다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Python's BDFL
+-------------</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T124956Z">
+        <seg>파이썬의 BDFL
+-------------</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Some Informational and Process PEPs may also have a status of "Active"
+if they are never meant to be completed.  E.g. PEP 1 (this PEP).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125441Z">
+        <seg>의도적으로 완료시키지 않는 몇몇 정보 및 프로세스 PEP는 "활성(Active)" 상태를
+가질 수 있다.  지금 보고 있는 PEP 1이 그 예이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Standards Track PEPs consist of two parts, a design document and a
+reference implementation.  It is generally recommended that at least a
+prototype implementation be co-developed with the PEP, as ideas that sound
+good in principle sometimes turn out to be impractical when subjected to the
+test of implementation.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125237Z">
+        <seg>표준 트랙 PEP는 설계 문서와 참조 구현의 두 부분으로 이루어진다.  일반적으로
+최소한 프로토타입 구현을 PEP와 함께 개발하는 것을 권장하는데, 이는
+이론적으로는 괜찮아보이는 아이디어가 실제 구현을 테스트해보면 실용적이지
+못한 것으로 판명되는 경우가 있기 때문이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Submitting a PEP
+----------------</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125044Z">
+        <seg>PEP 제출
+--------</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The PEP editors are individuals responsible for managing the administrative
+and editorial aspects of the PEP workflow (e.g. assigning PEP numbers and
+changing their status).  See `PEP Editor Responsibilities &amp; Workflow`_ for
+details.  The current editors are:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125024Z">
+        <seg>PEP 편집자는 PEP 흐름의 관리 및 편집(PEP 번호를 할당하고 각각의 상태를
+변경하는 일 등)에 대한 책임을 맡는 개인이다.  자세한 내용은 `PEP Editor
+Responsibilities &amp; Workflow`_\ 를 참조하라.  현재 활동 중인 편집자는 다음과
+같다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The PEP process begins with a new idea for Python.  It is highly
+recommended that a single PEP contain a single key proposal or new
+idea. Small enhancements or patches often don't need
+a PEP and can be injected into the Python development workflow with a
+patch submission to the Python `issue tracker`_. The more focused the
+PEP, the more successful it tends to be.  The PEP editors reserve the
+right to reject PEP proposals if they appear too unfocused or too
+broad.  If in doubt, split your PEP into several well-focused ones.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125057Z">
+        <seg>PEP 프로세스는 파이썬에 대한 새로운 아이디어로부터 시작한다.  단일한 PEP는 단
+하나의 주요 제안 또는 새로운 아이디어만을 담도록 하는 것을 강력히 권장한다.
+사소한 개선이나 패치는 종종 PEP를 거치지 않고 파이썬 `issue tracker`_\ 에
+패치를 제출함으로써 파이썬 개발 흐름에 포함시킬 수 있다.  PEP는 초점이 잘
+잡혀 있을 수록 성공하기 쉽다.  PEP 편집자는 초점이 맞지 않거나 너무 광범위한
+PEP를 거부할 수 있다.  의심스럽다면 PEP를 초점이 잘 잡힌 여러 개의 PEP로
+분할하도록 하라.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The final authority for PEP approval is the BDFL. However, whenever a new
+PEP is put forward, any core developer that believes they are suitably
+experienced to make the final decision on that PEP may offer to serve as
+the BDFL's delegate (or "PEP czar") for that PEP. If their self-nomination
+is accepted by the other core developers and the BDFL, then they will have
+the authority to approve (or reject) that PEP. This process happens most
+frequently with PEPs where the BDFL has granted in principle approval for
+*something* to be done, but there are details that need to be worked out
+before the PEP can be accepted.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125315Z">
+        <seg>PEP 승인의 최종 결정권자는 BDFL이다.  그러나, 새로운 PEP마다, 충분한 경험을
+갖추고 최종 결정을 내릴 수 있는 핵심 개발자가 BDFL의 위임자(또는 "PEP
+황제")로서 봉사할 수 있다.  그들의 자기 추천이 다른 핵심 개발자와 BDFL에
+의해 받아들여지면, 해당 PEP에 대한 승인(또는 거부)의 권한을 갖게 된다.
+이 프로세스는 BDFL이 *무언가가* 이루어지는 데에 원칙적으로는 수용을
+허락하였지만, 그 PEP를 수용하기 위해 해야할 일들이 남아있는 경우에 자주
+일어난다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The final implementation must include test code and documentation
+   appropriate for either the Python language reference or the
+   standard library reference.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125709Z">
+        <seg>최종 구현은 테스트 코드와 함께, 파이썬 언어 레퍼런스 또는 표준 라이브러리
+   레퍼런스에 적합한 문서를 반드시 포함하여야 한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The possible paths of the status of PEPs are as follows:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125430Z">
+        <seg>PEP가 가질 수 있는 상태는 다음과 같다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The rationale should provide evidence of consensus within the
+   community and discuss important objections or concerns raised
+   during discussion.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125634Z">
+        <seg>근거에서는 커뮤니티의 내에서 합의가 이루어졌음을 증명하고 논의 과정에서
+   있었던 중요한 반대나 우려에 대하여 논의하여야 한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There are several reference in this PEP to the "BDFL". This acronym stands
+for "Benevolent Dictator for Life" and refers to Guido van Rossum, the
+original creator of, and the final design authority for, the Python
+programming language.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125004Z">
+        <seg>이 PEP에는 "BDFL"이 여러 번 등장한다.  이는 "Benevolent Dictator for Life
+(친절한 종신 독재자)"의 약어로서, 파이썬 프로그래밍 언어를 최초로
+고안하였으며, 최종적인 디자인 결정권을 가진 Guido van Rossum을 지칭한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There are three kinds of PEP:</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T124458Z">
@@ -114,14 +748,51 @@ Post-History: 21-Mar-2001, 29-Jul-2002, 03-May-2003, 05-May-2012,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Vetting an idea publicly before going as far as writing a PEP is meant
+to save the potential author time. Many ideas have been brought
+forward for changing Python that have been rejected for various
+reasons. Asking the Python community first if an idea is original
+helps prevent too much time being spent on something that is
+guaranteed to be rejected based on prior discussions (searching
+the internet does not always do the trick). It also helps to make sure
+the idea is applicable to the entire community and not just the author.
+Just because an idea sounds good to the author does not
+mean it will work for most people in most areas where Python is used.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125126Z">
+        <seg>PEP를 작성하기에 앞서 아이디어를 공개적으로 검토함으로써 저자의 시간을
+절약할 수 있다.  파이썬에 변경을 일으킬 수 있는 많은 아이디어가 여러 이유로
+인해 기각된다.  이전의 논의에 의거하여 기각될 것이 자명한 아이디어에 불필요한
+시간을 낭비하지 않도록 파이썬 커뮤니티에 먼저 물어보라(인터넷을 찾아보는
+것이 능사는 아니다).  또한 저자만이 아니라 전체 커뮤니티에 적용이 가능한지
+확인하는 것도 도움이 된다.  저자가 생각하기에 좋은 아이디어라 할지라도
+파이썬을 사용하는 대다수의 영역의 사람들에게도 그렇지는 않을 수도 있기
+때문이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>We intend PEPs to be the primary mechanisms for proposing major new
 features, for collecting community input on an issue, and for
 documenting the design decisions that have gone into Python.  The PEP
 author is responsible for building consensus within the community and
 documenting dissenting opinions.</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T123104Z">
-        <seg>우리의 의도는 PEP가 굵직한 새 기능에 대한 제안을 하는 기본적인 메커니즘이 되며, 이슈에 대한 커뮤니티의 의견을 수렴하고, 파이썬에 적용하게 될 설계상의 결정에 대한 기록이 되도록 하는 것이다. PEP의 저자는 지역 사회 내에서 합의를 구축하고 반대 의견을 문서화 할 책임이 있다.</seg>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T124914Z">
+        <seg>우리의 의도는 PEP가 굵직한 새 기능에 대한 제안을 하는 기본적인 메커니즘이
+되며, 이슈에 대한 커뮤니티의 의견을 수렴하고, 파이썬에 적용하게 될 설계상의
+결정에 대한 기록이 되도록 하는 것이다. PEP의 저자는 지역 사회 내에서 합의를
+구축하고 반대 의견을 문서화 할 책임이 있다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>What belongs in a successful PEP?
+=================================</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125510Z">
+        <seg>성공적인 PEP의 요소
+===================</seg>
       </tuv>
     </tu>
     <tu>
@@ -132,6 +803,19 @@ documenting dissenting opinions.</seg>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T123030Z">
         <seg>PEP의 정의
 ==========</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When a PEP is Accepted, Rejected or Withdrawn, the PEP should be updated
+accordingly. In addition to updating the status field, at the very least
+the Resolution header should be added with a link to the relevant post
+in the python-dev mailing list archives.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125415Z">
+        <seg>PEP가 수용(Accepted), 거부 또는 철회되면, 그에 따라 PEP를 갱신하여야 한다.
+상태 필드를 갱신함에 덧붙여, python-dev 메일링 리스트 아카이브의 관련된
+게시물을 링크하는 최소한의 Resolution header를 추가하도록 한다.</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
