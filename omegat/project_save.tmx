@@ -2363,8 +2363,8 @@ similar policy.</seg>
         <seg>PEP Editor Responsibilities &amp; Workflow
 ======================================</seg>
       </tuv>
-      <tuv lang="KO" changeid="yong" changedate="20130527T160745Z">
-        <seg>PEP 편집장의 책임 및 흐름
+      <tuv lang="KO" changeid="yong" changedate="20130527T160858Z">
+        <seg>PEP 편집자의 책임 및 흐름
 ======================================</seg>
       </tuv>
     </tu>
@@ -2957,11 +2957,9 @@ prefixed with a module name.</seg>
         <seg>The closing brace/bracket/parenthesis on multi-line constructs may
 either line up under the last item of the list, as in::</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T150210Z">
+      <tuv lang="KO" changeid="yong" changedate="20130527T161022Z">
         <seg>여러 줄에 걸친 괄호/중괄호/대괄호를 닫을 경우 리스트의 마지막 항목에
-맞추어 다음 줄에 닫는 표시를 할 수 있다. 다음 코드를 보자.
-
-::</seg>
+맞추어 다음 줄에 닫는 표시를 할 수 있다. 다음 코드를 보자. ::</seg>
       </tuv>
     </tu>
     <tu>
@@ -3098,16 +3096,14 @@ for line continuation.  Make sure to indent the continued line
 appropriately.  The preferred place to break around a binary operator
 is *after* the operator, not before it.  Some examples::</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T150520Z">
+      <tuv lang="KO" changeid="yong" changedate="20130527T161123Z">
         <seg>글자가 많은 행에 줄바꿈을 적용할 경우 좋은 방법은 괄호, 중괄호, 대괄호
 등의 내부에 여러 행의 코드를 적는 것이다.  파이썬에서 이들 코드는
 암시적으로 계속 이어지는 것으로 처리된다.  괄호를 사용한 줄바꿈을 적용하여
 긴 코드를 여러 행의 코드로 바꿀 수 있다.  이 방법은 줄이 계속됨을
 나타내는 백슬래시('\') 문자를 사용하기 전에 사용해야 한다.  이진
 연산자에서 줄바꿈을 할 경우 줄바꿈하기 좋은 곳은 연산자의 *다음*
-위치이다(이전 위치가 아니다).  몇 가지 예를 살펴보자.
-
-::</seg>
+위치이다(이전 위치가 아니다).  몇 가지 예를 살펴보자. ::</seg>
       </tuv>
     </tu>
     <tu>
@@ -3636,11 +3632,9 @@ compatibility.</seg>
         <seg>or it may be lined up under the first character of the line that
 starts the multi-line construct, as in::</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T150229Z">
+      <tuv lang="KO" changeid="yong" changedate="20130527T161032Z">
         <seg>혹은 이렇게 여러 줄에 걸친 코드의 첫 번째 문자 위치에 닫는 표시를 넣을
-수도 있다. 다음 코드를 보자.
-
-::</seg>
+수도 있다. 다음 코드를 보자. ::</seg>
       </tuv>
     </tu>
     <tu>
