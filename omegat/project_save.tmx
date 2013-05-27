@@ -1755,11 +1755,11 @@ use an abbreviation or spelling corruption.  Thus ``class_`` is better
 than ``clss``.  (Perhaps better is to avoid such clashes by using a
 synonym.)</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T153621Z">
+      <tuv lang="KO" changeid="yong" changedate="20130527T162534Z">
         <seg>함수 인수의 이름이 예약어와 충돌할 경우, 일반적으로 인수 이름의 끝에
 언더스코어 문자 하나를 추가해 주는 것이 약어를 사용하거나 맞춤법을
-어기는 이름을 사용하는 것 보다 낫다.  그러므로 ``class_``를 사용하는
-것이 ``clss``를 사용하는 것보다 낫다.  (아마 더 나은 방법은 동의어를
+어기는 이름을 사용하는 것 보다 낫다.  그러므로 ``class_``\ 를 사용하는
+것이 ``clss``\ 를 사용하는 것보다 낫다.  (아마 더 나은 방법은 동의어를
 사용해서 이름 충돌을 피하는 방법일 것이다.)</seg>
       </tuv>
     </tu>
