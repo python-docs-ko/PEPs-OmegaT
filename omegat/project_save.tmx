@@ -1064,6 +1064,22 @@ Consistency within one module or function is most important.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Additional References</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T170921Z">
+        <seg>추가적인 참조</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Advantages</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T170332Z">
+        <seg>장점</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>After a PEP number has been assigned, a draft PEP may be discussed further on
 python-ideas (getting a PEP number assigned early can be useful for ease of
 reference, especially when multiple draft PEPs are being considered at the
@@ -1204,10 +1220,26 @@ email new PEP versions to the PEP editors for publication.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>BDFL Pronouncements</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T170758Z">
+        <seg>BDFL 가라사대</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Background</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T165555Z">
         <seg>배경</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Backward Compatibility</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T170642Z">
+        <seg>하위 호환성</seg>
       </tuv>
     </tu>
     <tu>
@@ -1528,6 +1560,18 @@ http://www.fanhow.com/images/9/91/How_to_Create_hanging_indent_using_CSS_2.png)<
     <tu>
       <tuv lang="EN-US">
         <seg>Copyright
+    
+    This document has been placed in the public domain.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T170545Z">
+        <seg>저작권
+    
+    이 문서는 퍼블릭 도메인에 속한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Copyright
 ---------</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T130805Z">
@@ -1622,6 +1666,14 @@ Responsibilities &amp; Workflow`_ 참조).  초기 버전이 PEP를 제출하는
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Development and Discussion</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T170636Z">
+        <seg>개발 및 논의</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Discussion</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T165602Z">
@@ -1685,12 +1737,28 @@ list) or the python-ideas mailing list is the best way to go about this.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Effects on Other Tools</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T170659Z">
+        <seg>다른 도구에 대한 영향</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Encodings (PEP 263)
 -------------------</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T150629Z">
         <seg>인코딩 (PEP 263)
 ----------------</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T170619Z">
+        <seg>예</seg>
       </tuv>
     </tu>
     <tu>
@@ -1969,6 +2037,14 @@ underscores as necessary to improve readability.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>History and Rationale</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T170627Z">
+        <seg>이력 및 근거</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>History of this Proposal</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T164107Z">
@@ -2222,6 +2298,14 @@ the obvious.  Don't do this::</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Interface</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T170201Z">
+        <seg>인터페이스</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Introduction</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T130028Z">
@@ -2250,6 +2334,14 @@ the obvious.  Don't do this::</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Java Documentation</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T170045Z">
+        <seg>Java 문서</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Limit all lines to a maximum of 79 characters.</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T150418Z">
@@ -2265,6 +2357,14 @@ the obvious.  Don't do this::</seg>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T162941Z">
         <seg>오랜 파이썬 선구자인 Tim Peters는 파이썬 설계에 대한 친절한 종신독재자의 가르침을 
     20개의 경구로 옮겼다. 여기에는 그 중 19개만을 적었다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Major Changes to Existing Modules</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T170439Z">
+        <seg>기존 모듈에 대한 주요 변경사항</seg>
       </tuv>
     </tu>
     <tu>
@@ -2303,6 +2403,22 @@ line.</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T150542Z">
         <seg>클래스의 메서드 정의는 한 줄을 띄워서 구분한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Minor Changes to Existing Modules</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T170451Z">
+        <seg>기존 모듈에 대한 작은 변경사항</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Miscellaneous issues:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T170859Z">
+        <seg>기타 이슈:</seg>
       </tuv>
     </tu>
     <tu>
@@ -2401,6 +2517,14 @@ names.</seg>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T153025Z">
         <seg>'l' (소문자 L), 'O' (대문자 O), 'I' (대문자 I) 한 글자를 변수 이름으로
 사용하지 않는다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>New Modules</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T170418Z">
+        <seg>새로운 모듈</seg>
       </tuv>
     </tu>
     <tu>
@@ -2568,6 +2692,22 @@ names.</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T153744Z">
         <seg>주의: __names의 사용에 대해서는 다소 논란이 있다 (아래 내용을 참조).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Notes:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T170249Z">
+        <seg>참고:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Notice</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T170015Z">
+        <seg>알림</seg>
       </tuv>
     </tu>
     <tu>
@@ -3164,6 +3304,188 @@ Post-History: 16-Aug-2000</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>PEP: 216
+Title: Docstring Format
+Version: $Revision$
+Last-Modified: $Date$
+Author: moshez@zadka.site.co.il (Moshe Zadka)
+Status: Rejected
+Type: Informational
+Created: 31-Jul-2000
+Post-History:
+Superseded-By: 287</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T170007Z">
+        <seg>PEP: 216
+Title: Docstring 형식
+Version: $Revision$
+Last-Modified: $Date$
+Author: moshez@zadka.site.co.il (Moshe Zadka)
+Status: Rejected
+Type: Informational
+Created: 31-Jul-2000
+Post-History:
+Superseded-By: 287</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PEP: 217
+Title: Display Hook for Interactive Use
+Version: $Revision$
+Last-Modified: $Date$
+Author: moshez@zadka.site.co.il (Moshe Zadka)
+Status: Final
+Type: Standards Track
+Created: 31-Jul-2000
+Python-Version: 2.1
+Post-History:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T170154Z">
+        <seg>PEP: 217
+Title: 대화식 사용을 위한 Display Hook
+Version: $Revision$
+Last-Modified: $Date$
+Author: moshez@zadka.site.co.il (Moshe Zadka)
+Status: Final
+Type: Standards Track
+Created: 31-Jul-2000
+Python-Version: 2.1
+Post-History:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PEP: 218
+Title: Adding a Built-In Set Object Type
+Version: $Revision$
+Last-Modified: $Date$
+Author: gvwilson@ddj.com (Greg Wilson), python@rcn.com (Raymond Hettinger)
+Status: Final
+Type: Standards Track
+Created: 31-Jul-2000
+Python-Version: 2.2
+Post-History:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T170233Z">
+        <seg>PEP: 218
+Title: 빌트인 Set 개체 유형의 추가
+Version: $Revision$
+Last-Modified: $Date$
+Author: gvwilson@ddj.com (Greg Wilson), python@rcn.com (Raymond Hettinger)
+Status: Final
+Type: Standards Track
+Created: 31-Jul-2000
+Python-Version: 2.2
+Post-History:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PEP: 219
+Title: Stackless Python
+Version: $Revision$
+Last-Modified: $Date$
+Author: gmcm@hypernet.com (Gordon McMillan)
+Status: Deferred
+Type: Standards Track
+Created: 14-Aug-2000
+Python-Version: 2.1
+Post-History:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T170317Z">
+        <seg>PEP: 219
+Title: 스택리스 파이썬
+Version: $Revision$
+Last-Modified: $Date$
+Author: gmcm@hypernet.com (Gordon McMillan)
+Status: Deferred
+Type: Standards Track
+Created: 14-Aug-2000
+Python-Version: 2.1
+Post-History:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PEP: 222
+Title: Web Library Enhancements
+Version: $Revision$
+Last-Modified: $Date$
+Author: A.M. Kuchling &lt;amk@amk.ca&gt;
+Status: Deferred
+Type: Standards Track
+Created: 18-Aug-2000
+Python-Version: 2.1
+Post-History: 22-Dec-2000</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T170402Z">
+        <seg>PEP: 222
+Title: 웹 라이브러리 개선
+Version: $Revision$
+Last-Modified: $Date$
+Author: A.M. Kuchling &lt;amk@amk.ca&gt;
+Status: Deferred
+Type: Standards Track
+Created: 18-Aug-2000
+Python-Version: 2.1
+Post-History: 22-Dec-2000</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PEP: 223
+Title: Change the Meaning of \x Escapes
+Version: $Revision$
+Last-Modified: $Date$
+Author: tim@zope.com (Tim Peters)
+Status: Final
+Type: Standards Track
+Created: 20-Aug-2000
+Python-Version: 2.0
+Post-History: 23-Aug-2000</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T170603Z">
+        <seg>PEP: 223
+Title: \x 이스케이프의 의미 변경
+Version: $Revision$
+Last-Modified: $Date$
+Author: tim@zope.com (Tim Peters)
+Status: Final
+Type: Standards Track
+Created: 20-Aug-2000
+Python-Version: 2.0
+Post-History: 23-Aug-2000</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PEP: 224
+Title: Attribute Docstrings
+Version: $Revision$
+Last-Modified: $Date$
+Author: mal@lemburg.com (Marc-André Lemburg)
+Status: Rejected
+Type: Standards Track
+Created: 23-Aug-2000
+Python-Version: 2.1
+Post-History:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T170812Z">
+        <seg>PEP: 224
+Title: 어트리뷰트 Docstrings
+Version: $Revision$
+Last-Modified: $Date$
+Author: mal@lemburg.com (Marc-André Lemburg)
+Status: Rejected
+Type: Standards Track
+Created: 23-Aug-2000
+Python-Version: 2.1
+Post-History:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>PEP: 7
 Title: Style Guide for C Code
 Version: $Revision$
@@ -3221,6 +3543,14 @@ single ``#``.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Perl Documentation</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T170029Z">
+        <seg>Perl 문서</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Pet Peeves
 ----------</seg>
       </tuv>
@@ -3256,6 +3586,14 @@ PEP 9에 일반 텍스트 PEP를 작성하는 방법에 대한 설명 및 템플
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T165306Z">
         <seg>문제</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Problems</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T170325Z">
+        <seg>문제점</seg>
       </tuv>
     </tu>
     <tu>
@@ -3304,6 +3642,14 @@ PEP 9에 일반 텍스트 PEP를 작성하는 방법에 대한 설명 및 템플
  
     There is a new object type called an attribute access handler. 
     Objects of this type have the following attributes:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Proposed Interface</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T170525Z">
+        <seg>제안된 인터페이스</seg>
       </tuv>
     </tu>
     <tu>
@@ -3357,6 +3703,14 @@ attributes won't change or even be removed.</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T151007Z">
         <seg>임포트 구문 다음에는 ``__all__`` 명세를 넣는다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Python Docstring Goals</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T170050Z">
+        <seg>Python Docstring 목표</seg>
       </tuv>
     </tu>
     <tu>
@@ -3523,6 +3877,14 @@ PEP를 작성하는 방법에 대한 설명과 템플릿 [4]_\ 이 있다.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Rejected Changes</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T170512Z">
+        <seg>변경 거부</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Related PEPs</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T165517Z">
@@ -3611,6 +3973,22 @@ PEP를 작성하는 방법에 대한 설명과 템플릿 [4]_\ 이 있다.</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T130257Z">
         <seg>범위</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Security Issues</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T165956Z">
+        <seg>보안 이슈</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Semantics</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T170615Z">
+        <seg>시맨틱</seg>
       </tuv>
     </tu>
     <tu>
@@ -3749,6 +4127,14 @@ test of implementation.</seg>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125044Z">
         <seg>PEP 제출
 --------</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Syntax</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T170608Z">
+        <seg>구문</seg>
       </tuv>
     </tu>
     <tu>
@@ -4143,9 +4529,25 @@ in the C implementation of Python [1]_.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This document has been placed in the Public Domain.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T170306Z">
+        <seg>이 문서는 퍼블릭 도메인에 속한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This document has been placed in the public domain.</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T120821Z">
+        <seg>이 문서는 퍼블릭 도메인에 속한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This document is in the public domain.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T165943Z">
         <seg>이 문서는 퍼블릭 도메인에 속한다.</seg>
       </tuv>
     </tu>
@@ -4184,6 +4586,20 @@ invoke Python's name mangling rules.</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T145840Z">
         <seg>특정한 규칙을 무시해도 괜찮은 두 가지 경우를 살펴보자.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Unresolved Issues
+      
+    Is there a way to escape characters in ST? If so, how? 
+    (example: * at the beginning of a line without being bullet symbol)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T170119Z">
+        <seg>미해결 사항
+      
+    Is there a way to escape characters in ST? If so, how? 
+    (example: * at the beginning of a line without being bullet symbol)</seg>
       </tuv>
     </tu>
     <tu>
