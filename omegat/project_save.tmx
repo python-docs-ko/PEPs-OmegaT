@@ -253,9 +253,9 @@ only.)  The conventions are about the same as those for functions.</seg>
         <seg>- Compound statements (multiple statements on the same line) are
   generally discouraged.</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T151634Z">
-        <seg>- 복합 구문(Compound statements, 여러 구문이 한 줄에 있는 것)은 일반
-  적으로 권장되지 않는다.</seg>
+      <tuv lang="KO" changeid="yong" changedate="20130527T161432Z">
+        <seg>- 복합 구문(Compound statements, 여러 구문이 한 줄에 있는 것)은
+  일반적으로 권장되지 않는다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -346,11 +346,11 @@ only.)  The conventions are about the same as those for functions.</seg>
   always have the same amount of whitespace on both sides of a binary
   operator.</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T151610Z">
+      <tuv lang="KO" changeid="yong" changedate="20130527T161413Z">
         <seg>- 우선 순위가 서로 다른 연산자를 함께 사용할 경우, 우선 순위가 낮은
-  연산자 주위에 공백을 넣을지 고려해보자.  하지만 이 경우에도 한 개
-  를 초과하는 공백 문자를 사용하면 안 되며, 이진 연산자의 양쪽을 똑
-  같은 방식으로 기술하도록 한다.</seg>
+  연산자 주위에 공백을 넣을지 고려해보자.  하지만 이 경우에도 한 개를
+  초과하는 공백 문자를 사용하면 안 되며, 이진 연산자의 양쪽을 똑같은
+  방식으로 기술하도록 한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -438,10 +438,8 @@ only.)  The conventions are about the same as those for functions.</seg>
       <tuv lang="EN-US">
         <seg>- Imports should usually be on separate lines, e.g.::</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T150807Z">
-        <seg>- 임포트는 보통 행으로 구분되어야 한다. 예를 들면,
-
-::</seg>
+      <tuv lang="KO" changeid="yong" changedate="20130527T161151Z">
+        <seg>- 임포트는 보통 행으로 구분되어야 한다. 예를 들면, ::</seg>
       </tuv>
     </tu>
     <tu>
@@ -571,11 +569,9 @@ only.)  The conventions are about the same as those for functions.</seg>
         <seg>- When importing a class from a class-containing module, it's usually
   okay to spell this::</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T151104Z">
+      <tuv lang="KO" changeid="yong" changedate="20130527T161251Z">
         <seg>- 클래스를 포함하고 있는 모듈에서 클래스를 임포트할 때, 보통은 다음과
-  같이 기술한다.
-
-::</seg>
+  같이 기술한다. ::</seg>
       </tuv>
     </tu>
     <tu>
@@ -1804,10 +1800,8 @@ PEP에 "BDFL-Delegate" 머리말로서 기록을 남긴다.</seg>
       <tuv lang="EN-US">
         <seg>If this spelling causes local name clashes, then spell them ::</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T151041Z">
-        <seg>만약 이름이 이미 선언된 로컬 이름과 충돌할 경우, 다음과 같이 기술한다.
-
-::</seg>
+      <tuv lang="KO" changeid="yong" changedate="20130527T161259Z">
+        <seg>만약 이름이 이미 선언된 로컬 이름과 충돌할 경우, 다음과 같이 기술한다. ::</seg>
       </tuv>
     </tu>
     <tu>
@@ -1850,10 +1844,8 @@ do it as follows. ::</seg>
       <tuv lang="EN-US">
         <seg>Imports should be grouped in the following order:</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T150925Z">
-        <seg>임포트 구문은 다음 순서에 따라 그룹별로 기술한다.
-
-::</seg>
+      <tuv lang="KO" changeid="yong" changedate="20130527T161233Z">
+        <seg>임포트 구문은 다음 순서에 따라 그룹별로 기술한다. ::</seg>
       </tuv>
     </tu>
     <tu>
@@ -2119,8 +2111,8 @@ names.</seg>
       <tuv lang="EN-US">
         <seg>No:  import sys, os</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T150842Z">
-        <seg>나쁨:  import sys, os</seg>
+      <tuv lang="KO" changeid="yong" changedate="20130527T161218Z">
+        <seg>나쁨: import sys, os</seg>
       </tuv>
     </tu>
     <tu>
@@ -3510,9 +3502,9 @@ interface, the C/C++ module has a leading underscore
         <seg>Yes: dict['key'] = list[index]
       No:  dict ['key'] = list [index]</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T151421Z">
+      <tuv lang="KO" changeid="yong" changedate="20130527T161343Z">
         <seg>좋음: dict['key'] = list[index]
-      나쁨:  dict ['key'] = list [index]</seg>
+      나쁨: dict ['key'] = list [index]</seg>
       </tuv>
     </tu>
     <tu>
@@ -3548,9 +3540,9 @@ interface, the C/C++ module has a leading underscore
         <seg>Yes: if x == 4: print x, y; x, y = y, x
       No:  if x == 4 : print x , y ; x , y = y , x</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T151342Z">
+      <tuv lang="KO" changeid="yong" changedate="20130527T161333Z">
         <seg>좋음: if x == 4: print x, y; x, y = y, x
-      나쁨:  if x == 4 : print x , y ; x , y = y , x</seg>
+      나쁨: if x == 4 : print x , y ; x , y = y , x</seg>
       </tuv>
     </tu>
     <tu>
@@ -3558,9 +3550,9 @@ interface, the C/C++ module has a leading underscore
         <seg>Yes: import os
            import sys</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T150831Z">
+      <tuv lang="KO" changeid="yong" changedate="20130527T161212Z">
         <seg>좋음: import os
-           import sys</seg>
+            import sys</seg>
       </tuv>
     </tu>
     <tu>
@@ -3568,9 +3560,9 @@ interface, the C/C++ module has a leading underscore
         <seg>Yes: spam(1)
       No:  spam (1)</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T151405Z">
+      <tuv lang="KO" changeid="yong" changedate="20130527T161338Z">
         <seg>좋음: spam(1)
-      나쁨:  spam (1)</seg>
+      나쁨: spam (1)</seg>
       </tuv>
     </tu>
     <tu>
@@ -3578,9 +3570,9 @@ interface, the C/C++ module has a leading underscore
         <seg>Yes: spam(ham[1], {eggs: 2})
       No:  spam( ham[ 1 ], { eggs: 2 } )</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T151333Z">
+      <tuv lang="KO" changeid="yong" changedate="20130527T161328Z">
         <seg>좋음: spam(ham[1], {eggs: 2})
-      나쁨:  spam( ham[ 1 ], { eggs: 2 } )</seg>
+      나쁨: spam( ham[ 1 ], { eggs: 2 } )</seg>
       </tuv>
     </tu>
     <tu>
