@@ -6,6 +6,76 @@
 <!-- Default translations -->
     <tu>
       <tuv lang="EN-US">
+        <seg># Aligned with opening delimiter
+    foo = long_function_name(var_one, var_two,
+                             var_three, var_four)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T150054Z">
+        <seg># 구분자를 사용하여 정렬하기
+    foo = long_function_name(var_one, var_two,
+                             var_three, var_four)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg># Arguments on first line forbidden when not using vertical alignment
+    foo = long_function_name(var_one, var_two,
+        var_three, var_four)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T150127Z">
+        <seg># 수직 정렬을 하지 않는다면, 인수를 첫 번째 줄에 사용하지 마라.
+    foo = long_function_name(var_one, var_two,
+        var_three, var_four)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg># Extra indentation is not necessary.
+    foo = long_function_name(
+      var_one, var_two,
+      var_three, var_four)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T150158Z">
+        <seg># 부가적인 들여쓰기는 딱히 사용하지 않아도 된다.
+    foo = long_function_name(
+      var_one, var_two,
+      var_three, var_four)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg># Further indentation required as indentation is not distinguishable
+    def long_function_name(
+        var_one, var_two, var_three,
+        var_four):
+        print(var_one)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T150131Z">
+        <seg># 다음 행과 구별이 안 되므로 추가적인 들여쓰기가 필요하다.
+    def long_function_name(
+        var_one, var_two, var_three,
+        var_four):
+        print(var_one)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg># More indentation included to distinguish this from the rest.
+    def long_function_name(
+            var_one, var_two, var_three,
+            var_four):
+        print(var_one)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T150104Z">
+        <seg># 나머지 코드와의 구별을 위해 추가적인 들여쓰기를 사용했다.
+    def long_function_name(
+            var_one, var_two, var_three,
+            var_four):
+        print(var_one)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>1. A **Standards Track** PEP describes a new feature or implementation
    for Python. It may also describe an interoperability standard that will
    be supported outside the standard library for current Python versions
@@ -34,6 +104,16 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>1. When applying the rule would make the code less readable, even for
+   someone who is used to reading code that follows the rules.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T145924Z">
+        <seg>1. 기존의 규칙을 따르는 코드를 읽는데 익숙한 사람조차 해당 규칙을 적용한
+   코드의 가독성이 나빠진다고 판단할 경우.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>2. Abstract -- a short (~200 word) description of the technical issue
    being addressed.</seg>
       </tuv>
@@ -56,6 +136,18 @@
    정보 PEP가 반드시 파이썬 커뮤니티의 합의나 권고를 나타내는 것은 아니며,
    따라서 사용자 및 구현자가 정보 PEP를 무시할 지 혹은 그 조언을 따를 지는
    자유이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>2. To be consistent with surrounding code that also breaks it (maybe
+   for historic reasons) -- although this is also an opportunity to
+   clean up someone else's mess (in true XP style).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T145943Z">
+        <seg>2. (아마 기존 관습 때문에) 일관성을 잃은 기존 코드를 갈아엎어서 코드의
+   일관성을 확립하고자 하는 경우.  이는 기존 코드의 지저분한 부분들을
+   (진정한 XP 스타일로) 정리할 수 있는 기회이기도 하다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -173,6 +265,16 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A Foolish Consistency is the Hobgoblin of Little Minds
+======================================================</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T145802Z">
+        <seg>멍청하게 일관성을 고집하는 것은 소인배의 발상이다
+=================================================</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A PEP can also be "Rejected".  Perhaps after all is said and done it
 was not a good idea.  It is still important to have a record of this
 fact. The "Withdrawn" status is similar - it means that the PEP author
@@ -198,6 +300,18 @@ to draft status.</seg>
         <seg>PEP에는 "지연(Deferred)" 상태를 할당할 수도 있다.  PEP에 대하여 아무 진전이
 없을 때 PEP 저자 또는 편집자가 이 상태를 부여할 수 있다.  PEP가 일단 지연되면,
 PEP 편집자는 그것을 초안 상태로 되돌릴  수 있다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A style guide is about consistency.  Consistency with this style guide
+is important.  Consistency within a project is more important.
+Consistency within one module or function is most important.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T145912Z">
+        <seg>스타일 가이드는 일관성을 다룬다.  이 스타일 가이드에서 다루는 일관성은
+중요한 내용이다.  프로젝트에서의 일관성은 중요하지만, 특정한 모듈
+혹은 함수 내에서의 일관성은 정말 중요하다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -278,12 +392,56 @@ feature proposal [1]_.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Blank Lines
+-----------</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T150532Z">
+        <seg>빈 줄
+-----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>But most importantly: know when to be inconsistent -- sometimes the
+style guide just doesn't apply.  When in doubt, use your best
+judgment.  Look at other examples and decide what looks best.  And
+don't hesitate to ask!</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T145824Z">
+        <seg>하지만 무엇보다 중요한 것은, 어느 순간에 일관성을 버려야 할 지 알아야
+한다는 것이다 - 어떤 순간에는 스타일 가이드를 적용하지 않을 수 있다.
+의심이 든다면 최선을 다해 판단해라.  다른 예제들을 살펴보고 어떤 것이
+가장 좋아 보이는지 결정하라.  그리고 주저하지 말고 질문하라!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Code lay-out
 ============</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T130547Z">
         <seg>코드 레이아웃
 =============</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Continuation lines should align wrapped elements either vertically
+using Python's implicit line joining inside parentheses, brackets and
+braces, or using a hanging indent.  When using a hanging indent the
+following considerations should be applied; there should be no
+arguments on the first line and further indentation should be used to
+clearly distinguish itself as a continuation line.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T150038Z">
+        <seg>여러 줄에 걸쳐 코드를 작성할 경우 파이썬의 괄호, 중괄호('{'), 대괄호
+('[')처럼 암시적으로 여러 줄을 결합하는 기능을 사용하거나, 들여쓰기
+(hanging indent)를 사용하여 코드의 요소들을 수직으로 정렬해야 한다.
+들여쓰기를 사용하려면 다음과 같은 사항을 고려해야 한다.  첫 번째 줄에
+인수가 오면 안 되며, 들여쓰기를 계속 사용할 경우 행이 계속된다는 사실
+을 분명히 파악할 수 있도록 사용해야 한다.(역자 주: 문장 중간에 들여쓰기를
+사용하는 형식을 hanging indent라고 함.  다음 URL을 참고하라.
+http://www.fanhow.com/images/9/91/How_to_Create_hanging_indent_using_CSS_2.png)</seg>
       </tuv>
     </tu>
     <tu>
@@ -382,6 +540,28 @@ list) or the python-ideas mailing list is the best way to go about this.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Encodings (PEP 263)
+-------------------</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T150629Z">
+        <seg>인코딩 (PEP 263)
+----------------</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Extra blank lines may be used (sparingly) to separate groups of
+related functions.  Blank lines may be omitted between a bunch of
+related one-liners (e.g. a set of dummy implementations).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T150552Z">
+        <seg>서로 연관이 있는 함수들의 묶음을 구분하기 위해 빈 줄을 추가로 사용할
+수 있다.  반대로 한 줄짜리 구현 코드가 뭉쳐 있을 경우 이러한 빈 줄을
+생략할 수도 있다. (예: 일련의 미구현, 임시 코드)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Following a discussion on python-ideas, the proposal should be sent as a
 draft PEP to the PEP editors &lt;peps@python.org&gt;.  The draft must be written
 in PEP style as described below, else it will be sent back without further
@@ -416,6 +596,26 @@ BDFL에 의해 수용되기 위해서는 반드시 "파이썬다와야(pythonic)
 "파이썬다움"은 부정확한 단어이며, BDFL이 수용하느냐에 달려있다. 이것은 순환
 논리이다.)  표준 라이브러리 모듈의 수용 요건에 대해서는 PEP 2 [2]_\ 를
 참조하라.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For new projects, spaces-only are strongly recommended over tabs.
+Most editors have features that make this easy to do.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T150405Z">
+        <seg>새로운 프로젝트를 만들 경우 탭 문자 대신 공백 문자만을 사용하도록 하자.
+대부분의 편집기에서는 이러한 작업을 쉽게 처리할 수 있다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For really old code that you don't want to mess up, you can continue
+to use 8-space tabs.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T150016Z">
+        <seg>정말 오래된 코드를 엉망으로 만들고 싶지 않은 경우라면, 8개의 공백을
+계속 사용해도 된다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -498,6 +698,16 @@ behavior.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Indentation
+-----------</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T150002Z">
+        <seg>들여쓰기
+--------</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Informational and Process PEPs may be updated over time to reflect changes
 to development practices and other details. The precise process followed in
 these cases will depend on the nature and purpose of the PEP being updated.</seg>
@@ -528,12 +738,47 @@ these cases will depend on the nature and purpose of the PEP being updated.</seg
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Limit all lines to a maximum of 79 characters.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T150418Z">
+        <seg>한 행에는 최대 79글자까지만 넣도록 한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Maximum Line Length
+-------------------</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T150410Z">
+        <seg>한 행의 최대 길이
+-----------------</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Method definitions inside a class are separated by a single blank
+line.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T150542Z">
+        <seg>클래스의 메서드 정의는 한 줄을 띄워서 구분한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Naming conventions
 ==================</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T131510Z">
         <seg>명명 관례
 =========</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Never mix tabs and spaces.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T150253Z">
+        <seg>절대 탭 문자와 공백 문자를 섞어 쓰지 마라.</seg>
       </tuv>
     </tu>
     <tu>
@@ -552,6 +797,14 @@ these cases will depend on the nature and purpose of the PEP being updated.</seg
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T130748Z">
         <seg>더 이상 지원하지 않는 플랫폼
 ----------------------------</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>No::</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T150111Z">
+        <seg>나쁜 예::</seg>
       </tuv>
     </tu>
     <tu>
@@ -608,6 +861,28 @@ initial concerns about the proposal.</seg>
         <seg>챔피언이 파이썬 커뮤니티에 질문하여 아이디어가 받아들여질 가능성이 있다고
 판단되면, 아이디어를 나타낸 PEP를 작성한다.  저자에게는 적합한 형식과 높은
 품질을 갖추고 제안의 주된 관심사를 적시할 기회가 주어진다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>One of Guido's key insights is that code is read much more often than
+it is written.  The guidelines provided here are intended to improve
+the readability of code and make it consistent across the wide
+spectrum of Python code.  As PEP 20 says, "Readability counts".</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T145903Z">
+        <seg>귀도의 중요한 통찰 중 하나는 프로그램 코드가 작성되는 횟수보다는 사람에게
+읽히는 횟수가 더 많다는 사실이다.  이 문서에서 제공하는 가이드라인은
+코드의 가독성을 향상시키고 다양한 파이썬 코드에 일관성을 부여하고자하는
+의도를 갖고 있다.  PEP 20에서 언급하듯, "가독성은 중요하다."</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Optional::</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T150150Z">
+        <seg>선택사항::</seg>
       </tuv>
     </tu>
     <tu>
@@ -790,6 +1065,23 @@ PEP 9에 일반 텍스트 PEP를 작성하는 방법에 대한 설명 및 템플
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Python accepts the control-L (i.e. ^L) form feed character as
+whitespace; Many tools treat these characters as page separators, so
+you may use them to separate pages of related sections of your file.
+Note, some editors and web-based code viewers may not recognize
+control-L as a form feed and will show another glyph in its place.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T150621Z">
+        <seg>파이썬은 컨트롤-L(^L) 폼 피드 문자를 공백으로 취급한다. 많은 프로그램이
+이 문자를 페이지 구분자로 취급하며, 파일 내에서 서로 연관성이
+있는 단락을 페이지별로 구분하는데 이 문자를 사용할 수 있다.  특정
+편집기나 웹 기반의 코드 뷰어는 컨트롤-L을 폼 피드 문자로 인식하지
+않을 수도 있으며, 이 경우 폼 피드를 대신하는 다른 문자가 컨트롤-L
+문자의 위치에 표시될 것이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Python's BDFL
 -------------</seg>
       </tuv>
@@ -893,6 +1185,15 @@ PEP를 작성하는 방법에 대한 설명과 템플릿 [4]_\ 이 있다.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Separate top-level function and class definitions with two blank
+lines.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T150535Z">
+        <seg>최상위 수준 함수와 클래스 정의는 두 줄을 띄워서 구분한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Some Informational and Process PEPs may also have a status of "Active"
 if they are never meant to be completed.  E.g. PEP 1 (this PEP).</seg>
       </tuv>
@@ -936,6 +1237,16 @@ test of implementation.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Tabs or Spaces?
+---------------</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T150245Z">
+        <seg>탭이냐 공백이냐
+---------------</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The PEP editors are individuals responsible for managing the administrative
 and editorial aspects of the PEP workflow (e.g. assigning PEP numbers and
 changing their status).  See `PEP Editor Responsibilities &amp; Workflow`_ for
@@ -967,6 +1278,18 @@ broad.  If in doubt, split your PEP into several well-focused ones.</seg>
 잡혀 있을 수록 성공하기 쉽다.  PEP 편집자는 초점이 맞지 않거나 너무 광범위한
 PEP를 거부할 수 있다.  의심스럽다면 PEP를 초점이 잘 잡힌 여러 개의 PEP로
 분할하도록 하라.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The closing brace/bracket/parenthesis on multi-line constructs may
+either line up under the last item of the list, as in::</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T150210Z">
+        <seg>여러 줄에 걸친 괄호/중괄호/대괄호를 닫을 경우 리스트의 마지막 항목에
+맞추어 다음 줄에 닫는 표시를 할 수 있다. 다음 코드를 보자.
+
+::</seg>
       </tuv>
     </tu>
     <tu>
@@ -1004,10 +1327,52 @@ before the PEP can be accepted.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The most popular way of indenting Python is with spaces only.  The
+second-most popular way is with tabs only.  Code indented with a
+mixture of tabs and spaces should be converted to using spaces
+exclusively.  When invoking the Python command line interpreter with
+the ``-t`` option, it issues warnings about code that illegally mixes
+tabs and spaces.  When using ``-tt`` these warnings become errors.
+These options are highly recommended!</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T150347Z">
+        <seg>파이썬에서 들여쓰기에 주로 사용되는 방식은 공백 문자만 사용하는 것이다.
+두 번째로 많이 쓰이는 방식은 탭 문자만 사용하는 것이다.  탭 문자와
+공백 문자가 섞인 코드는 반드시 공백 문자만 사용한 코드로 변환해야 한다.
+``-t`` 옵션을 사용하여 파이썬 명령줄 인터프리터를 호출하면 탭 문자와
+공백 문자가 섞인 코드가 있을 경우 인터프리터가 경고 메시지를 표시한다.
+``-tt`` 옵션을 사용하면 이 경고 메시지가 에러 메시지로 표시된다.
+위 옵션들을 사용하기를 권한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The possible paths of the status of PEPs are as follows:</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125430Z">
         <seg>PEP가 가질 수 있는 상태는 다음과 같다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The preferred way of wrapping long lines is by using Python's implied
+line continuation inside parentheses, brackets and braces.  Long lines
+can be broken over multiple lines by wrapping expressions in
+parentheses. These should be used in preference to using a backslash
+for line continuation.  Make sure to indent the continued line
+appropriately.  The preferred place to break around a binary operator
+is *after* the operator, not before it.  Some examples::</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T150520Z">
+        <seg>글자가 많은 행에 줄바꿈을 적용할 경우 좋은 방법은 괄호, 중괄호, 대괄호
+등의 내부에 여러 행의 코드를 적는 것이다.  파이썬에서 이들 코드는
+암시적으로 계속 이어지는 것으로 처리된다.  괄호를 사용한 줄바꿈을 적용하여
+긴 코드를 여러 행의 코드로 바꿀 수 있다.  이 방법은 줄이 계속됨을
+나타내는 백슬래시('\') 문자를 사용하기 전에 사용해야 한다.  이진
+연산자에서 줄바꿈을 할 경우 줄바꿈하기 좋은 곳은 연산자의 *다음*
+위치이다(이전 위치가 아니다).  몇 가지 예를 살펴보자.
+
+::</seg>
       </tuv>
     </tu>
     <tu>
@@ -1032,6 +1397,26 @@ programming language.</seg>
         <seg>이 PEP에는 "BDFL"이 여러 번 등장한다.  이는 "Benevolent Dictator for Life
 (친절한 종신 독재자)"의 약어로서, 파이썬 프로그래밍 언어를 최초로
 고안하였으며, 최종적인 디자인 결정권을 가진 Guido van Rossum을 지칭한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There are still many devices around that are limited to 80 character
+lines; plus, limiting windows to 80 characters makes it possible to
+have several windows side-by-side.  The default wrapping on such
+devices disrupts the visual structure of the code, making it more
+difficult to understand.  Therefore, please limit all lines to a
+maximum of 79 characters.  For flowing long blocks of text (docstrings
+or comments), limiting the length to 72 characters is recommended.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T150448Z">
+        <seg>세상에는 한 행에 80글자까지만 표시할 수 있는 장비들이 아직 많이 남아
+있다.  게다가, 창 하나에 80글자만 표시하도록 강제할 경우 여러 창을
+열어서 늘어놓고 작업할 수 있다.  80글자 제한이 있는 장치에서 자동 줄바꿈
+(wrapping)이 일어날 경우 코드의 시각적인 구조가 망가지며, 이렇게
+되면 코드를 이해하기 어려워진다.  그러므로 코드 한 행은 최대 79글자로
+제한하도록 하자.  텍스트가 길게 이어지는 경우(docstring 혹은 주석문)에는
+72글자로 제한하는 것을 권장한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1067,10 +1452,43 @@ reStructuredText PEP는 스크립트에서 호출하는 Docutils_ 코드에 의�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This document and PEP 257 (Docstring Conventions) were adapted from
+Guido's original Python Style Guide essay, with some additions from
+Barry's style guide [2]_.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T145748Z">
+        <seg>이 문서와 PEP 257(Docstring 규칙)은 귀도가 작성한 파이썬 스타일 가이드에
+관한 짧은 글에 바탕을 두고 있으며, 후에 배리의 스타일 가이드 [2]\ 에서
+일부 내용을 추가하였다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This document gives coding conventions for the Python code comprising
+the standard library in the main Python distribution.  Please see the
+companion informational PEP describing style guidelines for the C code
+in the C implementation of Python [1]_.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T145735Z">
+        <seg>이 문서는 기본 파이썬 배포판의 표준 라이브러리를 구성하는 파이썬 코드의
+코딩 규칙(coding convention)을 설명한다.  파이썬의 C 구현에 대한
+스타일 가이드라인을 설명하는 PEP [1]\ 도 참고하길 바란다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This document has been placed in the public domain.</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T120821Z">
         <seg>이 문서는 퍼블릭 도메인에 속한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Two good reasons to break a particular rule:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T145840Z">
+        <seg>특정한 규칙을 무시해도 괜찮은 두 가지 경우를 살펴보자.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1081,6 +1499,23 @@ reStructuredText PEP는 스크립트에서 호출하는 Docutils_ 코드에 의�
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T130727Z">
         <seg>지원하지 않는 플랫폼
 --------------------</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use 4 spaces per indentation level.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T150005Z">
+        <seg>4개의 공백을 들여쓰기의 단위로 사용하라.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use blank lines in functions, sparingly, to indicate logical sections.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T150600Z">
+        <seg>함수 내에서 논리적인 단위를 드러내기 위해 빈 줄을 사용하라. (하지만
+아껴서 사용하자)</seg>
       </tuv>
     </tu>
     <tu>
@@ -1161,6 +1596,26 @@ in the python-dev mailing list archives.</seg>
         <seg>PEP가 수용(Accepted), 거부 또는 철회되면, 그에 따라 PEP를 갱신하여야 한다.
 상태 필드를 갱신함에 덧붙여, python-dev 메일링 리스트 아카이브의 관련된
 게시물을 링크하는 최소한의 Resolution header를 추가하도록 한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Yes::</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T150041Z">
+        <seg>좋은 예::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>or it may be lined up under the first character of the line that
+starts the multi-line construct, as in::</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T150229Z">
+        <seg>혹은 이렇게 여러 줄에 걸친 코드의 첫 번째 문자 위치에 닫는 표시를 넣을
+수도 있다. 다음 코드를 보자.
+
+::</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
