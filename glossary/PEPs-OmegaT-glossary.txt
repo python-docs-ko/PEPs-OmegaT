@@ -1,0 +1,616 @@
+﻿Web	웹
+Python	파이썬
+programming	프로그래밍
+resource	자원
+installation	설치, 설치본
+framework	프레임워크
+version	버전
+incompatibilities	비호환성
+lightweight	경량
+database	데이터베이스
+Linux	리눅스
+stable	안정적인
+official	공식
+tutorial	튜토리얼
+database-driven	데이터베이스 기반
+site	사이트
+model	모델
+objects	개체
+authenticated	인증된
+scheme	스킴
+regular expressions	정규표현식
+callback	콜백
+template	템플릿
+double-curly braces	두 겹의 중괄호
+lookup	조회
+attribute	어트리뷰트
+filter	필터
+blocks	블록
+features	기능
+basic	기초적인
+interpreter	인터프리터
+permission	권한
+package	패키지
+slash	슬래쉬 기호
+password	패스워드
+SQLite	SQLite
+Django	Django
+authentication	인증
+MySQL	MySQL
+apps	앱
+directory	디렉토리
+metadata	메타데이터
+models	모델
+fields	필드
+PostgreSQL	PostgreSQL
+tables	테이블
+method	메소드
+statement	문
+underscores	밑줄
+interfaces	인터페이스
+newsroom	뉴스룸
+managers	관리자
+default	디폴트
+server	서버
+development	개발
+widget	위젯
+options	옵션
+customize	커스터마이즈
+page	페이지
+views	뷰
+interface	인터페이스
+entry	엔트리
+regular expression	정규표현식
+search	검색하다
+parameters	파라미터
+domain name	도메인 이름
+request	요청
+documentation	문서
+are compiled	컴파일된다
+system	시스템
+third-party	서드 파티
+code	코드
+dictionary	사전
+keyword	키워드
+function	함수
+module	모듈
+Decoupling	결합도 낮추기
+decouple	결합도를 낮추다
+references	참조하다
+generic views	제너릭 뷰
+application	애플리케이션
+form	폼
+message	메시지
+error	오류
+class	클래스
+source	소스
+plain text	일반 텍스트
+release	릴리스
+Sphinx	Sphinx
+stability	안정성
+forwards-compatibility	상위 호환성
+documents	문서
+backwards-compatible	하위 호환성을 갖춘
+deprecated	사용 금지된
+internal	내부의
+underscore	밑줄
+policy	정책
+migration	마이그레이션
+developers	개발자
+coupling	결합
+requests	요청
+layer	계층
+programmer	프로그래머
+stack	스택
+introspection	인트로스펙션
+API	API
+internally	내부적으로
+statements	문
+SQL	SQL
+be performed	수행되다
+automatically	자동적으로
+related	관련된
+object	개체
+developer	개발자
+whitespace	공백
+intentionally	의도적으로
+functionality	기능
+looping	루핑
+designers	디자이너
+programmers	프로그래머
+custom	맞춤
+Extensibility	확장성
+security	보안
+Simplicity	단순성
+Loose	느슨한
+view	뷰
+GET	GET
+POST	POST
+explicitly	명시적으로
+versions	버전
+Subversion	서브버전
+repository	저장소
+Unix	유닉스
+mailing list	메일링 리스트
+releases	릴리스
+accounts	계정
+cookie-based	쿠키 기반의
+permissions	권한
+document	문서
+Overview	개요
+reference	레퍼런스
+letters	문자
+digits	숫자
+access	접근하다
+functions	함수
+methods	메소드
+hashing	해싱
+string	문자열
+blank	공백
+user	사용자
+groups	그룹
+group	그룹
+information	정보
+Manager	관리자
+users	사용자
+index	인덱스
+command line	명령행
+iterations	이터레이션
+storage	저장
+entries	엔트리
+create	생성하다
+filesystem	파일시스템
+environment	환경
+define	정의하다
+instance	인스턴스
+session	세션
+middleware	미들웨어
+process	프로세스
+return	반환하다
+value	값
+decorator	장식자
+access	접근
+proxy	프록시
+backend	백엔드
+authorization	인증
+backends	백엔드
+inactive	비활성
+enable	쓸 수 있게 하다
+implementation	구현
+dynamic	동적
+rendering	렌더링
+logic	로직
+sites	사이트
+traffic	트래픽
+pseudocode	의사코드
+cache	캐시
+pages	페이지
+performance	성능
+caches	캐시
+Memcached	Memcached
+Facebook	페이스북
+Wikipedia	위키피디아
+library	라이브러리
+example	예제
+caching	캐싱
+memory	메모리
+local-memory	로컬 메모리
+production	프로덕션
+Dummy	더미
+pass	전달하다
+key	키
+URL	URL
+low-level	저수준
+call	호출
+storage	스토리지
+argument	인자
+redirect	리디렉트하다
+usage	용례
+attributes	어트리뷰트
+arguments	인자텍
+lowercased	소문자로 쓰여진
+extend	확장하다
+context	컨텍스트
+filtering	필터링
+HTML	HTML
+URLconf	URLconf
+class-based	클래스 기반의
+decorate	장식하다
+HTTP	HTTP
+client	클라이언트
+signatures	서명
+test	테스트
+first	첫 번째
+second	두 번째
+third   세 번째
+values	값
+are returned	반환된다
+processing	처리
+expensive	고비용의
+clients	클라이언트
+inventory	인벤토리
+query	질의
+syntax	구문
+annotation	어노테이션
+operations	연산
+result set	결과집합
+unique	고유한
+average	평균
+be generated	생성되다
+set	집합
+case	경우
+output	출력
+ordering	정렬
+clause	절
+field	필드
+referenced	참조되는
+empty	비어있는
+relationships	릴레이션십
+levels	수준
+relationship	릴레이션십
+reverse	역
+inheritance	상속
+child	자식
+data	데이터
+table	테이블
+defines	정의한다
+optional	선택 가능한
+spaces	공백
+capitalize	대문자로 바꾸다
+many-to-one	다대일
+many-to-many	다대다
+instances	인스턴스
+primary key	기본 키
+engine	엔진
+column	열
+support	지원하다
+decision	결정
+abstract	추상
+base	기본
+classes	클래스
+common	공통적인
+declared	선언한
+available	사용가능한
+declare	선언하다
+adjustment	조정
+children	자식
+errors	오류
+restrictions	제약사항
+inherits	상속한다
+parent	부모
+rules	규칙
+general	일반적인
+original	원래의
+structure	구조
+interact	상호작용하다
+aliases	별명
+synchronization	동기화
+management	관리
+commands	명령
+routing	라우팅
+multiple	다중
+queries	질의
+activate	활성화하다
+project	프로젝트
+routers	라우터
+suggestion	제안
+hints	힌트
+True	True
+determine	판별하다
+omitted	생략된
+decide	결정하다
+operation	연산
+read	읽기
+write	쓰기
+relation	릴레이션
+hint	힌트
+behavior	행위
+master	마스터
+allocate	할당하다
+demonstration	시연
+order	순서
+Manually	수동으로
+priority	우선순위
+allocated	할당된
+control	제어
+allocation	할당
+attempt	시도하다
+customization	커스터마이제이션
+strategy	전략
+specific	특정한
+customized	커스터마이즈된
+cursors	커서
+databases	데이터베이스
+connection	접속
+alias	별명
+relations	릴레이션
+support	지원
+referential integrity	참조 무결성
+validity	유효성
+InnoDB	InnoDB
+MyISAM	MyISAM
+foreign keys	외래 키
+priorities	우선순위
+techniques	기법
+optimization	최적화
+evaluation	평가
+cached	캐시된
+tag	태그
+instance	예
+aggregation	집계
+generate	생성하다
+retrieve	조회하다
+text	텍스트
+convert	변환하다
+optimize	최적화하다
+directly	직접적으로
+Retrieving	조회하기
+element	요소
+invalid	잘못된
+raise	일으키다
+supports	지원한다
+separated	분할된
+signs	기호
+percent	백분율
+wildcard	와일드카드
+sign	기호
+encapsulates	캡슐화한다
+complexity	복잡성
+compare	비교하다
+standard	표준
+comparison	비교
+operator	연산자
+equals sign	등호
+current	현재의
+example	예
+increment	증가시키다
+accessing	접근하기
+One-to-many	일대다
+foreign key	외래 키
+definition	정의
+exception	예외
+domain	도메인
+frameworks	프레임워크
+performing	수행하기
+rows	행
+result	결과
+write	쓰다
+efficient	효율적인
+level	수준
+indexing	인덱싱
+slicing	슬라이싱
+performed	수행되다
+cost	비용
+transaction	트랜잭션
+calls	호출
+implement	구현하다
+consistency	일관성
+tablespaces	테이블스페이스
+indexes	인덱스
+tablespace	테이블스페이스
+transactions	트랜잭션
+default	기본적인
+implicit	묵시적인
+response	응답
+supported	지원되는
+examples	예제
+roll back	되돌리다
+commit	확정하다
+completion	완료
+globally	전역적으로
+deactivate	비활성화하다
+email	이메일
+relatively	상대적으로
+wrappers	래퍼
+platforms	플랫폼
+SMTP	SMTP
+host	호스트
+port	포트
+secure	안전한
+attacker	공격자
+protect	보호
+injection	주입
+parameter	파라미터
+messages	메시지
+attachment	첨부
+MIME	MIME
+optionally	선택적으로
+combination	조합
+recipients	수신인
+credentials	자격증명
+address	주소
+configuration	설정
+Console	콘솔
+file	파일
+locally	지역적으로
+delegates	위임한다
+abstraction	추상화
+articles	기사
+formset	폼셋
+validation	유효성 검증
+numeric	숫자
+concepts	개념
+handles	처리하다
+valid	유효한
+JavaScript	자바스크립트
+CSS	CSS
+components	구성요소
+internationalization	국제화
+declarative	선언적인
+differences	차이
+uploads	업로드
+returns	반환하다
+submission	제출
+hidden	숨겨진
+visible	보이는
+places	장소
+duplication	중복
+media	미디어
+static	정적
+approach	접근
+function-based	함수 기반의
+dictionaries	사전
+member	멤버
+Extending	확장하기
+sections	섹션
+contexts	컨텍스트
+constructor	생성자
+decorators	장식자
+compression	압축
+uploaded	업로드한
+files	파일
+Handling	다루기
+megabytes	메가바이트
+upload	업로드
+modes	모드
+Handlers	처리기
+handles	다루다
+quotas	쿼터
+AJAX	AJAX
+CSRF	CSRF
+bytes	바이트
+KB	KB
+encoding	인코딩
+structures	구조
+hooks	훅
+Activating	활성화하기
+Writing	작성하기
+run-time	실행시간
+ID	ID
+Enabling	허용하기
+Configuring	설정하기
+persistent	지속되는
+file-based	파일 기반의
+sessions	세션
+Using	사용하기
+cookies-based	쿠키 기반의
+setting	설정
+read	읽다
+guarantee	보증
+strings	문자열
+PHP	PHP
+Required	필요한
+patterns	패턴
+Named	명명된
+variables	변수
+deployments	배치
+Mapping	대응시키기
+Returning	반환하기
+subclasses	하위 클래스
+locale	로케일
+localized	지역화된
+Controlling	제어하기
+localization	지역화
+templates	템플릿
+outputs	출력하다
+tags	태그
+Enables	쓸 수 있게 하다
+disables	못 쓰게 하다
+basis	기준
+localize	지역화하다
+disable	쓸 수 없게 하다
+Limitations	제한
+formats	포맷
+separators	분리자
+glossary	용어
+translation	번역
+formatting	포매팅
+lower case	소문자
+upper case	대문자
+separator	분리자
+dash	대쉬
+format	포맷
+naive	안일한
+guide	안내
+converts	변환하다
+deterministic	결정론적
+Troubleshooting	문제해결
+be compiled	컴파일되다
+GNU	GNU
+comment	주석
+lazy	게으른
+paths	경로
+language	언어
+file extension	파일 확장자
+BOM	BOM
+Windows	윈도우즈
+Miscellaneous	기타
+catalog	카탈로그
+Install	설치하기
+FAQ	FAQ
+Apache	아파치
+daemon	데몬
+unofficial	비공식
+3rd party	서드 파티
+requirements	요구사항
+step	단계
+protection	방어, 방지
+cross site scripting	크로스 사이트 스크립팅
+clickjacking	클릭재킹
+cookies	쿠키
+HTTPS	HTTPS
+virtual	가상
+hosting	호스팅
+headers	헤더
+topics	주제
+serialization	직렬화
+Identifier	식별자
+Dependencies	의존성
+settings	설정
+signals	시그널
+Sending	보내기
+Receiver	수신자
+cryptographic	암호의
+signing	서명
+untrusted	신뢰할 수 없는
+tests	테스트
+JUnit	JUnit
+privileges	특권
+tuples	튜플
+status	상태
+codes	코드
+heavyweight	무거운
+complex	복잡한
+Fixture	픽스처
+loading	적재
+utilities	유틸리티
+finding	찾기
+permalink	퍼머링크
+imported	임포트된
+release notes	릴리스 노트
+localflavor	localflavor
+script	스크립트
+pagination	페이지네이션
+forms	폼
+testing	테스팅
+Built-in	내장된
+Unicode	유니코드
+HOWTO	하우투
+internals	내부의
+display 표시하다
+capture 캡처하다
+placeholder 플레이스홀더
+record  레코드
+shortcut	지름길, 단축키
+iterable	이터레이션에 쓸 수 있는
+prefix	접두어
+trailing	마지막의
+traceback	트레이스백
+poll	투표
+data type	자료형
+data types	자료형
+e.g.	예를 들어	라틴어 exempli gratia를 줄인 것. for example로 읽음
+button	버튼
+Cross Site Request Forgeries	교차 사이트 요청 위조
+replace	치환하다
+replaces	치환하다
+usability	편의성
+admin	관리자
+helper	헬퍼
+you	독자	사용자, 개발자
+list	리스트
+close	종결community	커뮤니티
+PEP	PEP
+BDFL	BDFL
+procedure	절차
+champion	챔피언
