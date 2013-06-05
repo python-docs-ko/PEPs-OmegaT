@@ -207,8 +207,10 @@ only.)  The conventions are about the same as those for functions.</seg>
 only.  It contains a URL that should point to an email message or
 other web resource where the pronouncement about the PEP is made.*</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong CHOI" changedate="20130605T061025Z">
-        <seg>*참고: Resolution 헤더는 표준 트랙 PEP에 한하여 필요하다.  PEP가 만들어진 것에 대하여 공식적으로 밝힌 이메일 주소 또는 다른 웹 자원을 가리키는 URL을 포함한다.*</seg>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130605T063416Z">
+        <seg>*참고: Resolution 헤더는 표준 트랙 PEP에 한하여 필요하다.  PEP가
+만들어진 것에 대하여 공식적으로 밝힌 이메일 주소 또는 다른 웹 자원을
+가리키는 URL을 포함한다.*</seg>
       </tuv>
     </tu>
     <tu>
@@ -1714,8 +1716,10 @@ Responsibilities &amp; Workflow`_ 참조).  초기 버전이 PEP를 제출하는
 must appear in the following order.  Headers marked with "*" are
 optional and are described below.  All other headers are required. ::</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong CHOI" changedate="20130605T052323Z">
-        <seg>각 PEP의 첫머리에는 RFC 822 스타일의 헤더가 반드시 있어야 한다.  각 헤더는 다음의 순서를 따른다.  "*" 표시가 된 헤더는 생략할 수 있으며, 아래에 설명한다. 그 외의 헤더는 필수이다.
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130605T063318Z">
+        <seg>각 PEP의 첫머리에는 RFC 822 스타일의 헤더가 반드시 있어야 한다.  각 헤더는
+다음의 순서를 따른다.  "*" 표시가 된 헤더는 생략할 수 있으며, 아래에
+설명한다. 그 외의 헤더는 필수이다.
 
 ::</seg>
       </tuv>
@@ -1945,8 +1949,13 @@ discussed privately with the author, or on the python-list, python-ideas
 or python-dev mailing lists.  Note that email addresses in the
 Discussions-To header will not be obscured.</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong CHOI" changedate="20130605T061509Z">
-        <seg>최종적인 공표가 python-dev 이외의 리스트에서 이루어진 PEP에 대해서는, Discussions-To 헤더에 공표가 이루어진 메일링 리스트 또는 URL을 지시하도록 한다.  공표를 제출하기 전에 논의 중에 있는 PEP 초안은 Discussions-To 헤더를 임시로 사용할 수 있다.  저자가 개인적으로 또는 python-list, python-ideas, python-dev 등에서 논의한 PEP에 대해서는 Discussions-To 헤더가 필수적이다. Discussions-To 헤더의 이메일 주소는 스팸 방지 처리를 하지 않는다.</seg>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130605T063434Z">
+        <seg>최종적인 공표가 python-dev 이외의 리스트에서 이루어진 PEP에 대해서는,
+Discussions-To 헤더에 공표가 이루어진 메일링 리스트 또는 URL을 지시하도록
+한다.  공표를 제출하기 전에 논의 중에 있는 PEP 초안은 Discussions-To 헤더를
+임시로 사용할 수 있다.  저자가 개인적으로 또는 python-list, python-ideas,
+python-dev 등에서 논의한 PEP에 대해서는 Discussions-To 헤더가 필수적이다.
+Discussions-To 헤더의 이메일 주소는 스팸 방지 처리를 하지 않는다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2184,8 +2193,10 @@ following RFC 2822 continuation line conventions.  Note that personal
 email addresses in PEPs will be obscured as a defense against spam
 harvesters.</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong CHOI" changedate="20130605T053127Z">
-        <seg>복수의 저자가 있는 경우, RFC 2822의 이어지는 행 관례에 따라 행을 나눈다.  PEP의 개인 이메일 주소는 무단으로 수집되는 것을 방지하기 위하여 읽기 어렵게 처리한다.</seg>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130605T063353Z">
+        <seg>복수의 저자가 있는 경우, RFC 2822의 이어지는 행 관례에 따라 행을 나눈다.
+PEP의 개인 이메일 주소는 무단으로 수집되는 것을 방지하기 위하여 읽기
+어렵게 처리한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4690,8 +4701,12 @@ external libraries and tools, and then supplemented by a later PEP to
 add support to the standard library. Informational and Process PEPs do
 not need a Python-Version header.</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong CHOI" changedate="20130605T062521Z">
-        <seg>표준 트랙 PEP는 일반적으로 그 기능이 릴리스될 파이썬 버전을 가리키는 Python-Version 헤더를 갖는다.  Python-Version 헤더가 없는 표준 트랙 PEP는, 처음에는 외부 라이브러리 및 도구를 통해 상호 운용이 가능한 표준으로 하였다가, 나중에 표준 라이브러리에 포함시키는 경우이다.  정보 및 프로세스 PEP에는 Python-Version 헤더가 필요하지 않다.</seg>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130605T063523Z">
+        <seg>표준 트랙 PEP는 일반적으로 그 기능이 릴리스될 파이썬 버전을 가리키는
+Python-Version 헤더를 갖는다.  Python-Version 헤더가 없는 표준 트랙
+PEP는, 처음에는 외부 라이브러리 및 도구를 통해 상호 운용이 가능한
+표준으로 하였다가, 나중에 표준 라이브러리에 포함시키는 경우이다.  정보
+및 프로세스 PEP에는 Python-Version 헤더가 필요하지 않다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4768,8 +4783,9 @@ not need a Python-Version header.</seg>
 of all the authors/owners of the PEP.  The format of the Author header
 value must be</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong CHOI" changedate="20130605T052542Z">
-        <seg>Author 헤더에는 PEP 저자 및 소유자의 이름을 나열하며, 이메일 주소를 함께 쓸 수 있다.  Author 헤더의 값은 반드시 다음과 같은 형식으로 기재한다.</seg>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130605T063326Z">
+        <seg>Author 헤더에는 PEP 저자 및 소유자의 이름을 나열하며, 이메일 주소를 함께
+쓸 수 있다.  Author 헤더의 값은 반드시 다음과 같은 형식으로 기재한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4779,8 +4795,10 @@ approve or reject a PEP rests with someone other than the BDFL. (The
 delegate's email address is currently omitted due to a limitation in the
 email address masking for reStructuredText PEPs)</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong CHOI" changedate="20130605T053428Z">
-        <seg>BDFL-Delegate 필드는 PEP의 수용 또는 거부에 대한 최종 결정을 BDFL이 아닌 다른 사람에게 위임한 경우에 사용한다. (위임받은 이의 이메일 주소는 현재 reStructuredText PEP의 이메일 주소 마스킹의 제약으로 인해 생략한다.)</seg>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130605T063404Z">
+        <seg>BDFL-Delegate 필드는 PEP의 수용 또는 거부에 대한 최종 결정을 BDFL이 아닌
+다른 사람에게 위임한 경우에 사용한다. (위임받은 이의 이메일 주소는 현재
+reStructuredText PEP의 이메일 주소 마스킹의 제약으로 인해 생략한다.)</seg>
       </tuv>
     </tu>
     <tu>
@@ -4790,8 +4808,10 @@ number, while Post-History is used to record the dates of when new
 versions of the PEP are posted to python-list and/or python-dev.  Both
 headers should be in dd-mmm-yyyy format, e.g. 14-Aug-2001.</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong CHOI" changedate="20130605T062126Z">
-        <seg>Created 헤더에는 PEP 번호를 부여한 날짜를 기록하고, Post-History는 새로운 버전의 PEP가 python-list 및 python-dev에 게재된 날짜를 기록한다.  두 헤더는 dd-mmm-yyyy 형식을 따르며, 14-Aug-2001과 같이 쓴다.</seg>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130605T063508Z">
+        <seg>Created 헤더에는 PEP 번호를 부여한 날짜를 기록하고, Post-History는
+새로운 버전의 PEP가 python-list 및 python-dev에 게재된 날짜를 기록한다.
+두 헤더는 dd-mmm-yyyy 형식을 따르며, 14-Aug-2001과 같이 쓴다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4842,8 +4862,9 @@ PEP를 거부할 수 있다.  의심스럽다면 PEP를 초점이 잘 잡힌 여
         <seg>The Type header specifies the type of PEP: Standards Track,
 Informational, or Process.</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong CHOI" changedate="20130605T061631Z">
-        <seg>Type 헤더에는 Standards Track(표준 트랙), Informational(정보) 또는 Process(프로세스) 등과 같이 PEP의 종류를 기재한다.</seg>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130605T063439Z">
+        <seg>Type 헤더에는 Standards Track(표준 트랙), Informational(정보) 또는
+Process(프로세스) 등과 같이 PEP의 종류를 기재한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4937,8 +4958,12 @@ and "text/x-rst" for reStructuredText PEPs (see PEP 12 [4]_).
 Plaintext ("text/plain") is the default if no Content-Type header is
 present.</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong CHOI" changedate="20130605T061913Z">
-        <seg>PEP의 형식은 Content-Type 헤더에 지정한다.  사용할 수 있는 값으로는 일반 텍스트 PEP를 의미하는 "text/plain"(PEP 9 [3]_ 참조)와 reStructuredText PEP를 의미하는 "text/x-rst"(PEP 12 [4]_ 참조)가 있다.  Content-Type 헤더를 지정하지 않은 경우에는 일반 텍스트("text/plain")를 기본값으로 한다.</seg>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130605T063501Z">
+        <seg>PEP의 형식은 Content-Type 헤더에 지정한다.  사용할 수 있는 값으로는 일반
+텍스트 PEP를 의미하는 "text/plain"(PEP 9 [3]_ 참조)와 reStructuredText
+PEP를 의미하는 "text/x-rst"(PEP 12 [4]_ 참조)가 있다.  Content-Type
+헤더를 지정하지 않은 경우에는 일반 텍스트("text/plain")를 기본값으로
+한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5651,8 +5676,11 @@ interface, the C/C++ module has a leading underscore
 PEPs must use the mandated format above, and it is acceptable to
 change to this format when PEPs are updated.</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong CHOI" changedate="20130605T052818Z">
-        <seg>주소가 없을 경우 위와 같이 쓰면 된다.  과거의 PEP에는 "address@dom.ain (Random J. User)"와 같은 형식으로 쓰여진 것이 남아 있을 수도 있지만, 새롭게 쓰여지는 PEP는 위의 형식을 따라야 하며, 기존의 PEP를 갱신할 때에 새로운 형식으로 변경할 수 있다.</seg>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130605T063342Z">
+        <seg>주소가 없을 경우 위와 같이 쓰면 된다.  과거의 PEP에는
+"address@dom.ain (Random J. User)"와 같은 형식으로 쓰여진 것이 남아
+있을 수도 있지만, 새롭게 쓰여지는 PEP는 위의 형식을 따라야 하며,
+기존의 PEP를 갱신할 때에 새로운 형식으로 변경할 수 있다.</seg>
       </tuv>
     </tu>
     <tu>
