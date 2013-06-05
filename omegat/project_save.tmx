@@ -4077,6 +4077,18 @@ an API can replace version 1.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>PEPs may also have a Superseded-By header indicating that a PEP has
+been rendered obsolete by a later document; the value is the number of
+the PEP that replaces the current document.  The newer PEP must have a
+Replaces header containing the number of the PEP that it rendered
+obsolete.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130605T062904Z">
+        <seg>Superseded-By 헤더는 이후의 문서에 의해 불필요하게 되었음을 가리키며, 현재의 문서를 대체하는 PEP의 번호를 기록한다.  이 경우 새로운 PEP는 반드시 Replaces 헤더에 불필요하게 된 PEP의 번호를 기록한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>PEPs may have a Requires header, indicating the PEP numbers that this
 PEP depends on.</seg>
       </tuv>
