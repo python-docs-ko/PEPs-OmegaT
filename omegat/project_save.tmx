@@ -203,6 +203,16 @@ only.)  The conventions are about the same as those for functions.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>*Note: The Resolution header is required for Standards Track PEPs
+only.  It contains a URL that should point to an email message or
+other web resource where the pronouncement about the PEP is made.*</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130605T061025Z">
+        <seg>*참고: Resolution 헤더는 표준 트랙 PEP에 한하여 필요하다.  PEP가 만들어진 것에 대하여 공식적으로 밝힌 이메일 주소 또는 다른 웹 자원을 가리키는 URL을 포함한다.*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>- Additionally, for all try/except clauses, limit the ``try`` clause
   to the absolute minimum amount of code necessary.  Again, this
   avoids masking bugs.</seg>
@@ -1926,6 +1936,21 @@ BDFL에 의해 수용되기 위해서는 반드시 "파이썬다와야(pythonic)
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For a PEP where final pronouncement will be made on a list other than
+python-dev, a Discussions-To header will indicate the mailing list
+or URL where the pronouncement will occur. A temporary Discussions-To header
+may also be used when a draft PEP is being discussed prior to submission for
+pronouncement. No Discussions-To header is necessary if the PEP is being
+discussed privately with the author, or on the python-list, python-ideas
+or python-dev mailing lists.  Note that email addresses in the
+Discussions-To header will not be obscured.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130605T061509Z">
+        <seg>최종적인 공표가 python-dev 이외의 리스트에서 이루어진 PEP에 대해서는, Discussions-To 헤더에 공표가 이루어진 메일링 리스트 또는 URL을 지시하도록 한다.  공표를 제출하기 전에 논의 중에 있는 PEP 초안은 Discussions-To 헤더를 임시로 사용할 수 있다.  저자가 개인적으로 또는 python-list, python-ideas, python-dev 등에서 논의한 PEP에 대해서는 Discussions-To 헤더가 필수적이다. Discussions-To 헤더의 이메일 주소는 스팸 방지 처리를 하지 않는다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, do not rely on CPython's efficient implementation of
   in-place string concatenation for statements in the form ``a += b``
   or ``a = a + b``.  Those statements run more slowly in Jython.  In
@@ -2925,6 +2950,16 @@ similar policy.</seg>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125251Z">
         <seg>PEP 검토 및 해결
 ----------------</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PEP Types
+=========</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130605T060714Z">
+        <seg>PEP의 종류
+==========</seg>
       </tuv>
     </tu>
     <tu>
@@ -4754,6 +4789,15 @@ PEP를 거부할 수 있다.  의심스럽다면 PEP를 초점이 잘 잡힌 여
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T164854Z">
         <seg>제안된 해결책</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Type header specifies the type of PEP: Standards Track,
+Informational, or Process.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130605T061631Z">
+        <seg>Type 헤더에는 Standards Track(표준 트랙), Informational(정보) 또는 Process(프로세스) 등과 같이 PEP의 종류를 기재한다.</seg>
       </tuv>
     </tu>
     <tu>
