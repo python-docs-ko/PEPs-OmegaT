@@ -4077,6 +4077,15 @@ an API can replace version 1.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>PEPs may have a Requires header, indicating the PEP numbers that this
+PEP depends on.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130605T062644Z">
+        <seg>다른 PEP에 대한 의존성을 가지는 경우, 그 번호를 Requires 헤더에 기록한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Package and Module Names
 ~~~~~~~~~~~~~~~~~~~~~~~~</seg>
       </tuv>
@@ -4661,6 +4670,20 @@ test of implementation.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Standards Track PEPs will typically have a Python-Version header which
+indicates the version of Python that the feature will be released with.
+Standards Track PEPs without a Python-Version header indicate
+interoperability standards that will initially be supported through
+external libraries and tools, and then supplemented by a later PEP to
+add support to the standard library. Informational and Process PEPs do
+not need a Python-Version header.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130605T062521Z">
+        <seg>표준 트랙 PEP는 일반적으로 그 기능이 릴리스될 파이썬 버전을 가리키는 Python-Version 헤더를 갖는다.  Python-Version 헤더가 없는 표준 트랙 PEP는, 처음에는 외부 라이브러리 및 도구를 통해 상호 운용이 가능한 표준으로 하였다가, 나중에 표준 라이브러리에 포함시키는 경우이다.  정보 및 프로세스 PEP에는 Python-Version 헤더가 필요하지 않다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Steps For Introducing Backwards-Incompatible Features</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T130410Z">
@@ -4746,6 +4769,17 @@ email address masking for reStructuredText PEPs)</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong CHOI" changedate="20130605T053428Z">
         <seg>BDFL-Delegate 필드는 PEP의 수용 또는 거부에 대한 최종 결정을 BDFL이 아닌 다른 사람에게 위임한 경우에 사용한다. (위임받은 이의 이메일 주소는 현재 reStructuredText PEP의 이메일 주소 마스킹의 제약으로 인해 생략한다.)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Created header records the date that the PEP was assigned a
+number, while Post-History is used to record the dates of when new
+versions of the PEP are posted to python-list and/or python-dev.  Both
+headers should be in dd-mmm-yyyy format, e.g. 14-Aug-2001.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130605T062126Z">
+        <seg>Created 헤더에는 PEP 번호를 부여한 날짜를 기록하고, Post-History는 새로운 버전의 PEP가 python-list 및 python-dev에 게재된 날짜를 기록한다.  두 헤더는 dd-mmm-yyyy 형식을 따르며, 14-Aug-2001과 같이 쓴다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4881,6 +4915,18 @@ before the PEP can be accepted.</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T152554Z">
         <seg>다음과 같은 명명 스타일을 흔히 볼 수 있다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The format of a PEP is specified with a Content-Type header.  The
+acceptable values are "text/plain" for plaintext PEPs (see PEP 9 [3]_)
+and "text/x-rst" for reStructuredText PEPs (see PEP 12 [4]_).
+Plaintext ("text/plain") is the default if no Content-Type header is
+present.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130605T061913Z">
+        <seg>PEP의 형식은 Content-Type 헤더에 지정한다.  사용할 수 있는 값으로는 일반 텍스트 PEP를 의미하는 "text/plain"(PEP 9 [3]_ 참조)와 reStructuredText PEP를 의미하는 "text/x-rst"(PEP 12 [4]_ 참조)가 있다.  Content-Type 헤더를 지정하지 않은 경우에는 일반 텍스트("text/plain")를 기본값으로 한다.</seg>
       </tuv>
     </tu>
     <tu>
