@@ -4094,8 +4094,10 @@ the PEP that replaces the current document.  The newer PEP must have a
 Replaces header containing the number of the PEP that it rendered
 obsolete.</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong CHOI" changedate="20130605T062904Z">
-        <seg>Superseded-By 헤더는 이후의 문서에 의해 불필요하게 되었음을 가리키며, 현재의 문서를 대체하는 PEP의 번호를 기록한다.  이 경우 새로운 PEP는 반드시 Replaces 헤더에 불필요하게 된 PEP의 번호를 기록한다.</seg>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130605T063546Z">
+        <seg>Superseded-By 헤더는 이후의 문서에 의해 불필요하게 되었음을 가리키며,
+현재의 문서를 대체하는 PEP의 번호를 기록한다.  이 경우 새로운 PEP는
+반드시 Replaces 헤더에 불필요하게 된 PEP의 번호를 기록한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4821,10 +4823,10 @@ and editorial aspects of the PEP workflow (e.g. assigning PEP numbers and
 changing their status).  See `PEP Editor Responsibilities &amp; Workflow`_ for
 details.  The current editors are:</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125024Z">
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130605T064638Z">
         <seg>PEP 편집자는 PEP 흐름의 관리 및 편집(PEP 번호를 할당하고 각각의 상태를
-변경하는 일 등)에 대한 책임을 맡는 개인이다.  자세한 내용은 `PEP Editor
-Responsibilities &amp; Workflow`_\ 를 참조하라.  현재 활동 중인 편집자는 다음과
+변경하는 일 등)에 대한 책임을 맡는 개인이다.  자세한 내용은 `PEP 편집자의
+책임 및 흐름`_\ 을 참조하라.  현재 활동 중인 편집자는 다음과
 같다.</seg>
       </tuv>
     </tu>
