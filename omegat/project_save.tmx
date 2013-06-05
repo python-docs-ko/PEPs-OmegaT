@@ -1700,6 +1700,18 @@ Responsibilities &amp; Workflow`_ 참조).  초기 버전이 PEP를 제출하는
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Each PEP must begin with an RFC 822 style header preamble.  The headers
+must appear in the following order.  Headers marked with "*" are
+optional and are described below.  All other headers are required. ::</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130605T052323Z">
+        <seg>각 PEP의 첫머리에는 RFC 822 스타일의 헤더가 반드시 있어야 한다.  각 헤더는 다음의 순서를 따른다.  "*" 표시가 된 헤더는 생략할 수 있으며, 아래에 설명한다. 그 외의 헤더는 필수이다.
+
+::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Each PEP must have a champion -- someone who writes the PEP using the
 style and format described below, shepherds the discussions in the
 appropriate forums, and attempts to build community consensus around
@@ -2138,6 +2150,17 @@ directly by the BDFL, this will be recorded by including the
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125324Z">
         <seg>최종 결정이 BDFL에 의하여 직접 이루어지지 않고 위임에 의한 것인 경우에는,
 PEP에 "BDFL-Delegate" 머리말로서 기록을 남긴다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If there are multiple authors, each should be on a separate line
+following RFC 2822 continuation line conventions.  Note that personal
+email addresses in PEPs will be obscured as a defense against spam
+harvesters.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130605T053127Z">
+        <seg>복수의 저자가 있는 경우, RFC 2822의 이어지는 행 관례에 따라 행을 나눈다.  PEP의 개인 이메일 주소는 무단으로 수집되는 것을 방지하기 위하여 읽기 어렵게 처리한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2872,6 +2895,16 @@ similar policy.</seg>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125721Z">
         <seg>PEP 형식 및 템플릿
 ==================</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PEP Header Preamble
+===================</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130605T052343Z">
+        <seg>PEP 헤더
+========</seg>
       </tuv>
     </tu>
     <tu>
@@ -4661,6 +4694,27 @@ test of implementation.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Author header lists the names, and optionally the email addresses
+of all the authors/owners of the PEP.  The format of the Author header
+value must be</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130605T052542Z">
+        <seg>Author 헤더에는 PEP 저자 및 소유자의 이름을 나열하며, 이메일 주소를 함께 쓸 수 있다.  Author 헤더의 값은 반드시 다음과 같은 형식으로 기재한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The BDFL-Delegate field is used to record cases where the final decision to
+approve or reject a PEP rests with someone other than the BDFL. (The
+delegate's email address is currently omitted due to a limitation in the
+email address masking for reStructuredText PEPs)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130605T053428Z">
+        <seg>BDFL-Delegate 필드는 PEP의 수용 또는 거부에 대한 최종 결정을 BDFL이 아닌 다른 사람에게 위임한 경우에 사용한다. (위임받은 이의 이메일 주소는 현재 reStructuredText PEP의 이메일 주소 마스킹의 제약으로 인해 생략한다.)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The PEP editors are individuals responsible for managing the administrative
 and editorial aspects of the PEP workflow (e.g. assigning PEP numbers and
 changing their status).  See `PEP Editor Responsibilities &amp; Workflow`_ for
@@ -5486,6 +5540,25 @@ interface, the C/C++ module has a leading underscore
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T151154Z">
         <seg>그런 다음 "myclass.MyClass", "foo.bar.yourclass.YourClass" 같은
   식으로 클래스를 사용하면 된다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>if the address is not given.  For historical reasons the format
+"address@dom.ain (Random J. User)" may appear in a PEP, however new
+PEPs must use the mandated format above, and it is acceptable to
+change to this format when PEPs are updated.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130605T052818Z">
+        <seg>주소가 없을 경우 위와 같이 쓰면 된다.  과거의 PEP에는 "address@dom.ain (Random J. User)"와 같은 형식으로 쓰여진 것이 남아 있을 수도 있지만, 새롭게 쓰여지는 PEP는 위의 형식을 따라야 하며, 기존의 PEP를 갱신할 때에 새로운 형식으로 변경할 수 있다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>if the email address is included, and just</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130605T052609Z">
+        <seg>이메일 주소가 있을 경우에는 위와 같이 쓰고,</seg>
       </tuv>
     </tu>
     <tu>
