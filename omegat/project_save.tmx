@@ -5476,6 +5476,22 @@ before the PEP can be accepted.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The following is a PEP-specific summary of reStructuredText syntax.
+For the sake of simplicity and brevity, much detail is omitted.  For
+more detail, see `Resources`_ below.  `Literal blocks`_ (in which no
+markup processing is done) are used for examples throughout, to
+illustrate the plaintext markup.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T061323Z">
+        <seg>The following is a PEP-specific summary of reStructuredText syntax.
+For the sake of simplicity and brevity, much detail is omitted.  For
+more detail, see `자원`_ below.  `Literal blocks`_ (in which no
+markup processing is done) are used for examples throughout, to
+illustrate the plaintext markup.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The following naming styles are commonly distinguished:</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T152554Z">
