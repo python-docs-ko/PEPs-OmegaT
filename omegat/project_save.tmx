@@ -295,6 +295,74 @@ only.)  The conventions are about the same as those for functions.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>* Unix-like software distributions (including systems like Mac OS X and
+  Cygwin) should install the ``python2`` command into the default path
+  whenever a version of the Python 2 interpreter is installed, and the same
+  for ``python3`` and the Python 3 interpreter.
+* When  invoked, ``python2`` should run some version of the Python 2
+  interpreter, and ``python3`` should run some version of the Python 3
+  interpreter.
+* Similarly, the more general ``python`` command should be installed whenever
+  any version of Python is installed and should invoke the same version of
+  Python as either ``python2`` or ``python3``.
+* For the time being, it is recommended that ``python`` should refer to
+  ``python2`` (however, some distributions have already chosen otherwise; see
+  the `Rationale`_ and `Migration Notes`_ below).
+* The Python 2.x ``idle``, ``pydoc``, and ``python-config`` commands should
+  likewise be available as ``idle2``, ``pydoc2``, and ``python2-config``,
+  with the original commands invoking these versions by default, but possibly
+  invoking the Python 3.x versions instead if configured to do so by the
+  system administrator.
+* In order to tolerate differences across platforms, all new code that needs
+  to invoke the Python interpreter should not specify ``python``, but rather
+  should specify either ``python2`` or ``python3`` (or the more specific
+  ``python2.x`` and ``python3.x`` versions; see the `Migration Notes`_).
+  This distinction should be made in shebangs, when invoking from a shell
+  script, when invoking via the system() call, or when invoking in any other
+  context.
+* One exception to this is scripts that are deliberately written to be source
+  compatible with both Python 2.x and 3.x. Such scripts may continue to use
+  ``python`` on their shebang line without affecting their portability.
+* When reinvoking the interpreter from a Python script, querying
+  ``sys.executable`` to avoid hardcoded assumptions regarding the
+  interpreter location remains the preferred approach.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T054752Z">
+        <seg>* Unix-like software distributions (including systems like Mac OS X and
+  Cygwin) should install the ``python2`` command into the default path
+  whenever a version of the Python 2 interpreter is installed, and the same
+  for ``python3`` and the Python 3 interpreter.
+* When  invoked, ``python2`` should run some version of the Python 2
+  interpreter, and ``python3`` should run some version of the Python 3
+  interpreter.
+* Similarly, the more general ``python`` command should be installed whenever
+  any version of Python is installed and should invoke the same version of
+  Python as either ``python2`` or ``python3``.
+* For the time being, it is recommended that ``python`` should refer to
+  ``python2`` (however, some distributions have already chosen otherwise; see
+  the `근거`_ and `Migration Notes`_ below).
+* The Python 2.x ``idle``, ``pydoc``, and ``python-config`` commands should
+  likewise be available as ``idle2``, ``pydoc2``, and ``python2-config``,
+  with the original commands invoking these versions by default, but possibly
+  invoking the Python 3.x versions instead if configured to do so by the
+  system administrator.
+* In order to tolerate differences across platforms, all new code that needs
+  to invoke the Python interpreter should not specify ``python``, but rather
+  should specify either ``python2`` or ``python3`` (or the more specific
+  ``python2.x`` and ``python3.x`` versions; see the `Migration Notes`_).
+  This distinction should be made in shebangs, when invoking from a shell
+  script, when invoking via the system() call, or when invoking in any other
+  context.
+* One exception to this is scripts that are deliberately written to be source
+  compatible with both Python 2.x and 3.x. Such scripts may continue to use
+  ``python`` on their shebang line without affecting their portability.
+* When reinvoking the interpreter from a Python script, querying
+  ``sys.executable`` to avoid hardcoded assumptions regarding the
+  interpreter location remains the preferred approach.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>* `Following Python's Development
   &lt;http://docs.python.org/devguide/communication.html&gt;`_</seg>
       </tuv>
@@ -5668,6 +5736,20 @@ in the C implementation of Python [1]_.</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T165506Z">
         <seg>이 문서는 퍼블릭 도메인에 속한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This option does not solve issues listed in the `Rationale`_
+section, it only provides an helper to fix them. All functions creating
+file descriptors have to be modified to set *cloexec=True* in each
+module used by an application to fix all these issues.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T054812Z">
+        <seg>This option does not solve issues listed in the `근거`_
+section, it only provides an helper to fix them. All functions creating
+file descriptors have to be modified to set *cloexec=True* in each
+module used by an application to fix all these issues.</seg>
       </tuv>
     </tu>
     <tu>
