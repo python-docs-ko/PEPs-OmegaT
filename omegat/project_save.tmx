@@ -5344,9 +5344,9 @@ invoke Python's name mangling rules.</seg>
         <seg>Transferring PEP Ownership
 ==========================</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T011921Z">
-        <seg>PEP 소유권 이관
-===============</seg>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T012004Z">
+        <seg>PEP 소유권의 이양
+=================</seg>
       </tuv>
     </tu>
     <tu>
