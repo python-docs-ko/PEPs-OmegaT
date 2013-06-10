@@ -5366,10 +5366,10 @@ and "text/x-rst" for reStructuredText PEPs (see PEP 12 [4]_).
 Plaintext ("text/plain") is the default if no Content-Type header is
 present.</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong CHOI" changedate="20130605T063501Z">
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T044850Z">
         <seg>PEP의 형식은 Content-Type 헤더에 지정한다.  사용할 수 있는 값으로는 일반
-텍스트 PEP를 의미하는 "text/plain"(PEP 9 [3]_ 참조)와 reStructuredText
-PEP를 의미하는 "text/x-rst"(PEP 12 [4]_ 참조)가 있다.  Content-Type
+텍스트 PEP를 의미하는 "text/plain"(PEP 9 참조 [3]_)와 reStructuredText
+PEP를 의미하는 "text/x-rst"(PEP 12 참조 [4]_ )가 있다.  Content-Type
 헤더를 지정하지 않은 경우에는 일반 텍스트("text/plain")를 기본값으로
 한다.</seg>
       </tuv>
@@ -5564,8 +5564,8 @@ viewing on the web [5]_.  Parsing and conversion of plaintext PEPs is
 self-contained within the script.  reStructuredText PEPs are parsed
 and converted by Docutils_ code called from the script.</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125756Z">
-        <seg>각 스타일의 PEP를 웹에서 보여질 HTML로 변환하는 파이썬 스크립트가 있다 [5]_.
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T044811Z">
+        <seg>각 스타일의 PEP를 웹에서 보여질 HTML로 변환하는 파이썬 스크립트가 있다. [5]_
 일반 텍스트 PEP의 분석과 변환은 스크립트 내에 포함되어 있다.
 reStructuredText PEP는 스크립트에서 호출하는 Docutils_ 코드에 의하여 변환된다.</seg>
       </tuv>
