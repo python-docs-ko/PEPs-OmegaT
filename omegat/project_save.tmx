@@ -182,6 +182,20 @@ only.)  The conventions are about the same as those for functions.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>* Monitor python.org to make sure the PEP gets added to the site
+  properly. If it fails to appear, running ``make`` will build all of the
+  current PEPs. If any of these are triggering errors, they must be
+  corrected before any PEP will update on the site.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T040655Z">
+        <seg>* python.org를 모니터하여 PEP가 사이트에 적합하게 추가되었는지 확인한다.
+  사이트에서 보이지 않는다면, ``make``\ 를 실행하여 현재의 모든 PEP를
+  빌드한다.  그중 어느 것이라도 오류를 일으킨다면, PEP가 사이트에 반영되기
+  전에 수정하여야 한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>* Read the PEP to check if it is ready: sound and complete.  The ideas
   must make technical sense, even if they don't seem likely to be
   accepted.</seg>
@@ -201,6 +215,15 @@ only.)  The conventions are about the same as those for functions.</seg>
         <seg>* ``./genpepindex.py``\ 와 ``./pep2html.py &lt;PEP Number&gt;``\ 를 수행하여 오류
   없이 생성되는지 확인한다.  프로그램이 오류를 일으킨다면, 웹사이트에는
   해당 PEP의 수정사항이 반영되지 않을 것이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>* Send email back to the PEP author with next steps (post to
+  python-list &amp; -dev).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T040749Z">
+        <seg>* PEP 저자에게 다음 단계와 함께 이메일을 보낸다(python-list 및 -dev에 게재).</seg>
       </tuv>
     </tu>
     <tu>
