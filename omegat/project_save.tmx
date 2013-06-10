@@ -1554,14 +1554,14 @@ email new PEP versions to the PEP editors for publication.</seg>
     collected in this PEP.  If the rationale turns out faulty, the
     module may become `undeprecated'.</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T063129Z">
-        <seg>더불어서, 배포본에서 모듈을 제거하는 것은 어려운데, 이는 누군가가
-    여전히 그것을 사용하고 있을지도 모르기 때문이다.  이 PEP는 표준
-    파이썬 라이브러리로부터 모듈을 제거하는 절차를 정의한다.  모듈의
-    사용은 `금지(deprecated)'될 수 있는데, 이는 미래의 파이썬 릴리스에서
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T063344Z">
+        <seg>한편, 배포본에서 모듈을 제거하는 것은 어려운데, 이는 누군가가 여전히
+    그것을 사용하고 있을지도 모르기 때문이다.  이 PEP는 표준 파이썬
+    라이브러리로부터 모듈을 제거하는 절차를 정의한다.  모듈의 사용은
+    `금지(deprecated)'될 수 있는데, 이는 미래의 파이썬 릴리스에서
     그것이 제거될 수 있음을 의미한다.  모듈을 금지하는 근거도 역시
     이 PEP에 수집하였다.  근거가 틀린 것으로 판명되면, 모듈은 `금지
-    해제(undeprecated)'될 수 있다..</seg>
+    해제(undeprecated)'될 수 있다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4428,9 +4428,9 @@ Type: Process
 Created: 1-Oct-2000
 Post-History:</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T171326Z">
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T063149Z">
         <seg>PEP: 4
-Title: 표준 모듈의 Deprecation
+Title: 표준 모듈의 금지
 Version: $Revision$
 Last-Modified: $Date$
 Author: Martin von Löwis &lt;martin@v.loewis.de&gt;
@@ -4721,6 +4721,14 @@ PEP 9에 일반 텍스트 PEP를 작성하는 방법에 대한 설명 및 템플
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T130508Z">
         <seg>절차</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Procedure for declaring a module deprecated</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T063142Z">
+        <seg>모듈 금지를 선언하는 절차</seg>
       </tuv>
     </tu>
     <tu>
