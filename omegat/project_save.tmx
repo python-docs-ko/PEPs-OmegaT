@@ -109,6 +109,24 @@ only.)  The conventions are about the same as those for functions.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>* Assign a PEP number (almost always just the next available number,
+  but sometimes it's a special/joke number, like 666 or 3141).
+  (Clarification: For Python 3, numbers in the 3000s were used for
+  Py3k-specific proposals.  But now that all new features go into
+  Python 3 only, the process is back to using numbers in the 100s again.
+  Remember that numbers below 100 are meta-PEPs.)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T025809Z">
+        <seg>* PEP 번호를 할당(사용가능한 다음 번호를 붙이는 경우가 대부분이지만, 가끔은
+  666이나 3141처럼 특별한 번호나 장난스러운 번호를 붙이기도 한다).
+  (설명: Python 3에서는, Py3k에 한정된 제안에 대하여 3000번대 번호를
+  사용했다. 그러나 이제는 모든 기능이 Python 3에만 들어가게 되었으므로,
+  100번대 번호를 붙이는 프로세스로 되돌려졌다. 100 아래의 번호는 메타
+  PEP임을 기억하라.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>* Edit the PEP for language (spelling, grammar, sentence structure,
   etc.), markup (for reST PEPs), code style (examples should match PEP
   8 &amp; 7).</seg>
