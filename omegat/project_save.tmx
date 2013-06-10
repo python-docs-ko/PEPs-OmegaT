@@ -1008,6 +1008,16 @@ PEP 편집자는 그것을 초안 상태로 되돌릴  수 있다.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A PEP editor must subscribe to the &lt;peps@python.org&gt; list.  All
+correspondence related to PEP administration should be sent (or forwarded) to
+&lt;peps@python.org&gt; (but please do not cross-post!).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T022640Z">
+        <seg>PEP 편집자는 &lt;peps@python.org&gt; 리스트를 구독해야 한다.  PEP 관리에 관련된 모든 내용은 &lt;peps@python.org&gt;에 작성 또는 전달한다(엇갈리게 게재하지 말아달라!).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A bare ``except:`` clause will catch SystemExit and
   KeyboardInterrupt exceptions, making it harder to interrupt a
   program with Control-C, and can disguise other problems.  If you
