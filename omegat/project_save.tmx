@@ -5757,6 +5757,15 @@ any other code, separated by a blank line above and below.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This PEP has been superseded by the updated material in the Python
+    Developer's Guide [1].</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T061837Z">
+        <seg>이 PEP는 Python 개발자 안내서의 새로운 내용으로 대체되었다. [1]_</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This document and PEP 257 (Docstring Conventions) were adapted from
 Guido's original Python Style Guide essay, with some additions from
 Barry's style guide [2]_.</seg>
