@@ -2170,14 +2170,14 @@ is an imprecise term; it may be defined as whatever is acceptable to
 the BDFL.  This logic is intentionally circular.)  See PEP 2 [2]_ for
 standard library module acceptance criteria.</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T044701Z">
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T045132Z">
         <seg>PEP가 수용되기 위해서는 몇 가지 최소한의 요건을 갖추어야 한다.  그것은
 제안하는 개선사항에 대한 명확하고 완전한 기술이어야 한다.  개선은 완전한
 구현을 표현해야 한다.  제안하는 구현은 가능하다면 변함이 없고 인터프리터를
 지나치게 복잡하게 만들지 않아야 한다.  마지막으로, 제안하는 개선 사항이
 BDFL에 의해 수용되기 위해서는 반드시 "파이썬다와야(pythonic)" 한다.  (그러나,
 "파이썬다움"은 부정확한 단어이며, BDFL이 수용하느냐에 달려있다. 이것은 순환
-논리이다.)  표준 라이브러리 모듈의 수용 요건에 대해서는 PEP 2[2]_\ 를
+논리이다.)  표준 라이브러리 모듈의 수용 요건에 대해서는 PEP 2\ [2]_\ 를
 참조하라.</seg>
       </tuv>
     </tu>
