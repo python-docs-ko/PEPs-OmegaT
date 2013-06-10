@@ -1224,6 +1224,16 @@ email new PEP versions to the PEP editors for publication.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Auxiliary Files
+===============</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T005626Z">
+        <seg>보조적인 파일들
+===============</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Avoid extraneous whitespace in the following situations:</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T151242Z">
