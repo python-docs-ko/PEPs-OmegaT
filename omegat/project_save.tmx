@@ -5808,8 +5808,8 @@ any other code, separated by a blank line above and below.</seg>
         <seg>This PEP has been superseded by the updated material in the Python
     Developer's Guide [1].</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T061837Z">
-        <seg>이 PEP는 Python 개발자 안내서의 새로운 내용으로 대체되었다. [1]_</seg>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T063513Z">
+        <seg>이 PEP는 Python 개발자 안내서의 새로운 내용으로 대체되었다. [1]</seg>
       </tuv>
     </tu>
     <tu>
