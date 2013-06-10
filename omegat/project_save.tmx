@@ -5732,6 +5732,14 @@ in the C implementation of Python [1]_.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This document is licensed under the `Open Publication License`_.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T060807Z">
+        <seg>This document is licensed under the `공개 출판 라이선스`_.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This document is placed in the public domain.</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T165506Z">
