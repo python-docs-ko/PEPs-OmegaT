@@ -2127,6 +2127,28 @@ underscores as necessary to improve readability.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>How you report a bug, or submit a PEP update depends on several
+factors, such as the maturity of the PEP, the preferences of the PEP
+author, and the nature of your comments.  For the early draft stages
+of the PEP, it's probably best to send your comments and changes
+directly to the PEP author.  For more mature, or finished PEPs you may
+want to submit corrections to the Python `issue tracker`_ so that your
+changes don't get lost.  If the PEP author is a Python developer, assign the
+bug/patch to them, otherwise assign it to a PEP editor.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T011448Z">
+        <seg>PEP에 대한 버그를 보고하거나 수정사항을 제출하는 방법은 몇 가지 요건에
+따라 달라지는데, PEP의 성숙도, PEP 저자의 취향, 그리고 여러분의 의견의
+성격 등이다.  PEP 작성 초반에는 여러분의 의견과 수정 사항을 PEP 저자에게
+직접 전달하는 것이 최선일 것이다.  PEP가 어느 정도 다듬어졌거나 완료된
+경우에는 수정 사항을 Python `issue tracker`_\ 에 제출함으로써 수정
+사항을 잃어버리지 않도록 하는 것이 좋다.  PEP 저자가 Python 개발자인
+경우, 버그/패치를 그들에게 할당하며, 그렇지 않은 경우에는 PEP 편집자에게
+할당한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Hyperlinks
 ----------</seg>
       </tuv>
@@ -4126,8 +4148,11 @@ named ``pep-XXXX-Y.ext``, where "XXXX" is the PEP number, "Y" is a
 serial number (starting at 1), and "ext" is replaced by the actual
 file extension (e.g. "png").</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T010009Z">
-        <seg>PEP에는 다이어그램과 같이 보조적인 파일이 포함될 수 있다.  그러한 파일에는 ``pep-XXXX-Y.ext``\ 와 같이 이름을 붙이며, "XXXX"는 PEP 번호, "Y"는 일련번호(1부터 시작), "ext"는 실제 파일 확장자("png" 등)로 치환한다.</seg>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T011411Z">
+        <seg>PEP에는 다이어그램과 같이 보조적인 파일이 포함될 수 있다.  그러한
+파일에는 ``pep-XXXX-Y.ext``\ 와 같이 이름을 붙이며, "XXXX"는 PEP 번호,
+"Y"는 일련번호(1부터 시작), "ext"는 실제 파일 확장자("png" 등)로
+치환한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5527,6 +5552,16 @@ interface, the C/C++ module has a leading underscore
   있다는 점을 명심하자.  파이썬 2.3에서는 str, unicode가 동일한
   기본 클래스인 basestring을 상속하므로 다음과 같은 구문을 사용할 수
   있다. ::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When in doubt about where to send your changes, please check first
+with the PEP author and/or a PEP editor.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T011549Z">
+        <seg>수정 사항을 어디에 보내야할지 확신이 서지 않는다면, PEP 저자 또는 편집자에게
+먼저 문의하기 바란다.</seg>
       </tuv>
     </tu>
     <tu>
