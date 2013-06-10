@@ -150,9 +150,9 @@ only.)  The conventions are about the same as those for functions.</seg>
   etc.), markup (for reST PEPs), code style (examples should match PEP
   8 &amp; 7).</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T024933Z">
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T043221Z">
         <seg>* PEP의 언어(맞춤법, 문법, 문장 구조 등), 마크업(reST PEP에 해당), 코드
- 스타일(PEP 8 및 7에 부합) 등에 대하여 편집한다.</seg>
+  스타일(PEP 8 및 7에 부합) 등에 대하여 편집한다.</seg>
       </tuv>
     </tu>
     <tu>
