@@ -2640,6 +2640,19 @@ submit a competing PEP.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Many PEPs are written and maintained by developers with write access
+to the Python codebase.  The PEP editors monitor the python-checkins
+list for PEP changes, and correct any structure, grammar, spelling, or
+markup mistakes they see.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T041122Z">
+        <seg>많은 PEP가 Python 코드 기반에 대한 쓰기 권한을 가진 개발자에 의해 쓰여지고
+관리된다.  PEP 편집자는 python-checkins 목록에서 PEP의 변경 및 구조, 문법,
+맞춤법, 마크업 실수 등에 대한 수정을 모니터한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Many programmers who are familiar with TeX often write quotation marks
 like this::</seg>
       </tuv>
@@ -5589,6 +5602,16 @@ invoke Python's name mangling rules.</seg>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T130727Z">
         <seg>지원하지 않는 플랫폼
 --------------------</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Updates to existing PEPs also come in to peps@python.org.  Many PEP
+authors are not Python committers yet, so PEP editors do the commits for them.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T040920Z">
+        <seg>기존의 PEP에 대한 수정 또한 peps@python.org에 들어온다.  많은 PEP 저자는 아직
+Python 커미터가 아니므로, PEP 편집자가 대신에 커밋을 해준다.</seg>
       </tuv>
     </tu>
     <tu>
