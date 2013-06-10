@@ -5756,8 +5756,8 @@ invoke Python's name mangling rules.</seg>
         <seg>Updates to existing PEPs also come in to peps@python.org.  Many PEP
 authors are not Python committers yet, so PEP editors do the commits for them.</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T040920Z">
-        <seg>기존의 PEP에 대한 수정 또한 peps@python.org에 들어온다.  많은 PEP 저자는 아직
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T043751Z">
+        <seg>기존의 PEP에 대한 수정 또한 peps@python.org\ 에 들어온다.  많은 PEP 저자는 아직
 Python 커미터가 아니므로, PEP 편집자가 대신에 커밋을 해준다.</seg>
       </tuv>
     </tu>
