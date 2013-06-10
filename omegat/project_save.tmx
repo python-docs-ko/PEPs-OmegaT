@@ -1980,6 +1980,14 @@ Discussions-To 헤더의 이메일 주소는 스팸 방지 처리를 하지 않�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For each new PEP that comes in an editor does the following:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T022907Z">
+        <seg>편집자 리스트에 새로 들어온 PEP는 다음과 같은 일을 한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, do not rely on CPython's efficient implementation of
   in-place string concatenation for statements in the form ``a += b``
   or ``a = a + b``.  Those statements run more slowly in Jython.  In
