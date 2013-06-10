@@ -1545,6 +1545,27 @@ email new PEP versions to the PEP editors for publication.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>At the same time, removing a module from the distribution is
+    difficult, as it is not known in general whether anybody is still
+    using it.  This PEP defines a procedure for removing modules from
+    the standard Python library.  Usage of a module may be
+    `deprecated', which means that it may be removed from a future
+    Python release.  The rationale for deprecating a module is also
+    collected in this PEP.  If the rationale turns out faulty, the
+    module may become `undeprecated'.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T063129Z">
+        <seg>더불어서, 배포본에서 모듈을 제거하는 것은 어려운데, 이는 누군가가
+    여전히 그것을 사용하고 있을지도 모르기 때문이다.  이 PEP는 표준
+    파이썬 라이브러리로부터 모듈을 제거하는 절차를 정의한다.  모듈의
+    사용은 `금지(deprecated)'될 수 있는데, 이는 미래의 파이썬 릴리스에서
+    그것이 제거될 수 있음을 의미한다.  모듈을 금지하는 근거도 역시
+    이 PEP에 수집하였다.  근거가 틀린 것으로 판명되면, 모듈은 `금지
+    해제(undeprecated)'될 수 있다..</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Auxiliary Files
 ===============</seg>
       </tuv>
