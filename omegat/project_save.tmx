@@ -295,6 +295,14 @@ only.)  The conventions are about the same as those for functions.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>* `Python Developer's Guide &lt;http://docs.python.org/devguide/&gt;`_</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T041431Z">
+        <seg>* `Python 개발자 안내서 &lt;http://docs.python.org/devguide/&gt;`_</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>* ``[str]`` was ambiguous as to whether it represented a list of
     strings or a value that could be either *str* or *None*.</seg>
       </tuv>
@@ -3238,6 +3246,16 @@ PEP를 직접 수정할 수 있다. </seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>PEP editors don't pass judgment on PEPs.  They merely do the
+administrative &amp; editorial part (which is generally a low volume task).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T041345Z">
+        <seg>PEP 편집자는 PEP에 대하여 심사하지 않는다.  그들은 단지 관리 및 편집 측면의
+일을 수행한다(일반적으로 적은 분량의 업무이다).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>PEP editorship is by invitation of the current editors.  The address
 &lt;peps@python.org&gt; is a mailing list for contacting the PEP editors.  All
 email related to PEP administration (such as requesting a PEP number
@@ -4788,6 +4806,14 @@ PEP를 작성하는 방법에 대한 설명과 템플릿 [4]_\ 이 있다.</seg>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T163107Z">
         <seg>자원
 ====</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Resources:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T041352Z">
+        <seg>자원:</seg>
       </tuv>
     </tu>
     <tu>
