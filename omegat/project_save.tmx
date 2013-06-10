@@ -2423,6 +2423,31 @@ the obvious.  Don't do this::</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It occasionally becomes necessary to transfer ownership of PEPs to a
+new champion.  In general, it is preferable to retain the original author as
+a co-author of the transferred PEP, but that's really up to the
+original author.  A good reason to transfer ownership is because the
+original author no longer has the time or interest in updating it or
+following through with the PEP process, or has fallen off the face of
+the 'net (i.e. is unreachable or not responding to email).  A bad
+reason to transfer ownership is because the author doesn't agree with the
+direction of the PEP.  One aim of the PEP process is to try to build
+consensus around a PEP, but if that's not possible, an author can always
+submit a competing PEP.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T013155Z">
+        <seg>때로는 PEP에 대한 소유권을 새로운 챔피언에게 이양할 필요가 있다.
+일반적으로, 원래의 저자가 공저자로서 계속 남도록 하지만, 이는 원저자가
+판단할 문제이다.  소유권을 이양하는 좋은 이유로는, 원저자가 PEP를
+절차에 따라 관리할 시간이나 흥미가 없다거나 인터넷에서 사라진 경우
+(연락 두절 및 이메일에 답장을 하지 않음) 등이 있다.  좋지 못한
+이유로는 저자가 PEP의 방향에 동의하지 않는 것이다.  PEP 절차의 유일한
+목표는 PEP에 대한 합의를 이루어내는 것이지만, 그것이 불가능하다면,
+저자는 언제든지 경쟁적인 PEP를 제출할 수 있다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It's okay to say this though::</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T150910Z">
