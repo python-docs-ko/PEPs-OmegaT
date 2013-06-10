@@ -96,6 +96,17 @@ only.)  The conventions are about the same as those for functions.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>* Add the PEP to a local clone of the PEP repository.  For mercurial workflow
+  instructions, follow `The Python Developers Guide &lt;http://docs.python.org/devguide&gt;`_</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T040159Z">
+        <seg>* PEP를 PEP 저장소의 로컬 복제본에 추가한다.  머큐리얼 작업 흐름에
+  대해서는 `Python 개발자 안내서 &lt;http://docs.python.org/devguide&gt;`_\ 의
+  지침을 따른다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>* Annotations such as ``read1(n: int=None)`` were self-contradictory
     since *None* is not an *int*.  Annotations such as
     ``source_path(self, fullname:str) -&gt; object`` were confusing about
