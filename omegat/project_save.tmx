@@ -134,6 +134,17 @@ only.)  The conventions are about the same as those for functions.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>* Read the PEP to check if it is ready: sound and complete.  The ideas
+  must make technical sense, even if they don't seem likely to be
+  accepted.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T024712Z">
+        <seg>* PEP를 읽고 내용이 올바르고 완전하여 준비가 되었는지 점검한다.  수용되지
+  못할 것 같아 보이는 아이디어라 할지라도 기술적으로는 타당해야 한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>* Some annotations in the abstract base classes were incorrect
     specifications.  For example, set-to-set operations require
     *other* to be another instance of *Set* rather than just an
@@ -189,6 +200,14 @@ only.)  The conventions are about the same as those for functions.</seg>
     수행하는 시스템에서 사용하기에는 너무 주먹구구식이고 일관성이
     없었다. 이러한 어노테이션을 코드에 남겨두면 차후에 자동화된 유틸리티
     등을 작성하기 위해 코드를 수정할 때 어려움을 겪을 수 있다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>* The title should accurately describe the content.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T024620Z">
+        <seg>* 제목은 내용을 정확하게 기술하여야 한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1012,8 +1031,10 @@ PEP 편집자는 그것을 초안 상태로 되돌릴  수 있다.</seg>
 correspondence related to PEP administration should be sent (or forwarded) to
 &lt;peps@python.org&gt; (but please do not cross-post!).</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T022640Z">
-        <seg>PEP 편집자는 &lt;peps@python.org&gt; 리스트를 구독해야 한다.  PEP 관리에 관련된 모든 내용은 &lt;peps@python.org&gt;에 작성 또는 전달한다(엇갈리게 게재하지 말아달라!).</seg>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T024146Z">
+        <seg>PEP 편집자는 &lt;peps@python.org&gt; 리스트를 구독해야 한다.  PEP 관리에 관련된
+모든 내용은 &lt;peps@python.org&gt;에 작성 또는 전달한다(엇갈리게 게재하지
+말아달라!).</seg>
       </tuv>
     </tu>
     <tu>
