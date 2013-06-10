@@ -6148,6 +6148,23 @@ with the PEP author and/or a PEP editor.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When new modules were added to the standard Python library in the
+    past, it was not possible to foresee whether they would still be
+    useful in the future.  Even though Python "Comes With Batteries
+    Included", batteries may discharge over time.  Carrying old
+    modules around is a burden on the maintainer, especially when
+    there is no interest in the module anymore.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T062651Z">
+        <seg>과거에 표준 파이썬 라이브러리에 새로운 모듈이 추가되었을 때에는,
+    그것이 미래에도 계속 유용할 것인지 예상할 수 없었다. 파이썬의
+    "배터리 포함"에도 불구하고, 배터리는 방전될 수 있다.  오래된
+    모듈을 끌고가는 것은 관리자에게는 부담이 되며, 특히 그 모듈이
+    더 이상 필요하지 않을 때에는 더욱 그러하다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When referencing an external web page in the body of a PEP, you should
 include the title of the page in the text, with either an inline
 hyperlink reference to the URL or a footnote reference (see
