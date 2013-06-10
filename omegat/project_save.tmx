@@ -2992,6 +2992,18 @@ names.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Not only does this first step present the user a simpler landscape as
+explained in the rationale_ section, but it also allows for a better
+and more complete resolution of `Step 2`_ (see Prerequisite_).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T054646Z">
+        <seg>Not only does this first step present the user a simpler landscape as
+explained in the 근거_ section, but it also allows for a better
+and more complete resolution of `Step 2`_ (see Prerequisite_).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Note</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T165826Z">
