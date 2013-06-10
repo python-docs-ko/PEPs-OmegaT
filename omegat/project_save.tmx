@@ -138,6 +138,14 @@ only.)  The conventions are about the same as those for functions.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>* Commit and push the new (or updated) PEP</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T040444Z">
+        <seg>* 새로운(또는 수정된) PEP를 commit 및 push한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>* Edit the PEP for language (spelling, grammar, sentence structure,
   etc.), markup (for reST PEPs), code style (examples should match PEP
   8 &amp; 7).</seg>
@@ -181,6 +189,18 @@ only.)  The conventions are about the same as those for functions.</seg>
       <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T024712Z">
         <seg>* PEP를 읽고 내용이 올바르고 완전하여 준비가 되었는지 점검한다.  수용되지
   못할 것 같아 보이는 아이디어라 할지라도 기술적으로는 타당해야 한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>* Run ``./genpepindex.py`` and ``./pep2html.py &lt;PEP Number&gt;`` to ensure they
+  are generated without errors. If either triggers errors, then the web site
+  will not be updated to reflect the PEP changes.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T040413Z">
+        <seg>* ``./genpepindex.py``\ 와 ``./pep2html.py &lt;PEP Number&gt;``\ 를 수행하여 오류
+  없이 생성되는지 확인한다.  프로그램이 오류를 일으킨다면, 웹사이트에는
+  해당 PEP의 수정사항이 반영되지 않을 것이다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5191,6 +5211,14 @@ PEP를 의미하는 "text/x-rst"(PEP 12 [4]_ 참조)가 있다.  Content-Type
   커넥션을 닫는다는 것 외에는 어떤 일을 하는지에 대한 정보를 제공하지
   않는 것을 볼 수 있다.  이러한 경우 명시적인 정보를 제공하는 것은
   중요하다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The mercurial repo for the peps is::</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T040242Z">
+        <seg>PEP 머큐리얼 저장소::</seg>
       </tuv>
     </tu>
     <tu>
