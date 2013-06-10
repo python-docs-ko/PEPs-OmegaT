@@ -884,12 +884,54 @@ other web resource where the pronouncement about the PEP is made.*</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>.. [2] PEP 2, Procedure for Adding New Modules, Faassen
+   (http://www.python.org/dev/peps/pep-0002)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T041805Z">
+        <seg>.. [2] PEP 2, 새로운 모듈을 추가하는 절차, Faassen
+   (http://www.python.org/dev/peps/pep-0002)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>.. [2] PEP 9, Sample Plaintext PEP Template, Warsaw
    (http://www.python.org/dev/peps/pep-0009)</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T163627Z">
         <seg>.. [2] PEP 9, 일반 텍스트 PEP 템플릿 견본, Warsaw
    (http://www.python.org/dev/peps/pep-0009)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>.. [3] PEP 9, Sample Plaintext PEP Template, Warsaw
+   (http://www.python.org/dev/peps/pep-0009)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T041830Z">
+        <seg>.. [3] PEP 9, 일반 텍스트 PEP 템플릿 견본, Warsaw
+   (http://www.python.org/dev/peps/pep-0009)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>.. [4] PEP 12, Sample reStructuredText PEP Template, Goodger, Warsaw
+   (http://www.python.org/dev/peps/pep-0012)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T041842Z">
+        <seg>.. [4] PEP 12, reStructuredText PEP 템플릿 견본, Goodger, Warsaw
+   (http://www.python.org/dev/peps/pep-0012)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>.. [5] The script referred to here is pep2pyramid.py, the successor to
+   pep2html.py, both of which live in the same directory in the hg
+   repo as the PEPs themselves.  Try ``pep2html.py --help`` for
+   details.  The URL for viewing PEPs on the web is
+   http://www.python.org/dev/peps/.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T042108Z">
+        <seg>.. [5] 여기서 참조하는 스크립트는 pep2pyramid.py로, pep2html.py를 계승하는, hg 저장소에서 PEP 자체가 있는 곳과 같은 디렉토리에 있다.  자세한 내용을 보려면 ``pep2html.py --help``\ 를 실행한다.  웹에서 PEP를 볼 수 있는 URL은 http://www.python.org/dev/peps/이다.</seg>
       </tuv>
     </tu>
     <tu>
