@@ -931,11 +931,11 @@ other web resource where the pronouncement about the PEP is made.*</seg>
    details.  The URL for viewing PEPs on the web is
    http://www.python.org/dev/peps/.</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T042925Z">
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T045230Z">
         <seg>.. [5] 여기서 참조하는 스크립트는 pep2html.py를 계승하는 pep2pyramid.py로,
    hg 저장소에서 PEP 자체가 있는 곳과 같은 디렉토리에 있다.  자세한 내용을
    보려면 ``pep2html.py --help``\ 를 실행한다.  웹에서 PEP를 볼 수 있는
-   URL은 http://www.python.org/dev/peps/이다.</seg>
+   URL은 http://www.python.org/dev/peps/\ 이다.</seg>
       </tuv>
     </tu>
     <tu>
