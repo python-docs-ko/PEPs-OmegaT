@@ -5765,6 +5765,17 @@ any other code, separated by a blank line above and below.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This PEP contained guidelines for handling bug reports in 
+    the Python bug tracker.  It has been replaced by the Issue Workflow
+    described at</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T062159Z">
+        <seg>이 PEP는 Python 버그 트래커에서 버그 리포트를 다루는 것에 대한 안내를
+    담고 있다.  다음에서 기술하는 이슈 작업흐름에 의하여 대체되었다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This PEP has been superseded by the updated material in the Python
     Developer's Guide [1].</seg>
       </tuv>
