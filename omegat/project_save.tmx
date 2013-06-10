@@ -2241,6 +2241,18 @@ PEP의 개인 이메일 주소는 무단으로 수집되는 것을 방지하기 
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you are interested in assuming ownership of a PEP, send a message
+asking to take over, addressed to both the original author and the PEP
+editors &lt;peps@python.org&gt;.  If the original author doesn't respond to
+email in a timely manner, the PEP editors will make a unilateral
+decision (it's not like such decisions can't be reversed :).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T013818Z">
+        <seg>PEP의 소유권을 맡는 것에 관심이 있다면, 원저자와 PEP 편집자들 &lt;peps@python.org&gt; 양쪽에 메시지를 보내어 접수 의사를 밝히도록 하라.  원저자가 제때 답장하지 않는다면, PEP 편집자들이 단독으로 결정을 내리게 된다(번복이 불가능한 것은 아니다).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you have to have Subversion, CVS, or RCS crud in your source file,
 do it as follows. ::</seg>
       </tuv>
