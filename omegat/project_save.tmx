@@ -1575,9 +1575,9 @@ exception names (if the exception actually is an error).</seg>
 repository, their revision history is the historical record of the
 feature proposal [1]_.</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T124925Z">
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T044334Z">
         <seg>PEP는 버전이 매겨진 저장소 내의 텍스트 파일로 관리되기 때문에, 버전의 이력이
-곧 기능 제안에 대한 기록이 된다 [1]_.</seg>
+곧 기능 제안에 대한 기록이 된다\ [1]_.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2170,15 +2170,15 @@ is an imprecise term; it may be defined as whatever is acceptable to
 the BDFL.  This logic is intentionally circular.)  See PEP 2 [2]_ for
 standard library module acceptance criteria.</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125341Z">
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T044402Z">
         <seg>PEP가 수용되기 위해서는 몇 가지 최소한의 요건을 갖추어야 한다.  그것은
 제안하는 개선사항에 대한 명확하고 완전한 기술이어야 한다.  개선은 완전한
 구현을 표현해야 한다.  제안하는 구현은 가능하다면 변함이 없고 인터프리터를
 지나치게 복잡하게 만들지 않아야 한다.  마지막으로, 제안하는 개선 사항이
 BDFL에 의해 수용되기 위해서는 반드시 "파이썬다와야(pythonic)" 한다.  (그러나,
 "파이썬다움"은 부정확한 단어이며, BDFL이 수용하느냐에 달려있다. 이것은 순환
-논리이다.)  표준 라이브러리 모듈의 수용 요건에 대해서는 PEP 2 [2]_\ 를
-참조하라.</seg>
+논리이다.)  표준 라이브러리 모듈의 수용 요건에 대해서는 PEP 2를
+참조하라\ [2]_.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4531,9 +4531,9 @@ single ``#``.</seg>
 to a rigid style.  PEP 9 contains a instructions and a template [3]_
 you can use to get started writing your plaintext PEP.</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125736Z">
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T044433Z">
         <seg>일반 텍스트 PEP는 엄격한 스타일을 따르는 최소한의 구조적 마크업으로 작성된다.
-PEP 9에 일반 텍스트 PEP를 작성하는 방법에 대한 설명 및 템플릿 [3]_\ 이 있다.</seg>
+PEP 9에 일반 텍스트 PEP를 작성하는 방법에 대한 설명 및 템플릿이 있다\ [3]_.</seg>
       </tuv>
     </tu>
     <tu>
