@@ -3035,6 +3035,16 @@ PEP authors should use their discretion here.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>PEP authors with hg push privileges for the PEP repository can update the
+PEPs themselves by using "hg push" to submit their changes.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T011845Z">
+        <seg>PEP 저장소에 대하여 hg push 권한을 가진 PEP 저자는 "hg push"를 사용하여
+PEP를 직접 수정할 수 있다. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>PEP editorship is by invitation of the current editors.  The address
 &lt;peps@python.org&gt; is a mailing list for contacting the PEP editors.  All
 email related to PEP administration (such as requesting a PEP number
@@ -5327,6 +5337,16 @@ invoke Python's name mangling rules.</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T171546Z">
         <seg>도구</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Transferring PEP Ownership
+==========================</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T011921Z">
+        <seg>PEP 소유권 이관
+===============</seg>
       </tuv>
     </tu>
     <tu>
