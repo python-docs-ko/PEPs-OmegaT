@@ -109,6 +109,17 @@ only.)  The conventions are about the same as those for functions.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>* Edit the PEP for language (spelling, grammar, sentence structure,
+  etc.), markup (for reST PEPs), code style (examples should match PEP
+  8 &amp; 7).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T024933Z">
+        <seg>* PEP의 언어(맞춤법, 문법, 문장 구조 등), 마크업(reST PEP에 해당), 코드
+ 스타일(PEP 8 및 7에 부합) 등에 대하여 편집한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>* In addition to the above, annotations were inconsistent in the use
     of concrete types versus abstract types:  *int* versus *Integral*
     and set/frozenset versus MutableSet/Set.</seg>
@@ -2248,6 +2259,16 @@ PEP-ability.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If the PEP isn't ready, an editor will send it back to the author for
+revision, with specific instructions.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T025043Z">
+        <seg>PEP의 준비가 미흡하다면, 편집자는 구체적인 지침과 함께 저자에게
+되돌려보내어 개정을 하도록 한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If the final decision on a PEP is to be made by a delegate rather than
 directly by the BDFL, this will be recorded by including the
 "BDFL-Delegate" header in the PEP.</seg>
@@ -2905,6 +2926,14 @@ into the main source code repository, the status will be changed to "Final".</se
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125350Z">
         <seg>일단 PEP가 수용되면, 참조 구현을 반드시 완료하여야 한다.  참조 구현이 완료되어
 주 소스 코드 저장소에 통합되면, 상태가 "최종(Final)"으로 변경된다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Once the PEP is ready for the repository, a PEP editor will:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T025115Z">
+        <seg>PEP가 저장소에 들어갈 준비를 갖추었으면, PEP 편집자는 다음과 같은 일을 한다.</seg>
       </tuv>
     </tu>
     <tu>
