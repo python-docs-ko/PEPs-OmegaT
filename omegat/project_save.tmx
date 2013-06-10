@@ -867,8 +867,9 @@ other web resource where the pronouncement about the PEP is made.*</seg>
    for retrieving older revisions, and can also be browsed via HTTP here:
    http://hg.python.org/peps/</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T041750Z">
-        <seg>.. [1] 이 이력 레코드는 이전 리비전을 조회하는 보통의 hg 명령으로 얻어낼 수 있으며, 다음 주소에서 HTTP를 통해 조회할 수 있다:
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T042608Z">
+        <seg>.. [1] 이 이력 레코드는 이전 리비전을 조회하는 보통의 hg 명령으로 얻어낼
+   수 있으며, 다음 주소에서 HTTP를 통해 조회할 수 있다:
    http://hg.python.org/peps/</seg>
       </tuv>
     </tu>
@@ -940,6 +941,14 @@ other web resource where the pronouncement about the PEP is made.*</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T042318Z">
         <seg>.. _공개 출판 라이선스: http://www.opencontent.org/openpub/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>.. _PEP repository: http://hg.python.org/peps</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T042536Z">
+        <seg>.. _PEP 저장소: http://hg.python.org/peps</seg>
       </tuv>
     </tu>
     <tu>
@@ -1896,13 +1905,13 @@ through the PEP editors. When doing so, let the PEP editors know you have
 hg push privileges and they can guide you through the process of updating
 the PEP repository directly.</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong CHOI" changedate="20130605T070648Z">
-        <seg>`PEP repository`_\ 에 대한 hg push 권한을 가진 개발자는 새로운 PEP를 생성 및
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T042519Z">
+        <seg>`PEP 저장소`_\ 에 대한 hg push 권한을 가진 개발자는 새로운 PEP를 생성 및
 커밋함으로써 직접 PEP 번호를 얻을 수 있다.  그렇게 할 때에는, 개발자는
 일반적으로 PEP 편집자가 담당하는 업무를 처리하여야 한다(`PEP 편집자의 책임
 및 흐름`_ 참조).  초기 버전이 PEP를 제출하는 데에 있어 따라야 하는 표준을
 충족하는지 확인하는 것을 포함한다.  다른 방법으로, 개발자가 PEP를 PEP
-편집자에게 제출하는 것을 선택할 수도 있다.  그럴 경우에는 당신이 hg push
+편집자에게 제출하는 것을 선택할 소수도 있다.  그럴 경우에는 당신이 hg push
 권한을 갖고 있다는 것을 PEP 편집자에게 알림으로써 PEP 저장소에 직접
 업데이트하는 절차에 대한 안내를 받기 바란다.</seg>
       </tuv>
