@@ -936,6 +936,24 @@ other web resource where the pronouncement about the PEP is made.*</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>.. _Open Publication License: http://www.opencontent.org/openpub/</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T042318Z">
+        <seg>.. _공개 출판 라이선스: http://www.opencontent.org/openpub/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>.. _issue tracker:
+   http://bugs.python.org/</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T042243Z">
+        <seg>.. _이슈 트래커:
+   http://bugs.python.org/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>1. A **Standards Track** PEP describes a new feature or implementation
    for Python. It may also describe an interoperability standard that will
    be supported outside the standard library for current Python versions
@@ -1075,9 +1093,9 @@ other web resource where the pronouncement about the PEP is made.*</seg>
    labeled as placed in the public domain (see this PEP as an
    example) or licensed under the `Open Publication License`_.</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125557Z">
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T042329Z">
         <seg>3. 저작권/공개 도메인 -- 각 PEP는 공개 도메인(이 PEP가 그 예이다) 또는
-   `Open Publication License`_\ 에 의거하여 라이선스됨을 명시하여야 한다.</seg>
+   `공개 출판 라이선스`_\ 에 의거하여 라이선스됨을 명시하여야 한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2347,12 +2365,12 @@ want to submit corrections to the Python `issue tracker`_ so that your
 changes don't get lost.  If the PEP author is a Python developer, assign the
 bug/patch to them, otherwise assign it to a PEP editor.</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T011448Z">
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T042216Z">
         <seg>PEP에 대한 버그를 보고하거나 수정사항을 제출하는 방법은 몇 가지 요건에
 따라 달라지는데, PEP의 성숙도, PEP 저자의 취향, 그리고 여러분의 의견의
 성격 등이다.  PEP 작성 초반에는 여러분의 의견과 수정 사항을 PEP 저자에게
 직접 전달하는 것이 최선일 것이다.  PEP가 어느 정도 다듬어졌거나 완료된
-경우에는 수정 사항을 Python `issue tracker`_\ 에 제출함으로써 수정
+경우에는 수정 사항을 Python `이슈 트래커`_\ 에 제출함으로써 수정
 사항을 잃어버리지 않도록 하는 것이 좋다.  PEP 저자가 Python 개발자인
 경우, 버그/패치를 그들에게 할당하며, 그렇지 않은 경우에는 PEP 편집자에게
 할당한다.</seg>
@@ -5217,10 +5235,10 @@ PEP, the more successful it tends to be.  The PEP editors reserve the
 right to reject PEP proposals if they appear too unfocused or too
 broad.  If in doubt, split your PEP into several well-focused ones.</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125057Z">
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T042200Z">
         <seg>PEP 프로세스는 파이썬에 대한 새로운 아이디어로부터 시작한다.  단일한 PEP는 단
 하나의 주요 제안 또는 새로운 아이디어만을 담도록 하는 것을 강력히 권장한다.
-사소한 개선이나 패치는 종종 PEP를 거치지 않고 파이썬 `issue tracker`_\ 에
+사소한 개선이나 패치는 종종 PEP를 거치지 않고 파이썬 `이슈 트래커`_\ 에
 패치를 제출함으로써 파이썬 개발 흐름에 포함시킬 수 있다.  PEP는 초점이 잘
 잡혀 있을 수록 성공하기 쉽다.  PEP 편집자는 초점이 맞지 않거나 너무 광범위한
 PEP를 거부할 수 있다.  의심스럽다면 PEP를 초점이 잘 잡힌 여러 개의 PEP로
