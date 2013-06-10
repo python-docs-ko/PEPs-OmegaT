@@ -295,6 +295,34 @@ only.)  The conventions are about the same as those for functions.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>* `Following Python's Development
+  &lt;http://docs.python.org/devguide/communication.html&gt;`_</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T041518Z">
+        <seg>* `Python 개발 따라잡기
+  &lt;http://docs.python.org/devguide/communication.html&gt;`_</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>* `Frequently Asked Questions for Developers
+  &lt;http://docs.python.org/devguide/faq.html&gt;`_</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T041500Z">
+        <seg>* `개발자들을 위한 자주 묻는 질문
+  &lt;http://docs.python.org/devguide/faq.html&gt;`_</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>* `Index of Python Enhancement Proposals &lt;http://www.python.org/dev/peps/&gt;`_</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T041544Z">
+        <seg>* `Python 개선 제안 색인 &lt;http://www.python.org/dev/peps/&gt;`_</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>* `Python Developer's Guide &lt;http://docs.python.org/devguide/&gt;`_</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T041431Z">
@@ -831,6 +859,17 @@ other web resource where the pronouncement about the PEP is made.*</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T160053Z">
         <seg>.. [1] PEP 7, C 코드 스타일 가이드, van Rossum</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>.. [1] This historical record is available by the normal hg commands
+   for retrieving older revisions, and can also be browsed via HTTP here:
+   http://hg.python.org/peps/</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T041750Z">
+        <seg>.. [1] 이 이력 레코드는 이전 리비전을 조회하는 보통의 hg 명령으로 얻어낼 수 있으며, 다음 주소에서 HTTP를 통해 조회할 수 있다:
+   http://hg.python.org/peps/</seg>
       </tuv>
     </tu>
     <tu>
@@ -4736,6 +4775,16 @@ PEP를 작성하는 방법에 대한 설명과 템플릿 [4]_\ 이 있다.</seg>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T130606Z">
         <seg>참조
 ====</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>References and Footnotes
+========================</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T041603Z">
+        <seg>참조 및 각주
+============</seg>
       </tuv>
     </tu>
     <tu>
