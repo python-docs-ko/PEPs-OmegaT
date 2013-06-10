@@ -4121,6 +4121,17 @@ PEP depends on.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>PEPs may include auxiliary files such as diagrams.  Such files must be
+named ``pep-XXXX-Y.ext``, where "XXXX" is the PEP number, "Y" is a
+serial number (starting at 1), and "ext" is replaced by the actual
+file extension (e.g. "png").</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T010009Z">
+        <seg>PEP에는 다이어그램과 같이 보조적인 파일이 포함될 수 있다.  그러한 파일에는 ``pep-XXXX-Y.ext``\ 와 같이 이름을 붙이며, "XXXX"는 PEP 번호, "Y"는 일련번호(1부터 시작), "ext"는 실제 파일 확장자("png" 등)로 치환한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Package and Module Names
 ~~~~~~~~~~~~~~~~~~~~~~~~</seg>
       </tuv>
@@ -4529,6 +4540,16 @@ PEP를 작성하는 방법에 대한 설명과 템플릿 [4]_\ 이 있다.</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T164231Z">
         <seg>대체 노트</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Reporting PEP Bugs, or Submitting PEP Updates
+=============================================</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T010037Z">
+        <seg>PEP 버그 보고 및 PEP 수정 제출
+==============================</seg>
       </tuv>
     </tu>
     <tu>
