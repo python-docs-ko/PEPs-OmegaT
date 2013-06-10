@@ -3423,6 +3423,14 @@ similar policy.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>PEP Replacement</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T061902Z">
+        <seg>PEP 대체</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>PEP Review &amp; Resolution
 -----------------------</seg>
       </tuv>
@@ -6297,6 +6305,16 @@ PEP.</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T151825Z">
         <seg>문장의 마침표 다음에는 두 개의 공백을 넣는다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>[1] Adding to the Stdlib
+        http://docs.python.org/devguide/stdlibchanges.html</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T061925Z">
+        <seg>[1] Stdlib에 추가하기
+        http://docs.python.org/devguide/stdlibchanges.html</seg>
       </tuv>
     </tu>
     <tu>
