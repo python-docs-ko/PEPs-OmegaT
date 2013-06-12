@@ -148,6 +148,17 @@ only.)  The conventions are about the same as those for functions.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>* Code structure: one space between keywords like ``if``, ``for`` and
+  the following left paren; no spaces inside the paren; braces may be
+  omitted where C permits but when present, they should be formatted
+  as shown::</seg>
+      </tuv>
+      <tuv lang="KO" changeid="yong" changedate="20130612T050023Z">
+        <seg>* 코드 구조: ``if``, ``for``\ 와 같은 키워드 뒤에 한 칸을 띄운 후에 괄호를 열고, 괄호 안쪽에는 공백을 두지 않는다.  C에서 허용할 경우 괄호를 생략할 수 있으나, 사용할 경우에는 다음과 같은 형식을 따라야 한다. ::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>* Commit and push the new (or updated) PEP</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T040444Z">
