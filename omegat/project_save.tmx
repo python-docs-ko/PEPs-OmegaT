@@ -245,6 +245,18 @@ only.)  The conventions are about the same as those for functions.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>* No line should end in whitespace.  If you think you need significant
+  trailing whitespace, think again -- somebody's editor might delete
+  it as a matter of routine.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="yong" changedate="20130612T044841Z">
+        <seg>* 공백으로 끝나는 행을 두지 마라.  특별한 의미를 갖는 공백을 줄 끝에
+  두어야겠다면, 다시 한번 생각해보기 바란다.  다른 사람이 사용하는
+  편집기에서는 자동으로 지워버릴 수도 있다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>* Read the PEP to check if it is ready: sound and complete.  The ideas
   must make technical sense, even if they don't seem likely to be
   accepted.</seg>
