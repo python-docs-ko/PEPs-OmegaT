@@ -107,6 +107,15 @@ only.)  The conventions are about the same as those for functions.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>* All function declarations and definitions must use full prototypes
+  (i.e. specify the types of all arguments).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="yong" changedate="20130612T044051Z">
+        <seg>* 모든 함수 선언 및 정의는 반드시 완전한 프로토타입을 사용한다(즉, 모든 인자의 형을 명시한다).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>* Annotations such as ``read1(n: int=None)`` were self-contradictory
     since *None* is not an *int*.  Annotations such as
     ``source_path(self, fullname:str) -&gt; object`` were confusing about
@@ -142,6 +151,15 @@ only.)  The conventions are about the same as those for functions.</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T040444Z">
         <seg>* 새로운(또는 수정된) PEP를 commit 및 push한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>* Don't use GCC extensions (e.g. don't write multi-line strings
+  without trailing backslashes).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="yong" changedate="20130612T044001Z">
+        <seg>* GCC 확장을 사용하지 않는다(예를 들어, 줄 끝에 백슬래쉬 없이 여러 줄에 걸친 문자열을 쓰지 않도록 한다).</seg>
       </tuv>
     </tu>
     <tu>
@@ -192,6 +210,22 @@ only.)  The conventions are about the same as those for functions.</seg>
   사이트에서 보이지 않는다면, ``make``\ 를 실행하여 현재의 모든 PEP를
   빌드한다.  그중 어느 것이라도 오류를 일으킨다면, PEP가 사이트에 반영되기
   전에 수정하여야 한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>* Never use C++ style // one-line comments.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="yong" changedate="20130612T044131Z">
+        <seg>* C++ 스타일의 // 한 줄 주석문을 절대 사용하지 마라.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>* No compiler warnings with major compilers (gcc, VC++, a few others).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="yong" changedate="20130612T044223Z">
+        <seg>* 주요한 컴파일러(gcc, VC++ 등)에서 컴파일러 경고가 발생하지 않도록 하라.</seg>
       </tuv>
     </tu>
     <tu>
