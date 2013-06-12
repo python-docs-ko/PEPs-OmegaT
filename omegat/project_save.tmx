@@ -363,6 +363,16 @@ only.)  The conventions are about the same as those for functions.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>* Use ANSI/ISO standard C (the 1989 version of the standard).  This
+  means (amongst many other things) that all declarations must be at
+  the top of a block (not necessarily at the top of function).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="yong" changedate="20130612T043832Z">
+        <seg>* ANSI/ISO 표준 C(표준 1989 버전)를 사용하라.  이는 모든 선언이 최상위 블록에 위치하여야 함을 의미한다(함수의 상단일 필요는 없다).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>* `Following Python's Development
   &lt;http://docs.python.org/devguide/communication.html&gt;`_</seg>
       </tuv>
