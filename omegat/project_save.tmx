@@ -292,6 +292,15 @@ only.)  The conventions are about the same as those for functions.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>* Macros should have a MixedCase prefix and then use upper case, for
+  example: ``PyString_AS_STRING``, ``Py_PRINT_RAW``.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="yong" changedate="20130612T054201Z">
+        <seg>* 매크로는 대소문자를 섞은 접두어 뒤에 대문자를 쓴다. 예: ``PyString_AS_STRING``, ``Py_PRINT_RAW``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>* Monitor python.org to make sure the PEP gets added to the site
   properly. If it fails to appear, running ``make`` will build all of the
   current PEPs. If any of these are triggering errors, they must be
@@ -343,6 +352,25 @@ only.)  The conventions are about the same as those for functions.</seg>
         <seg>* 공백으로 끝나는 행을 두지 마라.  특별한 의미를 갖는 공백을 줄 끝에
   두어야겠다면, 다시 한번 생각해보기 바란다.  다른 사람이 사용하는
   편집기에서는 자동으로 지워버릴 수도 있다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>* Occasionally an "internal" function has to be visible to the loader;
+  we use the ``_Py`` prefix for this, e.g.: ``_PyObject_Dump``.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="yong" changedate="20130612T054038Z">
+        <seg>* 가끔 "내부적인" 함수가 로더에 보여질 필요가 있는데, 이때에는
+  ``_PyObject_Dump``\ 와 같이 ``_Py``\ 를 붙인다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>* Public functions and variables use MixedCase with underscores, like
+  this: ``PyObject_GetAttr``, ``Py_BuildValue``, ``PyExc_TypeError``.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="yong" changedate="20130612T053928Z">
+        <seg>* 퍼블릭 함수와 변수는 다음과 같이 밑줄과 대소문자를 섞어 쓴다: ``PyObject_GetAttr``, ``Py_BuildValue``, ``PyExc_TypeError``.</seg>
       </tuv>
     </tu>
     <tu>
