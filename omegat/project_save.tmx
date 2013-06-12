@@ -5826,6 +5826,17 @@ Barry's style guide [2]_.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This document gives coding conventions for the C code comprising the C
+implementation of Python.  Please see the companion informational PEP
+describing style guidelines for Python code [1]_.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="yong" changedate="20130612T043233Z">
+        <seg>이 문서는 파이썬의 C 구현을 구성하는 C 코드에 대한 코딩 관례를 제시한다.
+파이썬 코드에 대한 스타일 안내를 기술하는 정보 PEP를 함께 보기를 권한다 [1]_.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This document gives coding conventions for the Python code comprising
 the standard library in the main Python distribution.  Please see the
 companion informational PEP describing style guidelines for the C code
