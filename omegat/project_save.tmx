@@ -2395,6 +2395,15 @@ PEP 형식에 맞추어 기술하여야 하며, 그렇지 않으면 올바른 �
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For C code that needs to support versions of Python older than 2.3,
+  you can include this after including ``Python.h``::</seg>
+      </tuv>
+      <tuv lang="KO" changeid="yong" changedate="20130612T052058Z">
+        <seg>파이썬 2.3 버전 이전을 지원해야하는 C 코드에서는, ``Python.h``\ 를 포함한 후에 다음을 포함한다. ::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For Python 3.0 and beyond, the following policy is prescribed for the
 standard library (see PEP 3131): All identifiers in the Python
 standard library MUST use ASCII-only identifiers, and SHOULD use
