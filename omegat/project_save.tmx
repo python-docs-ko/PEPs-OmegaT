@@ -621,6 +621,17 @@ only.)  The conventions are about the same as those for functions.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>* When writing multi-line docstrings, be sure to always use backslash
+  continuations, as in the example above, or string literal
+  concatenation::</seg>
+      </tuv>
+      <tuv lang="KO" changeid="yong" changedate="20130612T055014Z">
+        <seg>* 여러 줄에 걸친 문서화 문자열을 작성할 때에는, 위와 같이 백슬래쉬를
+  사용하여 연결하거나, 다음과 같이 문자열 리터럴 접속을 사용한다. ::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>* When you break a long expression at a binary operator, the
   operator goes at the end of the previous line, e.g.::</seg>
       </tuv>
@@ -2917,6 +2928,17 @@ directly by the BDFL, this will be recorded by including the
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125324Z">
         <seg>최종 결정이 BDFL에 의하여 직접 이루어지지 않고 위임에 의한 것인 경우에는,
 PEP에 "BDFL-Delegate" 머리말로서 기록을 남긴다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the return value for the function is always None (because there
+  is no meaningful return value), do not include the indication of the
+  return type.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="yong" changedate="20130612T054857Z">
+        <seg>함수의 반환 값이 항상 None이라면(의미 있는 반환 값이 없기 때문),
+  반환 값에 대한 지시를 포함하지 않는다.</seg>
       </tuv>
     </tu>
     <tu>
