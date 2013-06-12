@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="2.6.3_1" segtype="paragraph" srclang="EN-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="2.6.3_2" segtype="paragraph" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -4069,9 +4069,9 @@ Created: 21-Jul-2000
 Python-Version: 2.1
 Post-History:</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T165705Z">
+      <tuv lang="KO" changeid="yong" changedate="20130612T042714Z">
         <seg>PEP: 213
-Title: 어트리뷰터 접근 핸들러
+Title: 어트리뷰트 접근 핸들러
 Version: $Revision$
 Last-Modified: $Date$
 Author: paul@prescod.net (Paul Prescod)
@@ -4525,9 +4525,9 @@ Content-Type: text/x-rst
 Created: 05-Jul-2001
 Post-History:</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T171409Z">
+      <tuv lang="KO" changeid="yong" changedate="20130612T042840Z">
         <seg>PEP: 7
-Title: C Code 스타일 안내
+Title: C 코드 스타일 안내
 Version: $Revision$
 Last-Modified: $Date$
 Author: Guido van Rossum &lt;guido@python.org&gt;
