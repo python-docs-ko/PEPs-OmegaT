@@ -110,8 +110,9 @@ only.)  The conventions are about the same as those for functions.</seg>
         <seg>* All function declarations and definitions must use full prototypes
   (i.e. specify the types of all arguments).</seg>
       </tuv>
-      <tuv lang="KO" changeid="yong" changedate="20130612T044051Z">
-        <seg>* 모든 함수 선언 및 정의는 반드시 완전한 프로토타입을 사용한다(즉, 모든 인자의 형을 명시한다).</seg>
+      <tuv lang="KO" changeid="yong" changedate="20130612T044538Z">
+        <seg>* 모든 함수 선언 및 정의는 반드시 완전한 프로토타입을 사용한다(즉,
+  모든 인자의 형을 명시한다).</seg>
       </tuv>
     </tu>
     <tu>
@@ -158,8 +159,9 @@ only.)  The conventions are about the same as those for functions.</seg>
         <seg>* Don't use GCC extensions (e.g. don't write multi-line strings
   without trailing backslashes).</seg>
       </tuv>
-      <tuv lang="KO" changeid="yong" changedate="20130612T044001Z">
-        <seg>* GCC 확장을 사용하지 않는다(예를 들어, 줄 끝에 백슬래쉬 없이 여러 줄에 걸친 문자열을 쓰지 않도록 한다).</seg>
+      <tuv lang="KO" changeid="yong" changedate="20130612T044522Z">
+        <seg>* GCC 확장을 사용하지 않는다(예를 들어, 줄 끝에 백슬래쉬 없이 여러
+  줄에 걸친 문자열을 쓰지 않도록 한다).</seg>
       </tuv>
     </tu>
     <tu>
@@ -224,8 +226,21 @@ only.)  The conventions are about the same as those for functions.</seg>
       <tuv lang="EN-US">
         <seg>* No compiler warnings with major compilers (gcc, VC++, a few others).</seg>
       </tuv>
-      <tuv lang="KO" changeid="yong" changedate="20130612T044223Z">
-        <seg>* 주요한 컴파일러(gcc, VC++ 등)에서 컴파일러 경고가 발생하지 않도록 하라.</seg>
+      <tuv lang="KO" changeid="yong" changedate="20130612T044549Z">
+        <seg>* 주요한 컴파일러(gcc, VC++ 등)에서 컴파일러 경고가 발생하지 않도록
+  하라.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>* No line should be longer than 79 characters.  If this and the
+  previous rule together don't give you enough room to code, your code
+  is too complicated -- consider using subroutines.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="yong" changedate="20130612T044440Z">
+        <seg>* 79자를 넘기는 행이 없도록 한다.  이것과 앞의 규칙을 함께 적용했을 때
+  코드를 작성할 공간이 부족하다면, 당신의 코드가 너무 복잡한 것이므로
+  서브루틴의 사용을 고려하라.</seg>
       </tuv>
     </tu>
     <tu>
@@ -397,12 +412,21 @@ only.)  The conventions are about the same as those for functions.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>* Use 4-space indents and no tabs at all.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="yong" changedate="20130612T044254Z">
+        <seg>* 공백 네 개의 들여쓰기를 사용하고 탭은 사용하지 않는다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>* Use ANSI/ISO standard C (the 1989 version of the standard).  This
   means (amongst many other things) that all declarations must be at
   the top of a block (not necessarily at the top of function).</seg>
       </tuv>
-      <tuv lang="KO" changeid="yong" changedate="20130612T043832Z">
-        <seg>* ANSI/ISO 표준 C(표준 1989 버전)를 사용하라.  이는 모든 선언이 최상위 블록에 위치하여야 함을 의미한다(함수의 상단일 필요는 없다).</seg>
+      <tuv lang="KO" changeid="yong" changedate="20130612T044516Z">
+        <seg>* ANSI/ISO 표준 C(표준 1989 버전)를 사용하라.  이는 모든 선언이 최상위
+  블록에 위치하여야 함을 의미한다(함수의 상단일 필요는 없다).</seg>
       </tuv>
     </tu>
     <tu>
@@ -3276,8 +3300,9 @@ and more complete resolution of `Step 2`_ (see Prerequisite_).</seg>
         <seg>Note, rules are there to be broken.  Two good reasons to break a
 particular rule:</seg>
       </tuv>
-      <tuv lang="KO" changeid="yong" changedate="20130612T043325Z">
-        <seg>규칙은 깨지기 위해 존재한다.  특정한 규칙을 무시해도 괜찮은 두 가지 경우를 살펴보자.</seg>
+      <tuv lang="KO" changeid="yong" changedate="20130612T044454Z">
+        <seg>규칙은 깨지기 위해 존재한다.  특정한 규칙을 무시해도 괜찮은 두 가지
+경우를 살펴보자.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5893,9 +5918,10 @@ Barry's style guide [2]_.</seg>
 implementation of Python.  Please see the companion informational PEP
 describing style guidelines for Python code [1]_.</seg>
       </tuv>
-      <tuv lang="KO" changeid="yong" changedate="20130612T043233Z">
+      <tuv lang="KO" changeid="yong" changedate="20130612T044507Z">
         <seg>이 문서는 파이썬의 C 구현을 구성하는 C 코드에 대한 코딩 관례를 제시한다.
-파이썬 코드에 대한 스타일 안내를 기술하는 정보 PEP를 함께 보기를 권한다 [1]_.</seg>
+파이썬 코드에 대한 스타일 안내를 기술하는 정보 PEP를 함께 보기를 권한다
+[1]_.</seg>
       </tuv>
     </tu>
     <tu>
