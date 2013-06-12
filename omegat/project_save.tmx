@@ -557,12 +557,13 @@ only.)  The conventions are about the same as those for functions.</seg>
   (e.g. specific object type APIs) use a longer prefix,
   e.g. ``PyString_`` for string functions.</seg>
       </tuv>
-      <tuv lang="KO" changeid="yong" changedate="20130612T053423Z">
+      <tuv lang="KO" changeid="yong" changedate="20130612T053832Z">
         <seg>* 퍼블릭 함수에 대해서는 ``Py``\ 를 앞에 붙이고, 정적 함수에
-  대해서는 절대 그렇게 하지 않는다.  The ``Py_`` prefix is reserved for global service
-  routines like ``Py_FatalError``; specific groups of routines
-  (e.g. specific object type APIs) use a longer prefix,
-  e.g. ``PyString_`` for string functions.</seg>
+  대해서는 절대 그렇게 하지 않는다.  ``Py_``\ 는
+  ``Py_FatalError``\ 와 같은 전역 서비스 루틴을 위한 것이다.
+  특정한 루틴 그룹(특정한 개체 유형 API 등)은 보다 긴 접두어를
+  사용하는데, 문자열 함수에 ``PyString_``\ 을 붙이는 것을 예로
+  들 수 있다.</seg>
       </tuv>
     </tu>
     <tu>
