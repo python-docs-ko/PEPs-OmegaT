@@ -369,6 +369,14 @@ only.)  The conventions are about the same as those for functions.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>* The return statement should *not* get redundant parentheses::</seg>
+      </tuv>
+      <tuv lang="KO" changeid="yong" changedate="20130612T050134Z">
+        <seg>* return 문에는 불필요한 괄호를 사용하지 *않는다.* ::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>* The title should accurately describe the content.</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T024620Z">
