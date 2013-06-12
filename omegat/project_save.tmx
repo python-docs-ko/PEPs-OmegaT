@@ -295,9 +295,9 @@ only.)  The conventions are about the same as those for functions.</seg>
         <seg>* Macros should have a MixedCase prefix and then use upper case, for
   example: ``PyString_AS_STRING``, ``Py_PRINT_RAW``.</seg>
       </tuv>
-      <tuv lang="KO" changeid="yong" changedate="20130612T054621Z">
+      <tuv lang="KO" changeid="yong" changedate="20130612T055405Z">
         <seg>* 매크로는 대소문자를 섞은 접두어 뒤에 대문자를 쓴다. 예:
- ``PyString_AS_STRING``, ``Py_PRINT_RAW``</seg>
+  ``PyString_AS_STRING``, ``Py_PRINT_RAW``</seg>
       </tuv>
     </tu>
     <tu>
