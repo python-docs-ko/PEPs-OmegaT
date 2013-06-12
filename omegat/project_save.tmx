@@ -177,6 +177,16 @@ only.)  The conventions are about the same as those for functions.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>* Function definition style: function name in column 1, outermost
+  curly braces in column 1, blank line after local variable
+  declarations.  ::</seg>
+      </tuv>
+      <tuv lang="KO" changeid="yong" changedate="20130612T045559Z">
+        <seg>* 함수 정의 스타일: 함수 이름을 첫 컬럼에, 가장 바깥쪽 중괄호를 첫 컬럼에 쓰고, 지역 변수 선언 후에 빈 줄을 둔다.  ::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>* In addition to the above, annotations were inconsistent in the use
     of concrete types versus abstract types:  *int* versus *Integral*
     and set/frozenset versus MutableSet/Set.</seg>
