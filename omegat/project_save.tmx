@@ -117,6 +117,18 @@ only.)  The conventions are about the same as those for functions.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>* Always put spaces around assignment, Boolean and comparison
+  operators.  In expressions using a lot of operators, add spaces
+  around the outermost (lowest-priority) operators.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="yong" changedate="20130612T052529Z">
+        <seg>* 할당, 불리언 및 비교 연산자 주위에는 항상 공백을 둔다.  연산자를
+  많이 사용하는 표현식에서는, (우선순위가 가장 낮은) 가장 바깥쪽
+  연산자 주면에 공백을 추가한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>* Annotations such as ``read1(n: int=None)`` were self-contradictory
     since *None* is not an *int*.  Annotations such as
     ``source_path(self, fullname:str) -&gt; object`` were confusing about
@@ -153,8 +165,11 @@ only.)  The conventions are about the same as those for functions.</seg>
   omitted where C permits but when present, they should be formatted
   as shown::</seg>
       </tuv>
-      <tuv lang="KO" changeid="yong" changedate="20130612T050023Z">
-        <seg>* 코드 구조: ``if``, ``for``\ 와 같은 키워드 뒤에 한 칸을 띄운 후에 괄호를 열고, 괄호 안쪽에는 공백을 두지 않는다.  C에서 허용할 경우 괄호를 생략할 수 있으나, 사용할 경우에는 다음과 같은 형식을 따라야 한다. ::</seg>
+      <tuv lang="KO" changeid="yong" changedate="20130612T052343Z">
+        <seg>* 코드 구조: ``if``, ``for``\ 와 같은 키워드 뒤에 한 칸을 띄운 후에
+  괄호를 열고, 괄호 안쪽에는 공백을 두지 않는다.  C에서 허용할 경우
+  괄호를 생략할 수 있으나, 괄호를 사용할 경우에는 다음과 같은
+  형식을 따라야 한다. ::</seg>
       </tuv>
     </tu>
     <tu>
@@ -188,12 +203,25 @@ only.)  The conventions are about the same as those for functions.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>* Function and macro call style: ``foo(a, b, c)`` -- no space before
+  the open paren, no spaces inside the parens, no spaces before
+  commas, one space after each comma.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="yong" changedate="20130612T052322Z">
+        <seg>* 함수 및 매크로 호출 스타일: ``foo(a, b, c)`` -- 괄호 앞뒤에 공백을
+  두지 않으며, 쉼표 앞에는 공백을 두지 않고, 쉼표 뒤에 공백 한 칸을
+  둔다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>* Function definition style: function name in column 1, outermost
   curly braces in column 1, blank line after local variable
   declarations.  ::</seg>
       </tuv>
-      <tuv lang="KO" changeid="yong" changedate="20130612T045559Z">
-        <seg>* 함수 정의 스타일: 함수 이름을 첫 컬럼에, 가장 바깥쪽 중괄호를 첫 컬럼에 쓰고, 지역 변수 선언 후에 빈 줄을 둔다.  ::</seg>
+      <tuv lang="KO" changeid="yong" changedate="20130612T052348Z">
+        <seg>* 함수 정의 스타일: 함수 이름을 첫 컬럼에, 가장 바깥쪽 중괄호를
+  첫 컬럼에 쓰고, 지역 변수 선언 후에 빈 줄을 둔다.  ::</seg>
       </tuv>
     </tu>
     <tu>
