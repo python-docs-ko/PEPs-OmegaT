@@ -117,6 +117,15 @@ only.)  The conventions are about the same as those for functions.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>* All functions and global variables should be declared static unless
+  they are to be part of a published interface</seg>
+      </tuv>
+      <tuv lang="KO" changeid="yong" changedate="20130612T053145Z">
+        <seg>* 이미 나와있는 인터페이스의 일부가 아닌 한, 모든 함수와 전역 변수는 정적으로 선언되어야 한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>* Always put spaces around assignment, Boolean and comparison
   operators.  In expressions using a lot of operators, add spaces
   around the outermost (lowest-priority) operators.</seg>
@@ -181,6 +190,14 @@ only.)  The conventions are about the same as those for functions.</seg>
   괄호를 열고, 괄호 안쪽에는 공백을 두지 않는다.  C에서 허용할 경우
   괄호를 생략할 수 있으나, 괄호를 사용할 경우에는 다음과 같은
   형식을 따라야 한다. ::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>* Comments go before the code they describe.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="yong" changedate="20130612T053026Z">
+        <seg>* 주석문은 해당 코드보다 먼저 오도록 한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -313,6 +330,15 @@ only.)  The conventions are about the same as those for functions.</seg>
         <seg>* 공백으로 끝나는 행을 두지 마라.  특별한 의미를 갖는 공백을 줄 끝에
   두어야겠다면, 다시 한번 생각해보기 바란다.  다른 사람이 사용하는
   편집기에서는 자동으로 지워버릴 수도 있다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>* Put blank lines around functions, structure definitions, and major
+  sections inside functions.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="yong" changedate="20130612T053001Z">
+        <seg>* 함수, 구조체 정의, 그리고 함수 내의 주요 섹션의 주변에는 빈 행을 둔다.</seg>
       </tuv>
     </tu>
     <tu>
