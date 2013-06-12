@@ -1749,6 +1749,16 @@ don't hesitate to ask!</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>C dialect
+=========</seg>
+      </tuv>
+      <tuv lang="KO" changeid="yong" changedate="20130612T043351Z">
+        <seg>C 방언
+======</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Circular references</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T164926Z">
@@ -3215,6 +3225,15 @@ and more complete resolution of `Step 2`_ (see Prerequisite_).</seg>
         <seg>주의 3: 모든 이가 네임 맹글링을 좋아하는 것은 아니다.  우발적인 이름
   충돌의 방지와, 해당 클래스를 사용하게 될 사람의 편의성 사이에서
   형평성을 찾도록 하자.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note, rules are there to be broken.  Two good reasons to break a
+particular rule:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="yong" changedate="20130612T043325Z">
+        <seg>규칙은 깨지기 위해 존재한다.  특정한 규칙을 무시해도 괜찮은 두 가지 경우를 살펴보자.</seg>
       </tuv>
     </tu>
     <tu>
