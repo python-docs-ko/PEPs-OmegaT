@@ -295,8 +295,9 @@ only.)  The conventions are about the same as those for functions.</seg>
         <seg>* Macros should have a MixedCase prefix and then use upper case, for
   example: ``PyString_AS_STRING``, ``Py_PRINT_RAW``.</seg>
       </tuv>
-      <tuv lang="KO" changeid="yong" changedate="20130612T054201Z">
-        <seg>* 매크로는 대소문자를 섞은 접두어 뒤에 대문자를 쓴다. 예: ``PyString_AS_STRING``, ``Py_PRINT_RAW``</seg>
+      <tuv lang="KO" changeid="yong" changedate="20130612T054621Z">
+        <seg>* 매크로는 대소문자를 섞은 접두어 뒤에 대문자를 쓴다. 예:
+ ``PyString_AS_STRING``, ``Py_PRINT_RAW``</seg>
       </tuv>
     </tu>
     <tu>
@@ -369,8 +370,9 @@ only.)  The conventions are about the same as those for functions.</seg>
         <seg>* Public functions and variables use MixedCase with underscores, like
   this: ``PyObject_GetAttr``, ``Py_BuildValue``, ``PyExc_TypeError``.</seg>
       </tuv>
-      <tuv lang="KO" changeid="yong" changedate="20130612T053928Z">
-        <seg>* 퍼블릭 함수와 변수는 다음과 같이 밑줄과 대소문자를 섞어 쓴다: ``PyObject_GetAttr``, ``Py_BuildValue``, ``PyExc_TypeError``.</seg>
+      <tuv lang="KO" changeid="yong" changedate="20130612T054614Z">
+        <seg>* 퍼블릭 함수와 변수는 다음과 같이 밑줄과 대소문자를 섞어 쓴다:
+  ``PyObject_GetAttr``, ``Py_BuildValue``, ``PyExc_TypeError``.</seg>
       </tuv>
     </tu>
     <tu>
@@ -445,6 +447,17 @@ only.)  The conventions are about the same as those for functions.</seg>
     한정적이지 않기도 하다(0, 1, 2 값만 허용된다).  마찬가지로
     ``write(b: bytes)``\ 라는 어노테이션 또한 지나치게 한정적이다(버퍼
     프로토콜을 허용하는 모든 값을 지원한다).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>* The first line of each fuction docstring should be a "signature
+  line" that gives a brief synopsis of the arguments and return value.
+  For example::</seg>
+      </tuv>
+      <tuv lang="KO" changeid="yong" changedate="20130612T054723Z">
+        <seg>* 각 함수 문서화 문자열의 첫 줄에는, 다음과 같이 간략한 개요와 반환
+  값을 기술하는 "시그너쳐 행"이 오도록 해야 한다. ::</seg>
       </tuv>
     </tu>
     <tu>
@@ -600,8 +613,9 @@ only.)  The conventions are about the same as those for functions.</seg>
   to support building Python without docstrings (``./configure
   --without-doc-strings``).</seg>
       </tuv>
-      <tuv lang="KO" changeid="yong" changedate="20130612T054327Z">
-        <seg>* ``PyDoc_STR()`` 또는 ``PyDoc_STRVAR()`` 매크로를 사용함으로써, 문서화 문자열 없이 파이썬을 빌드(``./configure
+      <tuv lang="KO" changeid="yong" changedate="20130612T054629Z">
+        <seg>* ``PyDoc_STR()`` 또는 ``PyDoc_STRVAR()`` 매크로를 사용함으로써,
+  문서화 문자열 없이 파이썬을 빌드(``./configure
   --without-doc-strings``)할 수 있도록 지원한다.</seg>
       </tuv>
     </tu>
@@ -1750,6 +1764,15 @@ public으로 정의한다.  비 public 어트리뷰트를 public으로 변경하
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Always include a blank line between the signature line and the text
+  of the description.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="yong" changedate="20130612T054756Z">
+        <seg>시그너쳐 행과 설명 텍스트 사이에는 항상 한 줄을 띄운다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Always use ``cls`` for the first argument to class methods.</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T153415Z">
@@ -2543,8 +2566,9 @@ PEP 형식에 맞추어 기술하여야 하며, 그렇지 않으면 올바른 �
         <seg>For C code that needs to support versions of Python older than 2.3,
   you can include this after including ``Python.h``::</seg>
       </tuv>
-      <tuv lang="KO" changeid="yong" changedate="20130612T052058Z">
-        <seg>파이썬 2.3 버전 이전을 지원해야하는 C 코드에서는, ``Python.h``\ 를 포함한 후에 다음을 포함한다. ::</seg>
+      <tuv lang="KO" changeid="yong" changedate="20130612T054700Z">
+        <seg>파이썬 2.3 버전 이전을 지원해야하는 C 코드에서는,
+  ``Python.h``\ 를 포함한 후에 다음을 포함한다. ::</seg>
       </tuv>
     </tu>
     <tu>
