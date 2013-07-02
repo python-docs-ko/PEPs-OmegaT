@@ -2876,6 +2876,14 @@ underscores as necessary to improve readability.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Hashing objects require the following methods:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130702T025016Z">
+        <seg>해시 개체는 다음의 메소드들을 필요로 한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Here is a hyperlink reference to the `Abstract`_ section.  The
     backquotes are optional since the reference text is a single word;
     we can also just write: Abstract_.</seg>
@@ -5574,6 +5582,16 @@ PEP를 작성하는 방법에 대한 설명과 템플릿\ [4]_\ 이 있다.</seg
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Return a separate copy of this hashing object.  An update to
+        this copy won't affect the original object.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130702T025108Z">
+        <seg>이 해시 개체와 독립적인 사본을 반환한다.  이 사본에 대한
+        변경은 원래의 개체에 영향을 끼치지 않는다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Scenario 1:</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T165712Z">
@@ -6297,6 +6315,24 @@ any other code, separated by a blank line above and below.</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T063513Z">
         <seg>이 PEP는 Python 개발자 안내서의 새로운 내용으로 대체되었다. [1]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This attribute is identical to the module-level digest_size
+        variable, measuring the size of the digest produced by the
+        hashing object, measured in bytes.  If the hash has a variable
+        output size, this output size must be chosen when the hashing
+        object is created, and this attribute must contain the
+        selected size.  Therefore None is *not* a legal value for this
+        attribute.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130702T024959Z">
+        <seg>이 속성은 모듈 수준의 digest_size 변수와 동일한 것으로, 해시
+        개체가 생성하는 다이제스트의 크기를 바이트 단위로 측정한다.
+        해시가 다양한 출력 크기를 갖는 경우, 이 출력 크기는 해시 개체가
+        생성되는 시점에 선택되며, 이 속성은 선택된 크기를 가져야 한다.
+        따라서 이 속성에 대하여 None은 정당하지 *못한* 값이다.</seg>
       </tuv>
     </tu>
     <tu>
