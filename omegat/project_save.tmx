@@ -2295,6 +2295,34 @@ http://www.fanhow.com/images/9/91/How_to_Create_hanging_indent_using_CSS_2.png)<
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Create a new hashing object and return it.  The first form is
+        for hashes that are unkeyed, such as MD5 or SHA.  For keyed
+        hashes such as HMAC, 'key' is a required parameter containing
+        a string giving the key to use.  In both cases, the optional
+        'string' parameter, if supplied, will be immediately hashed
+        into the object's starting state, as if obj.update(string) was
+        called.
+        
+        After creating a hashing object, arbitrary strings can be fed
+        into the object using its update() method, and the hash value
+        can be obtained at any time by calling the object's digest()
+        method.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130702T023308Z">
+        <seg>새로운 해시 개체를 생성하여 그것을 반환한다.  첫 번째 형식은 MD5나
+        SHA와 같이 키가 없는 것들을 위한 것이다.  HMAC과 같이 키가
+        있는 해시를 위해서는, 키로 사용할 문자열을 담은 'key'
+        파라미터가 필요하다.  양쪽 모두, 선택 사항인 'string'
+        파라미터가 제공될 경우에는, 마치 obj.update(string)를 호출한
+        것처럼 개체의 시작 상태로 즉시 해시된다.
+        
+        해시 개체를 생성한 뒤에는, update() 메소드를 사용함으로써
+        개체에 임의의 문자열을 제공할 수 있으며, 개체의 digest()
+        메소드를 호출함으로써 해시 값을 언제든지 얻을 수 있다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Current Solution</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T165731Z">
