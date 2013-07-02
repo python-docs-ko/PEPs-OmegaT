@@ -6058,6 +6058,19 @@ they are used for.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There are several different modules available that implement
+    cryptographic hashing algorithms such as MD5 or SHA.  This
+    document specifies a standard API for such algorithms, to make it
+    easier to switch between different implementations.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130702T022423Z">
+        <seg>MD5나 SHA와 같이 암호 해시 알고리즘을 구현한 모듈이 몇 가지 존재한다.
+    이 문서에서는 그러한 알고리즘들을 위한 표준 API를 정의하여, 서로
+    다른 구현으로 쉽게 변경할 수 있도록 하고자 한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There are several reference in this PEP to the "BDFL". This acronym stands
 for "Benevolent Dictator for Life" and refers to Guido van Rossum, the
 original creator of, and the final design authority for, the Python
