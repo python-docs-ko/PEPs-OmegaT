@@ -1843,6 +1843,24 @@ used by your base class.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Arbitrary additional keyword arguments can be added to this
+        function, but if they're not supplied, sensible default values
+        should be used.  For example, 'rounds' and 'digest_size'
+        keywords could be added for a hash function which supports a
+        variable number of rounds and several different output sizes,
+        and they should default to values believed to be secure.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130702T024140Z">
+        <seg>이 함수에 임의의 키워드 인자를 추가할 수 있지만, 그것을
+        제공하지 않은 경우에는 합리적인 기본 값이 사용되어야 한다.
+        예를 들어, 다양한 수의 라운드를 지원하는 'rounds'라든지,
+        몇 가지 서로 다른 출력 크기를 지정하는 'digest_size' 키워드를
+        해시 함수에 추가한다고 할 때, 그것들은 안전한 것으로 믿을 수
+        있는 값을 기본값으로 삼아야 할 것이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>As updates are necessary, the PEP author can check in new versions if they
 (or a collaborating developer) have hg push privileges, or else they can
 email new PEP versions to the PEP editors for publication.</seg>
@@ -2308,10 +2326,10 @@ http://www.fanhow.com/images/9/91/How_to_Create_hanging_indent_using_CSS_2.png)<
         can be obtained at any time by calling the object's digest()
         method.</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong CHOI" changedate="20130702T023308Z">
-        <seg>새로운 해시 개체를 생성하여 그것을 반환한다.  첫 번째 형식은 MD5나
-        SHA와 같이 키가 없는 것들을 위한 것이다.  HMAC과 같이 키가
-        있는 해시를 위해서는, 키로 사용할 문자열을 담은 'key'
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130702T024212Z">
+        <seg>새로운 해시 개체를 생성하여 그것을 반환한다.  첫 번째 형식은
+        MD5나 SHA와 같이 키가 없는 것들을 위한 것이다.  HMAC과 같이
+        키가 있는 해시를 위해서는, 키로 사용할 문자열을 담은 'key'
         파라미터가 필요하다.  양쪽 모두, 선택 사항인 'string'
         파라미터가 제공될 경우에는, 마치 obj.update(string)를 호출한
         것처럼 개체의 시작 상태로 즉시 해시된다.
@@ -2819,6 +2837,14 @@ underscores as necessary to improve readability.</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong CHOI" changedate="20130702T022620Z">
         <seg>해시 함수 모듈은 한 개의 함수를 정의한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Hash function modules define one variable:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130702T024229Z">
+        <seg>해시 함수 모듈은 한 개의 변수를 정의한다.</seg>
       </tuv>
     </tu>
     <tu>
