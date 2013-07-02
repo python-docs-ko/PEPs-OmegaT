@@ -5592,6 +5592,19 @@ PEP를 작성하는 방법에 대한 설명과 템플릿\ [4]_\ 이 있다.</seg
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Return the hash value of this hashing object as a string
+        containing 8-bit data.  The object is not altered in any way
+        by this function; you can continue updating the object after
+        calling this function.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130702T025309Z">
+        <seg>이 해시 함수의 값을 8 비트 데이터를 갖는 문자열로서 반환한다.
+        개체는 이 함수에 의해서는 변경되지 않으며, 이 함수를 호출한
+        뒤에 개체의 변경을 계속할 수 있다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Scenario 1:</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T165712Z">
