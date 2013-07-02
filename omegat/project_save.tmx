@@ -2106,6 +2106,14 @@ don't hesitate to ask!</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Changes</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130702T040500Z">
+        <seg>변경 사항</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Circular references</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T164926Z">
@@ -6199,6 +6207,29 @@ internal consistency is preferred.</seg>
 대한 표준을 여기 기술한다.  새로운 모듈과 패키지(서드 파티 프레임워크를
 포함한)는 이들 표준에 맞추어 작성되어야 하지만, 이미 다른 스타일로
 작성되어 있는 기존 라이브러리는 그 자체의 일관성을 유지하도록 한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The order of the constructor's arguments for keyed hashes was a
+    sticky issue.  It wasn't clear whether the key should come first
+    or second.  It's a required parameter, and the usual convention is
+    to place required parameters first, but that also means that the
+    'string' parameter moves from the first position to the second.
+    It would be possible to get confused and pass a single argument to
+    a keyed hash, thinking that you're passing an initial string to an 
+    unkeyed hash, but it doesn't seem worth making the interface 
+    for keyed hashes more obscure to avoid this potential error.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130702T040455Z">
+        <seg>키가 있는 해시에 대한 생성자 인자의 순서는 곤혹스러운 문제이다.
+    키가 첫 번째로 와야 할 지 두 번째로 와야 할 지가 명확하지 않았다.
+    그것은 필수적인 매개변수이며, 일반적인 관례는 필수적인 매개변수를
+    처음에 두지만, 그렇게 하려면 'string' 매개변수를 첫 번째에서 두
+    번째로 이동시켜야 한다.  키가 없는 해시에 단일 인자를 전달한다고
+    착각하여 키가 있는 해시에 인자를 하나만 전달하는 일이 벌어질 수도
+    있기는 하지만, 이러한 잠재적인 오류를 피하는 것이 키가 있는 해시에
+    대한 인터페이스를 모호하게 만들 만큼의 가치가 있어 보이지는 않는다.</seg>
       </tuv>
     </tu>
     <tu>
