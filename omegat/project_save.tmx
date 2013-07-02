@@ -1719,6 +1719,18 @@ in the next section.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>All hashing modules should present the same interface.  Additional
+    methods or variables can be added, but those described in this
+    document should always be present.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130702T022558Z">
+        <seg>모든 해시 모듈은 동일한 인터페이스를 내보여야 한다.  부가적인
+    메소드나 변수를 덧댈 수는 있으나, 이 문서에서 기술하는 것들은 항상
+    있어야 한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Almost without exception, class names use the CapWords convention.
 Classes for internal use have a leading underscore in addition.</seg>
       </tuv>
@@ -2771,6 +2783,14 @@ underscores as necessary to improve readability.</seg>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T163059Z">
         <seg>피해야 할 습관
 ==============</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Hash function modules define one function:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130702T022620Z">
+        <seg>해시 함수 모듈은 한 개의 함수를 정의한다.</seg>
       </tuv>
     </tu>
     <tu>
