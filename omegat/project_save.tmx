@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="2.6.3_2" segtype="paragraph" srclang="EN-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="2.6.3_1" segtype="paragraph" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -4739,6 +4739,30 @@ Type: Standards Track
 Created:
 Python-Version: 2.1
 Post-History: 05-Nov-2000</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PEP: 247
+Title: API for Cryptographic Hash Functions
+Version: $Revision$
+Last-Modified: $Date$
+Author: A.M. Kuchling &lt;amk@amk.ca&gt;
+Status: Final
+Type: Informational
+Created: 23-Mar-2001
+Post-History: 20-Sep-2001</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130702T021941Z">
+        <seg>PEP: 247
+Title: 암호 해시 함수를 위한 API
+Version: $Revision$
+Last-Modified: $Date$
+Author: A.M. Kuchling &lt;amk@amk.ca&gt;
+Status: Final
+Type: Informational
+Created: 23-Mar-2001
+Post-History: 20-Sep-2001</seg>
       </tuv>
     </tu>
     <tu>
