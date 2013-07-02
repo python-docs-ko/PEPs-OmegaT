@@ -1454,6 +1454,20 @@ other web resource where the pronouncement about the PEP is made.*</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>2001-09-17: Renamed clear() to reset(); added digest_size attribute
+    to objects; added .hexdigest() method.
+    2001-09-20: Removed reset() method completely.
+    2001-09-28: Set digest_size to None for variable-size hashes.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130702T040635Z">
+        <seg>2001-09-17: clear()를 reset()으로 변경. 개체에 digest_size 속성 추가.
+    .hexdigest() 메소드 추가.
+    2001-09-20: reset() 메소드를 완전히 제거.
+    2001-09-28: 가변 크기의 해시에 대하여 digest_size를 None으로 설정.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>3. A **Process** PEP describes a process surrounding Python, or
    proposes a change to (or an event in) a process.  Process PEPs are
    like Standards Track PEPs but apply to areas other than the Python
@@ -1682,6 +1696,14 @@ Consistency within one module or function is most important.</seg>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T131205Z">
         <seg>초록
 ====</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Acknowledgements</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130702T040734Z">
+        <seg>감사의 말</seg>
       </tuv>
     </tu>
     <tu>
@@ -5914,6 +5936,18 @@ PEP는, 처음에는 외부 라이브러리 및 도구를 통해 상호 운용�
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T150245Z">
         <seg>탭이냐 공백이냐
 ---------------</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Thanks to Aahz, Andrew Archibald, Rich Salz, Itamar
+    Shtull-Trauring, and the readers of the python-crypto list for
+    their comments on this PEP.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130702T040915Z">
+        <seg>Aahz, Andrew Archibald, Rich Salz, Itamar
+    Shtull-Trauring, 그리고 이 PEP에 대하여 의견을 준 python-crypto
+    리스트의 독자들에게 감사한다.</seg>
       </tuv>
     </tu>
     <tu>
