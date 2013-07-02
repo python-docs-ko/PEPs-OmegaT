@@ -3320,6 +3320,21 @@ submit a competing PEP.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It's been suggested that the update() method would be better named
+    append().  However, that method is really causing the current
+    state of the hashing object to be updated, and update() is already
+    used by the md5 and sha modules included with Python, so it seems
+    simplest to leave the name update() alone.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130702T034407Z">
+        <seg>update() 메소드는 이름을 append()로 하는 것이 낫다는 제안이 있다.
+    그렇지만, 그 메소드는 실제로 해시 개체의 현재 상태의 변경을 일으키며,
+    파이썬에 포함된 md5와 sha 모듈에서 update()가 이미 사용되고 있으므로,
+    이름을 update() 하나만 남겨두는 것이 가장 단순해보인다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It's okay to say this though::</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T150910Z">
@@ -6013,6 +6028,27 @@ either line up under the last item of the list, as in::</seg>
       <tuv lang="KO" changeid="yong" changedate="20130527T161022Z">
         <seg>여러 줄에 걸친 괄호/중괄호/대괄호를 닫을 경우 리스트의 마지막 항목에
 맞추어 다음 줄에 닫는 표시를 할 수 있다. 다음 코드를 보자. ::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The digest size is measured in bytes, not bits, even though hash
+    algorithm sizes are usually quoted in bits; MD5 is a 128-bit
+    algorithm and not a 16-byte one, for example.  This is because, in
+    the sample code I looked at, the length in bytes is often needed
+    (to seek ahead or behind in a file; to compute the length of an
+    output string) while the length in bits is rarely used.
+    Therefore, the burden will fall on the few people actually needing
+    the size in bits, who will have to multiply digest_size by 8.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130702T034154Z">
+        <seg>MD5를 128비트 알고리즘이라 하고 16 바이트 알고리즘이라고 하지
+    않는 것과 같이 해시 알고리즘의 크기는 보통 비트로 언급되지만,
+    다이제스트의 크기는 비트가 아닌 바이트로 측정한다.  그 이유는
+    내가 본 샘플 코드에서는 바이트의 크기는 종종 필요하지만(파일을
+    앞뒤로 찾고 출력 문자열의 크기를 계산하는 등), 비트의 길이는 거의
+    사용되지 않기 때문이다.  따라서, 비트 단위의 크기가 필요한 몇몇
+    사람들에게는 digest_size를 8로 곱해야는 것이 부담이 될 것이다.</seg>
       </tuv>
     </tu>
     <tu>
