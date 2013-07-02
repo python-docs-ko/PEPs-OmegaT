@@ -2879,6 +2879,20 @@ underscores as necessary to improve readability.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Hashing modules can define additional module-level functions or 
+    object methods and still be compliant with this specification.
+    
+    Here's an example, using a module named 'MD5':</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130702T030009Z">
+        <seg>해시 모듈은 부가적인 모듈 수준 함수 또는 개체 메소드를 정의할 수
+    있으며, 그렇게 하면서도 이 명세를 여전히 준수할 수 있다.
+    
+    'MD5'라는 이름의 모듈을 사용하는 다음의 예를 보자.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Hashing objects require a single attribute:</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong CHOI" changedate="20130702T024719Z">
