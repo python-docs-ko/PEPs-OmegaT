@@ -1824,6 +1824,25 @@ statement.  They should start with a # and a single space.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>An integer value; the size of the digest produced by the
+        hashing objects created by this module, measured in bytes.
+        You could also obtain this value by creating a sample object
+        and accessing its 'digest_size' attribute, but it can be
+        convenient to have this value available from the module.
+        Hashes with a variable output size will set this variable to
+        None.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130702T024648Z">
+        <seg>이 모듈에 의하여 생성된 해시 개체가 만들어내는
+        다이제스트의 크기를 나타내는 정수 값으로서 바이트 단위이다.
+        이 값은 샘플 개체를 생성하고 그것의 'digest_size' 속성에
+        접근하여 얻어낼 수도 있지만, 모듈에서 이 값을 제공하는 것이
+        보다 편리하다.  다양한 출력 크기를 갖는 해시에서는 이 변수를
+        None으로 설정한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Another category of attributes are those that are part of the
 "subclass API" (often called "protected" in other languages).  Some
 classes are designed to be inherited from, either to extend or modify
@@ -2845,6 +2864,14 @@ underscores as necessary to improve readability.</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong CHOI" changedate="20130702T024229Z">
         <seg>해시 함수 모듈은 한 개의 변수를 정의한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Hashing objects require a single attribute:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130702T024719Z">
+        <seg>해시 개체는 다음의 단일한 속성을 필요로 한다.</seg>
       </tuv>
     </tu>
     <tu>
