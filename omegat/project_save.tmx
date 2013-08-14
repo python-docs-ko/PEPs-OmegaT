@@ -3707,9 +3707,8 @@ and more complete resolution of `Step 2`_ (see Prerequisite_).</seg>
         <seg>Note 2: Try to keep the functional behavior side-effect free,
   although side-effects such as caching are generally fine.</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T154037Z">
-        <seg>주의 2: 기능적 동작에 있어 부작용이 생기지 않도록 주의한다. 하지만
-  캐시처럼 부작용이 주 기능인 경우는 일반적으로 괜찮다.</seg>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130814T041534Z">
+        <seg>주의 2: 캐시와 같은 부작용은 일반적으로 괜찮기는 하지만, 기능적 동작에 있어 부작용이 생기지 않도록 주의한다.</seg>
       </tuv>
     </tu>
     <tu>
