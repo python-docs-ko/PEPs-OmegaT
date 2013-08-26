@@ -6,6 +6,19 @@
 <!-- Default translations -->
     <tu>
       <tuv lang="EN-US">
+        <seg>"A universal convention supplies all of maintainability, clarity,
+    consistency, and a foundation for good programming habits too.
+    What it doesn't do is insist that you follow it against your will.
+    That's Python!"</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130826T043612Z">
+        <seg>"보편적인 관례는 유지보수성, 명료성, 일관성, 그리고 좋은 프로그래밍
+    규칙의 기초가 된다. 그러나 당신의 의지에 반하여 그것을 따라야 하는
+    것은 아니다. 그것이 바로 Python이다!"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg># Aligned with opening delimiter
     foo = long_function_name(var_one, var_two,
                              var_three, var_four)</seg>
