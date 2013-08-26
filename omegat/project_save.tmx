@@ -505,74 +505,6 @@ only.)  The conventions are about the same as those for functions.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>* Unix-like software distributions (including systems like Mac OS X and
-  Cygwin) should install the ``python2`` command into the default path
-  whenever a version of the Python 2 interpreter is installed, and the same
-  for ``python3`` and the Python 3 interpreter.
-* When  invoked, ``python2`` should run some version of the Python 2
-  interpreter, and ``python3`` should run some version of the Python 3
-  interpreter.
-* Similarly, the more general ``python`` command should be installed whenever
-  any version of Python is installed and should invoke the same version of
-  Python as either ``python2`` or ``python3``.
-* For the time being, it is recommended that ``python`` should refer to
-  ``python2`` (however, some distributions have already chosen otherwise; see
-  the `Rationale`_ and `Migration Notes`_ below).
-* The Python 2.x ``idle``, ``pydoc``, and ``python-config`` commands should
-  likewise be available as ``idle2``, ``pydoc2``, and ``python2-config``,
-  with the original commands invoking these versions by default, but possibly
-  invoking the Python 3.x versions instead if configured to do so by the
-  system administrator.
-* In order to tolerate differences across platforms, all new code that needs
-  to invoke the Python interpreter should not specify ``python``, but rather
-  should specify either ``python2`` or ``python3`` (or the more specific
-  ``python2.x`` and ``python3.x`` versions; see the `Migration Notes`_).
-  This distinction should be made in shebangs, when invoking from a shell
-  script, when invoking via the system() call, or when invoking in any other
-  context.
-* One exception to this is scripts that are deliberately written to be source
-  compatible with both Python 2.x and 3.x. Such scripts may continue to use
-  ``python`` on their shebang line without affecting their portability.
-* When reinvoking the interpreter from a Python script, querying
-  ``sys.executable`` to avoid hardcoded assumptions regarding the
-  interpreter location remains the preferred approach.</seg>
-      </tuv>
-      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T054752Z">
-        <seg>* Unix-like software distributions (including systems like Mac OS X and
-  Cygwin) should install the ``python2`` command into the default path
-  whenever a version of the Python 2 interpreter is installed, and the same
-  for ``python3`` and the Python 3 interpreter.
-* When  invoked, ``python2`` should run some version of the Python 2
-  interpreter, and ``python3`` should run some version of the Python 3
-  interpreter.
-* Similarly, the more general ``python`` command should be installed whenever
-  any version of Python is installed and should invoke the same version of
-  Python as either ``python2`` or ``python3``.
-* For the time being, it is recommended that ``python`` should refer to
-  ``python2`` (however, some distributions have already chosen otherwise; see
-  the `근거`_ and `Migration Notes`_ below).
-* The Python 2.x ``idle``, ``pydoc``, and ``python-config`` commands should
-  likewise be available as ``idle2``, ``pydoc2``, and ``python2-config``,
-  with the original commands invoking these versions by default, but possibly
-  invoking the Python 3.x versions instead if configured to do so by the
-  system administrator.
-* In order to tolerate differences across platforms, all new code that needs
-  to invoke the Python interpreter should not specify ``python``, but rather
-  should specify either ``python2`` or ``python3`` (or the more specific
-  ``python2.x`` and ``python3.x`` versions; see the `Migration Notes`_).
-  This distinction should be made in shebangs, when invoking from a shell
-  script, when invoking via the system() call, or when invoking in any other
-  context.
-* One exception to this is scripts that are deliberately written to be source
-  compatible with both Python 2.x and 3.x. Such scripts may continue to use
-  ``python`` on their shebang line without affecting their portability.
-* When reinvoking the interpreter from a Python script, querying
-  ``sys.executable`` to avoid hardcoded assumptions regarding the
-  interpreter location remains the preferred approach.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="EN-US">
         <seg>* Use 4-space indents and no tabs at all.</seg>
       </tuv>
       <tuv lang="KO" changeid="yong" changedate="20130612T044254Z">
@@ -700,14 +632,6 @@ other web resource where the pronouncement about the PEP is made.*</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>- Added some `References`_.</seg>
-      </tuv>
-      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T060852Z">
-        <seg>- Added some `참조`_.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="EN-US">
         <seg>- Additionally, for all try/except clauses, limit the ``try`` clause
   to the absolute minimum amount of code necessary.  Again, this
   avoids masking bugs.</seg>
@@ -730,18 +654,6 @@ other web resource where the pronouncement about the PEP is made.*</seg>
   증감 할당 (``+=``, ``-=`` 등.), 비교 (``==``, ``&lt;``, ``&gt;``,
   ``!=``, ``&lt;&gt;``, ``&lt;=``, ``&gt;=``, ``in``, ``not in``, ``is``,
   ``is not``), 부울 연산 (``and``, ``or``, ``not``).</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="EN-US">
-        <seg>- Clarified Abstract_, Motivation_, `Reference Implementation`_ and
-  `Open Issues`_ based on the simultaneous concepts of ``Max`` and
-  ``Min``.</seg>
-      </tuv>
-      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T061010Z">
-        <seg>- Clarified 초록_, Motivation_, `Reference Implementation`_ and
-  `Open Issues`_ based on the simultaneous concepts of ``Max`` and
-  ``Min``.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1690,16 +1602,6 @@ Consistency within one module or function is most important.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>Abstract
-========</seg>
-      </tuv>
-      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T131205Z">
-        <seg>초록
-====</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="EN-US">
         <seg>Acknowledgements</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong CHOI" changedate="20130702T040734Z">
@@ -2188,18 +2090,6 @@ UTF-8 is preferred over Latin-1, see PEP 3120.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>Codetags have been under discussion and in use (hundreds of codetags
-in the Python 2.4 sources) in many places (e.g., c2_) for many years.
-See References_ for further historic and current information.</seg>
-      </tuv>
-      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T060934Z">
-        <seg>Codetags have been under discussion and in use (hundreds of codetags
-in the Python 2.4 sources) in many places (e.g., c2_) for many years.
-See 참조_ for further historic and current information.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="EN-US">
         <seg>Comments
 --------</seg>
       </tuv>
@@ -2348,16 +2238,6 @@ http://www.fanhow.com/images/9/91/How_to_Create_hanging_indent_using_CSS_2.png)<
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T130805Z">
         <seg>저작권
 ------</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="EN-US">
-        <seg>Copyright
-=========</seg>
-      </tuv>
-      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T120945Z">
-        <seg>저작권
-======</seg>
       </tuv>
     </tu>
     <tu>
@@ -3315,16 +3195,6 @@ the obvious.  Don't do this::</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>Introduction
-============</seg>
-      </tuv>
-      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T130530Z">
-        <seg>도입
-====</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="EN-US">
         <seg>It occasionally becomes necessary to transfer ownership of PEPs to a
 new champion.  In general, it is preferable to retain the original author as
 a co-author of the transferred PEP, but that's really up to the
@@ -3639,18 +3509,6 @@ names.</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T130156Z">
         <seg>없음.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="EN-US">
-        <seg>Not only does this first step present the user a simpler landscape as
-explained in the rationale_ section, but it also allows for a better
-and more complete resolution of `Step 2`_ (see Prerequisite_).</seg>
-      </tuv>
-      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T054646Z">
-        <seg>Not only does this first step present the user a simpler landscape as
-explained in the 근거_ section, but it also allows for a better
-and more complete resolution of `Step 2`_ (see Prerequisite_).</seg>
       </tuv>
     </tu>
     <tu>
@@ -5484,16 +5342,6 @@ name conflicts with attributes in classes designed to be subclassed.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>Rationale
-=========</seg>
-      </tuv>
-      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T131213Z">
-        <seg>근거
-====</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="EN-US">
         <seg>ReStructuredText PEP Formatting Requirements
 ============================================</seg>
       </tuv>
@@ -5549,16 +5397,6 @@ PEP를 작성하는 방법에 대한 설명과 템플릿\ [4]_\ 이 있다.</seg
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T130758Z">
         <seg>참조
 ----</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="EN-US">
-        <seg>References
-==========</seg>
-      </tuv>
-      <tuv lang="KO" changeid="Yong Choi" changedate="20130527T130606Z">
-        <seg>참조
-====</seg>
       </tuv>
     </tu>
     <tu>
@@ -6358,20 +6196,6 @@ programming language.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>There are some tools already in existence that take advantage of a
-smaller set of pseudo-codetags (see References_).  There is also an
-example codetags implementation under way, known as the `Codetag
-Project`__.</seg>
-      </tuv>
-      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T060910Z">
-        <seg>There are some tools already in existence that take advantage of a
-smaller set of pseudo-codetags (see 참조_).  There is also an
-example codetags implementation under way, known as the `Codetag
-Project`__.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="EN-US">
         <seg>There are still many devices around that are limited to 80 character
 lines; plus, limiting windows to 80 characters makes it possible to
 have several windows side-by-side.  The default wrapping on such
@@ -6565,20 +6389,6 @@ in the C implementation of Python [1]_.</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T165506Z">
         <seg>이 문서는 퍼블릭 도메인에 속한다.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="EN-US">
-        <seg>This option does not solve issues listed in the `Rationale`_
-section, it only provides an helper to fix them. All functions creating
-file descriptors have to be modified to set *cloexec=True* in each
-module used by an application to fix all these issues.</seg>
-      </tuv>
-      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T054812Z">
-        <seg>This option does not solve issues listed in the `근거`_
-section, it only provides an helper to fix them. All functions creating
-file descriptors have to be modified to set *cloexec=True* in each
-module used by an application to fix all these issues.</seg>
       </tuv>
     </tu>
     <tu>
