@@ -3046,6 +3046,19 @@ do it as follows. ::</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you violate these conventions, the worst you'll get is some dirty
+looks.  But some software (such as the Docutils_ docstring processing
+system [1]_ [2]_) will be aware of the conventions, so following them
+will get you the best results.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130826T043951Z">
+        <seg>이러한 관례를 어길 경우, 보기에 흉할 것이다. 하지만 어떤 소프트웨어
+(docstring 처리 시스템인 Docutils_ 등 [1]_ [2]_)는 관례를 알기 때문에,
+최선의 결과를 얻기 위해서는 따르는 것이 좋다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Images
 ------</seg>
       </tuv>
@@ -6679,6 +6692,16 @@ documenting dissenting opinions.</seg>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T125510Z">
         <seg>성공적인 PEP의 요소
 ===================</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>What is a Docstring?
+--------------------</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130826T044003Z">
+        <seg>Docstring은 무엇인가?
+---------------------</seg>
       </tuv>
     </tu>
     <tu>
