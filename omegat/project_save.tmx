@@ -1680,6 +1680,22 @@ in the next section.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>All modules should normally have docstrings, and all functions and
+classes exported by a module should also have docstrings.  Public
+methods (including the ``__init__`` constructor) should also have
+docstrings.  A package may be documented in the module docstring of
+the ``__init__.py`` file in the package directory.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130826T044729Z">
+        <seg>모든 모듈은 일반적으로 docstring을 가져야 하며, 모듈에 의하여
+export되는 모든 함수와 클래스도 또한 docstring을 가져야 한다.  퍼블릭
+메소드(``__init__`` 생성자를 포함) 역시 docstring을 가져야 한다.
+패키지는 패키지 디렉토리 내의 ``__init__.py`` 파일의 모듈 docstring에
+문서화할 수 있을 것이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Almost without exception, class names use the CapWords convention.
 Classes for internal use have a leading underscore in addition.</seg>
       </tuv>
