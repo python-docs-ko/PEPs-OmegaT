@@ -2766,9 +2766,9 @@ underscores as necessary to improve readability.</seg>
         update() can be called any number of times during a hashing
         object's lifetime.</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong CHOI" changedate="20130702T025807Z">
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130826T022831Z">
         <seg>'string'을 해시 개체의 현재 상태로 해시한다.  개체의
-        수명주기 동안 update()를 임의의 횟수로 호출할 수 있다.</seg>
+        수명주기 동안 update()를 여러 번 호출할 수 있다.</seg>
       </tuv>
     </tu>
     <tu>
