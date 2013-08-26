@@ -5401,16 +5401,6 @@ PEP를 작성하는 방법에 대한 설명과 템플릿\ [4]_\ 이 있다.</seg
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>References and Footnotes
-========================</seg>
-      </tuv>
-      <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T041603Z">
-        <seg>참조 및 각주
-============</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="EN-US">
         <seg>Rejected Changes</seg>
       </tuv>
       <tuv lang="KO" changeid="Yong Choi" changedate="20130527T170512Z">
@@ -6285,6 +6275,15 @@ any other code, separated by a blank line above and below.</seg>
       <tuv lang="KO" changeid="Yong CHOI" changedate="20130610T062159Z">
         <seg>이 PEP는 Python 버그 트래커에서 버그 리포트를 다루는 것에 대한 안내를
     담고 있다.  다음에서 기술하는 이슈 작업흐름에 의하여 대체되었다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This PEP documents the semantics and conventions associated with
+Python docstrings.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130826T023751Z">
+        <seg>이 PEP는 Python docstring에 관련한 시맨틱 및 관례를 기록한다.</seg>
       </tuv>
     </tu>
     <tu>
