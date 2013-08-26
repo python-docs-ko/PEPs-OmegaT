@@ -1575,6 +1575,18 @@ correspondence related to PEP administration should be sent (or forwarded) to
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A docstring is a string literal that occurs as the first statement in
+a module, function, class, or method definition.  Such a docstring
+becomes the ``__doc__`` special attribute of that object.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130826T044231Z">
+        <seg>docstring은 모듈, 함수, 클래스 또는 메소드 정의의 첫 문장으로서 쓰여지는
+문자열이다.  그러한 docstring은 그 개체의 ``__doc__``\ 이라는 특수한
+어트리뷰트가 된다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A good rule of thumb is to limit use of bare 'except' clauses to two
   cases:</seg>
       </tuv>
@@ -3051,8 +3063,8 @@ looks.  But some software (such as the Docutils_ docstring processing
 system [1]_ [2]_) will be aware of the conventions, so following them
 will get you the best results.</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong CHOI" changedate="20130826T043951Z">
-        <seg>이러한 관례를 어길 경우, 보기에 흉할 것이다. 하지만 어떤 소프트웨어
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130826T044133Z">
+        <seg>이러한 관례를 어길 경우, 보기에 흉할 것이다.  하지만 어떤 소프트웨어
 (docstring 처리 시스템인 Docutils_ 등 [1]_ [2]_)는 관례를 알기 때문에,
 최선의 결과를 얻기 위해서는 따르는 것이 좋다.</seg>
       </tuv>
@@ -5952,10 +5964,10 @@ docstrings: what they should contain, and how to say it (without
 touching on any markup syntax within docstrings).  The PEP contains
 conventions, not laws or syntax.</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong CHOI" changedate="20130826T024208Z">
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130826T044146Z">
         <seg>이 PEP의 목표는 docstring에 대한 고수준의 구조, 즉 docstring에는
 무엇을 포함하여야 하는지, 어떻게 서술하는지와 같은 사항을 (docstring
-내의 어떠한 마크업도 건드리지 않은 채로) 표준화하는 것이다. 이 PEP는
+내의 어떠한 마크업도 건드리지 않은 채로) 표준화하는 것이다.  이 PEP는
 관례를 포함하며, 규칙이나 신택스를 포함하지 않는다.</seg>
       </tuv>
     </tu>
