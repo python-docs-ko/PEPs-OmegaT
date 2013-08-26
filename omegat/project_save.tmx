@@ -4803,6 +4803,36 @@ Post-History: 20-Sep-2001</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>PEP: 257
+Title: Docstring Conventions
+Version: $Revision$
+Last-Modified: $Date$
+Author: David Goodger &lt;goodger@python.org&gt;,
+        Guido van Rossum &lt;guido@python.org&gt;
+Discussions-To: doc-sig@python.org
+Status: Active
+Type: Informational
+Content-Type: text/x-rst
+Created: 29-May-2001
+Post-History: 13-Jun-2001</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130826T024303Z">
+        <seg>PEP: 257
+Title: Docstring 관례
+Version: $Revision$
+Last-Modified: $Date$
+Author: David Goodger &lt;goodger@python.org&gt;,
+        Guido van Rossum &lt;guido@python.org&gt;
+Discussions-To: doc-sig@python.org
+Status: Active
+Type: Informational
+Content-Type: text/x-rst
+Created: 29-May-2001
+Post-History: 13-Jun-2001</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>PEP: 3
 Title: Guidelines for Handling Bug Reports
 Version: $Revision$
@@ -5896,9 +5926,11 @@ docstrings: what they should contain, and how to say it (without
 touching on any markup syntax within docstrings).  The PEP contains
 conventions, not laws or syntax.</seg>
       </tuv>
-      <tuv lang="KO" changeid="Yong CHOI" changedate="20130826T024047Z">
-        <seg>이 PEP의 목표는 docstring에 대한 고수준의 구조, 즉 docstring에는무엇을 포함하여야 하는지, 어떻게 서술하는지(docstring 내의 어떠한 마크업도 건드리지 않은 채로)와 같은 사항을 표준화하는 것이다.  The PEP contains
-conventions, not laws or syntax.</seg>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130826T024208Z">
+        <seg>이 PEP의 목표는 docstring에 대한 고수준의 구조, 즉 docstring에는
+무엇을 포함하여야 하는지, 어떻게 서술하는지와 같은 사항을 (docstring
+내의 어떠한 마크업도 건드리지 않은 채로) 표준화하는 것이다. 이 PEP는
+관례를 포함하며, 규칙이나 신택스를 포함하지 않는다.</seg>
       </tuv>
     </tu>
     <tu>
