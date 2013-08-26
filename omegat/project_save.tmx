@@ -5891,6 +5891,18 @@ prefixed with a module name.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The aim of this PEP is to standardize the high-level structure of
+docstrings: what they should contain, and how to say it (without
+touching on any markup syntax within docstrings).  The PEP contains
+conventions, not laws or syntax.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="Yong CHOI" changedate="20130826T024047Z">
+        <seg>이 PEP의 목표는 docstring에 대한 고수준의 구조, 즉 docstring에는무엇을 포함하여야 하는지, 어떻게 서술하는지(docstring 내의 어떠한 마크업도 건드리지 않은 채로)와 같은 사항을 표준화하는 것이다.  The PEP contains
+conventions, not laws or syntax.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The closing brace/bracket/parenthesis on multi-line constructs may
 either line up under the last item of the list, as in::</seg>
       </tuv>
